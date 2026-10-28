@@ -1,0 +1,65 @@
+{
+  "id": "20230205180739",
+  "sample_id": "PHercParis4",
+  "scan_id": "20230205180739",
+  "long_id": "20230205180739-7.910um-54keV-masked.zarr",
+  "suffix": "masked.zarr",
+  "creation": {
+    "date": "2025-12-03T09:13:49Z",
+    "process": "mask_layers_zarr_export",
+    "metadata": {
+      "window_mode": "u16",
+      "window_u16_min": 14500,
+      "window_u16_max": 75000,
+      "z_crop_start": 0,
+      "z_crop_end": 14257,
+      "workflow_name": "export-phercparis4-20230205180739",
+      "workflow_creation": "2026-03-12T12:35:25Z"
+    },
+    "derived_from": {
+      "type": "scan",
+      "id": "20230205180739"
+    }
+  },
+  "properties": {
+    "energy_keV": 54.0,
+    "detector_distance_mm": null,
+    "pixel_size_um": 7.91,
+    "data_format": "uint8",
+    "transforms": null,
+    "shape": [
+      14369,
+      7888,
+      8096
+    ],
+    "z_direction_is_top_to_bottom": false,
+    "left_handed_coordinates": true,
+    "text_side": null,
+    "superseded_by": null,
+    "license": {
+      "name": "EduceLab Data License",
+      "url": "https://dl.ash2txt.org/LICENSE.txt"
+    }
+  },
+  "data": [
+    {
+      "type": "ome-zarr",
+      "origins": [
+        {
+          "path": "samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/",
+          "access_roots": [
+            {
+              "type": "https",
+              "url": "https://data.aws.ash2txt.org",
+              "usage": "public-read"
+            }
+          ],
+          "copy_info": null
+        }
+      ],
+      "properties": null,
+      "parameters": null,
+      "creation_info": null
+    }
+  ]
+}

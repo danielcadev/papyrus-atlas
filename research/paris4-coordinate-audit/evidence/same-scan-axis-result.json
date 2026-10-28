@@ -1,0 +1,735 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-signed-axis-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "rows": [
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        false,
+        false,
+        false
+      ],
+      "train_pearson": 0.9992907483848816,
+      "validation_pearson": 0.9990509125230466
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        false,
+        false,
+        true
+      ],
+      "train_pearson": 0.14761186217958347,
+      "validation_pearson": 0.16473435838426928
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        false,
+        true,
+        false
+      ],
+      "train_pearson": 0.021444374915325276,
+      "validation_pearson": -0.004229753860594492
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        false,
+        true,
+        true
+      ],
+      "train_pearson": -0.0635088768107473,
+      "validation_pearson": -0.08480251023851623
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        true,
+        false,
+        false
+      ],
+      "train_pearson": 0.18797726398189638,
+      "validation_pearson": 0.17559256289593964
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        true,
+        false,
+        true
+      ],
+      "train_pearson": 0.15569336347727405,
+      "validation_pearson": 0.14586809071729892
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        true,
+        true,
+        false
+      ],
+      "train_pearson": -0.04998765964793695,
+      "validation_pearson": -0.07243876053334582
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        true,
+        true,
+        true
+      ],
+      "train_pearson": -0.14315945237850822,
+      "validation_pearson": -0.1532532232851822
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        false,
+        false,
+        false
+      ],
+      "train_pearson": 0.15678876437100306,
+      "validation_pearson": 0.12858301399710617
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        false,
+        false,
+        true
+      ],
+      "train_pearson": 0.017172003718665257,
+      "validation_pearson": -0.0211887419159556
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        false,
+        true,
+        false
+      ],
+      "train_pearson": -0.012902760708406215,
+      "validation_pearson": -0.051178247778859265
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        false,
+        true,
+        true
+      ],
+      "train_pearson": -0.12961909321965853,
+      "validation_pearson": -0.11435445032275052
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        true,
+        false,
+        false
+      ],
+      "train_pearson": 0.16608864980568883,
+      "validation_pearson": 0.20136735051302165
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        true,
+        false,
+        true
+      ],
+      "train_pearson": -0.04292140571276232,
+      "validation_pearson": -0.04190019631766537
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        true,
+        true,
+        false
+      ],
+      "train_pearson": -0.056379753915001794,
+      "validation_pearson": -0.06807183711074637
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        true,
+        true,
+        true
+      ],
+      "train_pearson": -0.11317538657356073,
+      "validation_pearson": -0.13468378919101226
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        false,
+        false,
+        false
+      ],
+      "train_pearson": 0.17449614537824337,
+      "validation_pearson": 0.17511342437536925
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        false,
+        false,
+        true
+      ],
+      "train_pearson": 0.006673748861783896,
+      "validation_pearson": 0.037526156021984024
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        false,
+        true,
+        false
+      ],
+      "train_pearson": 0.0029967126463756907,
+      "validation_pearson": 0.05418581617922711
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        false,
+        true,
+        true
+      ],
+      "train_pearson": -0.018251873446346028,
+      "validation_pearson": -0.021091494706174253
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        true,
+        false,
+        false
+      ],
+      "train_pearson": 0.040996880186176206,
+      "validation_pearson": 0.043461321074280274
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        true,
+        false,
+        true
+      ],
+      "train_pearson": -0.042237293716112574,
+      "validation_pearson": -0.028547861495901793
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        true,
+        true,
+        false
+      ],
+      "train_pearson": 0.025735230909823995,
+      "validation_pearson": 0.013225427435844391
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        true,
+        true,
+        true
+      ],
+      "train_pearson": -0.08609425066031776,
+      "validation_pearson": -0.08879632340785742
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        false,
+        false,
+        false
+      ],
+      "train_pearson": 0.06066939998258078,
+      "validation_pearson": 0.07181505083752933
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        false,
+        false,
+        true
+      ],
+      "train_pearson": 0.0680552157105134,
+      "validation_pearson": 0.08431478595174009
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        false,
+        true,
+        false
+      ],
+      "train_pearson": -0.049428027474152474,
+      "validation_pearson": -0.0336730719271133
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        false,
+        true,
+        true
+      ],
+      "train_pearson": -0.0833364068623043,
+      "validation_pearson": -0.08354379578894919
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        true,
+        false,
+        false
+      ],
+      "train_pearson": 0.034422034675135806,
+      "validation_pearson": 0.06584787468668668
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        true,
+        false,
+        true
+      ],
+      "train_pearson": 0.018511985919923677,
+      "validation_pearson": -0.002400678878012672
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        true,
+        true,
+        false
+      ],
+      "train_pearson": -0.09327909608210493,
+      "validation_pearson": -0.08685902634410966
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        true,
+        true,
+        true
+      ],
+      "train_pearson": -0.1279792129087781,
+      "validation_pearson": -0.13014145192899287
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        false,
+        false,
+        false
+      ],
+      "train_pearson": 0.07573967843533881,
+      "validation_pearson": 0.050882968629023397
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        false,
+        false,
+        true
+      ],
+      "train_pearson": -0.043854404177744645,
+      "validation_pearson": -0.025862240999140175
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        false,
+        true,
+        false
+      ],
+      "train_pearson": -0.040716553576988467,
+      "validation_pearson": 0.10350957800776249
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        false,
+        true,
+        true
+      ],
+      "train_pearson": -0.07238756559491127,
+      "validation_pearson": -0.07944783214798921
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        true,
+        false,
+        false
+      ],
+      "train_pearson": 0.1090530707688074,
+      "validation_pearson": 0.06595876259158846
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        true,
+        false,
+        true
+      ],
+      "train_pearson": -0.08545944758877949,
+      "validation_pearson": -0.06125629724476595
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        true,
+        true,
+        false
+      ],
+      "train_pearson": -0.036393914374651525,
+      "validation_pearson": 0.014449803143784239
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        true,
+        true,
+        true
+      ],
+      "train_pearson": -0.10184880317441374,
+      "validation_pearson": -0.13243618393751713
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        false,
+        false,
+        false
+      ],
+      "train_pearson": 0.39344983024311586,
+      "validation_pearson": 0.3493581724150776
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        false,
+        false,
+        true
+      ],
+      "train_pearson": 0.08596677652293126,
+      "validation_pearson": 0.09927226911752697
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        false,
+        true,
+        false
+      ],
+      "train_pearson": -0.051127872049343735,
+      "validation_pearson": -0.07198122609829737
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        false,
+        true,
+        true
+      ],
+      "train_pearson": -0.07896685613269348,
+      "validation_pearson": -0.07803933503700858
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        true,
+        false,
+        false
+      ],
+      "train_pearson": 0.08035801645366814,
+      "validation_pearson": 0.0819065136603781
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        true,
+        false,
+        true
+      ],
+      "train_pearson": 0.15349447767918944,
+      "validation_pearson": 0.20281482790490613
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        true,
+        true,
+        false
+      ],
+      "train_pearson": -0.1293670282643398,
+      "validation_pearson": -0.08383884950757935
+    },
+    {
+      "permutation_nrrd_to_global_zyx": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        true,
+        true,
+        true
+      ],
+      "train_pearson": -0.09151532488117449,
+      "validation_pearson": -0.06826635001266539
+    }
+  ],
+  "chosen_by_training": {
+    "permutation_nrrd_to_global_zyx": [
+      0,
+      1,
+      2
+    ],
+    "flips": [
+      false,
+      false,
+      false
+    ],
+    "train_pearson": 0.9992907483848816,
+    "validation_pearson": 0.9990509125230466
+  },
+  "validation_margin": 0.649692740107969,
+  "candidate_same_scan_gate_passed": true,
+  "chunks": [
+    {
+      "chunk": [
+        14,
+        18,
+        32
+      ],
+      "source": {
+        "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/14/18/32",
+        "bytes": 2097152,
+        "sha256": "e84bb8ca23bc16d8811c4f754ec26a57c82e297c49f3fa6c350ed05a1a61503d",
+        "status": 200,
+        "etag": "\"22549aeffcf5d084c00a1aaa33e5e650\"",
+        "link": null,
+        "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/ink-reading/acquisition-v1/3805fc4f09de8dcc27db9382fc420235c39fb6327a367ab1dc43aa732165c232.bin"
+      }
+    }
+  ],
+  "ink_used": false,
+  "registration_admitted": false,
+  "artifacts": {
+    "script.py": "f8a145b06d3df4ecc7c01cff5ca15e13b3dc372039262a559742cd6168264f00",
+    "plan.json": "1d937fcf8b14cb801ecee4255b9be442ae8c3785a569dafc8980b5f02ea792bd",
+    "all-variant-anchor-values.npy": "e4762f758de12f881475b4892291143eb36c0f0f968610079b3328cc04cdc6e0"
+  }
+}

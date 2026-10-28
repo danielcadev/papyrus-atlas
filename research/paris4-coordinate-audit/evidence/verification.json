@@ -1,0 +1,61 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-corrected-axis-verify-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "passed": true,
+  "previous_phase_files_unchanged": 79,
+  "same_scan_axis_bridge_validated": true,
+  "cross_scan_registration_gate_passed": false,
+  "ink_or_letter_recovery_demonstrated": false,
+  "checks": [
+    {
+      "trial": "corrected-ct-v1",
+      "primary": 0.8423026251859828,
+      "margin": 0.059674543736215835,
+      "gates_replayed": true
+    },
+    {
+      "trial": "corrected-translation-v1",
+      "primary": 0.8575592056360182,
+      "margin": 0.090478609170485,
+      "gates_replayed": true
+    },
+    {
+      "trial": "corrected-footprint-fit-v1",
+      "primary": 0.858297680380403,
+      "margin": 0.0916496617007746,
+      "gates_replayed": true
+    },
+    {
+      "direct_canonical_CT_footprints_replayed": 4,
+      "voxel_midpoints_each": 64
+    },
+    {
+      "group": "graft",
+      "corrected_transform_and_all_scores_replayed": true,
+      "new_positions": 89,
+      "raw_max": 13
+    },
+    {
+      "group": "hole",
+      "corrected_transform_and_all_scores_replayed": true,
+      "new_positions": 160,
+      "raw_max": 2
+    }
+  ]
+}

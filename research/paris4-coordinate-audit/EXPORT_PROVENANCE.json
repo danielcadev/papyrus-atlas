@@ -1,0 +1,29 @@
+{
+  "schema": "paris4-audit-export-normalization-v1",
+  "files": [
+    {
+      "path": "evidence/graft/all-score-thresholds.csv",
+      "original_sha256": "dac63ab940187dc23e1bdd150b45e7fce65c382ed829e59d7946b136fc465a5d",
+      "export_sha256": "8a65454306014b2bf223ede331b3253da3899e4cdef6326a0e397dc15c947cbc",
+      "change": "LF line endings / one final newline only",
+      "semantic_equivalence_verified": true,
+      "immutable_lab_original_unchanged": true
+    },
+    {
+      "path": "evidence/hole/all-score-thresholds.csv",
+      "original_sha256": "bbe4b54fa7fa1c2ff1f0cb49c8356215ae5f1102e6ebf3dbb891b89f39f1a640",
+      "export_sha256": "41918dc2bf324987b99f18ee5281459016d1414acf126442f324ce3f22c12ab5",
+      "change": "LF line endings / one final newline only",
+      "semantic_equivalence_verified": true,
+      "immutable_lab_original_unchanged": true
+    },
+    {
+      "path": "lab-source-snapshots/guard.py",
+      "original_sha256": "cb12979686abcc6e9b1500e0d42247c31cb9e5222d408798255babdf7fa62232",
+      "export_sha256": "8917cc32c1cf05d4632c20fb6f70ddd31af2954c86e3bdb087a004b6022d9cc2",
+      "change": "LF line endings / one final newline only",
+      "semantic_equivalence_verified": true,
+      "immutable_lab_original_unchanged": true
+    }
+  ]
+}

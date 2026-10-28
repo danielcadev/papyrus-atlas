@@ -1,0 +1,22 @@
+{
+  "schema": "papyrus-atlas-paris4-coordinate-replay-v1",
+  "nrrd": {
+    "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02256_04048/01744_02256_04048_volume.nrrd",
+    "sha256": "3041f5bd3bf5b9d3d68be6a65934c39664d04c2f221ca23561bde0d1376ee110",
+    "maximum_bytes": 20971520
+  },
+  "old_ct_chunks": [
+    {
+      "chunk": [
+        14,
+        18,
+        32
+      ],
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/14/18/32",
+      "sha256": "e84bb8ca23bc16d8811c4f754ec26a57c82e297c49f3fa6c350ed05a1a61503d",
+      "maximum_bytes": 3145728
+    }
+  ],
+  "data_license": "https://dl.ash2txt.org/LICENSE.txt",
+  "source_note": "Public EduceLab/Scroll Prize data; bytes are downloaded rather than vendored. Metadata describes the exact objects tested, not future exports."
+}

@@ -1,0 +1,718 @@
+{
+  "guard": {
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": 10,
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "numerical_threads": 1,
+    "desktop_reserve_mib": 3072
+  },
+  "passed": true,
+  "anchor_points": 4096,
+  "tested_conventions": 48,
+  "best": {
+    "permutation": [
+      0,
+      1,
+      2
+    ],
+    "flips": [
+      false,
+      false,
+      false
+    ],
+    "training_pearson": 0.9992907483848814,
+    "validation_pearson": 0.9990509125230466
+  },
+  "validation_margin": 0.649692740107969,
+  "rows": [
+    {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        false,
+        false,
+        false
+      ],
+      "training_pearson": 0.9992907483848814,
+      "validation_pearson": 0.9990509125230466
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        false,
+        false,
+        false
+      ],
+      "training_pearson": 0.3934498302431158,
+      "validation_pearson": 0.3493581724150776
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        true,
+        false,
+        false
+      ],
+      "training_pearson": 0.18797726398189638,
+      "validation_pearson": 0.1755925628959397
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        false,
+        false,
+        false
+      ],
+      "training_pearson": 0.17449614537824334,
+      "validation_pearson": 0.1751134243753692
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        true,
+        false,
+        false
+      ],
+      "training_pearson": 0.16608864980568883,
+      "validation_pearson": 0.2013673505130217
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        false,
+        false,
+        false
+      ],
+      "training_pearson": 0.15678876437100303,
+      "validation_pearson": 0.12858301399710617
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        true,
+        false,
+        true
+      ],
+      "training_pearson": 0.15569336347727405,
+      "validation_pearson": 0.14586809071729892
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        true,
+        false,
+        true
+      ],
+      "training_pearson": 0.15349447767918947,
+      "validation_pearson": 0.20281482790490618
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        false,
+        false,
+        true
+      ],
+      "training_pearson": 0.14761186217958347,
+      "validation_pearson": 0.16473435838426928
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        true,
+        false,
+        false
+      ],
+      "training_pearson": 0.10905307076880738,
+      "validation_pearson": 0.06595876259158846
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        false,
+        false,
+        true
+      ],
+      "training_pearson": 0.08596677652293126,
+      "validation_pearson": 0.09927226911752697
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        true,
+        false,
+        false
+      ],
+      "training_pearson": 0.08035801645366812,
+      "validation_pearson": 0.0819065136603781
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        false,
+        false,
+        false
+      ],
+      "training_pearson": 0.0757396784353388,
+      "validation_pearson": 0.05088296862902338
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        false,
+        false,
+        true
+      ],
+      "training_pearson": 0.0680552157105134,
+      "validation_pearson": 0.08431478595174009
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        false,
+        false,
+        false
+      ],
+      "training_pearson": 0.06066939998258077,
+      "validation_pearson": 0.07181505083752933
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        true,
+        false,
+        false
+      ],
+      "training_pearson": 0.040996880186176206,
+      "validation_pearson": 0.043461321074280274
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        true,
+        false,
+        false
+      ],
+      "training_pearson": 0.0344220346751358,
+      "validation_pearson": 0.06584787468668668
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        true,
+        true,
+        false
+      ],
+      "training_pearson": 0.025735230909823995,
+      "validation_pearson": 0.013225427435844391
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        false,
+        true,
+        false
+      ],
+      "training_pearson": 0.021444374915325276,
+      "validation_pearson": -0.004229753860594492
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        true,
+        false,
+        true
+      ],
+      "training_pearson": 0.01851198591992368,
+      "validation_pearson": -0.0024006788780126724
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        false,
+        false,
+        true
+      ],
+      "training_pearson": 0.017172003718665257,
+      "validation_pearson": -0.0211887419159556
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        false,
+        false,
+        true
+      ],
+      "training_pearson": 0.006673748861783896,
+      "validation_pearson": 0.037526156021984024
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        false,
+        true,
+        false
+      ],
+      "training_pearson": 0.0029967126463756907,
+      "validation_pearson": 0.05418581617922711
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        false,
+        true,
+        false
+      ],
+      "training_pearson": -0.012902760708406215,
+      "validation_pearson": -0.051178247778859265
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        false,
+        true,
+        true
+      ],
+      "training_pearson": -0.018251873446346028,
+      "validation_pearson": -0.021091494706174253
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        true,
+        true,
+        false
+      ],
+      "training_pearson": -0.036393914374651525,
+      "validation_pearson": 0.014449803143784239
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        false,
+        true,
+        false
+      ],
+      "training_pearson": -0.040716553576988467,
+      "validation_pearson": 0.10350957800776249
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        true,
+        false,
+        true
+      ],
+      "training_pearson": -0.042237293716112574,
+      "validation_pearson": -0.028547861495901793
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        true,
+        false,
+        true
+      ],
+      "training_pearson": -0.04292140571276232,
+      "validation_pearson": -0.04190019631766537
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        false,
+        false,
+        true
+      ],
+      "training_pearson": -0.043854404177744645,
+      "validation_pearson": -0.025862240999140175
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        false,
+        true,
+        false
+      ],
+      "training_pearson": -0.04942802747415247,
+      "validation_pearson": -0.03367307192711331
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        true,
+        true,
+        false
+      ],
+      "training_pearson": -0.04998765964793695,
+      "validation_pearson": -0.07243876053334582
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        false,
+        true,
+        false
+      ],
+      "training_pearson": -0.05112787204934373,
+      "validation_pearson": -0.07198122609829738
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        true,
+        true,
+        false
+      ],
+      "training_pearson": -0.056379753915001794,
+      "validation_pearson": -0.06807183711074637
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        false,
+        true,
+        true
+      ],
+      "training_pearson": -0.0635088768107473,
+      "validation_pearson": -0.08480251023851623
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        false,
+        true,
+        true
+      ],
+      "training_pearson": -0.07238756559491127,
+      "validation_pearson": -0.07944783214798921
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        false,
+        true,
+        true
+      ],
+      "training_pearson": -0.07896685613269348,
+      "validation_pearson": -0.07803933503700858
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        false,
+        true,
+        true
+      ],
+      "training_pearson": -0.0833364068623043,
+      "validation_pearson": -0.08354379578894919
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        true,
+        false,
+        true
+      ],
+      "training_pearson": -0.08545944758877949,
+      "validation_pearson": -0.06125629724476595
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "flips": [
+        true,
+        true,
+        true
+      ],
+      "training_pearson": -0.08609425066031776,
+      "validation_pearson": -0.08879632340785742
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        true,
+        true,
+        true
+      ],
+      "training_pearson": -0.09151532488117449,
+      "validation_pearson": -0.06826635001266539
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        true,
+        true,
+        false
+      ],
+      "training_pearson": -0.09327909608210491,
+      "validation_pearson": -0.08685902634410966
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "flips": [
+        true,
+        true,
+        true
+      ],
+      "training_pearson": -0.10184880317441374,
+      "validation_pearson": -0.13243618393751713
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        true,
+        true,
+        true
+      ],
+      "training_pearson": -0.1131753865735607,
+      "validation_pearson": -0.13468378919101226
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "flips": [
+        true,
+        true,
+        true
+      ],
+      "training_pearson": -0.1279792129087781,
+      "validation_pearson": -0.13014145192899287
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "flips": [
+        true,
+        true,
+        false
+      ],
+      "training_pearson": -0.12936702826433977,
+      "validation_pearson": -0.08383884950757935
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "flips": [
+        false,
+        true,
+        true
+      ],
+      "training_pearson": -0.12961909321965853,
+      "validation_pearson": -0.11435445032275052
+    },
+    {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "flips": [
+        true,
+        true,
+        true
+      ],
+      "training_pearson": -0.1431594523785082,
+      "validation_pearson": -0.1532532232851822
+    }
+  ],
+  "source_receipts": [
+    {
+      "url": "https://dl.ash2txt.org/full-scrolls/Scroll1/PHercParis4.volpkg/volumetric-instance-labels/instance-labels-harmonized/01744_02256_04048/01744_02256_04048_volume.nrrd",
+      "sha256": "3041f5bd3bf5b9d3d68be6a65934c39664d04c2f221ca23561bde0d1376ee110",
+      "bytes": 15068588
+    },
+    {
+      "url": "https://data.aws.ash2txt.org/samples/PHercParis4/volumes/20230205180739-7.910um-54keV-masked.zarr/0/14/18/32",
+      "sha256": "e84bb8ca23bc16d8811c4f754ec26a57c82e297c49f3fa6c350ed05a1a61503d",
+      "bytes": 2097152
+    }
+  ],
+  "recovered_ink_or_letters_demonstrated": false,
+  "interpretation": "Native NRRD indices match canonical old CT ZYX; catalogue XYZ input must reverse these native indices."
+}

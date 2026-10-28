@@ -1,0 +1,66 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-corrected-footprint-fit-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "fit": {
+    "parameters": [
+      0.6383185516969984,
+      0.5131564937960054,
+      -0.38108988035303254,
+      -0.0015007879665188892,
+      0.0005441394998928605,
+      0.0017499231514118423,
+      0.0012510619292449045,
+      -0.00019345767815257897,
+      0.0015409672123322922,
+      -0.002206942718308915,
+      0.0018805418960460333,
+      0.0010109029721437786
+    ],
+    "training_pearson": 0.9235086370921912,
+    "evaluations": 445,
+    "status": "Optimization terminated successfully.",
+    "at_parameter_boundary": false,
+    "residual_determinant": 0.99931552379675,
+    "frozen_before_validation": true
+  },
+  "primary_pearson": 0.8582976803804022,
+  "best_shift_control": 0.7666480186796258,
+  "margin": 0.09164966170077637,
+  "pearson_by_control_native_zyx": {
+    "0_0_0": 0.8582976803804022,
+    "-4_0_0": 0.7512777972361677,
+    "4_0_0": 0.7666480186796258,
+    "0_-4_0": 0.42233459991403133,
+    "0_4_0": 0.4686707226121672,
+    "0_0_-4": 0.6886429761893647,
+    "0_0_4": 0.6910724999694009
+  },
+  "diagnostic_structural_coherence_gate_passed": false,
+  "ink_used": false,
+  "letters_verified": 0,
+  "source_geometry_modified": false,
+  "anatomical_registration_error_voxels": null,
+  "artifacts": {
+    "script.py": "e3cc8e9de433959bbda16c9f44db265e357c14dd37a1169c7c3943d4a12208d2",
+    "plan.json": "76a61f647e5f6cbabd91e256b47f79d61968c2bb4eb916a1f3d281b06cb0cbbb",
+    "modern-footprint-grid-native-zyx.npy": "c461d2692076dd93dae3ee48b86f143421496202a5f9c4ee9ff9c9c590088a25",
+    "fit-frozen-before-validation.json": "93492b8ed8fb585957826c797f920e76d97b235ab97cd466dabf4f50acbf98ec",
+    "modern-footprint-corrected-affine-native-zyx.npy": "e31f83d46f9f2174f3283d7d6e5d7caba4ce908728c1f31158e92ff1a013c42b"
+  }
+}

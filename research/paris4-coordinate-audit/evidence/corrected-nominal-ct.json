@@ -1,0 +1,109 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-corrected-axes-ct-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "primary_pearson": 0.8423026251859842,
+  "best_shift_control": 0.782628081449767,
+  "margin": 0.05967454373621717,
+  "pearson_by_control_native_zyx": {
+    "0_0_0": 0.8423026251859842,
+    "-4_0_0": 0.7207877806554666,
+    "4_0_0": 0.782628081449767,
+    "0_-4_0": 0.36025294547668735,
+    "0_4_0": 0.5090973924738226,
+    "0_0_-4": 0.6434920230718031,
+    "0_0_4": 0.7204042406555914
+  },
+  "diagnostic_structural_coherence_gate_passed": false,
+  "blocks": [
+    {
+      "origin_native": [
+        0,
+        0,
+        0
+      ],
+      "pearson": 0.8490271538486336
+    },
+    {
+      "origin_native": [
+        0,
+        0,
+        16
+      ],
+      "pearson": 0.6749655927501045
+    },
+    {
+      "origin_native": [
+        0,
+        16,
+        0
+      ],
+      "pearson": 0.7854443956368669
+    },
+    {
+      "origin_native": [
+        0,
+        16,
+        16
+      ],
+      "pearson": 0.7744625275678144
+    },
+    {
+      "origin_native": [
+        16,
+        0,
+        0
+      ],
+      "pearson": 0.6860736720889328
+    },
+    {
+      "origin_native": [
+        16,
+        0,
+        16
+      ],
+      "pearson": 0.6163538888638401
+    },
+    {
+      "origin_native": [
+        16,
+        16,
+        0
+      ],
+      "pearson": 0.7824959148354315
+    },
+    {
+      "origin_native": [
+        16,
+        16,
+        16
+      ],
+      "pearson": 0.7583678000788036
+    }
+  ],
+  "anatomical_registration_error_voxels": null,
+  "letters_verified": 0,
+  "source_geometry_modified": false,
+  "ink_used": false,
+  "interpretation": "Corrected coordinate convention supported by same-scan CT and tested against unchanged cross-scan coherence gates. Not ink/letter truth or a subvoxel error bound.",
+  "artifacts": {
+    "script.py": "bbc49d158c7df151b07cacd5353b6c7adb57be6e7f61ae66e9b0107c2d83dd78",
+    "plan.json": "bef5038186cf701a5face1a3b2396b94205efffbb99c5bc08a1b91bb6b25e3b2",
+    "corrected-modern-footprint-native-zyx.npy": "6069892ebac654cd3332a5aee8fa0b711b881108de3543b17fbb694bc2d8331c"
+  }
+}

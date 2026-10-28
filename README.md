@@ -8,6 +8,10 @@ The current standalone software milestone is the two geometry algorithms below. 
 
 See [Project milestones](PROJECT_MILESTONES.md) for completed results, open problems and the path toward independently verifiable letters, a word and a short line. The [challenge guide](CHALLENGE_SUBMISSION.md) explains the broader purpose while keeping the current contribution focused on the two verified methods.
 
+## Paris4 coordinate audit
+
+A new [source-axis audit](research/paris4-coordinate-audit/README.md) corrects the NRRD-to-atlas index convention using independently reproduced same-scan CT anchors. The corrected query removes the earlier high-score ink candidate; full modern registration and ink/letter benefit remain unvalidated. Geometry and all previous releases are unchanged.
+
 ## Measured before/after geometry
 
 ![Before/after boundary grafting and whole-cycle hole recovery on the Paris4 case](figures/before-after.png)

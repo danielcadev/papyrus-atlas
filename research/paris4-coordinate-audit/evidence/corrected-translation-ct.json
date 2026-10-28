@@ -1,0 +1,50 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-corrected-translation-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "chosen_shift_native_zyx": [
+    0.75,
+    0.5,
+    -0.5
+  ],
+  "training_pearson": 0.8575512100949171,
+  "at_search_boundary": false,
+  "primary_pearson": 0.8575592056360198,
+  "best_shift_control": 0.7670805964655323,
+  "margin": 0.09047860917048756,
+  "pearson_by_control_native_zyx": {
+    "0_0_0": 0.8575592056360198,
+    "-4_0_0": 0.7503424080340133,
+    "4_0_0": 0.7670805964655323,
+    "0_-4_0": 0.41848925596235975,
+    "0_4_0": 0.47236415280322086,
+    "0_0_-4": 0.6826377557709619,
+    "0_0_4": 0.6984405637660677
+  },
+  "diagnostic_structural_coherence_gate_passed": false,
+  "anatomical_registration_error_voxels": null,
+  "source_geometry_modified": false,
+  "ink_used": false,
+  "letters_verified": 0,
+  "artifacts": {
+    "script.py": "f45e2441de70f5932376da646d69066a1ac157c7ecceb2a0ad1cbeb57f93ef3d",
+    "plan.json": "8514a21ad571b9affe2a1dd8a9b85fc84d820f1bf32fcdc0506a27b6efea22a0",
+    "fit-frozen-before-validation.json": "f35102b224647021e6f00937c8532cb9e624baa0bffe7f4da489bb7bf874b09d",
+    "modern-footprint-corrected-fitted-native-zyx.npy": "0dfa249409dab5f536b0b809460c65bd5154f89ea70edb73c42855356b863dbc"
+  }
+}

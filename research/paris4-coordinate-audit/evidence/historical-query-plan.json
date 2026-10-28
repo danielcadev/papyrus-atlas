@@ -1,0 +1,92 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-mesh-public-ink3d-projection-02.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "purpose": "Project a PUBLISHED volumetric ink score on two saved mesh ablations.\n\nThis is not the local 2D detector, nor a transcription. Protocol fixed before\nreading scores: L0 nearest, face centroid, eleven offsets -5..5 along recomputed\nmodern-space face normal, symmetric max. Raw uint8 scores, no probability claim.\n",
+  "pilot_result_sha256": "f2df3c4e3b12973d2b568bc5c6c5a5761f7470d6838a64002e6ca0bae00af8b1",
+  "metadata_sha256": "e1c66e1de53a4afd82da5f06a4bc6b40b90e602c9acda35b5e8ac4fa9fa01b53",
+  "attrs_sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+  "provenance_sha256": "dd399eeb7ba2c7b9a72ecd07e2edd24077a6ace7373bf514dd3abc3d1de567e4",
+  "catalogue_sha256": "1187ea18f1b786330ecc47ec7ff54f2f5f4a8822afa830431467f7c24aa60114",
+  "affine_oldXYZ_to_modernXYZ": [
+    [
+      -2.5274817416353166,
+      -2.051741523969322,
+      -0.008938499986201654,
+      33653.857003323545
+    ],
+    [
+      -2.052282716480818,
+      2.525851082894605,
+      0.046946055615706896,
+      15821.08043253885
+    ],
+    [
+      0.023462117467507017,
+      -0.04300531554164876,
+      3.2611319165319705,
+      29400.729373358285
+    ]
+  ],
+  "level": 0,
+  "voxel_um": 2.4,
+  "nearest_rule": "floor(positive_coordinate+.5)",
+  "normal_offsets_level0": [
+    -5.0,
+    -4.0,
+    -3.0,
+    -2.0,
+    -1.0,
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0
+  ],
+  "normal_offsets_um": [
+    -12.0,
+    -9.6,
+    -7.199999999999999,
+    -4.8,
+    -2.4,
+    0.0,
+    2.4,
+    4.8,
+    7.199999999999999,
+    9.6,
+    12.0
+  ],
+  "chunks_requested": [
+    [
+      138,
+      52,
+      70
+    ],
+    [
+      138,
+      52,
+      71
+    ]
+  ],
+  "max_decoded_bytes": 134217728,
+  "score_encoding": "Raw uint8; exact probability quantization is not certified for this artifact",
+  "inference_executed_here": false,
+  "anatomical_registration_error_voxels": null,
+  "missing_policy": "404 chunk is recorded as unobserved, never accepted as observed zero ink; no other HTTP failure is substituted"
+}

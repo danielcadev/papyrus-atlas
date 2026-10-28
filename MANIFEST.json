@@ -1,5 +1,5 @@
 {
-  "schema": "papyrus-atlas-review-v1",
+  "schema": "papyrus-atlas-paris4-coordinate-audit-v1",
   "sealed_software_archive_sha256": "33924cf942b38665b0aaed6886dcc6dc67bb63be9b2ed9f673863f1bcaa35a10",
   "files": [
     {
@@ -44,8 +44,8 @@
     },
     {
       "path": "PROJECT_MILESTONES.md",
-      "bytes": 6422,
-      "sha256": "7df1110209d5576e62b97e58a5b9470983258a0a34cf2282bb329574ffe0855b"
+      "bytes": 6604,
+      "sha256": "6540675b560da4e0e3c8457afce205a3efd8c7af9bb3e1500ede3e21812f1efd"
     },
     {
       "path": "PROVENANCE.json",
@@ -59,8 +59,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7016,
-      "sha256": "3d459e8f781a6d846a0d68b756aa36818c738286a25205a4a5ff7e93c0c5835f"
+      "bytes": 7396,
+      "sha256": "f09de8043689c9fc34af1790d16baf29fe6d417ee5b021e73b7e3a133d4781a9"
     },
     {
       "path": "REPRODUCE.md",
@@ -111,6 +111,196 @@
       "path": "project-context-evidence/WORD_REFERENCE_COMPARISON_REPORT.md",
       "bytes": 8778,
       "sha256": "5fc45fadcd48335e18f6c0fb6a9d99430fe0586e7c1ec11a51cfdd23b6a45c39"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/EXPORT_PROVENANCE.json",
+      "bytes": 1279,
+      "sha256": "05b5cb85e194971fb08dd2eebaaef6fe24caf64780123b0ab289a43099e611ab"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/README.md",
+      "bytes": 3001,
+      "sha256": "6e8e73d46b2c6c86c8657f9b2b05197750f7ed73828a30ab74db98563633cfb6"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/REPORT_EN.md",
+      "bytes": 9519,
+      "sha256": "15171321da1aadd989732cc2b645e236b3eca56debcdf88c1c8945e1e79a3866"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/SOURCES.json",
+      "bytes": 926,
+      "sha256": "c850c32140580acf59f946d3d49661b7ef6a7787beb56288241231887b533704"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/before-after-score-coverage.png",
+      "bytes": 49261,
+      "sha256": "46bdb74de6222c84dcc102e72489a832bfd7701b9d9b71da5b7069a24c1c2a44"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/ct-axis-comparison.png",
+      "bytes": 60305,
+      "sha256": "adc02e94390b41ca845f6a0e623f1c2c37808f3a075eb76d3812aa169a7f67e1"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/corrected-nominal-ct.json",
+      "bytes": 2656,
+      "sha256": "0b914ddaceafb2c7247845d0ed87508139e95c2277bbb1e848556ab650bdc14c"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/corrected-score-coverage.json",
+      "bytes": 4372,
+      "sha256": "31d00fca8d5752d663edec3810fc673a0e3e00ae71e150d9ed9247f08afc36d7"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/corrected-translation-ct.json",
+      "bytes": 1780,
+      "sha256": "99602cfadefbef0e406e56a2de2fd326d1c05167c7bf8d216b52845f96cfa9eb"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/graft/all-score-thresholds.csv",
+      "bytes": 1508,
+      "sha256": "8a65454306014b2bf223ede331b3253da3899e4cdef6326a0e397dc15c947cbc"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/graft/new-unique-indices-modern-zyx.npy",
+      "bytes": 2264,
+      "sha256": "533bf864f62f992fad1033f2cebff501aa1322ea16ff3801659d0ae0d61d33ef"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/graft/new-unique-raw-score.npy",
+      "bytes": 217,
+      "sha256": "90db4eab68cb0cc166ef71814bc14644236239d3744fde35509422f1940ba678"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/historical-query-plan.json",
+      "bytes": 2663,
+      "sha256": "f22d4de0eb8ae2b4311577ad42b36f46a32d8f9da8f99471722641fbef81f50a"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/hole/all-score-thresholds.csv",
+      "bytes": 1503,
+      "sha256": "41918dc2bf324987b99f18ee5281459016d1414acf126442f324ce3f22c12ab5"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/hole/new-unique-indices-modern-zyx.npy",
+      "bytes": 3968,
+      "sha256": "7d7efb62461d26d9965960fc61a759ca23e2eac4bececc1dfdef442596fc16b1"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/hole/new-unique-raw-score.npy",
+      "bytes": 288,
+      "sha256": "33523e963ed3da33fb41d807bf5b003c731d5b53cf0e6035709e455f783cd226"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/independent-portable-replay.json",
+      "bytes": 12935,
+      "sha256": "c8a33f852cf1fca8b36c39b00e60f0df94c30f9518df1789931f1bd77851fdbe"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/matched-footprint-affine-ct.json",
+      "bytes": 2384,
+      "sha256": "2c8e2bad122db1b6e5f9689faded3f6517e03f1f7bca40944c8e41a0c7a786c5"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/old-volume-catalog-entry.json",
+      "bytes": 1580,
+      "sha256": "ca4ca207fba6b19b6e2256a891003a9e2f1b061dc83f14c6678aaa87d60b0844"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/previous-repository-manifest.json",
+      "bytes": 8892,
+      "sha256": "8b41288ab35b5a58d9cfb9c0578f0c29317c4f7c94b5ff7a2fb09e71a6441832"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/same-scan-axis-result.json",
+      "bytes": 14353,
+      "sha256": "46d584a8c379145f31097a9b9f6602a93cba1626d1d759b94195fb6a0688eb6d"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/evidence/verification.json",
+      "bytes": 1702,
+      "sha256": "787e70adca89cf75526114ac5e2ca3856d28436030ae02272b33b267253f503c"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/check_repaired_mesh_ct_registration.py",
+      "bytes": 7108,
+      "sha256": "2a6647cd5ed1dcf703f1f8c465e78815039447418c509cd0d2d55665ce99f20d"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/compare_paris4_corrected_score_coverage.py",
+      "bytes": 10125,
+      "sha256": "c38a8b89c9c8f060d10ce6f9769062a3423337347efd3c750ea46cea04665df2"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/fit_paris4_corrected_footprint.py",
+      "bytes": 6290,
+      "sha256": "e3cc8e9de433959bbda16c9f44db265e357c14dd37a1169c7c3943d4a12208d2"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/guard.py",
+      "bytes": 817,
+      "sha256": "8917cc32c1cf05d4632c20fb6f70ddd31af2954c86e3bdb087a004b6022d9cc2"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/ink_guard.py",
+      "bytes": 1590,
+      "sha256": "303b3375dfa17215121bc5e3b1cb3c83f65fd5f83e4290e91ff724dd4546d588"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/ink_io.py",
+      "bytes": 2051,
+      "sha256": "2e136a2960578c4388724016a0ad47904e9a7769d4b6eb724d43264747986dbf"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/inspect_cube.py",
+      "bytes": 2800,
+      "sha256": "650fead1e3a0915759a05f8d7606387f13fa9d3e9b4bb069b0b675267a81bcc8"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/probe_paris4_axis_conventions.py",
+      "bytes": 3561,
+      "sha256": "f8a145b06d3df4ecc7c01cff5ca15e13b3dc372039262a559742cd6168264f00"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/probe_paris4_same_scan_anchors.py",
+      "bytes": 4319,
+      "sha256": "cdb08d589cd3fdc042db12b51bf3052d5377e20b2680b5a231431ed61622cf35"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/project_public_ink3d_on_repaired_mesh.py",
+      "bytes": 11242,
+      "sha256": "370ec5e7db61735dc79e2af3278ca41e60c670826a5779dd225f4680abc7aa6a"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/register_paris4_corrected_translation.py",
+      "bytes": 5292,
+      "sha256": "f45e2441de70f5932376da646d69066a1ac157c7ecceb2a0ad1cbeb57f93ef3d"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/run_holefill_guarded.sh",
+      "bytes": 577,
+      "sha256": "a638a79b74776ca9533c9f29c8f6e86ad706d82e54f76728b4abf3f5ffa7ae7e"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/run_native_guarded.py",
+      "bytes": 2433,
+      "sha256": "1a747a43e444c89452a3479815a685c835a9fe0c332e42fad4738d1bf5d58caf"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/validate_paris4_corrected_axes.py",
+      "bytes": 3273,
+      "sha256": "bbc49d158c7df151b07cacd5353b6c7adb57be6e7f61ae66e9b0107c2d83dd78"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/lab-source-snapshots/verify_paris4_axis_correction.py",
+      "bytes": 6818,
+      "sha256": "09c213827c32ac9b90b78e2cbc83a07a89c0edaaa6d44cde80840ad7cee6232b"
+    },
+    {
+      "path": "research/paris4-coordinate-audit/reproduce_axes.py",
+      "bytes": 4579,
+      "sha256": "5374ad7ab5c5008da3e0e092c78b4852fc9e00530c81b4f105485d1155a60623"
     },
     {
       "path": "tests/fixtures/graft-expected.json",
