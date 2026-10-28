@@ -65,3 +65,5 @@ The original sealed software package, archive checksum, upstream-derived snapsho
 Historical documents record earlier project names and access states. The current project name is Papyrus Atlas, the repository is public, and no challenge application has been submitted. Original-language evidence remains unchanged; all current reviewer-facing text is English.
 
 Latest CT-only follow-up: [exterior registration evidence](research/paris4-exterior-registration/README.md). Registration remains rejected at the unchanged 0.1 margin; no verified ink or letters.
+
+[Spatial control follow-up](research/paris4-independent-controls/README.md): cold-start fits and new reserved CT targets still reject registration; original geometry and the 0.1 minimum remain unchanged.

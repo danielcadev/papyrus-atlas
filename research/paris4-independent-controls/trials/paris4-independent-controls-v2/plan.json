@@ -1,0 +1,196 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-independent-blocks-02.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "training_blocks_native_zyx": [
+    [
+      [
+        120,
+        124,
+        116
+      ],
+      [
+        136,
+        132,
+        132
+      ]
+    ],
+    [
+      [
+        120,
+        188,
+        116
+      ],
+      [
+        136,
+        196,
+        132
+      ]
+    ],
+    [
+      [
+        120,
+        152,
+        92
+      ],
+      [
+        136,
+        168,
+        100
+      ]
+    ],
+    [
+      [
+        120,
+        152,
+        156
+      ],
+      [
+        136,
+        168,
+        164
+      ]
+    ],
+    [
+      [
+        156,
+        152,
+        116
+      ],
+      [
+        164,
+        168,
+        132
+      ]
+    ]
+  ],
+  "reserve_box_native_zyx": [
+    [
+      88,
+      176,
+      116
+    ],
+    [
+      96,
+      192,
+      132
+    ]
+  ],
+  "target_guard_box_native_zyx": [
+    [
+      108,
+      140,
+      108
+    ],
+    [
+      148,
+      180,
+      148
+    ]
+  ],
+  "initializer": "Catalogue affine plus exactly zero residual; no prior optimized parameters.",
+  "residual_translation_bounds": [
+    -2,
+    2
+  ],
+  "residual_linear_entry_bounds": [
+    -0.01,
+    0.01
+  ],
+  "local_translation_fit": {
+    "max_evaluations_each": 256,
+    "max_seconds_each": 30,
+    "role": "Training-only spatial diagnostic, never used to initialize or select global fit."
+  },
+  "global_affine_fit": {
+    "max_evaluations": 2048,
+    "max_seconds": 120,
+    "objective": "Equal mean of five within-block CT Pearson values; fixed cold start. Removes between-block means/variance from the objective."
+  },
+  "footprint": "64 midpoint quadrature; cached-grid linear interpolation for fitting, direct observed CT interpolation for validation.",
+  "validation": {
+    "pearson_min": 0.6,
+    "margin_min": 0.1,
+    "shifts_native_zyx": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -4,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        -4,
+        0
+      ],
+      [
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        -4
+      ],
+      [
+        0,
+        0,
+        4
+      ]
+    ],
+    "require_both_reserve_and_original_ROI": true,
+    "no_parameter_boundary": true
+  },
+  "independence": "Newly withheld old/native targets in the same scans, not an independent scan, blind anatomy or letters. Prior nominal cache generation is intensity-only, not optimization.",
+  "original_ROI_previously_inspected": true,
+  "previous_reserve_A_is_development_only": true,
+  "training_local_diagnostics_reused_from": "paris4-independent-controls-v1",
+  "ink_used": false,
+  "geometry_or_uv_modified": false,
+  "source_ct_sha256": "3041f5bd3bf5b9d3d68be6a65934c39664d04c2f221ca23561bde0d1376ee110",
+  "catalogue_affine_oldXYZ_to_modernXYZ": [
+    [
+      -2.5274817416353166,
+      -2.051741523969322,
+      -0.008938499986201654,
+      33653.857003323545
+    ],
+    [
+      -2.052282716480818,
+      2.525851082894605,
+      0.046946055615706896,
+      15821.08043253885
+    ],
+    [
+      0.023462117467507017,
+      -0.04300531554164876,
+      3.2611319165319705,
+      29400.729373358285
+    ]
+  ]
+}

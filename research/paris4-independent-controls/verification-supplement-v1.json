@@ -1,0 +1,76 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-independent-support-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "passed": true,
+  "local_objectives_replayed": [
+    {
+      "block": 0,
+      "training_pearson": 0.8604771469868902,
+      "diagnostic_only": true
+    },
+    {
+      "block": 1,
+      "training_pearson": 0.7032252259320322,
+      "diagnostic_only": true
+    },
+    {
+      "block": 2,
+      "training_pearson": 0.9159452613173963,
+      "diagnostic_only": true
+    },
+    {
+      "block": 3,
+      "training_pearson": 0.43951372814357265,
+      "diagnostic_only": true
+    },
+    {
+      "block": 4,
+      "training_pearson": 0.9425948187130068,
+      "diagnostic_only": true
+    }
+  ],
+  "independent_reserved_support_replay": [
+    {
+      "trial": "paris4-independent-controls-v1",
+      "reserved_support_recomputed": true,
+      "strict_modern_separation_gaps_voxels": [
+        42.99606073070754,
+        40.27699652953743,
+        41.017882525964524,
+        42.55273403738829,
+        158.8818943598526
+      ],
+      "all_parameters_and_controls_covered": true
+    },
+    {
+      "trial": "paris4-independent-controls-v2",
+      "reserved_support_recomputed": true,
+      "strict_modern_separation_gaps_voxels": [
+        43.56796568946447,
+        40.84890148829436,
+        41.589787484721455,
+        43.12463899614522,
+        159.45379931860953
+      ],
+      "all_parameters_and_controls_covered": true
+    }
+  ],
+  "no_additional_optimization": true,
+  "original_verification_sha256": "2a585b2605443928042292a476e4935e4fc0b9e31b93f3df4dcb230b6650e0de"
+}

@@ -1,5 +1,5 @@
 {
-  "schema": "papyrus-atlas-paris4-exterior-followup-v1",
+  "schema": "papyrus-atlas-paris4-spatial-controls-v1",
   "sealed_software_archive_sha256": "33924cf942b38665b0aaed6886dcc6dc67bb63be9b2ed9f673863f1bcaa35a10",
   "files": [
     {
@@ -59,8 +59,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7593,
-      "sha256": "7b5a81a98fa0c254e495511c18caeb47e71d5592eada2b0097c2f8a42f52c0f0"
+      "bytes": 7798,
+      "sha256": "23543f70000c81d39f3f5adf1817e7fd7abb08b96455fa91b9470d73bd2becac"
     },
     {
       "path": "REPRODUCE.md",
@@ -546,6 +546,271 @@
       "path": "research/paris4-exterior-registration/verification-v1.json",
       "bytes": 1865,
       "sha256": "ead370f8e96102f50d04bed4c984bdb47664ad9638c92e587656a856b75eabe4"
+    },
+    {
+      "path": "research/paris4-independent-controls/INDEPENDENT_REVIEW_EN.md",
+      "bytes": 2242,
+      "sha256": "032f87d0fa31493066b698e668f5902bd979ed53acfedcba69fe97daed68f25d"
+    },
+    {
+      "path": "research/paris4-independent-controls/README.md",
+      "bytes": 1129,
+      "sha256": "cdce7eecb066840da6bf51c5fb97a364de6facf615e7bf4c16bd2a173034fc38"
+    },
+    {
+      "path": "research/paris4-independent-controls/REPORT_EN.md",
+      "bytes": 5892,
+      "sha256": "20219b6ad089359267fe27e2ccb7338dc73d2be323bb9c51fb6f8bac81db7983"
+    },
+    {
+      "path": "research/paris4-independent-controls/control-1-nominal-modern-footprint.npy",
+      "bytes": 36992,
+      "sha256": "5179e32c36575775b863935db5978319f59fd3f2f253d87588086c9893638fc8"
+    },
+    {
+      "path": "research/paris4-independent-controls/control-2-nominal-modern-footprint.npy",
+      "bytes": 36992,
+      "sha256": "2fa4f6010fba5533a350a32d1539dd76c106016ddae2af8d88e08bdffa3594b9"
+    },
+    {
+      "path": "research/paris4-independent-controls/execution-records/paris4-independent-blocks-01.log",
+      "bytes": 3544,
+      "sha256": "17223dd1527b8b9415d3d59617ba78be9ad65f406bcb8cfe0b4137a691d20518"
+    },
+    {
+      "path": "research/paris4-independent-controls/execution-records/paris4-independent-blocks-01.status.json",
+      "bytes": 480,
+      "sha256": "ae7431b289c0673e16e60d779210f83f25ca6ebab715f5d75ac35ebb41c33167"
+    },
+    {
+      "path": "research/paris4-independent-controls/execution-records/paris4-independent-blocks-02.log",
+      "bytes": 1743,
+      "sha256": "6eded2d51373041042bb6420996a1135a9d39df15f3a5d9b397e82bbd7c23229"
+    },
+    {
+      "path": "research/paris4-independent-controls/execution-records/paris4-independent-blocks-02.status.json",
+      "bytes": 482,
+      "sha256": "51f50f6788c01fdcbe8c4a56a4e8990bc1bc4c41284ce19c1c0b723271818446"
+    },
+    {
+      "path": "research/paris4-independent-controls/execution-records/paris4-independent-support-01.log",
+      "bytes": 1703,
+      "sha256": "f9279b6bd394d0f247f57a8fab507994079945f8ac5c6d6b8d0264b075e151f5"
+    },
+    {
+      "path": "research/paris4-independent-controls/execution-records/paris4-independent-support-01.status.json",
+      "bytes": 478,
+      "sha256": "becef47d44509e129ccbbeb1733e82ac4246044cc3958701cf1f331f0e1c13db"
+    },
+    {
+      "path": "research/paris4-independent-controls/execution-records/paris4-independent-verify-01.log",
+      "bytes": 4059,
+      "sha256": "484aaf4d2e83005e0d01026609486e7d6551abb22440ff4f1fe067ece15d3d05"
+    },
+    {
+      "path": "research/paris4-independent-controls/execution-records/paris4-independent-verify-01.status.json",
+      "bytes": 478,
+      "sha256": "80b0dc3d81666410e3fadf9463c5570f0453451a4a907c74c97b99cebea317cc"
+    },
+    {
+      "path": "research/paris4-independent-controls/lab-source-snapshots/complete_paris4_independent_audit.py",
+      "bytes": 3321,
+      "sha256": "e4ca02a184e78b40fb24a38cdea14b57111983cab96c367d28c0d0fe2b2c88a1"
+    },
+    {
+      "path": "research/paris4-independent-controls/lab-source-snapshots/prepare_paris4_independent_package.py",
+      "bytes": 11890,
+      "sha256": "925cf495b0eaea8d93f2ab9070ff2fce0ac8ad31725f551cba60e4192259ceea"
+    },
+    {
+      "path": "research/paris4-independent-controls/lab-source-snapshots/register_paris4_equal_block_controls.py",
+      "bytes": 11913,
+      "sha256": "0cdca5f7e7fd7e182e203332cf7492d9d3eee59f81952b464b51b17739b96351"
+    },
+    {
+      "path": "research/paris4-independent-controls/lab-source-snapshots/register_paris4_independent_blocks.py",
+      "bytes": 10960,
+      "sha256": "0a1bf27da0da3464dd130ced6c6daeeeb1dd4581c8ef074da21d6b8f49730e1d"
+    },
+    {
+      "path": "research/paris4-independent-controls/lab-source-snapshots/verify_paris4_independent_controls.py",
+      "bytes": 9184,
+      "sha256": "e3f11a49419529d9a2a3edf32e5df3fdee09fe44a03bee9f0a42817cf9490863"
+    },
+    {
+      "path": "research/paris4-independent-controls/portable-replay-verification.json",
+      "bytes": 1311,
+      "sha256": "fcc59105224e084112993fb769928b477adc4fae98dd09681504f6e834c40c43"
+    },
+    {
+      "path": "research/paris4-independent-controls/prior-control-A-under-second-fit.npy",
+      "bytes": 36992,
+      "sha256": "8489c7c535d5ab398ce768d02266f034f3aea86dd927a45a18e34cebc87f6610"
+    },
+    {
+      "path": "research/paris4-independent-controls/replay_saved_controls.py",
+      "bytes": 3351,
+      "sha256": "75db16852dd830b7ee27364d132195705d5fa1be34084dc74a91522231093448"
+    },
+    {
+      "path": "research/paris4-independent-controls/script.py",
+      "bytes": 9184,
+      "sha256": "e3f11a49419529d9a2a3edf32e5df3fdee09fe44a03bee9f0a42817cf9490863"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/global-fit-frozen-before-validation.json",
+      "bytes": 736,
+      "sha256": "5d6b13d9ff8ca98f45d63a44da0214f6932b4bfa348832ae075e273c1e519f2c"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/input-receipt.json",
+      "bytes": 324,
+      "sha256": "ee8b0e29782ef25feb8de9b666f7cf8a982265f914254753dd109215e93ecd6e"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/local-training-displacements.json",
+      "bytes": 2129,
+      "sha256": "216d78e198ae0812d2cf45be24b1c2a7dd86befe6b4d93ee04df80808b0db9dd"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/modern-input-receipt.json",
+      "bytes": 189,
+      "sha256": "bc2698665fb6dcbca89624ff768258a0dadbf68cee0e957c8e5c76e695539463"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/new_reserved_control-modern-footprint.npy",
+      "bytes": 36992,
+      "sha256": "22f20bc75fcdc796427116c72bcb28f94adbc24d9e805455ddf33952e897de17"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/new_reserved_control-old-target.npy",
+      "bytes": 2176,
+      "sha256": "165658d1bf10c6386f670534c5e5e49d5f196ed0875319c64d567fe124000b38"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/original_repaired_ROI-modern-footprint.npy",
+      "bytes": 256128,
+      "sha256": "16c95d9cfc269ed8f30508b6643c22bba75fbed798aeb4dd8a425b788133373c"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/original_repaired_ROI-old-target.npy",
+      "bytes": 32896,
+      "sha256": "5f83a5962382214c600a02a4a2922af09754791d922d7269b2e02ec71b75af82"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/plan.json",
+      "bytes": 3548,
+      "sha256": "d140c7e00f86a08dd1ea79559286bdd258c4ad85e1e23ff24f2293916a850a94"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/reserved-native-zyx.npy",
+      "bytes": 49280,
+      "sha256": "05b5710fafa216c9f54e1e307275af1d8e13f2f3f41e50a42b7f92059d947d58"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/result.json",
+      "bytes": 4187,
+      "sha256": "eb8112fb6f3f3ebc21865641457ec3a61826fe0eda3fd43780ead6a34bb9756d"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/script.py",
+      "bytes": 10960,
+      "sha256": "0a1bf27da0da3464dd130ced6c6daeeeb1dd4581c8ef074da21d6b8f49730e1d"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/support-separation-before-fit.json",
+      "bytes": 1877,
+      "sha256": "9863cef423400fe0832e21621b9f0f48f9516cc0ac0b2f3cc8c4fe097ebd5390"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v1/training-native-zyx.npy",
+      "bytes": 245888,
+      "sha256": "7d7b22da3aa37f559a9128f4f781f154e1b405e0659dcd07a310114aba27e2f5"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/global-fit-frozen-before-validation.json",
+      "bytes": 847,
+      "sha256": "e2ab54b2c3205b4880fe0b6bb576f5f5ea561f0a2dd8f68319ddfcddb0645fbe"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/input-receipt.json",
+      "bytes": 324,
+      "sha256": "ee8b0e29782ef25feb8de9b666f7cf8a982265f914254753dd109215e93ecd6e"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/local-diagnostic-reuse.json",
+      "bytes": 251,
+      "sha256": "6a635213b2481f65e9fae1eff1717fb24b338df1f16fab69b7e84ed76fa092d1"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/local-training-displacements.json",
+      "bytes": 2129,
+      "sha256": "216d78e198ae0812d2cf45be24b1c2a7dd86befe6b4d93ee04df80808b0db9dd"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/modern-input-receipt.json",
+      "bytes": 189,
+      "sha256": "bc2698665fb6dcbca89624ff768258a0dadbf68cee0e957c8e5c76e695539463"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/new_reserved_control-modern-footprint.npy",
+      "bytes": 36992,
+      "sha256": "4c12285d1cea99347969faa62cc0f9423c1bdf73d5b7e9e6d11fc313478565a7"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/new_reserved_control-old-target.npy",
+      "bytes": 2176,
+      "sha256": "4bcf1f4f2bc18f1612cedbdd59a03bae41f2dcc70871adca515b433f1846fdcd"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/original_repaired_ROI-modern-footprint.npy",
+      "bytes": 256128,
+      "sha256": "a380bab5130880c62f05be3bc98c1a37f6aaab990bb4a9c4ac372b6c0212fd54"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/original_repaired_ROI-old-target.npy",
+      "bytes": 32896,
+      "sha256": "5f83a5962382214c600a02a4a2922af09754791d922d7269b2e02ec71b75af82"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/plan.json",
+      "bytes": 3750,
+      "sha256": "14b41121853576d48fbb768b6165a1aa9ccada5865aa3666ed5d712581bd655d"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/reserved-native-zyx.npy",
+      "bytes": 49280,
+      "sha256": "6571479d757e15b20fe02c5d63db94105f2f83c5a820b2c71ac213b64c0532b9"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/result.json",
+      "bytes": 4414,
+      "sha256": "a9973b26a1b6ad5886d739521c29018fbafa15ca0a07749746c86d4a33b2fe74"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/script.py",
+      "bytes": 11913,
+      "sha256": "0cdca5f7e7fd7e182e203332cf7492d9d3eee59f81952b464b51b17739b96351"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/support-separation-before-fit.json",
+      "bytes": 1866,
+      "sha256": "d83d24d4d1a9cf5e437cab472cb6858abd50fbad7e44e0dd13b36e2891143a16"
+    },
+    {
+      "path": "research/paris4-independent-controls/trials/paris4-independent-controls-v2/training-native-zyx.npy",
+      "bytes": 245888,
+      "sha256": "7d7b22da3aa37f559a9128f4f781f154e1b405e0659dcd07a310114aba27e2f5"
+    },
+    {
+      "path": "research/paris4-independent-controls/verification-supplement-v1.json",
+      "bytes": 2109,
+      "sha256": "d9726c47724c02023c294c237675ea814f57160d6907c5d0c046525625c94f47"
+    },
+    {
+      "path": "research/paris4-independent-controls/verification-v1.json",
+      "bytes": 5067,
+      "sha256": "2a585b2605443928042292a476e4935e4fc0b9e31b93f3df4dcb230b6650e0de"
     },
     {
       "path": "tests/fixtures/graft-expected.json",

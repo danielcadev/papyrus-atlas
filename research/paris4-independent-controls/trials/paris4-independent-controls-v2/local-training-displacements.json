@@ -1,0 +1,97 @@
+[
+  {
+    "parameters": [
+      0.5212674597899246,
+      1.4901979922744235,
+      0.41321680559333773
+    ],
+    "training_pearson": 0.8604771469868903,
+    "evaluations": 138,
+    "status": "Optimization terminated successfully.",
+    "converged": true,
+    "at_parameter_boundary": false,
+    "elapsed_seconds": 0.10332471000219812,
+    "block": 0,
+    "center_native_zyx": [
+      127.5,
+      127.5,
+      123.5
+    ]
+  },
+  {
+    "parameters": [
+      0.8211944761935569,
+      0.58176674519305,
+      1.4661284896480982
+    ],
+    "training_pearson": 0.7032252259320321,
+    "evaluations": 179,
+    "status": "Optimization terminated successfully.",
+    "converged": true,
+    "at_parameter_boundary": false,
+    "elapsed_seconds": 0.18558871400091448,
+    "block": 1,
+    "center_native_zyx": [
+      127.5,
+      191.5,
+      123.5
+    ]
+  },
+  {
+    "parameters": [
+      0.657237198090042,
+      0.4052926288177818,
+      -0.5026776456125022
+    ],
+    "training_pearson": 0.9159452613173962,
+    "evaluations": 97,
+    "status": "Optimization terminated successfully.",
+    "converged": true,
+    "at_parameter_boundary": false,
+    "elapsed_seconds": 0.019484846001432743,
+    "block": 2,
+    "center_native_zyx": [
+      127.5,
+      159.5,
+      95.5
+    ]
+  },
+  {
+    "parameters": [
+      -0.5349639902862953,
+      -1.6216485788120754,
+      1.460194774286379
+    ],
+    "training_pearson": 0.4395137281435725,
+    "evaluations": 188,
+    "status": "Optimization terminated successfully.",
+    "converged": true,
+    "at_parameter_boundary": false,
+    "elapsed_seconds": 0.187748759999522,
+    "block": 3,
+    "center_native_zyx": [
+      127.5,
+      159.5,
+      159.5
+    ]
+  },
+  {
+    "parameters": [
+      0.5367180363535486,
+      0.4898900621045936,
+      -0.431625937671231
+    ],
+    "training_pearson": 0.942594818713007,
+    "evaluations": 162,
+    "status": "Optimization terminated successfully.",
+    "converged": true,
+    "at_parameter_boundary": false,
+    "elapsed_seconds": 0.10679413199977716,
+    "block": 4,
+    "center_native_zyx": [
+      159.5,
+      159.5,
+      123.5
+    ]
+  }
+]

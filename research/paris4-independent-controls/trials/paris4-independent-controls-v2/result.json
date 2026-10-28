@@ -1,0 +1,115 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-independent-blocks-02.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "validation": {
+    "new_reserved_control": {
+      "primary_pearson": 0.06917825660821489,
+      "best_shift_control": 0.1309316734692095,
+      "margin": -0.061753416860994614,
+      "controls_native_zyx": {
+        "0_0_0": 0.06917825660821489,
+        "-4_0_0": 0.009658045147759527,
+        "4_0_0": 0.015562162318189946,
+        "0_-4_0": 0.04282852877540574,
+        "0_4_0": 0.004524987702344088,
+        "0_0_-4": 0.1309316734692095,
+        "0_0_4": -0.042894080059300316
+      },
+      "gate_passed": false,
+      "previously_inspected": false
+    },
+    "original_repaired_ROI": {
+      "primary_pearson": 0.8345949230524603,
+      "best_shift_control": 0.7651429148374835,
+      "margin": 0.06945200821497677,
+      "controls_native_zyx": {
+        "0_0_0": 0.8345949230524603,
+        "-4_0_0": 0.7624867603026042,
+        "4_0_0": 0.7286481029239664,
+        "0_-4_0": 0.4911287824226242,
+        "0_4_0": 0.42886906551478143,
+        "0_0_-4": 0.7651429148374835,
+        "0_0_4": 0.610423055396888
+      },
+      "gate_passed": false,
+      "previously_inspected": true
+    }
+  },
+  "global_fit": {
+    "parameters": [
+      0.5838727277509583,
+      0.5456310775635187,
+      0.9529517143466137,
+      -0.007375071327726875,
+      0.005673128512748416,
+      -0.0069425183147347365,
+      -0.0031747929685219368,
+      0.0004974219604205854,
+      0.0029000221186358897,
+      -0.009974288303289044,
+      0.009999994513288497,
+      0.009973618969883325
+    ],
+    "training_pearson": 0.7400452001553356,
+    "evaluations": 943,
+    "status": "Optimization terminated successfully.",
+    "converged": true,
+    "at_parameter_boundary": true,
+    "elapsed_seconds": 3.0080248909980583,
+    "training_objective": "Arithmetic mean of five within-block Pearson correlations; not pooled raw CT Pearson.",
+    "initializer_parameters": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "frozen_before_reserve_and_ROI": true
+  },
+  "registration_accepted": false,
+  "anatomical_error_bound_voxels": null,
+  "geometry_or_uv_modified": false,
+  "ink_used": false,
+  "letters_verified": 0,
+  "independently_withheld_within_same_scans": true,
+  "not_independent_scan_or_anatomical_truth": true,
+  "artifacts": {
+    "script.py": "0cdca5f7e7fd7e182e203332cf7492d9d3eee59f81952b464b51b17739b96351",
+    "plan.json": "14b41121853576d48fbb768b6165a1aa9ccada5865aa3666ed5d712581bd655d",
+    "support-separation-before-fit.json": "d83d24d4d1a9cf5e437cab472cb6858abd50fbad7e44e0dd13b36e2891143a16",
+    "training-native-zyx.npy": "7d7b22da3aa37f559a9128f4f781f154e1b405e0659dcd07a310114aba27e2f5",
+    "reserved-native-zyx.npy": "6571479d757e15b20fe02c5d63db94105f2f83c5a820b2c71ac213b64c0532b9",
+    "input-receipt.json": "ee8b0e29782ef25feb8de9b666f7cf8a982265f914254753dd109215e93ecd6e",
+    "local-training-displacements.json": "216d78e198ae0812d2cf45be24b1c2a7dd86befe6b4d93ee04df80808b0db9dd",
+    "local-diagnostic-reuse.json": "6a635213b2481f65e9fae1eff1717fb24b338df1f16fab69b7e84ed76fa092d1",
+    "global-fit-frozen-before-validation.json": "e2ab54b2c3205b4880fe0b6bb576f5f5ea561f0a2dd8f68319ddfcddb0645fbe",
+    "modern-input-receipt.json": "bc2698665fb6dcbca89624ff768258a0dadbf68cee0e957c8e5c76e695539463",
+    "new_reserved_control-modern-footprint.npy": "4c12285d1cea99347969faa62cc0f9423c1bdf73d5b7e9e6d11fc313478565a7",
+    "new_reserved_control-old-target.npy": "4bcf1f4f2bc18f1612cedbdd59a03bae41f2dcc70871adca515b433f1846fdcd",
+    "original_repaired_ROI-modern-footprint.npy": "a380bab5130880c62f05be3bc98c1a37f6aaab990bb4a9c4ac372b6c0212fd54",
+    "original_repaired_ROI-old-target.npy": "5f83a5962382214c600a02a4a2922af09754791d922d7269b2e02ec71b75af82"
+  }
+}

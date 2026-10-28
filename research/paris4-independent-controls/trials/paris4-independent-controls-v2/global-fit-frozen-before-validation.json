@@ -1,0 +1,38 @@
+{
+  "parameters": [
+    0.5838727277509583,
+    0.5456310775635187,
+    0.9529517143466137,
+    -0.007375071327726875,
+    0.005673128512748416,
+    -0.0069425183147347365,
+    -0.0031747929685219368,
+    0.0004974219604205854,
+    0.0029000221186358897,
+    -0.009974288303289044,
+    0.009999994513288497,
+    0.009973618969883325
+  ],
+  "training_pearson": 0.7400452001553356,
+  "evaluations": 943,
+  "status": "Optimization terminated successfully.",
+  "converged": true,
+  "at_parameter_boundary": true,
+  "elapsed_seconds": 3.0080248909980583,
+  "training_objective": "Arithmetic mean of five within-block Pearson correlations; not pooled raw CT Pearson.",
+  "initializer_parameters": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "frozen_before_reserve_and_ROI": true
+}

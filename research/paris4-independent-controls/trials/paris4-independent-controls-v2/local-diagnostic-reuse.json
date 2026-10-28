@@ -1,0 +1,5 @@
+{
+  "source": "paris4-independent-controls-v1/local-training-displacements.json",
+  "sha256": "216d78e198ae0812d2cf45be24b1c2a7dd86befe6b4d93ee04df80808b0db9dd",
+  "reason": "Identical training points and diagnostic objective; no redundant repeat."
+}

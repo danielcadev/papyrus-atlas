@@ -1,0 +1,11 @@
+# Independent design and source review
+
+A separate Sol agent reviewed the designs, source and first outputs without scientific computation or file mutation.
+
+The zero residual initializer removes the prior fitted-parameter contamination. Reserved old/native target indices have Z<96, outside the known earlier fit targets and axis anchors. They remain controls within the same two scans, not new scans, anatomical landmarks or statistically independent source measurements. Cached modern intensities were already available.
+
+The reviewer checked the conservative support bound including residual parameter extremes, cache interpolation, 64-point quadrature and raw modern trilinear interpolation. Training supports and each trial's reserved-control supports are strictly separated for the whole allowed parameter box. Source code initially used guardhigh-1 in a projected guard inequality, which only certifies separation from integer guard centers. The preserved source is not silently rewritten. Independent verification checks the stronger continuous guard, including voxel-cell lower extents, and finds at least 3.6275898 old/native voxels of strict separating gap. The supplement independently recomputes reserved support boxes and finds at least 40.2769965 modern voxels of separation from all five training support boxes. This concerns the specified input data and parameter box, not arbitrary future transforms.
+
+After observing trial1, equal within-block NCC is a defensible exploratory follow-up to pooled-intensity dominance. All five blocks are retained; none is removed for low similarity. Trial1 failures remain prominent. Trial2 evaluates a new target block B while A is already a development diagnostic. B's moving supports may overlap earlier A supports, so B is not statistically independent of A. Both transforms are frozen before their respective reserved-target and original ROI evaluation. The original ROI was previously inspected.
+
+Local translation differences, especially in a weak block with Pearson 0.4395, do not establish a deformation field or reliable anatomical point correspondences. Both fitted affines reach an existing linear-parameter bound and fail the unchanged validation gates. No model is admitted.

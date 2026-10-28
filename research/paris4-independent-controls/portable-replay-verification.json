@@ -1,0 +1,46 @@
+{
+  "guard": {
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": 10,
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "numerical_threads": 1,
+    "desktop_reserve_mib": 3072
+  },
+  "passed": true,
+  "checks": [
+    {
+      "trial": "paris4-independent-controls-v1",
+      "group": "new_reserved_control",
+      "primary_pearson": 0.7149906563786833,
+      "margin": -0.02008623571539303,
+      "gate_passed": false
+    },
+    {
+      "trial": "paris4-independent-controls-v1",
+      "group": "original_repaired_ROI",
+      "primary_pearson": 0.8441047337493822,
+      "margin": 0.07928368141715791,
+      "gate_passed": false
+    },
+    {
+      "trial": "paris4-independent-controls-v2",
+      "group": "new_reserved_control",
+      "primary_pearson": 0.06917825660821489,
+      "margin": -0.061753416860994614,
+      "gate_passed": false
+    },
+    {
+      "trial": "paris4-independent-controls-v2",
+      "group": "original_repaired_ROI",
+      "primary_pearson": 0.8345949230524604,
+      "margin": 0.06945200821497699,
+      "gate_passed": false
+    }
+  ],
+  "registration_accepted": false,
+  "letters_verified": 0,
+  "scope": "Saved arrays, raw CT correlations and fixed gates only. Not fitting, source scan sampling, anatomical point truth or ink."
+}
