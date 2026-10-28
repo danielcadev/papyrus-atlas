@@ -8,6 +8,21 @@ The current standalone software milestone is the two geometry algorithms below. 
 
 See [Project milestones](PROJECT_MILESTONES.md) for completed results, open problems and the path toward independently verifiable letters, a word and a short line. The [challenge guide](CHALLENGE_SUBMISSION.md) explains the broader purpose while keeping the current contribution focused on the two verified methods.
 
+## Measured before/after geometry
+
+![Before/after boundary grafting and whole-cycle hole recovery on the Paris4 case](figures/before-after.png)
+
+The upper row compares the historical source before/after grafting (5,112 to 5,139 faces); orange marks the 27 recovered original faces. The lower row compares conservative hole filling with complete recovery (5,143 to 5,160 faces); green marks the 17 added faces. The saved meshes share camera and coordinates within each row. This is a preserved historical pipeline figure: the standalone graft replays its actual graph inputs, and standalone hole recovery reproduces the reference oriented geometry. It does not show ink, fibers or independently certified anatomical continuity. [Figure/input hashes](figures/provenance.json).
+
+| Standalone check | Observed result | Scope |
+| --- | --- | --- |
+| Real graft graph replay | 27 recoveries; all reference labels match | Supplied graph constraints, not CT segmentation |
+| Whole-cycle recovery | 5,143 retained faces + 17 additions = 5,160 | One length-19 Paris4 cycle |
+| Final exact added-face audit | 267 overlapping-AABB pairs; 0 forbidden contacts | New/source and new/new only |
+| Isolated verification | 8 automated tests pass | Original lab inaccessible; site packages disabled |
+
+See [submission readiness](SUBMISSION_READINESS.md) for the official-requirement review and scientific limitations, and [English historical context](HISTORICAL_CONTEXT_EN.md) for the wider reading effort. The [current review edition](https://github.com/danielcadev/papyrus-atlas/releases/tag/papyrus-atlas-review-v1) provides one entry point for code, documents and the figure.
+
 ## Standalone software
 
 An independent mesh-stage research project with two deterministic surface recovery methods. **Execution requires Python 3.10+ and its standard library only.** No ScrollFiesta checkout, native library, compiler, NumPy, Triangle, Clipper2, GCO, trained model, API, network access or GPU is required.
@@ -42,3 +57,5 @@ The supplied graph and mesh fixtures originate from public PHercParis4 / Scroll 
 ## Historical evidence
 
 The original sealed software package, archive checksum, upstream-derived snapshots, failures and comparisons are retained unchanged in the lab and in the preserved legacy release. PROVENANCE.json records source and fixture hashes. The standalone project does not load that archive. The repository is public for software review. No challenge application has been submitted. The current standalone contribution is linked in CHALLENGE_SUBMISSION.md; earlier access states remain preserved in historical records.
+
+Historical documents record earlier project names and access states. The current project name is Papyrus Atlas, the repository is public, and no challenge application has been submitted. Original-language evidence remains unchanged; all current reviewer-facing text is English.

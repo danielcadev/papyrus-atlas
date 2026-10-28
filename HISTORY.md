@@ -1,3 +1,7 @@
+# Current status
+
+Papyrus Atlas is public. The contribution is the two standalone geometry methods; the application remains unsubmitted. Older names and private-access states below are historical. The final review edition adds an unchanged measured figure, English context companions and a requirements/readiness report without changing algorithm code or fixtures.
+
 # Version and evidence preservation
 
 This standalone branch contains only the two independent mesh-processing methods, their relevant tests/fixtures, attribution and challenge documentation. Its runtime does not load the historical producer.

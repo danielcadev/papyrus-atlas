@@ -1,5 +1,5 @@
 {
-  "schema": "papyrus-atlas-documentation-v1",
+  "schema": "papyrus-atlas-review-v1",
   "sealed_software_archive_sha256": "33924cf942b38665b0aaed6886dcc6dc67bb63be9b2ed9f673863f1bcaa35a10",
   "files": [
     {
@@ -9,18 +9,23 @@
     },
     {
       "path": "ATTRIBUTION.md",
-      "bytes": 2458,
-      "sha256": "de6974f0bb99b1c8f3afe4d2f064b48207ed1bd1e362bf8ecfa0b6b5e47133b1"
+      "bytes": 2890,
+      "sha256": "8dddf0bfc89762d952d63457d46b3f61bf3556b8cd579c90aea9260e22d715f8"
     },
     {
       "path": "CHALLENGE_SUBMISSION.md",
-      "bytes": 7202,
-      "sha256": "7ac814cdc85fef5ec7daea9bfd12aed954a58cf7113ebffa2a0381cb4217a227"
+      "bytes": 7160,
+      "sha256": "812ba55a4db2bf21cf74d8200116e6eecd432fb4ed165b73a994b71cead3787d"
+    },
+    {
+      "path": "HISTORICAL_CONTEXT_EN.md",
+      "bytes": 6198,
+      "sha256": "6559d7206df25f210b22987106d5bdb400aa0a1a7ada0ae8f0704745ebab1bd8"
     },
     {
       "path": "HISTORY.md",
-      "bytes": 3375,
-      "sha256": "b3b92f7042c05b8d5ff881f81a21cc2731a766181c157b405e01b4766f7df400"
+      "bytes": 3741,
+      "sha256": "527e88973a063665b027d2083ebecf571e713ea6eaad2ec9415b912ecc15d4d3"
     },
     {
       "path": "LICENSE",
@@ -39,8 +44,8 @@
     },
     {
       "path": "PROJECT_MILESTONES.md",
-      "bytes": 6204,
-      "sha256": "5b2381a4e99729ffe44f47fec8f14fb51b52e3516368dbb2f742f59158513d93"
+      "bytes": 6422,
+      "sha256": "7df1110209d5576e62b97e58a5b9470983258a0a34cf2282bb329574ffe0855b"
     },
     {
       "path": "PROVENANCE.json",
@@ -48,19 +53,39 @@
       "sha256": "5f782dbcd57831b1dec734ce95cd55964768e4ef3e2932f791d1dcbcc5c55104"
     },
     {
+      "path": "PUBLIC_DATA.json",
+      "bytes": 928,
+      "sha256": "0739dced7b43474bd49126c55a6797192f3a7b2a04ac1f1db528917771090846"
+    },
+    {
       "path": "README.md",
-      "bytes": 5075,
-      "sha256": "db9beaf7ae7ba11eef1a8c8002dc1a924fb77c98ceb486d56b72ca6c5a0e3298"
+      "bytes": 7016,
+      "sha256": "3d459e8f781a6d846a0d68b756aa36818c738286a25205a4a5ff7e93c0c5835f"
     },
     {
       "path": "REPRODUCE.md",
-      "bytes": 2503,
-      "sha256": "e686f4b9615a0282321b18dddb6b753780f05f5460a4e05035f488d746695e44"
+      "bytes": 2954,
+      "sha256": "4303e289a5fe94507e0114ac6eb637d78c84d98d029999293fdf89efbe0b5601"
+    },
+    {
+      "path": "SUBMISSION_READINESS.md",
+      "bytes": 4018,
+      "sha256": "d6227e4fe8003739fe8e2761cde9b3901f5b560062a15cc36c3ff9e328217ba5"
     },
     {
       "path": "VERIFICATION.md",
       "bytes": 3306,
       "sha256": "ddf2ed8fa232200779d10db2524295c5fcb1a8d1ecf0dd73472bde50b969a4f1"
+    },
+    {
+      "path": "figures/before-after.png",
+      "bytes": 862772,
+      "sha256": "486a0089c997af460d24402ad236bdfd47ead98b6c50cf16f444aa34ba30c134"
+    },
+    {
+      "path": "figures/provenance.json",
+      "bytes": 1359,
+      "sha256": "5cdacde2ccbe42cb683bfb2e3755bdeb2659f0b816f8a0c340179994ced4a2b4"
     },
     {
       "path": "project-context-evidence/CORE_CONTINUITY_NEXT_DECISION.md",
@@ -191,6 +216,11 @@
       "path": "verification/recovery.json",
       "bytes": 1201,
       "sha256": "27a25ba8631f97d35dac066ee71f83916f0b9ad0d2e2373b5d93be0fdf7c2060"
+    },
+    {
+      "path": "verification/sealed-source-v1-docs/ATTRIBUTION.md",
+      "bytes": 2458,
+      "sha256": "de6974f0bb99b1c8f3afe4d2f064b48207ed1bd1e362bf8ecfa0b6b5e47133b1"
     },
     {
       "path": "verification/sealed-source-v1-docs/MANIFEST.json",

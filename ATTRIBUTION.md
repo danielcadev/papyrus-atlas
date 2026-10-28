@@ -1,6 +1,6 @@
 # Attribution and independent execution
 
-Vesuvius Surface Recovery is maintained as an independent Vesuvius Lab mesh-processing project. Its Python package has no runtime or build dependency on ScrollFiesta or its third-party dependency tree.
+Papyrus Atlas maintains the standalone geometry tools originally released under the working names Vesuvius Lab / Vesuvius Surface Recovery. Historical contributor credits are retained. Its Python package has no runtime or build dependency on ScrollFiesta or its third-party dependency tree.
 
 The boundary-graft design, complete-cycle interval search, source-preservation rules and angle-fan condition descend from the lab's experimental modifications to public ScrollFiesta at revision `bce8a65f97652316efb084171a17d2f1f8d3ae1a`. The angle-bound formulas and boundary-oriented design were informed by that implementation. These are attributed derivative ideas/implementation patterns, not a claim of clean-room invention. Ben Kyles's ScrollFiesta MIT notice is preserved in LICENSES/ScrollFiesta-MIT.txt, and the project license retains both upstream and contributed-work attribution.
 
@@ -13,3 +13,5 @@ The Paris4 mesh fixtures retain public PHercParis4 / Scroll 1 CT provenance, cub
 No Triangle, GCO, Clipper2, andres/graph implementation or compiled executable is included in the standalone runtime. Historical upstream notices remain relevant to the separate legacy archive and are not replaced by the standalone project's license.
 
 Codex AI assistants helped implement, debug, review and document this project. This does not establish worldwide novelty, an AI-laboratory discovery, anatomical correctness or new text.
+
+The preserved figure is copied unchanged from the historical geometry package; figures/provenance.json records its image/input hashes. It is geometry evidence, not an ink or anatomy illustration. PUBLIC_DATA.json records original CT/annotation URLs and hashes; the software MIT notice does not grant new rights over the underlying scan data.

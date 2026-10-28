@@ -1,61 +1,50 @@
-# Papyrus Atlas — Standalone Boundary Grafting and Hole Recovery
+# Papyrus Atlas: final Progress Prize review
 
-## Project purpose
+Papyrus Atlas is a research project working toward reconstruction of carbonized Herculaneum papyrus surfaces and verifiable ancient text. The current contribution is its pair of standalone geometry tools, **Boundary Grafting** and **Hole Recovery**, with reusable code, real-data fixtures, controls and preserved evidence.
 
-Papyrus Atlas aims to reconstruct surfaces from carbonized Herculaneum papyri and progress toward verifiable ancient text. Our work spans source-preserving geometry, surface support, flattening/registration experiments and a reproducible public ink-detection baseline. The current standalone deliverable is the geometry layer: two reusable algorithms developed to prevent useful surface from being discarded or filled with invalid geometry.
+## Reviewer entry points
 
-This Progress Prize contribution is the two algorithms with their code, controls and evidence. The broader project and its milestones explain why they matter; completed technical baselines, unresolved integration and future reading goals are distinguished in `PROJECT_MILESTONES.md`.
+- Project and instructions: https://github.com/danielcadev/papyrus-atlas
+- Current source: https://github.com/danielcadev/papyrus-atlas/tree/standalone-v1
+- Review edition: https://github.com/danielcadev/papyrus-atlas/releases/tag/papyrus-atlas-review-v1
+- Measured before/after geometry: `figures/before-after.png`, with `figures/provenance.json` and an explicit historical/standalone correspondence caption in README.md.
+- Reproduction: REPRODUCE.md; evidence and limits: VERIFICATION.md and SUBMISSION_READINESS.md.
+- Wider reading milestones: PROJECT_MILESTONES.md and HISTORICAL_CONTEXT_EN.md.
 
-Repository: https://github.com/danielcadev/papyrus-atlas/tree/standalone-v1
+The repository is public. The review edition contains unchanged algorithm code and fixtures with current English documentation and the preserved measured figure. Earlier sealed packages, tags, figures and original-language reports remain unchanged. Historical archive filenames and the `vesuvius_surface` Python namespace are retained for reproducibility.
 
-Standalone release: https://github.com/danielcadev/papyrus-atlas/releases/tag/surface-recovery-standalone-v1
-
-The repository is now public for reviewer access at the owner's explicit request. The form remains an unsubmitted draft. The public standalone branch and release URLs above are the contribution links; accepting terms and submitting remain separate decisions.
-
-## What to provide
-
-- The sealed standalone source archive and checksum, already attached to the standalone release.
-- Its relevant supplementary evidence archive and checksum.
-- This English contribution guide and `PROJECT_MILESTONES.md` for project context.
-
-The earlier 118MB ScrollFiesta-based package remains separately preserved as historical comparison and provenance. It is not a runtime dependency of the standalone geometry code. Other research is documented as context with its actual status, rather than added to the algorithm submission as unverified achievements.
-
-## Reproduce the algorithm milestone
-
-Read `README.md`, `REPRODUCE.md`, `VERIFICATION.md`, `ATTRIBUTION.md` and `PROVENANCE.json`. Python 3.10+ standard library is sufficient; the optional Linux resource wrapper requires a user systemd session. From the extracted standalone project directory:
-
-```bash
-bash tools/run_guarded.sh review-UNIQUE 180 python3 -I -S "$PWD/tools/verify_project.py" /tmp/surface-review-UNIQUE
-```
-
-Use new job/output names. The recorded eight controls, 27 graft assignments, 17-face hole recovery and final 267-pair exact audit are already verified. This documentation update does not change or rerun those experiments.
-
-## Team description for the form
+## Team description
 
 ```text
-I am submitting as an individual independent researcher under the project name Papyrus Atlas. Our long-term objective is to reconstruct carbonized papyrus surfaces and recover verifiable ancient text. Papyrus Atlas is the current standalone software deliverable. Codex AI assistants helped with implementation, debugging, verification and documentation; they are not human team members. Historical algorithm lineage and relevant attribution are preserved.
+I am submitting as an individual independent researcher under the project name Papyrus Atlas. The project's long-term objective is to reconstruct carbonized papyrus surfaces and recover verifiable ancient text. Boundary Grafting and Hole Recovery are its current standalone software contributions. Codex AI assistants helped with implementation, debugging, checks and documentation; they are not human team members. Relevant historical attribution and license notices are preserved.
 ```
 
-If other people contributed, name them and their roles instead of using the individual wording. The human submitter supplies/verifies personal details and accepts terms only by their own decision.
-
-## Contribution description for the form
+## Contribution description
 
 ```text
-Papyrus Atlas is working toward reconstructing carbonized Herculaneum papyrus surfaces and recovering verifiable ancient text. Papyrus Atlas is our current independently executable geometry deliverable: boundary grafting and bounded whole-cycle hole recovery. Both run with Python's standard library, without downloading, compiling or loading ScrollFiesta or its native dependencies. Historical algorithm and fixture attribution is retained.
+Papyrus Atlas is working toward reconstructing carbonized Herculaneum papyrus surfaces and recovering verifiable ancient text. This contribution is two standalone geometry tools: Boundary Grafting and bounded whole-cycle Hole Recovery. They run with Python's standard library, without downloading, compiling or loading ScrollFiesta or its native dependencies. Their historical design and fixture lineage is attributed to experiments on public ScrollFiesta; runtime independence is not a claim of independent invention.
 
-(1) Data. The software is validated using preserved graph and triangular-mesh fixtures from public PHercParis4 / Scroll 1 CT cube 01744_02256_04048, originating in the earlier fixed +32Y Otsu experiment. Graph input was exported from the actual historical graft call; the hole cycle is selected from the conservative source mesh alone. These are same-scroll development fixtures, not an independent-scroll holdout.
+(1) Data. The principal software case uses graph and triangular-mesh fixtures from public PHercParis4 / Scroll 1 CT cube 01744_02256_04048, originating in the earlier predeclared +32Y Otsu experiment. Manual labels were used for post-hoc evaluation, not its Otsu input. The graph was exported from the actual historical graft call; the hole cycle is selected from the conservative source mesh alone. These are same-scroll development fixtures, not an independent-scroll holdout.
 
-(2) Relevance to reading. Our reading experiments exposed the need to preserve useful source surface before flattening and CT sampling. Component filtering can discard compatible triangles, while invalid hole filling can obstruct usable geometry. These two algorithms address those concrete failures. The longer-term goal is to demonstrate preserved or recovered ink strokes on our own repaired surfaces; that downstream reading benefit has not yet been established.
+(2) Relevance to reading. Small-component filtering can discard compatible original faces, and invalid or rejected hole fills can leave useful surface incomplete. The tools address those specific failures before downstream flattening and CT sampling. They preserve geometric input; a resulting increase in readable letters has not yet been measured.
 
-(3) Completed software milestones. The standalone graft reproduces all 27 recoveries from the real exported graph, without merging retained owners or modifying geometry. It requires supplied complete adjacency/conflict constraints. Whole-cycle recovery independently adds 17 triangles to a 19-vertex boundary, retaining all 5,143 indexed source faces and all source coordinates, reaching 5,160 faces. It uses bounded search, exact rational new-contact checks, source-diagonal exclusion, boundary orientation, degeneracy/shape controls and necessary angle-fan bounds. Failures or exhausted budgets commit no partial fill. JSON and plain triangular OBJ are supported.
+(3) Demonstrated behavior. Boundary Grafting reproduces the real graph's 27 recoveries without merging retained owners or changing geometry. It consumes supplied original-edge adjacency and recorded conflict constraints, with a completeness flag; it is not a geometric conflict detector. Hole Recovery independently adds 17 triangles to a 19-vertex boundary while retaining all 5,143 indexed source faces and source coordinates, reaching 5,160. It uses bounded search, exact rational new-contact checks, source-diagonal exclusion, boundary orientation, shape/degeneracy controls and necessary angle-fan bounds. Refusal or exhausted budgets commits no partial fill. Plain triangular OBJ and JSON mesh I/O are supported.
 
-(4) Evidence and broader project progress. Eight controls and a real mesh-stage replay pass with the entire original lab directory inaccessible and Python site packages disabled. The resulting oriented geometry matches historical v5. The final exact new/source and new/new audit checks 267 overlapping-AABB pairs with zero forbidden contacts. Code, fixtures, hashes, instructions, failed attempts, logs and licenses are preserved.
+(4) Evidence. Eight automated tests and a real mesh-stage replay passed with the original lab directory inaccessible and Python site packages disabled. Output oriented geometry matches the historical v5 reference. The final exact new/source and new/new audit checks 267 overlapping-AABB pairs with zero forbidden contacts. The repository includes code, hashes, fixtures, before/after geometry, provenance, instructions, successful and failed records, attribution and license notices. The figure comes from the preserved historical pipeline comparison; standalone graph/mesh replay is identified separately. No source/source exact audit, complete UV map, anatomical identity or fiber continuity is claimed.
 
-Separately, we completed a 341-patch CPU reproduction of a public ink detector on a published Paris4 surface and an assisted comparison with a known Greek reference word. The segment overlaps the model's published training data, letters remain ambiguous, and no independently verified new word is claimed. PHerc0813 surface extension has reached 48,597 accepted experimental faces, but the certified square at the recorded center is 0.759246 mm versus 1.2288 mm needed by the reader. Anatomical registration, wider support and core continuity remain open milestones. These experiments explain the project's direction; they are not additional standalone runtime modules or claimed reading breakthroughs.
+The wider project has also completed a separate 341-patch CPU reproduction of a public ink detector and an assisted Greek-reference comparison. The segment overlaps the model's published training data, and no independently verified full word resulted. PHerc0813 surface work has a 48,597-face accepted experimental descendant, but its certified square at the recorded center is 0.759246 mm versus the reader's 1.2288 mm requirement. Registration, wider support, core continuity and demonstrated ink benefit remain open milestones. Independently verifiable letters, a word and a short line are future goals, not reported discoveries.
 
-Our next milestones are to establish supported surface/CT correspondence, demonstrate before/after ink benefit, and then produce independently verifiable letters, a word and a short line. Ten legible letters on a previously unread target are a future ambition. The current submission is the two verified geometry methods, with no claim of new text, complete anatomical/UV certification, unchanged source/source contact freedom, worldwide novelty or current-upstream superiority.
+We offer these two closely coupled geometry methods for technical review as local software improvements. Their broader significance and generalization remain for further evaluation. No new text, worldwide novelty, current-upstream superiority or prize qualification is asserted.
 ```
 
-## Submission state
+## Requirements and submission decision
 
-Use the public standalone branch and release URLs above in the contribution URL field. This guide and public access do not submit the application, promise qualification or guarantee an award. Original sealed source and evidence assets remain unchanged. The earlier English guide is retained as a previous documentation edition.
+Rules checked October 28, 2026: https://scrollprize.org/prizes#progress-prizes . The October deadline is October 31, 2026, 11:59 p.m. Pacific.
+
+The public contribution has code, MIT software notices with retained attribution, real scroll-data provenance, usage examples, reproduction controls and standard triangular OBJ input/output. The two methods are bundled because they address closely coupled surface-loss and hole-fill problems. Public source access, form completeness and technically reproducible local results can be checked; award significance cannot be certified by this project.
+
+The published virtual-unwrapping preference asks for visible fibers and evidence against sheet jumping. Those anatomical demonstrations are **not supplied by this software result**. The contribution must be judged as local mesh-processing improvements, not a proven unwrapping/reading result. Community adoption, other-scroll validation, current-upstream superiority and external reproduction remain unestablished.
+
+All authored application text and current reviewer documentation are English. Original historical reports/logs retain their original language and bytes; HISTORICAL_CONTEXT_EN.md provides an English companion to the reading/context reports. English text does not mean historical evidence was rewritten.
+
+The human submitter should review the completed form and terms before clicking Submit. This review, public access and GitHub publication do not submit an application or guarantee eligibility or an award.

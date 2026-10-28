@@ -1,4 +1,4 @@
-# Reproduce without ScrollFiesta
+# Reproduce Papyrus Atlas geometry tools
 
 Requirements: Python 3.10+ standard library, Bash and a Linux user systemd session for the lab resource wrapper. There is no compiler, package installer, network fetch or external source checkout in this workflow. CLI/library operation itself is portable Python; the guard intentionally targets Linux.
 
@@ -22,3 +22,5 @@ bash tools/run_guarded.sh standalone-hole-UNIQUE 180 python3 -I -S "$PWD/tools/r
 The graph API requires complete source-edge/conflict constraints. It cannot infer their completeness. Hole recovery is capped at 19 cycle vertices, 2,000,000 search nodes and 20,000,000 pair queries. Optional API budgets may reduce, but cannot increase, those ceilings. Scratch admission uses a conservative input-size bound within a 128MiB planning allowance; the operating-system memory guard is the hard enforcement layer. This is not a universal Python heap-size proof.
 
 Fixture origin and exact hashes are in PROVENANCE.json. Using a historical mesh as input does not require its original producer; no claim of an independent CT-to-mesh reconstruction is made.
+
+The current review archive is papyrus-atlas-review-v1.tar.gz from the public review release. Historical archive names, the Python package name vesuvius_surface and dated verification records are retained intentionally. A fresh distribution replay tests the documented guarded entry point; its machine-readable receipt is attached to the review release. This is a delivery check, not a new scientific benchmark or independent external review.
