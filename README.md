@@ -1,4 +1,12 @@
-# Vesuvius Surface Recovery
+# Vesuvius Surface Recovery — Standalone Boundary Grafting and Hole Recovery
+
+Part of **Vesuvius Lab**, an independent effort to reconstruct carbonized Herculaneum papyrus surfaces and recover verifiable ancient text. The project connects source-preserving geometry research with surface support, CT registration and ink-reading experiments.
+
+The current standalone software milestone is the two geometry algorithms below. Separate reading research has completed a public-detector CPU baseline; verifying a full word, demonstrating ink benefit on our repaired surface, resolving core continuity and obtaining enough PHerc0813 reader context remain active or future milestones. No newly deciphered text is claimed.
+
+See [Project milestones](PROJECT_MILESTONES.md) for completed results, open problems and the path toward independently verifiable letters, a word and a short line. The [challenge guide](CHALLENGE_SUBMISSION.md) explains the broader purpose while keeping the current contribution focused on the two verified methods.
+
+## Standalone software
 
 An independent mesh-stage research project with two deterministic surface recovery methods. **Execution requires Python 3.10+ and its standard library only.** No ScrollFiesta checkout, native library, compiler, NumPy, Triangle, Clipper2, GCO, trained model, API, network access or GPU is required.
 

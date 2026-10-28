@@ -6,4 +6,10 @@ The original ScrollFiesta-based package remains on branch `main`, commit `c53c37
 
 The standalone release contains the original verified source archive and checksum, a separate relevant-evidence archive and checksum, and the English challenge guide. The supplementary evidence preserves the instrumented fixture export, generated meshes, successful and failed verification records, and provenance scripts; original native binaries are excluded. Other lab research remains preserved locally and is outside this contribution's claims.
 
-`MANIFEST.json` identifies the sealed standalone source snapshot. CHALLENGE_SUBMISSION.md and this history note are added repository documentation outside that frozen manifest. Consult the release assets for the exact sealed archive. Repository privacy and form submission are separate decisions; this upload remains private and does not submit the challenge form.
+The original sealed standalone source manifest is preserved under `verification/sealed-source-v1-docs/MANIFEST.json`. CHALLENGE_SUBMISSION.md and this history note are added repository documentation outside that frozen manifest. Consult the release assets for the exact sealed archive. Repository privacy and form submission are separate decisions; this upload remains private and does not submit the challenge form.
+
+## Project-context documentation edition
+
+The private branch now also explains the project's goal of verifiable papyrus reading and its completed/open/future milestones. The milestone context does not expand the independently verified algorithm claims. Original reading/surface reports are copied verbatim into project-context-evidence/ with hashes in MILESTONE_EVIDENCE.json. The previous README and sealed source manifest are retained in verification/sealed-source-v1-docs/ and in the unchanged source archive; earlier guide editions remain in Git history and release assets.
+
+The current root MANIFEST.json covers this documentation edition. The original sealed snapshot manifest is verification/sealed-source-v1-docs/MANIFEST.json and belongs to the unchanged standalone source archive. The Python implementation, fixtures and scientific verification are unchanged; no identical experiment was rerun for wording changes. Repository privacy and the unsubmitted form state are preserved.

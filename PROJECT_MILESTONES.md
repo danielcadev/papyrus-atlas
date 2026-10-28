@@ -1,0 +1,31 @@
+# Vesuvius Lab: from CT surfaces to verifiable ancient text
+
+Vesuvius Lab is an independent research effort to reconstruct carbonized papyrus surfaces and ultimately recover verifiable text from Herculaneum scroll CT data. The working objective is to preserve real surface support while improving geometry, flattening, CT sampling and ink interpretation, without forcing ambiguous letters or weakening acceptance controls.
+
+**Vesuvius Surface Recovery is the project's first standalone software deliverable:** boundary grafting and whole-cycle hole recovery, with standard-library Python execution, reproducible mesh fixtures and exact added-face checks. These algorithms address a concrete part of the larger reading effort. The current Progress Prize contribution remains the two algorithms and their supporting evidence; the wider research gives their purpose and next milestones.
+
+## Milestones and current status
+
+| Milestone | Status | Evidence and acceptance boundary |
+| --- | --- | --- |
+| 1. Recover compatible source boundary faces | Verified in local cases; standalone graph replay complete | The principal Paris4 case recovers 27 source faces. The standalone implementation exactly matches the real exported graph's assignments. Complete adjacency/conflict constraints are supplied inputs. |
+| 2. Recover a rejected hole without sacrificing retained surface | Verified in the principal local case | A complete 19-vertex cycle receives 17 triangles, retaining 5,143 indexed faces and all vertex coordinates. Final count: 5,160. The final exact new/source and new/new audit checks 267 overlapping-AABB pairs with zero forbidden contacts. |
+| 3. Make the geometry methods independently usable | Verified standalone release | Eight controls and a real mesh-stage replay pass with the entire original lab directory inaccessible and Python site packages disabled. Runtime needs only Python's standard library. Historical design and fixture attribution remain. |
+| 4. Reproduce a public ink detector on real CT surface data | Technical baseline completed in separate reading research | A CPU run completed 341/341 patches on a published Paris4 surface. The segment overlaps the model's published training data; this is assisted development, not held-out reading validation. No independently verified full word resulted. This detector/model is not part of the standalone geometry runtime. |
+| 5. Verify a known word against published reference material | Assisted comparison completed; independent reading remains open | The local shapes were compared with the published word ΠΟΡΦΥΡΑϹ. Some letters remain ambiguous, and the reference informed interpretation. A 2D preview consistency check passed, but CT/editorial correspondence and training independence are not fully established. This is not a new discovery or a fully verified independent transcription. |
+| 6. Demonstrate that our repaired surface preserves recoverable ink | Open integration milestone | Saved repaired geometry was sampled and public 3D ink scores explored. Anatomical/registration gates did not pass. Next acceptance: a supported coordinate correspondence and controlled before/after sampling with the same detector, then evidence of real retained or recovered strokes. Geometry area alone is not proof of rescued text. |
+| 7. Obtain reader-sized, justified surface support on PHerc0813 | In progress in separate surface research | The latest accepted experimental descendant has 48,597 faces. The certified continuous square at the recorded center is 0.7592460388423183 mm, below the reader's 1.2288 mm requirement. Metric/contact gates remain active; earlier UV maps are preserved, including the explicitly authorized two-coordinate revision. No PHerc0813 ink inference or verified letters are claimed. |
+| 8. Establish continuity across reconstruction cores | Unresolved calibration milestone | Saved seam diagnostics and preserved components exist, but the required winding/pitch calibration remains unsupported. No forced welding is promoted. Acceptance requires supported calibration, retained source, and the full seam/contact/topology checks. |
+| 9. Produce independently verifiable letters, then a word and short line | Future reading objective | Freeze inputs and outputs; resolve coordinate provenance and independence; preserve uncertainty; obtain letter-by-letter evidence and external review. Ten independently legible letters on a previously unread target such as PHerc0813 are an ambition, not an achieved result or asserted prize qualification. |
+
+## Why this is one project
+
+Surface reconstruction and reading are linked: filtering can remove source triangles before flattening, a bad fill can create conflicting geometry, and a narrow or incorrectly registered surface can invalidate ink inference. The geometry tools were developed while investigating these obstacles to reading. They are reusable outputs of that effort, with a deliberately narrower, reproducible acceptance case than the eventual CT-to-text goal.
+
+Next useful work is to establish geometrically and anatomically supported context, resolve registration and continuity, and measure reading benefit on preserved before/after inputs. The project will report a reading milestone only when the images and controls support it. Rejected candidates and uncertain letter interpretations remain evidence rather than being completed from expected text.
+
+## Evidence map
+
+Completed standalone software results are in `VERIFICATION.md`, `verification/verification.json` and `PROVENANCE.json`. Relevant original reading/surface reports are preserved verbatim under `project-context-evidence/` in the private repository. `MILESTONE_EVIDENCE.json` records their source paths and SHA256 digests. Their original language and historical scope remain unchanged; this document is their English milestone summary.
+
+The milestone-context reports describe separate lab experiments and prototypes, not additional modules secretly required by the standalone package. The legacy and standalone source archives, release tags and evidence checksums remain unchanged. These milestones do not promise a prize, establish worldwide novelty or replace external scientific review.

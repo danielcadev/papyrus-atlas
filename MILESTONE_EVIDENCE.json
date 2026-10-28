@@ -1,0 +1,35 @@
+{
+  "scope": "Project context only. These are immutable original reports; their original language and historical local paths are retained. Detailed raw research evidence remains in the lab. The standalone algorithms do not load these reports or their upstream producers.",
+  "reports": [
+    {
+      "original_path": "research/INK_REPRODUCTION_REPORT.md",
+      "repository_path": "project-context-evidence/INK_REPRODUCTION_REPORT.md",
+      "sha256": "5ae1155cd3608cff6d32e3319cbc55fd6bc9667742223b1f4aef1184de5d25d3",
+      "preserved_verbatim": true
+    },
+    {
+      "original_path": "research/WORD_REFERENCE_COMPARISON_REPORT.md",
+      "repository_path": "project-context-evidence/WORD_REFERENCE_COMPARISON_REPORT.md",
+      "sha256": "5fc45fadcd48335e18f6c0fb6a9d99430fe0586e7c1ec11a51cfdd23b6a45c39",
+      "preserved_verbatim": true
+    },
+    {
+      "original_path": "research/REPAIRED_MESH_INK_REPORT.md",
+      "repository_path": "project-context-evidence/REPAIRED_MESH_INK_REPORT.md",
+      "sha256": "7eea6070384970c28a482d21700ffdcec3856389ee4811c3f2cb081af546c06d",
+      "preserved_verbatim": true
+    },
+    {
+      "original_path": "research/PHERC0813_REPARAMETERIZED_WIDTH_REPORT.md",
+      "repository_path": "project-context-evidence/PHERC0813_REPARAMETERIZED_WIDTH_REPORT.md",
+      "sha256": "f8d73da57f0f4053da7df93c5aca29461b33b5644e2258181ed94eebaaaf4192",
+      "preserved_verbatim": true
+    },
+    {
+      "original_path": "research/CORE_CONTINUITY_NEXT_DECISION.md",
+      "repository_path": "project-context-evidence/CORE_CONTINUITY_NEXT_DECISION.md",
+      "sha256": "c3e642f0155da02cb1c3bc66bb798123720a5e5dacd3a979eee43608c3d57aac",
+      "preserved_verbatim": true
+    }
+  ]
+}
