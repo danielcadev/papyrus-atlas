@@ -1,6 +1,8 @@
-# Vesuvius Surface Recovery — Standalone Boundary Grafting and Hole Recovery
+# Papyrus Atlas
 
-Part of **Vesuvius Lab**, an independent effort to reconstruct carbonized Herculaneum papyrus surfaces and recover verifiable ancient text. The project connects source-preserving geometry research with surface support, CT registration and ink-reading experiments.
+*Surface Reconstruction and Ancient Text Research*
+
+**Papyrus Atlas** is an independent effort to reconstruct carbonized Herculaneum papyrus surfaces and recover verifiable ancient text. The project connects source-preserving geometry research with surface support, CT registration and ink-reading experiments.
 
 The current standalone software milestone is the two geometry algorithms below. Separate reading research has completed a public-detector CPU baseline; verifying a full word, demonstrating ink benefit on our repaired surface, resolving core continuity and obtaining enough PHerc0813 reader context remain active or future milestones. No newly deciphered text is claimed.
 
@@ -39,4 +41,4 @@ The supplied graph and mesh fixtures originate from public PHercParis4 / Scroll 
 
 ## Historical evidence
 
-The original sealed software package, archive checksum, upstream-derived snapshots, failures and comparisons are retained unchanged in the lab and in the private legacy release. PROVENANCE.json records source and fixture hashes. The standalone project does not load that archive. The repository is public for software review. No challenge application has been submitted. The current standalone contribution is linked in CHALLENGE_SUBMISSION.md; earlier access states remain preserved in historical records.
+The original sealed software package, archive checksum, upstream-derived snapshots, failures and comparisons are retained unchanged in the lab and in the preserved legacy release. PROVENANCE.json records source and fixture hashes. The standalone project does not load that archive. The repository is public for software review. No challenge application has been submitted. The current standalone contribution is linked in CHALLENGE_SUBMISSION.md; earlier access states remain preserved in historical records.

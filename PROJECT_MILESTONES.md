@@ -1,8 +1,8 @@
-# Vesuvius Lab: from CT surfaces to verifiable ancient text
+# Papyrus Atlas: from CT surfaces to verifiable ancient text
 
-Vesuvius Lab is an independent research effort to reconstruct carbonized papyrus surfaces and ultimately recover verifiable text from Herculaneum scroll CT data. The working objective is to preserve real surface support while improving geometry, flattening, CT sampling and ink interpretation, without forcing ambiguous letters or weakening acceptance controls.
+Papyrus Atlas is an independent research effort to reconstruct carbonized papyrus surfaces and ultimately recover verifiable text from Herculaneum scroll CT data. The working objective is to preserve real surface support while improving geometry, flattening, CT sampling and ink interpretation, without forcing ambiguous letters or weakening acceptance controls.
 
-**Vesuvius Surface Recovery is the project's first standalone software deliverable:** boundary grafting and whole-cycle hole recovery, with standard-library Python execution, reproducible mesh fixtures and exact added-face checks. These algorithms address a concrete part of the larger reading effort. The current Progress Prize contribution remains the two algorithms and their supporting evidence; the wider research gives their purpose and next milestones.
+**Papyrus Atlas is the project's first standalone software deliverable:** boundary grafting and whole-cycle hole recovery, with standard-library Python execution, reproducible mesh fixtures and exact added-face checks. These algorithms address a concrete part of the larger reading effort. The current Progress Prize contribution remains the two algorithms and their supporting evidence; the wider research gives their purpose and next milestones.
 
 ## Milestones and current status
 

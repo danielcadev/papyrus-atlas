@@ -1,14 +1,14 @@
-# Vesuvius Surface Recovery — Standalone Boundary Grafting and Hole Recovery
+# Papyrus Atlas — Standalone Boundary Grafting and Hole Recovery
 
 ## Project purpose
 
-Vesuvius Lab aims to reconstruct surfaces from carbonized Herculaneum papyri and progress toward verifiable ancient text. Our work spans source-preserving geometry, surface support, flattening/registration experiments and a reproducible public ink-detection baseline. The current standalone deliverable is the geometry layer: two reusable algorithms developed to prevent useful surface from being discarded or filled with invalid geometry.
+Papyrus Atlas aims to reconstruct surfaces from carbonized Herculaneum papyri and progress toward verifiable ancient text. Our work spans source-preserving geometry, surface support, flattening/registration experiments and a reproducible public ink-detection baseline. The current standalone deliverable is the geometry layer: two reusable algorithms developed to prevent useful surface from being discarded or filled with invalid geometry.
 
 This Progress Prize contribution is the two algorithms with their code, controls and evidence. The broader project and its milestones explain why they matter; completed technical baselines, unresolved integration and future reading goals are distinguished in `PROJECT_MILESTONES.md`.
 
-Repository: https://github.com/danielcadev/vesuvius-boundary-grafting-hole-recovery/tree/standalone-v1
+Repository: https://github.com/danielcadev/papyrus-atlas/tree/standalone-v1
 
-Standalone release: https://github.com/danielcadev/vesuvius-boundary-grafting-hole-recovery/releases/tag/surface-recovery-standalone-v1
+Standalone release: https://github.com/danielcadev/papyrus-atlas/releases/tag/surface-recovery-standalone-v1
 
 The repository is now public for reviewer access at the owner's explicit request. The form remains an unsubmitted draft. The public standalone branch and release URLs above are the contribution links; accepting terms and submitting remain separate decisions.
 
@@ -33,7 +33,7 @@ Use new job/output names. The recorded eight controls, 27 graft assignments, 17-
 ## Team description for the form
 
 ```text
-I am submitting as an individual independent researcher under the project name Vesuvius Lab. Our long-term objective is to reconstruct carbonized papyrus surfaces and recover verifiable ancient text. Vesuvius Surface Recovery is the current standalone software deliverable. Codex AI assistants helped with implementation, debugging, verification and documentation; they are not human team members. Historical algorithm lineage and relevant attribution are preserved.
+I am submitting as an individual independent researcher under the project name Papyrus Atlas. Our long-term objective is to reconstruct carbonized papyrus surfaces and recover verifiable ancient text. Papyrus Atlas is the current standalone software deliverable. Codex AI assistants helped with implementation, debugging, verification and documentation; they are not human team members. Historical algorithm lineage and relevant attribution are preserved.
 ```
 
 If other people contributed, name them and their roles instead of using the individual wording. The human submitter supplies/verifies personal details and accepts terms only by their own decision.
@@ -41,7 +41,7 @@ If other people contributed, name them and their roles instead of using the indi
 ## Contribution description for the form
 
 ```text
-Vesuvius Lab is working toward reconstructing carbonized Herculaneum papyrus surfaces and recovering verifiable ancient text. Vesuvius Surface Recovery is our current independently executable geometry deliverable: boundary grafting and bounded whole-cycle hole recovery. Both run with Python's standard library, without downloading, compiling or loading ScrollFiesta or its native dependencies. Historical algorithm and fixture attribution is retained.
+Papyrus Atlas is working toward reconstructing carbonized Herculaneum papyrus surfaces and recovering verifiable ancient text. Papyrus Atlas is our current independently executable geometry deliverable: boundary grafting and bounded whole-cycle hole recovery. Both run with Python's standard library, without downloading, compiling or loading ScrollFiesta or its native dependencies. Historical algorithm and fixture attribution is retained.
 
 (1) Data. The software is validated using preserved graph and triangular-mesh fixtures from public PHercParis4 / Scroll 1 CT cube 01744_02256_04048, originating in the earlier fixed +32Y Otsu experiment. Graph input was exported from the actual historical graft call; the hole cycle is selected from the conservative source mesh alone. These are same-scroll development fixtures, not an independent-scroll holdout.
 

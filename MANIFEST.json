@@ -1,5 +1,5 @@
 {
-  "schema": "surface-recovery-public-review-docs-v1",
+  "schema": "papyrus-atlas-documentation-v1",
   "sealed_software_archive_sha256": "33924cf942b38665b0aaed6886dcc6dc67bb63be9b2ed9f673863f1bcaa35a10",
   "files": [
     {
@@ -14,13 +14,13 @@
     },
     {
       "path": "CHALLENGE_SUBMISSION.md",
-      "bytes": 7289,
-      "sha256": "6b1acb9ba20df182d385db0855120fd6d110a694ad541c7e72f4a7024ed06edd"
+      "bytes": 7202,
+      "sha256": "7ac814cdc85fef5ec7daea9bfd12aed954a58cf7113ebffa2a0381cb4217a227"
     },
     {
       "path": "HISTORY.md",
-      "bytes": 2873,
-      "sha256": "a0cf101395ec40677d77bd41df0f55e8eff30e277257c43137681e129b4e2034"
+      "bytes": 3375,
+      "sha256": "b3b92f7042c05b8d5ff881f81a21cc2731a766181c157b405e01b4766f7df400"
     },
     {
       "path": "LICENSE",
@@ -39,8 +39,8 @@
     },
     {
       "path": "PROJECT_MILESTONES.md",
-      "bytes": 6214,
-      "sha256": "47314d3f607479a53ba3395910bb0cd692ee7e757d5ed9bb10a4cf5140a094ee"
+      "bytes": 6204,
+      "sha256": "5b2381a4e99729ffe44f47fec8f14fb51b52e3516368dbb2f742f59158513d93"
     },
     {
       "path": "PROVENANCE.json",
@@ -49,8 +49,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5089,
-      "sha256": "b263a5bffded64e3749098bb8add50eb161de7f75e7124380d34cd500cafb2b6"
+      "bytes": 5075,
+      "sha256": "db9beaf7ae7ba11eef1a8c8002dc1a924fb77c98ceb486d56b72ca6c5a0e3298"
     },
     {
       "path": "REPRODUCE.md",

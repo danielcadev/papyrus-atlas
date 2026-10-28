@@ -17,3 +17,7 @@ The current root MANIFEST.json covers this documentation edition. The original s
 ## Public review access
 
 The owner subsequently authorized public visibility to provide an accessible contribution URL for Progress Prize review. The repository is now public; earlier private-access descriptions are historical records. All source/evidence archive assets, prior guide editions, legacy tags and commits are retained. Public access is not an application submission; the form remains an unsubmitted draft.
+
+## Papyrus Atlas umbrella name
+
+The owner selected Papyrus Atlas as the name for the whole research project. Boundary Grafting and Hole Recovery retain their algorithm names. The repository is now danielcadev/papyrus-atlas. Existing Python namespace vesuvius_surface, source archive filenames, hashes, release tags, contributor credits and historical reports remain unchanged for compatibility and provenance. This is a branding/documentation change, not a new scientific result or a form submission.
