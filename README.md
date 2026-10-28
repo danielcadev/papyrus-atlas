@@ -63,3 +63,5 @@ The supplied graph and mesh fixtures originate from public PHercParis4 / Scroll 
 The original sealed software package, archive checksum, upstream-derived snapshots, failures and comparisons are retained unchanged in the lab and in the preserved legacy release. PROVENANCE.json records source and fixture hashes. The standalone project does not load that archive. The repository is public for software review. No challenge application has been submitted. The current standalone contribution is linked in CHALLENGE_SUBMISSION.md; earlier access states remain preserved in historical records.
 
 Historical documents record earlier project names and access states. The current project name is Papyrus Atlas, the repository is public, and no challenge application has been submitted. Original-language evidence remains unchanged; all current reviewer-facing text is English.
+
+Latest CT-only follow-up: [exterior registration evidence](research/paris4-exterior-registration/README.md). Registration remains rejected at the unchanged 0.1 margin; no verified ink or letters.

@@ -1,0 +1,31 @@
+{
+  "guard": {
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": 10,
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "numerical_threads": 1,
+    "desktop_reserve_mib": 3072
+  },
+  "passed": true,
+  "checks": [
+    {
+      "trial": "paris4-exterior-collar-v1",
+      "primary_pearson": 0.8578014078038526,
+      "margin": 0.09135226073926772,
+      "gate_passed": false
+    },
+    {
+      "trial": "paris4-exterior-gradient-support-v2",
+      "primary_pearson": 0.8580502838094372,
+      "margin": 0.09188068617274936,
+      "gate_passed": false
+    }
+  ],
+  "scope": "Saved CT correlations and gates only; not fitting, raw scan sampling, anatomy or ink.",
+  "target_sha256": "5f83a5962382214c600a02a4a2922af09754791d922d7269b2e02ec71b75af82",
+  "ink_used": false,
+  "letters_verified": 0
+}

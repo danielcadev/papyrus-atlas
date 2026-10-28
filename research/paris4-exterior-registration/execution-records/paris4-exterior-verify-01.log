@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/verify_paris4_exterior_registration.py", line 45, in <module>
+    assert not np.any(np.all((p>=np.array([108,140,108])) & (p<np.array([148,180,148])),axis=1))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

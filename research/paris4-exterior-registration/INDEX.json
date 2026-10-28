@@ -1,0 +1,20 @@
+{
+  "valid_but_rejected_trials": [
+    "paris4-exterior-collar-v1",
+    "paris4-exterior-gradient-support-v2"
+  ],
+  "invalid_trial": {
+    "name": "paris4-exterior-gradient-v1",
+    "reason": "Central-difference endpoints enter the four-voxel exclusion band. Preserved but excluded from accepted-protocol comparisons. The first independent verifier correctly failed."
+  },
+  "previous_phase": "paris4-registration-anchors-v1",
+  "previous_manifest_sha256": "a5eacce61f89ac9972a79789f2eb57d9d8ac018a6ff793ad9ca3140ad6093c5c",
+  "source_nrrd_sha256": "3041f5bd3bf5b9d3d68be6a65934c39664d04c2f221ca23561bde0d1376ee110",
+  "source_urls_and_license": "../paris4-coordinate-audit/SOURCES.json",
+  "registration_accepted": false,
+  "ink_used": false,
+  "letters_verified": 0,
+  "geometry_or_uv_modified": false,
+  "reserved_data_limitation": "Withheld from final optimizer only; overlap with prior initializer training and gradient support prevents end-to-end unseen or independent validation claims.",
+  "valid_trial_scope": "Valid denotes exclusion-support compliance, not independent holdout design or accepted registration."
+}

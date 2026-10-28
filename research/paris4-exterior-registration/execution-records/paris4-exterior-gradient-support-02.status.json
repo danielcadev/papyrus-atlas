@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/fit_paris4_exterior_gradient_support.py"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 16.088434211000276,
+  "minimum_available_mib": 8586.65234375,
+  "max_child_rss_mib": 132.66015625,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/paris4-exterior-gradient-support-02.log"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/fit_paris4_exterior_collar.py"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 9.280937968000217,
+  "minimum_available_mib": 8415.4609375,
+  "max_child_rss_mib": 132.0078125,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/paris4-exterior-collar-01.log"
+}

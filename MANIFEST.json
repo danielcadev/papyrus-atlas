@@ -1,5 +1,5 @@
 {
-  "schema": "papyrus-atlas-paris4-coordinate-audit-v1",
+  "schema": "papyrus-atlas-paris4-exterior-followup-v1",
   "sealed_software_archive_sha256": "33924cf942b38665b0aaed6886dcc6dc67bb63be9b2ed9f673863f1bcaa35a10",
   "files": [
     {
@@ -59,8 +59,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7396,
-      "sha256": "f09de8043689c9fc34af1790d16baf29fe6d417ee5b021e73b7e3a133d4781a9"
+      "bytes": 7593,
+      "sha256": "7b5a81a98fa0c254e495511c18caeb47e71d5592eada2b0097c2f8a42f52c0f0"
     },
     {
       "path": "REPRODUCE.md",
@@ -301,6 +301,251 @@
       "path": "research/paris4-coordinate-audit/reproduce_axes.py",
       "bytes": 4579,
       "sha256": "5374ad7ab5c5008da3e0e092c78b4852fc9e00530c81b4f105485d1155a60623"
+    },
+    {
+      "path": "research/paris4-exterior-registration/INDEPENDENT_REVIEW_EN.md",
+      "bytes": 1845,
+      "sha256": "97b9bf65a99fcc6e1aafcf9d2d6eb3b6da7d31126e332cd7567a393756902193"
+    },
+    {
+      "path": "research/paris4-exterior-registration/INDEX.json",
+      "bytes": 1125,
+      "sha256": "0c931b54be88eedf37dfa59d58b8d265b5a9cbfd8790a6fd01dbbd42e20c5481"
+    },
+    {
+      "path": "research/paris4-exterior-registration/README.md",
+      "bytes": 1186,
+      "sha256": "de3d929beffee2b967179b60068c307c6d30404426d7d6127a58ef2432185268"
+    },
+    {
+      "path": "research/paris4-exterior-registration/REPORT_EN.md",
+      "bytes": 5281,
+      "sha256": "f0d15c04a7931761a69e1d66cc5e0e3940c27ae6f3e981e00240056ece4e5aa8"
+    },
+    {
+      "path": "research/paris4-exterior-registration/execution-records/paris4-exterior-collar-01.log",
+      "bytes": 3059,
+      "sha256": "22cd26f2635ab8b82569237491ad7186ae6280b3c16e1b8c7d566c1ab76a5a22"
+    },
+    {
+      "path": "research/paris4-exterior-registration/execution-records/paris4-exterior-collar-01.status.json",
+      "bytes": 466,
+      "sha256": "d1474efee0149d1c3fb397b4638e5d9d2bee75a7668c32942c561f6d2b459170"
+    },
+    {
+      "path": "research/paris4-exterior-registration/execution-records/paris4-exterior-gradient-01.log",
+      "bytes": 3089,
+      "sha256": "426031fa41499ed6e4dd1ad598dd086745d11adac40e4ac1631a0b243d31114f"
+    },
+    {
+      "path": "research/paris4-exterior-registration/execution-records/paris4-exterior-gradient-01.status.json",
+      "bytes": 473,
+      "sha256": "d24477bfd9e1f96c32a432fea62ea98c0ef99eb6919966e08f758663c78c4e7f"
+    },
+    {
+      "path": "research/paris4-exterior-registration/execution-records/paris4-exterior-gradient-support-02.log",
+      "bytes": 3096,
+      "sha256": "265380558baabe5586de8f70f4abcb56ad5e80bcc93167f7da8c5819b4469d26"
+    },
+    {
+      "path": "research/paris4-exterior-registration/execution-records/paris4-exterior-gradient-support-02.status.json",
+      "bytes": 489,
+      "sha256": "84d5679fd599a1ba8961ce181861120f4f5342bee99f5e223d7e4fe0492b2c7a"
+    },
+    {
+      "path": "research/paris4-exterior-registration/execution-records/paris4-exterior-verify-01.log",
+      "bytes": 387,
+      "sha256": "ce64412199143a4a7c6a4cbb560074085b1c83b18136578fa236436f147bb93c"
+    },
+    {
+      "path": "research/paris4-exterior-registration/execution-records/paris4-exterior-verify-01.status.json",
+      "bytes": 475,
+      "sha256": "6d5d2c567e5f7bc237d3a510d03472df931ac399682f79b2ab2b6aeaa5e4f7b6"
+    },
+    {
+      "path": "research/paris4-exterior-registration/execution-records/paris4-exterior-verify-02.log",
+      "bytes": 1602,
+      "sha256": "6c1920f6631be98742d7d915f6f5bdb4894918817056d2293a2dab7c4ce53ca5"
+    },
+    {
+      "path": "research/paris4-exterior-registration/execution-records/paris4-exterior-verify-02.status.json",
+      "bytes": 474,
+      "sha256": "c8b0a3511a332b1ef21a2350770b614e024192485bcd282ef997c0a47aae852d"
+    },
+    {
+      "path": "research/paris4-exterior-registration/failed-verification-v1/failed-verifier-source.py",
+      "bytes": 6054,
+      "sha256": "e06fa30f314649af14e4443af1c82887d10b1b48af7dced332931915264fa036"
+    },
+    {
+      "path": "research/paris4-exterior-registration/failed-verification-v1/old-native-validation-zyx.npy",
+      "bytes": 32896,
+      "sha256": "5f83a5962382214c600a02a4a2922af09754791d922d7269b2e02ec71b75af82"
+    },
+    {
+      "path": "research/paris4-exterior-registration/lab-source-snapshots/fit_paris4_exterior_collar.py",
+      "bytes": 7262,
+      "sha256": "bdb4bdf6b2dc718d1a9f110d1c1f66f1683def300a67540c84e581a72064a49e"
+    },
+    {
+      "path": "research/paris4-exterior-registration/lab-source-snapshots/fit_paris4_exterior_gradient.py",
+      "bytes": 7867,
+      "sha256": "b868d2ae05d6c2f9bbdf00cef073a1fee955199b3ebae3408c528c48c1396c6a"
+    },
+    {
+      "path": "research/paris4-exterior-registration/lab-source-snapshots/fit_paris4_exterior_gradient_support.py",
+      "bytes": 7936,
+      "sha256": "f7e668b7723d6dd295b0f35d10fcd87f2e2ff177c53da84a6c8cea64f4d69a91"
+    },
+    {
+      "path": "research/paris4-exterior-registration/lab-source-snapshots/prepare_paris4_exterior_commit.py",
+      "bytes": 9716,
+      "sha256": "39c60c030c2ef1801dec4cb615ebb9e926fe4499d3727f88a0c627b149f6fa18"
+    },
+    {
+      "path": "research/paris4-exterior-registration/lab-source-snapshots/verify_paris4_exterior_registration.py",
+      "bytes": 6062,
+      "sha256": "2ccd2115774c65faf5cabd377408b9ad6b3ef18c8a88e19c8448dd722c725e6a"
+    },
+    {
+      "path": "research/paris4-exterior-registration/old-native-validation-zyx.npy",
+      "bytes": 32896,
+      "sha256": "5f83a5962382214c600a02a4a2922af09754791d922d7269b2e02ec71b75af82"
+    },
+    {
+      "path": "research/paris4-exterior-registration/portable-controls-verification.json",
+      "bytes": 845,
+      "sha256": "5ad2b97b52629fed2452402d3b39f302c5ad978c4ccd821215e325fec80bf072"
+    },
+    {
+      "path": "research/paris4-exterior-registration/replay_saved_controls.py",
+      "bytes": 3393,
+      "sha256": "72657faa62d5397b388419d390bc24cc72225277c37babb2ca8f7418f3ff29cc"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-collar-v1/cached-grid-receipt.json",
+      "bytes": 190,
+      "sha256": "13fbbbff4a3b8aad5ba8c7c42bb50f898ff316910620a7fe4b94de48ecbae33a"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-collar-v1/fit-frozen-before-validation.json",
+      "bytes": 583,
+      "sha256": "9e7243a6937ebaf83617a61d83c5ffc7d75cd567607a1e6072cee595c3b61c3d"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-collar-v1/modern-footprint-corrected-affine-native-zyx.npy",
+      "bytes": 256128,
+      "sha256": "342745b202249092e313d95ad4a3db71d42178cbb5fc73df74e8b54378e16ab8"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-collar-v1/plan.json",
+      "bytes": 1834,
+      "sha256": "372b7127fd03068fc28a697677080b2911ac6739272aff81205a1924ad9a2bd9"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-collar-v1/reserved-exterior-native-zyx.npy",
+      "bytes": 196784,
+      "sha256": "56f83c0c43159053d065e63cc81c37c08d6d8bc643b3c0afc8d5c6995184c884"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-collar-v1/result.json",
+      "bytes": 2692,
+      "sha256": "cd6d39276d03ca21bafc7497c2b7841dfeea520e233fd8166d76d9daa1a7a1f3"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-collar-v1/script.py",
+      "bytes": 7262,
+      "sha256": "bdb4bdf6b2dc718d1a9f110d1c1f66f1683def300a67540c84e581a72064a49e"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-collar-v1/training-native-zyx.npy",
+      "bytes": 196808,
+      "sha256": "99c0014e8d76ecb32647e1fe147fa8a252659035c8059f8706709b3a877ba6ce"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-support-v2/cached-grid-receipt.json",
+      "bytes": 190,
+      "sha256": "13fbbbff4a3b8aad5ba8c7c42bb50f898ff316910620a7fe4b94de48ecbae33a"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-support-v2/fit-frozen-before-validation.json",
+      "bytes": 579,
+      "sha256": "08e709e4051aadc655d5e46da733bc035a5cd670da013692cc7f21d4da6cd125"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-support-v2/modern-footprint-corrected-affine-native-zyx.npy",
+      "bytes": 256128,
+      "sha256": "a846a471428aa78217013e17c3ce1a3b0930b18cb89b858b48023ac86cc05c24"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-support-v2/plan.json",
+      "bytes": 1998,
+      "sha256": "5879d32b1ef4fdfba1fb7651848f90e33bd57af1008d082f17b3626ad68d1f68"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-support-v2/reserved-exterior-native-zyx.npy",
+      "bytes": 181664,
+      "sha256": "d8698987b866fec7e95fb9d4a739e9c37d3d80f9fce9abd0925652581e61f895"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-support-v2/result.json",
+      "bytes": 2715,
+      "sha256": "2d621c3f588ee43f81402a2db85bab92b25d9c3d650a0b9650be5a7f1ab48146"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-support-v2/script.py",
+      "bytes": 7936,
+      "sha256": "f7e668b7723d6dd295b0f35d10fcd87f2e2ff177c53da84a6c8cea64f4d69a91"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-support-v2/training-native-zyx.npy",
+      "bytes": 181664,
+      "sha256": "9dde19c619e0002635c69e3b69e3a1de8786e2df44ed8f7f0669278dfb9b8e34"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-v1/cached-grid-receipt.json",
+      "bytes": 190,
+      "sha256": "13fbbbff4a3b8aad5ba8c7c42bb50f898ff316910620a7fe4b94de48ecbae33a"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-v1/fit-frozen-before-validation.json",
+      "bytes": 579,
+      "sha256": "cbc1b64aa3c60367669469aec1a30729dce4d0690fc44478df9d13c339540463"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-v1/modern-footprint-corrected-affine-native-zyx.npy",
+      "bytes": 256128,
+      "sha256": "d691586d51450e0f6c119cfcb0552745e62e75d1092d54cef7df7f9d07c293cf"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-v1/plan.json",
+      "bytes": 1935,
+      "sha256": "8bb56722f380c46d24c1b042f1a6e15a623b37b0b2777df6820082b2b812deec"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-v1/reserved-exterior-native-zyx.npy",
+      "bytes": 196784,
+      "sha256": "56f83c0c43159053d065e63cc81c37c08d6d8bc643b3c0afc8d5c6995184c884"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-v1/result.json",
+      "bytes": 2708,
+      "sha256": "6fc730802c8b80fcb9945da8e9832ddadcef9b80e9da340c4dd6f8aa259f1510"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-v1/script.py",
+      "bytes": 7867,
+      "sha256": "b868d2ae05d6c2f9bbdf00cef073a1fee955199b3ebae3408c528c48c1396c6a"
+    },
+    {
+      "path": "research/paris4-exterior-registration/trials/paris4-exterior-gradient-v1/training-native-zyx.npy",
+      "bytes": 196808,
+      "sha256": "99c0014e8d76ecb32647e1fe147fa8a252659035c8059f8706709b3a877ba6ce"
+    },
+    {
+      "path": "research/paris4-exterior-registration/verification-v1.json",
+      "bytes": 1865,
+      "sha256": "ead370f8e96102f50d04bed4c984bdb47664ad9638c92e587656a856b75eabe4"
     },
     {
       "path": "tests/fixtures/graft-expected.json",

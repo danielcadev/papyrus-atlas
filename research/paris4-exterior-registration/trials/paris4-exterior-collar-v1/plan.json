@@ -1,0 +1,55 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-exterior-collar-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "axis_evidence_sha256": "46d584a8c379145f31097a9b9f6602a93cba1626d1d759b94195fb6a0688eb6d",
+  "source_ct_sha256": "3041f5bd3bf5b9d3d68be6a65934c39664d04c2f221ca23561bde0d1376ee110",
+  "fit_samples": "Even-parity samples of a 2-voxel exterior collar grid; repair ROI and four-voxel guard band excluded.",
+  "reserved_samples": "Odd-parity exterior samples, never used by optimizer; spatially interleaved and not an independent scan.",
+  "training_count": 8195,
+  "reserved_count": 8194,
+  "matched_footprint": "Both use the same 4^3 midpoint cell quadrature. Fit uses trilinear interpolation of the integer footprint grid; validation computes quadrature directly.",
+  "footprint_grid_origin_native_zyx": [
+    84,
+    116,
+    84
+  ],
+  "footprint_grid_shape": [
+    88,
+    88,
+    88
+  ],
+  "residual_translation_bounds": [
+    -4,
+    4
+  ],
+  "residual_linear_entry_bounds": [
+    -0.01,
+    0.01
+  ],
+  "max_fit_evaluations": 2048,
+  "max_fit_seconds": 120,
+  "fit_objective": "Exterior CT Pearson only.",
+  "validation_gate": {
+    "pearson_min": 0.6,
+    "margin_over_six_shift_controls_min": 0.1,
+    "no_parameter_boundary": true
+  },
+  "ink_used": false,
+  "source_geometry_modified": false
+}

@@ -1,0 +1,70 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-exterior-collar-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "fit": {
+    "parameters": [
+      0.594330155724275,
+      0.49960537856608933,
+      -0.40202119047026164,
+      -0.0015561650686904472,
+      -1.7073758417688827e-05,
+      -0.002021246221399729,
+      -0.00017915937003788838,
+      -0.0006813280914382759,
+      -0.00021948200276017998,
+      -0.0027643537655729165,
+      -0.00229808145890886,
+      -0.0038295257842785486
+    ],
+    "training_pearson": 0.9067151145162496,
+    "evaluations": 455,
+    "status": "Optimization terminated successfully.",
+    "at_parameter_boundary": false,
+    "residual_determinant": 0.9939365146669322,
+    "frozen_before_validation": true,
+    "reserved_exterior_pearson": 0.9060904964117031,
+    "reserved_exterior_initial_pearson": 0.9056019037810829
+  },
+  "primary_pearson": 0.8578014078038543,
+  "best_shift_control": 0.7664491470645846,
+  "margin": 0.09135226073926972,
+  "pearson_by_control_native_zyx": {
+    "0_0_0": 0.8578014078038543,
+    "-4_0_0": 0.7502634896106755,
+    "4_0_0": 0.7664491470645846,
+    "0_-4_0": 0.42172292835146735,
+    "0_4_0": 0.469059395870502,
+    "0_0_-4": 0.6894306258315382,
+    "0_0_4": 0.6927735605550899
+  },
+  "diagnostic_structural_coherence_gate_passed": false,
+  "ink_used": false,
+  "letters_verified": 0,
+  "source_geometry_modified": false,
+  "anatomical_registration_error_voxels": null,
+  "artifacts": {
+    "script.py": "bdb4bdf6b2dc718d1a9f110d1c1f66f1683def300a67540c84e581a72064a49e",
+    "training-native-zyx.npy": "99c0014e8d76ecb32647e1fe147fa8a252659035c8059f8706709b3a877ba6ce",
+    "reserved-exterior-native-zyx.npy": "56f83c0c43159053d065e63cc81c37c08d6d8bc643b3c0afc8d5c6995184c884",
+    "plan.json": "372b7127fd03068fc28a697677080b2911ac6739272aff81205a1924ad9a2bd9",
+    "cached-grid-receipt.json": "13fbbbff4a3b8aad5ba8c7c42bb50f898ff316910620a7fe4b94de48ecbae33a",
+    "fit-frozen-before-validation.json": "9e7243a6937ebaf83617a61d83c5ffc7d75cd567607a1e6072cee595c3b61c3d",
+    "modern-footprint-corrected-affine-native-zyx.npy": "342745b202249092e313d95ad4a3db71d42178cbb5fc73df74e8b54378e16ab8"
+  }
+}
