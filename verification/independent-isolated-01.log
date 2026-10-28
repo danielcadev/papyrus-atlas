@@ -1,0 +1,26 @@
+external_lab_root_inaccessible=true
+{
+  "passed": true,
+  "guard": {
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": 10,
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "numerical_threads": 1,
+    "desktop_reserve_mib": 3072
+  },
+  "unit_controls": 8,
+  "graft_recovered": 27,
+  "graft_labels_match_export": true,
+  "source_faces": 5143,
+  "final_faces": 5160,
+  "added_faces": 17,
+  "source_vertices_and_indexed_faces_unchanged": true,
+  "final_exact_pairs": 267,
+  "final_exact_forbidden_contacts": 0,
+  "same_oriented_geometry_as_historical_v5": true,
+  "runtime": "Python standard library only; no ScrollFiesta, native binary, NumPy, model, network or GPU required.",
+  "scope": "Exported graft-graph replay and independent mesh-stage hole recovery. Not independent CT extraction, segmentation, flattening, anatomy or text."
+}

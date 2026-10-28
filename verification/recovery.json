@@ -1,0 +1,100 @@
+{
+  "accepted": true,
+  "added_faces": 17,
+  "nodes": 832,
+  "pair_queries": 3367538,
+  "exact_pairs": 13594,
+  "candidates": 598,
+  "source_faces": 5143,
+  "source_retained": true,
+  "reason": "complete_exact_checked_patch",
+  "added_indices": [
+    [
+      511,
+      556,
+      512
+    ],
+    [
+      512,
+      556,
+      557
+    ],
+    [
+      557,
+      556,
+      609
+    ],
+    [
+      609,
+      556,
+      622
+    ],
+    [
+      622,
+      556,
+      650
+    ],
+    [
+      650,
+      556,
+      677
+    ],
+    [
+      677,
+      556,
+      707
+    ],
+    [
+      707,
+      556,
+      719
+    ],
+    [
+      719,
+      556,
+      543
+    ],
+    [
+      719,
+      543,
+      1123
+    ],
+    [
+      1123,
+      543,
+      594
+    ],
+    [
+      594,
+      543,
+      568
+    ],
+    [
+      1123,
+      594,
+      635
+    ],
+    [
+      635,
+      594,
+      582
+    ],
+    [
+      1123,
+      635,
+      720
+    ],
+    [
+      720,
+      635,
+      676
+    ],
+    [
+      719,
+      1123,
+      706
+    ]
+  ],
+  "angle_condition_bound": 1.6666666666666667,
+  "limits": "No source/source exact audit, full UV parameterization, minimum-clearance, CT-fidelity, anatomy or text certificate."
+}

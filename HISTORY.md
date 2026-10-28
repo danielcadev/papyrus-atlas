@@ -1,0 +1,9 @@
+# Version and evidence preservation
+
+This standalone branch contains only the two independent mesh-processing methods, their relevant tests/fixtures, attribution and challenge documentation. Its runtime does not load the historical producer.
+
+The original ScrollFiesta-based package remains on branch `main`, commit `c53c378ee1c5efacdeb43b904fc63db855afdd0f`, tag and release `software-progress-2026-10-v1`. Its 118,142,897-byte archive retains SHA256 `88b94983f9f458928ee5c4069ace4a77ed556ebe3b955bf59d443ef0ff665b26`. No legacy branch, tag, commit or release asset was rewritten or deleted.
+
+The standalone release contains the original verified source archive and checksum, a separate relevant-evidence archive and checksum, and the English challenge guide. The supplementary evidence preserves the instrumented fixture export, generated meshes, successful and failed verification records, and provenance scripts; original native binaries are excluded. Other lab research remains preserved locally and is outside this contribution's claims.
+
+`MANIFEST.json` identifies the sealed standalone source snapshot. CHALLENGE_SUBMISSION.md and this history note are added repository documentation outside that frozen manifest. Consult the release assets for the exact sealed archive. Repository privacy and form submission are separate decisions; this upload remains private and does not submit the challenge form.

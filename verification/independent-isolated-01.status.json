@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    "-S",
+    "-c",
+    "import os,runpy,sys; assert not os.access(\"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab\",os.R_OK); print(\"external_lab_root_inaccessible=true\",flush=True); sys.argv=[\"verify_project.py\",\"/tmp/vesuvius-surface-recovery-isolated-v1/verification\"]; runpy.run_path(\"/tmp/vesuvius-surface-recovery-isolated-v1/tools/verify_project.py\",run_name=\"__main__\")"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 13.812956804998976,
+  "minimum_available_mib": 6469.12890625,
+  "max_child_rss_mib": 42.24609375,
+  "gpu_devices_inaccessible": true,
+  "log": "/tmp/vesuvius-surface-recovery-isolated-v1/tools/native/independent-isolated-01.log"
+}

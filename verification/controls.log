@@ -1,0 +1,13 @@
+test_cli_graft_executes_without_site_packages (test_recovery.GeometryControls.test_cli_graft_executes_without_site_packages) ... ok
+test_exact_shared_vertex_blind_spot_and_duplicate (test_recovery.GeometryControls.test_exact_shared_vertex_blind_spot_and_duplicate) ... ok
+test_hole_with_crossing_obstacle_is_refused (test_recovery.GeometryControls.test_hole_with_crossing_obstacle_is_refused) ... ok
+test_json_obj_roundtrip_and_overwrite_refusal (test_recovery.GeometryControls.test_json_obj_roundtrip_and_overwrite_refusal) ... ok
+test_square_hole_and_atomic_budget_refusal (test_recovery.GeometryControls.test_square_hole_and_atomic_budget_refusal) ... ok
+test_alternative_owner_current_conflicts_and_retry (test_recovery.GraftControls.test_alternative_owner_current_conflicts_and_retry) ... ok
+test_invalid_conflict_and_budget_fail_closed (test_recovery.GraftControls.test_invalid_conflict_and_budget_fail_closed) ... ok
+test_live_exported_real_graph (test_recovery.GraftControls.test_live_exported_real_graph) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.509s
+
+OK

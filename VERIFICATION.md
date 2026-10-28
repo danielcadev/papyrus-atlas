@@ -1,31 +1,27 @@
-# Verification of the upload package
+# Standalone verification — October 28, 2026
 
-The principal clean reproduction **passed** on October 28, 2026. It began from a newly extracted, hash-verified original public archive, applied the four release patches without fuzz and compiled the native code and dependencies from source. It did not use the laboratory's precompiled ScrollFiesta library or executable.
+## Result
 
-## Results
+Passed from a fresh project copy at `/tmp/vesuvius-surface-recovery-isolated-v1` using Python `-I -S`. The entire original lab directory, including ScrollFiesta source trees, old releases, libraries and binaries, was inaccessible inside the systemd service. The process explicitly checked that the lab root was unreadable before verification.
 
-- Production graft helper controls passed with assertions enabled.
-- The CT-derived prediction bytes matched the frozen input; Otsu threshold was 134.
-- Full conservative v4 and v5 pipelines retained the same 5,139-face source and reached 5,143 and 5,160 final faces.
-- The final v5 VMESH SHA256 was `b93672d63891ad10c079215a5d7296f9ba4a7a5134e25750f8ba35761c11d65f`, byte-identical to the frozen full-pipeline artifact.
-- The independent rational audit recomputed 267 new/source and new/new candidate pairs with zero forbidden contacts and 17 added faces.
-- The full pre-graft source control reproduced its frozen digest. All its source faces were retained and exactly 27 were recovered by grafting.
-- Source and executable were restored to the v5 configuration after the control build.
+- Eight controls pass, covering live graph replay, alternative owners, retry, current constraints, incomplete/invalid evidence, exact shared-point contacts, geometric duplicates, whole-cycle fill, budget exhaustion, invalid cycles, obstructed-hole rejection, CLI isolation, I/O round trips and refusal to overwrite outputs.
+- The standalone graft produces exactly the historical real graph's output labels and 27 recoveries.
+- The independent hole stage retains all 5,143 indexed source faces and all vertex values, adds 17 faces and returns 5,160.
+- Final exact new/source and new/new audit: 267 overlapping-AABB pairs, zero forbidden contacts.
+- The oriented coordinate multiset equals historical v5. No claim of byte-identical file serialization across JSON and historical VMESH formats is made.
+- Resource envelope: CPUQuota 25%, Nice 19, IOWeight 10, MemoryMax 384MiB, swap 0, GPU inaccessible, numerical thread limits 1, desktop reserve 3072MiB.
+- Isolated run: about 13.8 seconds wall time; minimum available desktop memory about 6469MiB; peak child RSS about 42.25MiB.
 
-The complete checked reproduction took approximately 241.29 seconds under CPUQuota 25%, Nice 19, IOWeight 10, MemoryMax 384 MiB, swap zero, blocked GPU devices and one numerical thread. Its status receipt records minimum desktop available memory of 7,595.24 MiB and maximum child RSS of 254.39 MiB. The user-systemd completion reported a 379.6 MiB cgroup peak. No limit was relaxed and no application was closed.
+Machine-readable results and the isolation command/log are in `verification/`. The self-contained source package contains no native executable or vendored dependency implementation. It runs without fetching any upstream repository or public CT array.
 
-## Independent availability and packaging checks
+## Preserved development failures
 
-The upstream archive was also freshly downloaded from its public URL and verified against the pinned SHA256, then extracted and patched in a second fresh directory. Original CT and annotations were freshly downloaded from their public URLs; both lengths and SHA256 values matched. These checks establish that the documented ingredients are currently retrievable, not just present in a private local cache.
+The first fixture-export invocation and the original source package were not altered. The earlier upstream-review relative-path failure remains in its original record. In this standalone phase, the initial `-I -S` attempt failed to locate the packaged guard because isolated Python excludes the script directory. The tool now inserts its own tools directory explicitly; that failed log and the subsequent successful results are preserved. No failed result is reported as a passing test.
 
-The final recipe adds reference-mesh and before-graft-fixture digest checks. They were exercised separately against the second fresh source tree without repeating the unchanged full benchmark. `verification/executed-reproduce-01.py` preserves the exact benchmark-executed version; this metadata hardening does not alter any numerical or geometric method. Its separate input-check receipt is included.
+## Scientific limits
 
-English before/after views were generated from recorded meshes with the same camera within each comparison. The first layout is retained; v2 corrects label spacing. Both input/output provenance records are included. The figure is a geometric illustration and is not a CT, fiber or ink interpretation.
+The graft result replays an exported graph from the historical experiment; the standalone tool does not independently regenerate the upstream projection/conflict graph from CT. The hole fixture is an already reconstructed source mesh and its cycle; the standalone tool independently recomputes the fill, not CT segmentation.
 
-`verification/` includes the benchmark, exact audit, command logs, direct-download records and resource receipts. `evidence-index.json` includes 2,084 exported historical evidence files and explicitly lists 26 external/omitted arrays or executables. One old manifest refers to a CONTEXT.md that subsequently evolved; its old and actual digests are recorded instead of falsely claiming immutable equality. Historical experiment outputs remain preserved.
+Exact contact checks concern added/source and added/added pairs. Unchanged source/source contacts are outside that certificate. The angle-fan interval test is necessary but does not provide a complete UV parameterization. There is no anatomical identity, minimum-clearance, fibers, complete CT-fidelity, full-scroll continuity or ink-reading certificate. These local fixture results do not establish universal superiority or worldwide novelty.
 
-The final manifest covers the released files. The archive SHA256 is provided beside the archive. The final archive is extracted into another new directory and its entire file inventory checked with the packaged verifier; that check has a separate receipt outside the sealed archive to avoid circular hashes.
-
-## Scope
-
-This validates reproducibility of the two principal local software improvements under the recorded setup. Historical regression, native-audit, sampled-coverage and continuous-coverage results are retained with their own scope. Metrics are reused after exact geometry equality rather than represented as new anatomical tests. No full-scroll/same-sheet certificate, verified new letters, universal success or prize is claimed. No public upload or form submission has been performed.
+The old sealed archive is preserved unchanged as historical evidence. Independent execution does not erase upstream attribution or establish independent invention. The challenge form remains unsubmitted, and the repository is private by the user's request.

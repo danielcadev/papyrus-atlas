@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/export_independent_graft_fixture.py"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 22.22184348399969,
+  "minimum_available_mib": 6363.19140625,
+  "max_child_rss_mib": 94.70703125,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/independent-graft-export-01.log"
+}

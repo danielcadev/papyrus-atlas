@@ -1,4 +1,3 @@
 __pycache__/
 *.pyc
-/tools/native/
-/work/
+tools/native/
