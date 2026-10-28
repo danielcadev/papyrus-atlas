@@ -1,0 +1,35 @@
+--- a/src/holefill/hole_fill.c
++++ b/src/holefill/hole_fill.c
+@@ -2505,6 +2505,8 @@ static int hf_triangle_emitted(const float *v,const int32_t t[3],
+     return 0;
+ }
+ 
++#include "hole_recovery_search.inc"
++
+ static int fill_chart_cycle_3d(Arena_T arena,
+                                const float *mesh_verts,
+                                const HFEdgeIndex *eidx,
+@@ -2651,7 +2653,9 @@ static int fill_chart_cycle_3d(Arena_T arena,
+     if(repeated_position)for(size_t f=0;f<ntri;f++){
+         if(hf_triangle_emitted(fill_verts,fill_faces+f*3,fill_faces,f)){
+             HFLOG("    [chart-cycle] geometric duplicate in fill; retaining open source cycle\n");
+-            Arena_restore(arena,mark);return -2;
++            Arena_restore(arena,mark);
++            /* Distinct internal status only for the opt-in recovery caller. */
++            return hs_enabled() ? -3 : -2;
+         }
+     }
+     orient_fill(fill_faces,ntri,eidx,bmap,n_loop);
+@@ -3810,6 +3814,12 @@ int HoleFill_process_ex(Arena_T arena,
+                 memset(&res, 0, sizeof(res));
+                 rc = fill_chart_cycle_3d(arena, *verts, &eidx,
+                                          lv, loop_n, metric, &res);
++                if(rc==-3){
++                    Arena_restore(arena,trial_mark);
++                    memset(&res,0,sizeof(res));
++                    rc=hf_recover_duplicate_cycle(arena,*verts,*nv,*faces,*nf,
++                        &eidx,lv,loop_n,metric,fills,n_fills,&res);
++                }
+                 if (rc == 0) {
+                     n_cycle_fallback++;
+                     HFLOG("  [hole_fill] loop %zu.%zu: projection-free "

@@ -1,0 +1,863 @@
+{
+  "schema": "paris4-calibration-context-v1",
+  "state": "context-rendered-no-calibration",
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-calibration-context-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": "402653184",
+    "memory_swap_max": "0",
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072
+  },
+  "method": "manual-label-assisted CT visualization; same development cube",
+  "calibration_valid": false,
+  "winding_gate_ready": false,
+  "pitch_voxels": null,
+  "manual_labels_opened": true,
+  "result_meshes_opened": false,
+  "inputs": {
+    "CT": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/data/01744_02256_04048_volume.nrrd",
+      "sha256": "3041f5bd3bf5b9d3d68be6a65934c39664d04c2f221ca23561bde0d1376ee110"
+    },
+    "mask": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/data/01744_02256_04048_mask.nrrd",
+      "sha256": "5925bff9b6bd5398504bc2aa67621a0632fcadf3d4b2638055e1d4dd7b781e64"
+    },
+    "calibration_v1": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/paris4-winding-calibration-v1/calibration.json",
+      "sha256": "bdf55d44b3e96cfd7db3a1a53e6ec9076e938144082712e651a58893c8ab651f"
+    },
+    "axis": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/paris4-winding-calibration-v1/umbilicus-world-zyx.csv",
+      "sha256": "9bd2e8611cd23aad5266fce6653b47a0bd109aad74d897ede29d4a8c9acefb37"
+    },
+    "inventory_helpers": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/inventory_paris4_radial_labels.py",
+      "sha256": "60ca1af4d038986dd44b2bc53d0000573fa428fc2b8822988059f32aba983241"
+    },
+    "script": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/render_paris4_calibration_context.py",
+      "sha256": "41df0c5a3fa91e203669aee26368a6de5e5524329d5eef08f4524d3068ed013a"
+    }
+  },
+  "xy_slices": [
+    {
+      "z_local": 144,
+      "z_world": 1888,
+      "file": "xy-z144.png",
+      "positive_ids": [
+        163,
+        241,
+        242,
+        244,
+        247,
+        248,
+        249
+      ]
+    },
+    {
+      "z_local": 152,
+      "z_world": 1896,
+      "file": "xy-z152.png",
+      "positive_ids": [
+        163,
+        241,
+        242,
+        244,
+        247,
+        248,
+        249
+      ]
+    },
+    {
+      "z_local": 160,
+      "z_world": 1904,
+      "file": "xy-z160.png",
+      "positive_ids": [
+        163,
+        241,
+        242,
+        244,
+        247,
+        248,
+        249
+      ]
+    },
+    {
+      "z_local": 168,
+      "z_world": 1912,
+      "file": "xy-z168.png",
+      "positive_ids": [
+        163,
+        241,
+        242,
+        244,
+        247,
+        248,
+        249
+      ]
+    },
+    {
+      "z_local": 176,
+      "z_world": 1920,
+      "file": "xy-z176.png",
+      "positive_ids": [
+        163,
+        241,
+        242,
+        244,
+        247,
+        248,
+        249
+      ]
+    }
+  ],
+  "curtain_rows": [
+    {
+      "z_local": 144,
+      "axis_local_yx": [
+        7.857565222666835,
+        -112.87929869414756
+      ],
+      "theta_radians": 0.46266002314455923,
+      "valid_radius_voxels": [
+        128.5,
+        408.5
+      ],
+      "seam_radius_voxels": [
+        268.0609732695398,
+        270.2959387269911
+      ],
+      "roi_radius_voxels": [
+        251.5,
+        287.0
+      ]
+    },
+    {
+      "z_local": 145,
+      "axis_local_yx": [
+        7.902181652009858,
+        -113.01707122077369
+      ],
+      "theta_radians": 0.46228339970998106,
+      "valid_radius_voxels": [
+        129.0,
+        408.5
+      ],
+      "seam_radius_voxels": [
+        268.16457679428134,
+        270.3991226574597
+      ],
+      "roi_radius_voxels": [
+        251.5,
+        287.0
+      ]
+    },
+    {
+      "z_local": 146,
+      "axis_local_yx": [
+        7.946798081353336,
+        -113.15484374739981
+      ],
+      "theta_radians": 0.4619070654351485,
+      "valid_radius_voxels": [
+        129.0,
+        409.0
+      ],
+      "seam_radius_voxels": [
+        268.2682180880568,
+        270.50234515292857
+      ],
+      "roi_radius_voxels": [
+        252.0,
+        287.0
+      ]
+    },
+    {
+      "z_local": 147,
+      "axis_local_yx": [
+        7.9914145106968135,
+        -113.29261627402639
+      ],
+      "theta_radians": 0.461531020093654,
+      "valid_radius_voxels": [
+        129.0,
+        409.0
+      ],
+      "seam_radius_voxels": [
+        268.3718971077841,
+        270.605606168588
+      ],
+      "roi_radius_voxels": [
+        252.0,
+        287.0
+      ]
+    },
+    {
+      "z_local": 148,
+      "axis_local_yx": [
+        8.036030940040291,
+        -113.43038880065251
+      ],
+      "theta_radians": 0.4611552634591117,
+      "valid_radius_voxels": [
+        129.0,
+        409.0
+      ],
+      "seam_radius_voxels": [
+        268.475613810429,
+        270.70890565968045
+      ],
+      "roi_radius_voxels": [
+        252.0,
+        287.0
+      ]
+    },
+    {
+      "z_local": 149,
+      "axis_local_yx": [
+        8.080647369383314,
+        -113.56816132727863
+      ],
+      "theta_radians": 0.4607797953051562,
+      "valid_radius_voxels": [
+        129.5,
+        409.0
+      ],
+      "seam_radius_voxels": [
+        268.5793681530077,
+        270.81224358150314
+      ],
+      "roi_radius_voxels": [
+        252.0,
+        287.5
+      ]
+    },
+    {
+      "z_local": 150,
+      "axis_local_yx": [
+        8.125263798726792,
+        -113.70593385390475
+      ],
+      "theta_radians": 0.4604046154054406,
+      "valid_radius_voxels": [
+        129.5,
+        409.0
+      ],
+      "seam_radius_voxels": [
+        268.6831600925844,
+        270.91561988940566
+      ],
+      "roi_radius_voxels": [
+        252.0,
+        287.5
+      ]
+    },
+    {
+      "z_local": 151,
+      "axis_local_yx": [
+        8.16988022807027,
+        -113.84370638053088
+      ],
+      "theta_radians": 0.46002972353364513,
+      "valid_radius_voxels": [
+        129.5,
+        409.0
+      ],
+      "seam_radius_voxels": [
+        268.78698958627297,
+        271.01903453879163
+      ],
+      "roi_radius_voxels": [
+        252.5,
+        287.5
+      ]
+    },
+    {
+      "z_local": 152,
+      "axis_local_yx": [
+        8.214496657413747,
+        -113.981478907157
+      ],
+      "theta_radians": 0.45965511946347215,
+      "valid_radius_voxels": [
+        129.5,
+        409.0
+      ],
+      "seam_radius_voxels": [
+        268.8908565912361,
+        271.12248748511763
+      ],
+      "roi_radius_voxels": [
+        252.5,
+        287.5
+      ]
+    },
+    {
+      "z_local": 153,
+      "axis_local_yx": [
+        8.25911308675677,
+        -114.11925143378312
+      ],
+      "theta_radians": 0.4592808029686497,
+      "valid_radius_voxels": [
+        130.0,
+        409.5
+      ],
+      "seam_radius_voxels": [
+        268.9947610646856,
+        271.22597868389386
+      ],
+      "roi_radius_voxels": [
+        252.5,
+        287.5
+      ]
+    },
+    {
+      "z_local": 154,
+      "axis_local_yx": [
+        8.303729516100248,
+        -114.2570239604097
+      ],
+      "theta_radians": 0.45890677382292555,
+      "valid_radius_voxels": [
+        130.0,
+        409.5
+      ],
+      "seam_radius_voxels": [
+        269.0987029638818,
+        271.32950809068336
+      ],
+      "roi_radius_voxels": [
+        252.5,
+        288.0
+      ]
+    },
+    {
+      "z_local": 155,
+      "axis_local_yx": [
+        8.348345945443725,
+        -114.39479648703582
+      ],
+      "theta_radians": 0.4585330318000798,
+      "valid_radius_voxels": [
+        130.0,
+        409.5
+      ],
+      "seam_radius_voxels": [
+        269.20268224613363,
+        271.4330756611018
+      ],
+      "roi_radius_voxels": [
+        252.5,
+        288.0
+      ]
+    },
+    {
+      "z_local": 156,
+      "axis_local_yx": [
+        8.392962374786748,
+        -114.53256901366194
+      ],
+      "theta_radians": 0.45815957667391666,
+      "valid_radius_voxels": [
+        130.0,
+        409.5
+      ],
+      "seam_radius_voxels": [
+        269.30669886879986,
+        271.53668135081926
+      ],
+      "roi_radius_voxels": [
+        253.0,
+        288.0
+      ]
+    },
+    {
+      "z_local": 157,
+      "axis_local_yx": [
+        8.437578804130226,
+        -114.67034154028806
+      ],
+      "theta_radians": 0.4577864082182636,
+      "valid_radius_voxels": [
+        130.5,
+        409.5
+      ],
+      "seam_radius_voxels": [
+        269.4107527892872,
+        271.6403251155577
+      ],
+      "roi_radius_voxels": [
+        253.0,
+        288.0
+      ]
+    },
+    {
+      "z_local": 158,
+      "axis_local_yx": [
+        8.482195233473703,
+        -114.80811406691419
+      ],
+      "theta_radians": 0.4574135262069804,
+      "valid_radius_voxels": [
+        130.5,
+        409.5
+      ],
+      "seam_radius_voxels": [
+        269.51484396505157,
+        271.7440069110929
+      ],
+      "roi_radius_voxels": [
+        253.0,
+        288.0
+      ]
+    },
+    {
+      "z_local": 159,
+      "axis_local_yx": [
+        8.526811662817181,
+        -114.94588659354031
+      ],
+      "theta_radians": 0.45704093041395366,
+      "valid_radius_voxels": [
+        130.5,
+        410.0
+      ],
+      "seam_radius_voxels": [
+        269.6189723535977,
+        271.8477266932534
+      ],
+      "roi_radius_voxels": [
+        253.0,
+        288.5
+      ]
+    },
+    {
+      "z_local": 160,
+      "axis_local_yx": [
+        8.571428092160204,
+        -115.08365912016689
+      ],
+      "theta_radians": 0.4566686206130999,
+      "valid_radius_voxels": [
+        130.5,
+        410.0
+      ],
+      "seam_radius_voxels": [
+        269.7231379124795,
+        271.95148441792117
+      ],
+      "roi_radius_voxels": [
+        253.5,
+        288.5
+      ]
+    },
+    {
+      "z_local": 161,
+      "axis_local_yx": [
+        8.616044521503682,
+        -115.22143164679301
+      ],
+      "theta_radians": 0.45629659657836313,
+      "valid_radius_voxels": [
+        131.0,
+        410.0
+      ],
+      "seam_radius_voxels": [
+        269.82734059929777,
+        272.05528004102945
+      ],
+      "roi_radius_voxels": [
+        253.5,
+        288.5
+      ]
+    },
+    {
+      "z_local": 162,
+      "axis_local_yx": [
+        8.66066095084716,
+        -115.35920417341913
+      ],
+      "theta_radians": 0.45592485808372013,
+      "valid_radius_voxels": [
+        131.0,
+        410.0
+      ],
+      "seam_radius_voxels": [
+        269.9315803717039,
+        272.15911351856596
+      ],
+      "roi_radius_voxels": [
+        253.5,
+        288.5
+      ]
+    },
+    {
+      "z_local": 163,
+      "axis_local_yx": [
+        8.705277380190637,
+        -115.49697670004525
+      ],
+      "theta_radians": 0.45555340490317814,
+      "valid_radius_voxels": [
+        131.0,
+        410.0
+      ],
+      "seam_radius_voxels": [
+        270.0358571873971,
+        272.2629848065708
+      ],
+      "roi_radius_voxels": [
+        253.5,
+        288.5
+      ]
+    },
+    {
+      "z_local": 164,
+      "axis_local_yx": [
+        8.74989380953366,
+        -115.63474922667137
+      ],
+      "theta_radians": 0.45518223681077763,
+      "valid_radius_voxels": [
+        131.0,
+        410.0
+      ],
+      "seam_radius_voxels": [
+        270.1401710041256,
+        272.36689386113693
+      ],
+      "roi_radius_voxels": [
+        253.5,
+        289.0
+      ]
+    },
+    {
+      "z_local": 165,
+      "axis_local_yx": [
+        8.794510238877137,
+        -115.7725217532975
+      ],
+      "theta_radians": 0.4548113535805871,
+      "valid_radius_voxels": [
+        131.5,
+        410.5
+      ],
+      "seam_radius_voxels": [
+        270.2445217796855,
+        272.4708406384096
+      ],
+      "roi_radius_voxels": [
+        254.0,
+        289.0
+      ]
+    },
+    {
+      "z_local": 166,
+      "axis_local_yx": [
+        8.839126668220615,
+        -115.91029427992407
+      ],
+      "theta_radians": 0.4544407549867121,
+      "valid_radius_voxels": [
+        131.5,
+        410.5
+      ],
+      "seam_radius_voxels": [
+        270.34890947192247,
+        272.5748250945875
+      ],
+      "roi_radius_voxels": [
+        254.0,
+        289.0
+      ]
+    },
+    {
+      "z_local": 167,
+      "axis_local_yx": [
+        8.883743097563638,
+        -116.0480668065502
+      ],
+      "theta_radians": 0.4540704408032941,
+      "valid_radius_voxels": [
+        131.5,
+        410.5
+      ],
+      "seam_radius_voxels": [
+        270.45333403872945,
+        272.6788471859209
+      ],
+      "roi_radius_voxels": [
+        254.0,
+        289.0
+      ]
+    },
+    {
+      "z_local": 168,
+      "axis_local_yx": [
+        8.928359526907116,
+        -116.18583933317632
+      ],
+      "theta_radians": 0.45370041080450246,
+      "valid_radius_voxels": [
+        131.5,
+        410.5
+      ],
+      "seam_radius_voxels": [
+        270.55779543804846,
+        272.7829068687134
+      ],
+      "roi_radius_voxels": [
+        254.0,
+        289.0
+      ]
+    },
+    {
+      "z_local": 169,
+      "axis_local_yx": [
+        8.972975956250593,
+        -116.32361185980244
+      ],
+      "theta_radians": 0.45333066476454703,
+      "valid_radius_voxels": [
+        132.0,
+        410.5
+      ],
+      "seam_radius_voxels": [
+        270.6622936278702,
+        272.8870040993211
+      ],
+      "roi_radius_voxels": [
+        254.0,
+        289.5
+      ]
+    },
+    {
+      "z_local": 170,
+      "axis_local_yx": [
+        9.017592385594071,
+        -116.46138438642856
+      ],
+      "theta_radians": 0.4529612024576718,
+      "valid_radius_voxels": [
+        132.0,
+        410.5
+      ],
+      "seam_radius_voxels": [
+        270.7668285662336,
+        272.9911388341524
+      ],
+      "roi_radius_voxels": [
+        254.5,
+        289.5
+      ]
+    },
+    {
+      "z_local": 171,
+      "axis_local_yx": [
+        9.062208814937094,
+        -116.59915691305468
+      ],
+      "theta_radians": 0.4525920236581589,
+      "valid_radius_voxels": [
+        132.0,
+        410.5
+      ],
+      "seam_radius_voxels": [
+        270.8714002112261,
+        273.0953110296688
+      ],
+      "roi_radius_voxels": [
+        254.5,
+        289.5
+      ]
+    },
+    {
+      "z_local": 172,
+      "axis_local_yx": [
+        9.106825244280571,
+        -116.73692943968081
+      ],
+      "theta_radians": 0.45222312814032317,
+      "valid_radius_voxels": [
+        132.5,
+        411.0
+      ],
+      "seam_radius_voxels": [
+        270.97600852098293,
+        273.19952064238305
+      ],
+      "roi_radius_voxels": [
+        254.5,
+        289.5
+      ]
+    },
+    {
+      "z_local": 173,
+      "axis_local_yx": [
+        9.15144167362405,
+        -116.87470196630738
+      ],
+      "theta_radians": 0.451854515678521,
+      "valid_radius_voxels": [
+        132.5,
+        411.0
+      ],
+      "seam_radius_voxels": [
+        271.0806534536886,
+        273.3037676288616
+      ],
+      "roi_radius_voxels": [
+        254.5,
+        289.5
+      ]
+    },
+    {
+      "z_local": 174,
+      "axis_local_yx": [
+        9.196058102967527,
+        -117.0124744929335
+      ],
+      "theta_radians": 0.45148618604714774,
+      "valid_radius_voxels": [
+        132.5,
+        411.0
+      ],
+      "seam_radius_voxels": [
+        271.18533496757465,
+        273.4080519457218
+      ],
+      "roi_radius_voxels": [
+        255.0,
+        290.0
+      ]
+    },
+    {
+      "z_local": 175,
+      "axis_local_yx": [
+        9.24067453231055,
+        -117.15024701955963
+      ],
+      "theta_radians": 0.4511181390206374,
+      "valid_radius_voxels": [
+        132.5,
+        411.0
+      ],
+      "seam_radius_voxels": [
+        271.29005302092196,
+        273.5123735496347
+      ],
+      "roi_radius_voxels": [
+        255.0,
+        290.0
+      ]
+    },
+    {
+      "z_local": 176,
+      "axis_local_yx": [
+        9.285290961654027,
+        -117.28801954618575
+      ],
+      "theta_radians": 0.45075037437345994,
+      "valid_radius_voxels": [
+        133.0,
+        411.0
+      ],
+      "seam_radius_voxels": [
+        271.39480757205894,
+        273.61673239732244
+      ],
+      "roi_radius_voxels": [
+        255.0,
+        290.0
+      ]
+    }
+  ],
+  "zero_label_meaning": "unknown/unannotated; never empty space",
+  "seam_world_x": [
+    4175,
+    4177
+  ],
+  "seam_source_x": [
+    127,
+    129
+  ],
+  "source_origin_world_zyx": [
+    1744,
+    2256,
+    4048
+  ],
+  "target_local_xy": [
+    128,
+    128
+  ],
+  "active_ROI_source_zyx": [
+    [
+      144,
+      112,
+      112
+    ],
+    [
+      176,
+      144,
+      144
+    ]
+  ],
+  "headers": {
+    "CT": {
+      "type": "uint8",
+      "dimension": "3",
+      "space": "left-posterior-superior",
+      "sizes": "256 256 256",
+      "space directions": "(1,0,0) (0,1,0) (0,0,1)",
+      "encoding": "gzip",
+      "space origin": "(1744,2256,4048)"
+    },
+    "mask": {
+      "type": "uint16",
+      "dimension": "3",
+      "space": "left-posterior-superior",
+      "sizes": "256 256 256",
+      "space directions": "(1,0,0) (0,1,0) (0,0,1)",
+      "kinds": "domain domain domain",
+      "endian": "little",
+      "encoding": "gzip",
+      "space origin": "(1744,2256,4048)"
+    }
+  },
+  "curtain": {
+    "file": "radial-z-curtain.png",
+    "samples": "curtain-samples.csv",
+    "radial_step_voxels": 0.5,
+    "radius_grid": [
+      128.5,
+      411.0
+    ],
+    "sampling_surface": "ray toward fixed XY128,128 at each z; theta varies",
+    "CT": "central z, bilinear XY; no filtering or z averaging",
+    "labels": "nearest XY, central z",
+    "outside_support": "no sample; purple in PNG",
+    "displayed_z_pixel_scale": 6,
+    "displayed_radius_pixel_scale": 4
+  },
+  "artifacts": {
+    "curtain-samples.csv": "af58d3c838ea60564e50631f17c304d9aabc7e759ea45bbf819b063d45ca25dc",
+    "radial-z-curtain.png": "69bc9e80845714f0e30ce2911948cb2b208131eb79f9ff3ba1f4f76bbeb56a78",
+    "xy-z144.png": "8874b588b2f64706b3c15c6be38b47034be1cb9de06b1e2a85136041359dfff5",
+    "xy-z152.png": "732acdada0d7ef3593846dd6532c09ee311c3559b13b0af12faac63ee6162569",
+    "xy-z160.png": "62beddf1091a2d8de03cf528e705d6a11fb7bba04927b00c44a6abf184eaa8d2",
+    "xy-z168.png": "c5c7a9055f8b303337abc8fe0495f932660de18fc32538c78519a2e3e9f8f6e2",
+    "xy-z176.png": "959f3f89f930e1895a90040051bcb8550e6467de56121044857c53f4001e2dcb"
+  }
+}

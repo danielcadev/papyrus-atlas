@@ -1,0 +1,18 @@
+{
+  "command": [
+    "python3",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/releases/software-progress-prize-2026-10-v1/tools/reproduce.py",
+    "--source",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-online-bootstrap-v1/source",
+    "--work",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-input-check-v1/result",
+    "--check-inputs-only"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 0.40079136000167637,
+  "minimum_available_mib": 7758.890625,
+  "max_child_rss_mib": 25.16015625,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-input-check-v1/logs/input-check-01.log"
+}

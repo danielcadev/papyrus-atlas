@@ -1,0 +1,84 @@
+{
+  "dataset": "PHercParis4 harmonized manual-instance CT collection, 2024-10",
+  "source_cube": "01744_02256_04048",
+  "source_volume": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/data/01744_02256_04048_volume.nrrd",
+  "source_sha256": "3041f5bd3bf5b9d3d68be6a65934c39664d04c2f221ca23561bde0d1376ee110",
+  "source_axes": "NRRD native XYZ, TIFF ZYX",
+  "parent_native_xyz_low": [
+    64,
+    64,
+    64
+  ],
+  "parent_shape_xyz": [
+    128,
+    128,
+    128
+  ],
+  "parent_world_origin_zyx": [
+    1808,
+    2320,
+    4112
+  ],
+  "active_roi_parent_xyz": [
+    [
+      48,
+      80,
+      48
+    ],
+    [
+      80,
+      112,
+      80
+    ]
+  ],
+  "active_roi_source_xyz": [
+    [
+      112,
+      144,
+      112
+    ],
+    [
+      144,
+      176,
+      144
+    ]
+  ],
+  "roi_shape_xyz": [
+    32,
+    32,
+    32
+  ],
+  "threshold_exclusive": 134,
+  "foreground_voxels": 16168,
+  "input_sha256": "7eb874040d285d0675caea5efc60f63c49b7e3eb655d93436453e4f3abec83a5",
+  "cube_id": "z01808_y02320_x04112",
+  "selection": "One fixed positive-Y neighbor, +32 vox from central crop, chosen before outcomes; v2 code frozen; no alternative window search",
+  "input_method": "CT native uint8 (or uint16 //257), Otsu from active window; prediction zero outside active ROI; real raw CT retained in whole parent",
+  "source_dtype": "uint8",
+  "intensity_divisor": 1,
+  "manual_labels_opened": false,
+  "known_goal_or_seed_used_for_input": false,
+  "binary_sha256": "70f83d8173386ed620307a0b6e36babef97d1b3fd0719349643d075f977dbf1c",
+  "frozen_parameters": {
+    "mls_radius": 12,
+    "mls_mode": "soft",
+    "mls_strength": 2,
+    "ownership_epsilon": 0.25,
+    "rebuild_bidirectional_epsilon": 0.5,
+    "skip_simplify": true,
+    "halo": 0
+  },
+  "evaluation_plan": {
+    "surface": "all output charts plus source-component-specific summary",
+    "boundary": "all source boundary vertices before separation; distances to final triangle surfaces",
+    "tip": "largest-area source face component; positive extreme along its widest XYZ bounding-box axis, lexicographic tie break; freeze before corrected run",
+    "annotations": "post-hoc reference coverage and mixed-label face cues only"
+  },
+  "limitations": [
+    "Different cube but same scroll; not a new scroll test",
+    "Same CT cube as development; this new window was not used to tune v2",
+    "Otsu is a classical intensity baseline, not a trained surface predictor",
+    "Artificial crop boundaries exist; geometric tip is not a certified torn anatomical tip",
+    "No halo/seam or whole F0 validation"
+  ]
+}

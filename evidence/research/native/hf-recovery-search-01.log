@@ -1,0 +1,23 @@
+source_faces=5139 source_conflicts=0 real_metric_v4_rc=-2
+metric[0] source_id=511 lower=3.2736988430259335 upper=7.6920000524354739
+metric[1] source_id=512 lower=2.7872128456665011 upper=6.8245957511016133
+metric[2] source_id=557 lower=2.6843109286879856 upper=6.3049710234457645
+metric[3] source_id=609 lower=1.5221379433113187 upper=3.2710542837036707
+metric[4] source_id=622 lower=2.7568307822876195 upper=5.3329743347996619
+metric[5] source_id=650 lower=1.8861425165692514 upper=4.2568436677199442
+metric[6] source_id=677 lower=1.9813048337158046 upper=4.6972531237350106
+metric[7] source_id=707 lower=2.1091778874921627 upper=5.028624796124296
+metric[8] source_id=719 lower=3.282527409158797 upper=7.4032891240476246
+metric[9] source_id=706 lower=3.6764665495456219 upper=7.1143183239774128
+metric[10] source_id=1123 lower=0.26429183688441044 upper=0.70739384440156328
+metric[11] source_id=720 lower=1.643528686298289 upper=3.491571281661467
+metric[12] source_id=676 lower=2.451196975939931 upper=5.4353261123421337
+metric[13] source_id=635 lower=3.0697517925431312 upper=5.9484642326915278
+metric[14] source_id=582 lower=3.5182185657288092 upper=7.5053949497509249
+metric[15] source_id=594 lower=0.70488996494094669 upper=1.5922347002154784
+metric[16] source_id=568 lower=2.1748879601964042 upper=4.6418269639608081
+metric[17] source_id=543 lower=3.1249590345357521 upper=6.4186483103355245
+metric[18] source_id=556 lower=0.25876437731791846 upper=0.69361336466503953
+triangles=969 admissible=713 reject_edge=67 reject_shape=17 reject_source=172 root_possible=1
+result=candidate nodes=1206 complete=1 pair_prunes=70 angle_prunes=314
+candidate_existing_certificates_pass faces=5156 added=17 added_area=21.774008911361918 full_native_conflicts=0 source_prefix_exact=1 vertex_array_exact=1 merges=0 strict_geometric_audit=PENDING

@@ -1,0 +1,77 @@
+{
+  "catalogue": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/catalog-paris4.json",
+  "sha256": "1187ea18f1b786330ecc47ec7ff54f2f5f4a8822afa830431467f7c24aa60114",
+  "matches": [
+    {
+      "path": [
+        "volumes",
+        "20260411134726",
+        "data",
+        8,
+        "type"
+      ],
+      "value": "umbilicus"
+    },
+    {
+      "path": [
+        "volumes",
+        "20260411134726",
+        "data",
+        8,
+        "origins",
+        0,
+        "path"
+      ],
+      "value": "PHercParis4/representations/umbilicus/20260411134726-umbilicus-20260524235033.json"
+    },
+    {
+      "path": [
+        "volumes",
+        "20260411134726",
+        "data",
+        8,
+        "origins",
+        0,
+        "copy_info",
+        "source_path"
+      ],
+      "value": "s3://scrollprize-volumes/atlas/staging/umbilicus/20260411134726-2.400um-0.2m-78keV-masked.zarr/20260524235033.json"
+    },
+    {
+      "path": [
+        "volumes",
+        "20260411134726",
+        "data",
+        8,
+        "creation_info",
+        "source_format"
+      ],
+      "value": "umbilicus-json"
+    },
+    {
+      "path": [
+        "volumes",
+        "20260411134726",
+        "data",
+        8,
+        "creation_info",
+        "source_annotation"
+      ],
+      "value": "PHercParis4-20260411134726-umbilicus-L2.json"
+    },
+    {
+      "path": [
+        "segments",
+        "20260926044226",
+        "data",
+        1,
+        "properties",
+        "inputs",
+        7
+      ],
+      "value": "umbilicus.json"
+    }
+  ],
+  "gate_inferred": false,
+  "limitation": "Saved catalogue text references only; no calibrated axis or pitch inferred"
+}

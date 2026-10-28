@@ -1,0 +1,156 @@
+[
+  {
+    "label": "configure-tiff",
+    "command": [
+      "cmake",
+      "-S",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/deps/src/tiff-4.7.1",
+      "-B",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/tiff-config",
+      "-G",
+      "Ninja",
+      "-Dtiff-tools=OFF",
+      "-Dtiff-tests=OFF",
+      "-Dtiff-contrib=OFF",
+      "-Dtiff-docs=OFF"
+    ]
+  },
+  {
+    "label": "configure",
+    "command": [
+      "cmake",
+      "-S",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source",
+      "-B",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/build",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_C_FLAGS_RELEASE=-O2 -DNDEBUG",
+      "-DCMAKE_CXX_FLAGS_RELEASE=-O2 -DNDEBUG",
+      "-DSCROLLFIESTA_BUILD_TOOLS=ON",
+      "-DSCROLLFIESTA_BUILD_TESTS=OFF",
+      "-DSCROLLFIESTA_WITH_TIFF=ON",
+      "-DSCROLLFIESTA_INSTALL=OFF",
+      "-DTIFF_LIBRARY=/lib64/libtiff.so.6",
+      "-DTIFF_INCLUDE_DIR=/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/tiff-include"
+    ]
+  },
+  {
+    "label": "build",
+    "command": [
+      "cmake",
+      "--build",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/build",
+      "--target",
+      "cube_mesh",
+      "--parallel",
+      "1"
+    ]
+  },
+  {
+    "label": "build-graft-controls",
+    "command": [
+      "cc",
+      "-O2",
+      "-std=gnu17",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-Wl,--gc-sections",
+      "-I",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/releases/software-progress-prize-2026-10-v1/tools/test_boundary_graft.c",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/common/arena.c",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/common/except.c",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/common/csr.c",
+      "-lm",
+      "-o",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/test-boundary-graft"
+    ]
+  },
+  {
+    "label": "graft-controls",
+    "command": [
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/test-boundary-graft"
+    ]
+  },
+  {
+    "label": "v4-control",
+    "command": [
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/build/cube_mesh",
+      "--stdin-raw",
+      "128",
+      "1808",
+      "2320",
+      "4112",
+      "--dump-obj",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/v4-control-obj",
+      "--no-simplify"
+    ]
+  },
+  {
+    "label": "v5-recovery",
+    "command": [
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/build/cube_mesh",
+      "--stdin-raw",
+      "128",
+      "1808",
+      "2320",
+      "4112",
+      "--dump-obj",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/v5-recovery-obj",
+      "--no-simplify"
+    ]
+  },
+  {
+    "label": "v5-exact",
+    "command": [
+      "/usr/bin/python3",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/releases/software-progress-prize-2026-10-v1/tools/exact_patch_intersections.py",
+      "--source",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/v4-control-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble/z01808_y02320_x04112_step11_kibble_all.vmesh",
+      "--candidate",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/v5-recovery-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble/z01808_y02320_x04112_step11_kibble_all.vmesh",
+      "--output",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/v5-exact-patch.json"
+    ]
+  },
+  {
+    "label": "build-pre-graft-control",
+    "command": [
+      "cmake",
+      "--build",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/build",
+      "--target",
+      "cube_mesh",
+      "--parallel",
+      "1"
+    ]
+  },
+  {
+    "label": "pre-graft-control",
+    "command": [
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/build/cube_mesh",
+      "--stdin-raw",
+      "128",
+      "1808",
+      "2320",
+      "4112",
+      "--dump-obj",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/pre-graft-obj",
+      "--no-simplify"
+    ]
+  },
+  {
+    "label": "restore-v5-build",
+    "command": [
+      "cmake",
+      "--build",
+      "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/build",
+      "--target",
+      "cube_mesh",
+      "--parallel",
+      "1"
+    ]
+  }
+]

@@ -1,0 +1,391 @@
+{
+  "passed": true,
+  "cases": {
+    "v2-left": {
+      "final": {
+        "vertices": 3312,
+        "faces": 6332,
+        "area_voxel2": 1074.5381081962528,
+        "exact_duplicate_groups": 0,
+        "degenerate_faces": 0,
+        "audit": {
+          "faces": 6332,
+          "candidates": 38719,
+          "overlap": 0,
+          "stab": 0,
+          "fold": 0,
+          "conflicts": 0,
+          "gap_max": 0,
+          "include_hinges": true,
+          "predicate_fixture_checks": 4,
+          "read_only": true
+        }
+      },
+      "source_retained": true,
+      "source_faces": 6326,
+      "pretrim_audit": {
+        "faces": 6332,
+        "candidates": 38719,
+        "overlap": 0,
+        "stab": 0,
+        "fold": 0,
+        "conflicts": 0,
+        "gap_max": 0,
+        "include_hinges": true,
+        "predicate_fixture_checks": 4,
+        "read_only": true
+      },
+      "guard_totals": {
+        "nonmanifold_edges": 0,
+        "removed_faces": 0,
+        "pinch_splits": 0,
+        "reorient_flips": 0
+      },
+      "trim_lines": [
+        "{\"case\": \"v2-left\", \"command\": [\"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/cube_mesh.boundary-graft-v2\", \"--stdin-raw\", \"154\", \"1840\", \"2320\", \"4048\", \"--halo\", \"13\", \"--trim-inset\", \"1\", \"--dump-obj\", \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj\", \"--no-simplify\"], \"stdin\": \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/left-prediction-zyx.raw\", \"environment\": {\"PATH\": \"/usr/bin:/bin\", \"LANG\": \"C\", \"MLS_EDGE_ADAPT\": \"soft\", \"VES_OVERLAP_COVERAGE_GUARD\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"VESUVIUS_THREADS\": \"1\", \"OMP_THREAD_LIMIT\": \"1\", \"CUDA_VISIBLE_DEVICES\": \"-1\", \"HIP_VISIBLE_DEVICES\": \"-1\", \"ROCR_VISIBLE_DEVICES\": \"\", \"MALLOC_ARENA_MAX\": \"1\"}}",
+        "  Trim: 3/3 comps kept, 3312/6332 -> 3312/6332 v/f (cut-at-plane, 0 faces cut) (0.001s)",
+        "  Timings: extract=8.207 cvt=0.000 trim=0.001 dump=0.007 total=10.308s  Status: OK"
+      ]
+    },
+    "v2-right": {
+      "final": {
+        "vertices": 3813,
+        "faces": 7014,
+        "area_voxel2": 1212.1014555589302,
+        "exact_duplicate_groups": 0,
+        "degenerate_faces": 0,
+        "audit": {
+          "faces": 7014,
+          "candidates": 42936,
+          "overlap": 0,
+          "stab": 0,
+          "fold": 0,
+          "conflicts": 0,
+          "gap_max": 0,
+          "include_hinges": true,
+          "predicate_fixture_checks": 4,
+          "read_only": true
+        }
+      },
+      "source_retained": true,
+      "source_faces": 7011,
+      "pretrim_audit": {
+        "faces": 7014,
+        "candidates": 42936,
+        "overlap": 0,
+        "stab": 0,
+        "fold": 0,
+        "conflicts": 0,
+        "gap_max": 0,
+        "include_hinges": true,
+        "predicate_fixture_checks": 4,
+        "read_only": true
+      },
+      "guard_totals": {
+        "nonmanifold_edges": 0,
+        "removed_faces": 0,
+        "pinch_splits": 0,
+        "reorient_flips": 0
+      },
+      "trim_lines": [
+        "{\"case\": \"v2-right\", \"command\": [\"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/cube_mesh.boundary-graft-v2\", \"--stdin-raw\", \"154\", \"1840\", \"2320\", \"4176\", \"--halo\", \"13\", \"--trim-inset\", \"1\", \"--dump-obj\", \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj\", \"--no-simplify\"], \"stdin\": \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/right-prediction-zyx.raw\", \"environment\": {\"PATH\": \"/usr/bin:/bin\", \"LANG\": \"C\", \"MLS_EDGE_ADAPT\": \"soft\", \"VES_OVERLAP_COVERAGE_GUARD\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"VESUVIUS_THREADS\": \"1\", \"OMP_THREAD_LIMIT\": \"1\", \"CUDA_VISIBLE_DEVICES\": \"-1\", \"HIP_VISIBLE_DEVICES\": \"-1\", \"ROCR_VISIBLE_DEVICES\": \"\", \"MALLOC_ARENA_MAX\": \"1\"}}",
+        "  Trim: 7/7 comps kept, 3813/7014 -> 3813/7014 v/f (cut-at-plane, 0 faces cut) (0.000s)",
+        "  Timings: extract=8.802 cvt=0.000 trim=0.000 dump=0.084 total=10.587s  Status: OK"
+      ]
+    },
+    "v4-left": {
+      "final": {
+        "vertices": 3312,
+        "faces": 6332,
+        "area_voxel2": 1074.5381081962528,
+        "exact_duplicate_groups": 0,
+        "degenerate_faces": 0,
+        "audit": {
+          "faces": 6332,
+          "candidates": 38719,
+          "overlap": 0,
+          "stab": 0,
+          "fold": 0,
+          "conflicts": 0,
+          "gap_max": 0,
+          "include_hinges": true,
+          "predicate_fixture_checks": 4,
+          "read_only": true
+        }
+      },
+      "source_retained": true,
+      "source_faces": 6326,
+      "pretrim_audit": {
+        "faces": 6332,
+        "candidates": 38719,
+        "overlap": 0,
+        "stab": 0,
+        "fold": 0,
+        "conflicts": 0,
+        "gap_max": 0,
+        "include_hinges": true,
+        "predicate_fixture_checks": 4,
+        "read_only": true
+      },
+      "guard_totals": {
+        "nonmanifold_edges": 0,
+        "removed_faces": 0,
+        "pinch_splits": 0,
+        "reorient_flips": 0
+      },
+      "trim_lines": [
+        "{\"case\": \"v4-left\", \"command\": [\"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/cube_mesh.holefill-v4\", \"--stdin-raw\", \"154\", \"1840\", \"2320\", \"4048\", \"--halo\", \"13\", \"--trim-inset\", \"1\", \"--dump-obj\", \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-left-obj\", \"--no-simplify\"], \"stdin\": \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/left-prediction-zyx.raw\", \"environment\": {\"PATH\": \"/usr/bin:/bin\", \"LANG\": \"C\", \"MLS_EDGE_ADAPT\": \"soft\", \"VES_OVERLAP_COVERAGE_GUARD\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"VESUVIUS_THREADS\": \"1\", \"OMP_THREAD_LIMIT\": \"1\", \"CUDA_VISIBLE_DEVICES\": \"-1\", \"HIP_VISIBLE_DEVICES\": \"-1\", \"ROCR_VISIBLE_DEVICES\": \"\", \"MALLOC_ARENA_MAX\": \"1\"}}",
+        "  Trim: 3/3 comps kept, 3312/6332 -> 3312/6332 v/f (cut-at-plane, 0 faces cut) (0.001s)",
+        "  Timings: extract=8.211 cvt=0.000 trim=0.001 dump=0.007 total=10.308s  Status: OK"
+      ]
+    },
+    "v4-right": {
+      "final": {
+        "vertices": 3813,
+        "faces": 7014,
+        "area_voxel2": 1212.1014555589302,
+        "exact_duplicate_groups": 0,
+        "degenerate_faces": 0,
+        "audit": {
+          "faces": 7014,
+          "candidates": 42936,
+          "overlap": 0,
+          "stab": 0,
+          "fold": 0,
+          "conflicts": 0,
+          "gap_max": 0,
+          "include_hinges": true,
+          "predicate_fixture_checks": 4,
+          "read_only": true
+        }
+      },
+      "source_retained": true,
+      "source_faces": 7011,
+      "pretrim_audit": {
+        "faces": 7014,
+        "candidates": 42936,
+        "overlap": 0,
+        "stab": 0,
+        "fold": 0,
+        "conflicts": 0,
+        "gap_max": 0,
+        "include_hinges": true,
+        "predicate_fixture_checks": 4,
+        "read_only": true
+      },
+      "guard_totals": {
+        "nonmanifold_edges": 0,
+        "removed_faces": 0,
+        "pinch_splits": 0,
+        "reorient_flips": 0
+      },
+      "trim_lines": [
+        "{\"case\": \"v4-right\", \"command\": [\"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/cube_mesh.holefill-v4\", \"--stdin-raw\", \"154\", \"1840\", \"2320\", \"4176\", \"--halo\", \"13\", \"--trim-inset\", \"1\", \"--dump-obj\", \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-right-obj\", \"--no-simplify\"], \"stdin\": \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/right-prediction-zyx.raw\", \"environment\": {\"PATH\": \"/usr/bin:/bin\", \"LANG\": \"C\", \"MLS_EDGE_ADAPT\": \"soft\", \"VES_OVERLAP_COVERAGE_GUARD\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"VESUVIUS_THREADS\": \"1\", \"OMP_THREAD_LIMIT\": \"1\", \"CUDA_VISIBLE_DEVICES\": \"-1\", \"HIP_VISIBLE_DEVICES\": \"-1\", \"ROCR_VISIBLE_DEVICES\": \"\", \"MALLOC_ARENA_MAX\": \"1\"}}",
+        "  Trim: 7/7 comps kept, 3813/7014 -> 3813/7014 v/f (cut-at-plane, 0 faces cut) (0.000s)",
+        "  Timings: extract=8.805 cvt=0.000 trim=0.000 dump=0.084 total=10.595s  Status: OK"
+      ]
+    }
+  },
+  "unions": {
+    "v2": {
+      "vertices": 7125,
+      "faces": 13346,
+      "area_voxel2": 2286.639563755183,
+      "exact_duplicate_groups": 0,
+      "degenerate_faces": 0,
+      "audit": {
+        "faces": 13346,
+        "candidates": 81655,
+        "overlap": 0,
+        "stab": 0,
+        "fold": 0,
+        "conflicts": 0,
+        "gap_max": 0,
+        "include_hinges": true,
+        "predicate_fixture_checks": 4,
+        "read_only": true
+      }
+    },
+    "v4": {
+      "vertices": 7125,
+      "faces": 13346,
+      "area_voxel2": 2286.639563755183,
+      "exact_duplicate_groups": 0,
+      "degenerate_faces": 0,
+      "audit": {
+        "faces": 13346,
+        "candidates": 81655,
+        "overlap": 0,
+        "stab": 0,
+        "fold": 0,
+        "conflicts": 0,
+        "gap_max": 0,
+        "include_hinges": true,
+        "predicate_fixture_checks": 4,
+        "read_only": true
+      }
+    }
+  },
+  "comparisons": {
+    "left": {
+      "step7_byte_identical": true,
+      "guards_no_increased_counter": true,
+      "step8_holefill": {
+        "byte_identical": true,
+        "faces_delta": 0,
+        "area_delta_voxel2": 0.0,
+        "new_duplicate_extra_faces": 0,
+        "new_duplicate_geometries": [],
+        "new_conflict_pairs": 0,
+        "new_conflict_geometry": [],
+        "no_new_conflicts_or_duplicates": true,
+        "audited_pair_comparison": false
+      },
+      "step11_kibble": {
+        "byte_identical": true,
+        "faces_delta": 0,
+        "area_delta_voxel2": 0.0,
+        "new_duplicate_extra_faces": 0,
+        "new_duplicate_geometries": [],
+        "new_conflict_pairs": 0,
+        "new_conflict_geometry": [],
+        "no_new_conflicts_or_duplicates": true,
+        "audited_pair_comparison": true
+      },
+      "step12_final": {
+        "byte_identical": true,
+        "faces_delta": 0,
+        "area_delta_voxel2": 0.0,
+        "new_duplicate_extra_faces": 0,
+        "new_duplicate_geometries": [],
+        "new_conflict_pairs": 0,
+        "new_conflict_geometry": [],
+        "no_new_conflicts_or_duplicates": true,
+        "audited_pair_comparison": true
+      }
+    },
+    "right": {
+      "step7_byte_identical": true,
+      "guards_no_increased_counter": true,
+      "step8_holefill": {
+        "byte_identical": true,
+        "faces_delta": 0,
+        "area_delta_voxel2": 0.0,
+        "new_duplicate_extra_faces": 0,
+        "new_duplicate_geometries": [],
+        "new_conflict_pairs": 0,
+        "new_conflict_geometry": [],
+        "no_new_conflicts_or_duplicates": true,
+        "audited_pair_comparison": false
+      },
+      "step11_kibble": {
+        "byte_identical": true,
+        "faces_delta": 0,
+        "area_delta_voxel2": 0.0,
+        "new_duplicate_extra_faces": 0,
+        "new_duplicate_geometries": [],
+        "new_conflict_pairs": 0,
+        "new_conflict_geometry": [],
+        "no_new_conflicts_or_duplicates": true,
+        "audited_pair_comparison": true
+      },
+      "step12_final": {
+        "byte_identical": true,
+        "faces_delta": 0,
+        "area_delta_voxel2": 0.0,
+        "new_duplicate_extra_faces": 0,
+        "new_duplicate_geometries": [],
+        "new_conflict_pairs": 0,
+        "new_conflict_geometry": [],
+        "no_new_conflicts_or_duplicates": true,
+        "audited_pair_comparison": true
+      }
+    },
+    "union_final": {
+      "byte_identical": true,
+      "faces_delta": 0,
+      "area_delta_voxel2": 0.0,
+      "new_duplicate_extra_faces": 0,
+      "new_duplicate_geometries": [],
+      "new_conflict_pairs": 0,
+      "new_conflict_geometry": [],
+      "no_new_conflicts_or_duplicates": true,
+      "audited_pair_comparison": true
+    }
+  },
+  "cache": {
+    "unique_meshes_certified": 7,
+    "unique_meshes_native_audited": 5,
+    "audit_origin_world_zyx": [
+      1840,
+      2320,
+      4048
+    ],
+    "policy": "SHA256 of entire VMESH, fixed auditor/options/origin; identical hashes reuse exact metrics and audits"
+  },
+  "seams": {
+    "v2": {
+      "expected_gap_voxels": 2,
+      "directions": {
+        "left_to_right": {
+          "expected_plane_world_x": 4175,
+          "boundary_edges_total": 286,
+          "boundary_vertices_total": 286,
+          "band_sample_vertices": 111,
+          "empty_band": false,
+          "distance_to_expected_plane": {
+            "count": 111,
+            "min": 0.0,
+            "mean": 0.7599151886261262,
+            "median": 0.30029296875,
+            "p95": 3.49560546875,
+            "max": 3.60693359375
+          },
+          "point_to_other_core_triangles": {
+            "count": 111,
+            "min": 2.0363203186494356,
+            "mean": 3.690902053881717,
+            "median": 2.5482827084243374,
+            "p95": 9.819084191429575,
+            "max": 11.94022394790666
+          },
+          "unmatched_threshold_voxels_exclusive": 4,
+          "unmatched_count": 25,
+          "unmatched_fraction": 0.22522522522522523,
+          "unmatched_fraction_reason": null
+        },
+        "right_to_left": {
+          "expected_plane_world_x": 4177,
+          "boundary_edges_total": 598,
+          "boundary_vertices_total": 598,
+          "band_sample_vertices": 133,
+          "empty_band": false,
+          "distance_to_expected_plane": {
+            "count": 133,
+            "min": 0.0,
+            "mean": 0.9977017739661654,
+            "median": 0.39111328125,
+            "p95": 3.3530273437499987,
+            "max": 3.63720703125
+          },
+          "point_to_other_core_triangles": {
+            "count": 133,
+            "min": 2.0363203186494356,
+            "mean": 3.2494977839680317,
+            "median": 2.7910857803609344,
+            "p95": 5.628050124770924,
+            "max": 6.7105837996313165
+          },
+          "unmatched_threshold_voxels_exclusive": 4,
+          "unmatched_count": 34,
+          "unmatched_fraction": 0.2556390977443609,
+          "unmatched_fraction_reason": null
+        }
+      }
+    },
+    "v4": {
+      "reused_from_version": "v2",
+      "reason": "Both final core VMESH hashes identical"
+    }
+  }
+}

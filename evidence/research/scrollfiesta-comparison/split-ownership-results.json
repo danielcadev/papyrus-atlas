@@ -1,0 +1,988 @@
+{
+  "cases": {
+    "mls-edge-off": {
+      "input_voxels": 7459,
+      "input_reference_counts_radius0": {
+        "390": 7452,
+        "0": 7
+      },
+      "input_reference_counts_radius2": {
+        "390": 7459
+      },
+      "mesh": {
+        "vertices": 3145,
+        "triangles": 6078,
+        "total_components": 1,
+        "nearest_seed_vertex_voxels": 1.003944733356337,
+        "nearest_goal_vertex_voxels": 4.102501844045965,
+        "nearest_goal_triangle_surface_voxels": 4.102501844045965,
+        "face_samples_in_roi": 31,
+        "roi_face_sample_reference_counts_radius0": {
+          "390": 31
+        },
+        "roi_face_sample_reference_counts_radius2": {
+          "390": 31
+        },
+        "roi_vertices": 13,
+        "vertex_reference_counts_radius0": {
+          "390": 3145
+        },
+        "vertex_reference_counts_radius2": {
+          "390": 3145
+        },
+        "face_samples": 13093,
+        "face_sample_reference_counts_radius0": {
+          "390": 13093
+        },
+        "face_sample_reference_counts_radius2": {
+          "390": 13093
+        },
+        "area_voxel2": 897.1371481848764,
+        "sampled_area_by_reference_id": {
+          "0": {
+            "390": 897.1371481848789
+          },
+          "2": {
+            "390": 897.1371481848789
+          }
+        },
+        "unique_reference390_voxels_covered_within_radius1": 1999,
+        "ct_supported_area_within_radius1_voxel2": 895.1759144135906,
+        "component_selection": "closest to seed before annotations",
+        "source_obj": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/mls-edge-off-obj/z00768_y02408_x03536/z00768_y02408_x03536_step11_kibble/z00768_y02408_x03536_step11_kibble_all.obj"
+      }
+    },
+    "mls-edge-soft": {
+      "input_voxels": 7459,
+      "input_reference_counts_radius0": {
+        "390": 7452,
+        "0": 7
+      },
+      "input_reference_counts_radius2": {
+        "390": 7459
+      },
+      "mesh": {
+        "vertices": 3110,
+        "triangles": 5978,
+        "total_components": 1,
+        "nearest_seed_vertex_voxels": 0.9330230500521653,
+        "nearest_goal_vertex_voxels": 5.258766309218022,
+        "nearest_goal_triangle_surface_voxels": 5.258766309218022,
+        "face_samples_in_roi": 1,
+        "roi_face_sample_reference_counts_radius0": {
+          "390": 1
+        },
+        "roi_face_sample_reference_counts_radius2": {
+          "390": 1
+        },
+        "roi_vertices": 1,
+        "vertex_reference_counts_radius0": {
+          "390": 3110
+        },
+        "vertex_reference_counts_radius2": {
+          "390": 3110
+        },
+        "face_samples": 14103,
+        "face_sample_reference_counts_radius0": {
+          "390": 14103
+        },
+        "face_sample_reference_counts_radius2": {
+          "390": 14103
+        },
+        "area_voxel2": 956.1804706254242,
+        "sampled_area_by_reference_id": {
+          "0": {
+            "390": 956.180470625424
+          },
+          "2": {
+            "390": 956.180470625424
+          }
+        },
+        "unique_reference390_voxels_covered_within_radius1": 2115,
+        "ct_supported_area_within_radius1_voxel2": 955.7241812717648,
+        "component_selection": "closest to seed before annotations",
+        "source_obj": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/mls-edge-soft-obj/z00768_y02408_x03536/z00768_y02408_x03536_step11_kibble/z00768_y02408_x03536_step11_kibble_all.obj"
+      }
+    },
+    "split-shape-off": {
+      "input_voxels": 7459,
+      "input_reference_counts_radius0": {
+        "390": 7452,
+        "0": 7
+      },
+      "input_reference_counts_radius2": {
+        "390": 7459
+      },
+      "mesh": {
+        "vertices": 3145,
+        "triangles": 6078,
+        "total_components": 2,
+        "nearest_seed_vertex_voxels": 1.003944733356337,
+        "nearest_goal_vertex_voxels": 4.102501844045965,
+        "nearest_goal_triangle_surface_voxels": 4.102501844045965,
+        "face_samples_in_roi": 31,
+        "roi_face_sample_reference_counts_radius0": {
+          "390": 31
+        },
+        "roi_face_sample_reference_counts_radius2": {
+          "390": 31
+        },
+        "roi_vertices": 13,
+        "vertex_reference_counts_radius0": {
+          "390": 3145
+        },
+        "vertex_reference_counts_radius2": {
+          "390": 3145
+        },
+        "face_samples": 13093,
+        "face_sample_reference_counts_radius0": {
+          "390": 13093
+        },
+        "face_sample_reference_counts_radius2": {
+          "390": 13093
+        },
+        "area_voxel2": 897.1371481848764,
+        "sampled_area_by_reference_id": {
+          "0": {
+            "390": 897.1371481848789
+          },
+          "2": {
+            "390": 897.1371481848789
+          }
+        },
+        "unique_reference390_voxels_covered_within_radius1": 1999,
+        "ct_supported_area_within_radius1_voxel2": 895.1759144135906,
+        "component_selection": "closest to seed before annotations",
+        "source_obj": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-shape-off-obj/z00768_y02408_x03536/z00768_y02408_x03536_step11_kibble/z00768_y02408_x03536_step11_kibble_all.obj"
+      },
+      "mesh_all_charts": {
+        "vertices": 3252,
+        "triangles": 6245,
+        "total_components": 2,
+        "nearest_seed_vertex_voxels": 1.003944733356337,
+        "nearest_goal_vertex_voxels": 2.994377187896891,
+        "nearest_goal_triangle_surface_voxels": 2.994377187896891,
+        "face_samples_in_roi": 183,
+        "roi_face_sample_reference_counts_radius0": {
+          "390": 183
+        },
+        "roi_face_sample_reference_counts_radius2": {
+          "390": 183
+        },
+        "roi_vertices": 42,
+        "vertex_reference_counts_radius0": {
+          "390": 3248,
+          "0": 4
+        },
+        "vertex_reference_counts_radius2": {
+          "390": 3252
+        },
+        "face_samples": 13517,
+        "face_sample_reference_counts_radius0": {
+          "390": 13504,
+          "0": 13
+        },
+        "face_sample_reference_counts_radius2": {
+          "390": 13517
+        },
+        "area_voxel2": 922.0371762297934,
+        "sampled_area_by_reference_id": {
+          "0": {
+            "0": 0.8410859115867191,
+            "390": 921.1960903182096
+          },
+          "2": {
+            "390": 922.0371762297963
+          }
+        },
+        "unique_reference390_voxels_covered_within_radius1": 2056,
+        "ct_supported_area_within_radius1_voxel2": 918.0464783164863,
+        "component_selection": "all output charts (may be disconnected)",
+        "source_obj": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-shape-off-obj/z00768_y02408_x03536/z00768_y02408_x03536_step11_kibble/z00768_y02408_x03536_step11_kibble_all.obj"
+      }
+    },
+    "split-shape-soft": {
+      "input_voxels": 7459,
+      "input_reference_counts_radius0": {
+        "390": 7452,
+        "0": 7
+      },
+      "input_reference_counts_radius2": {
+        "390": 7459
+      },
+      "mesh": {
+        "vertices": 3110,
+        "triangles": 5978,
+        "total_components": 3,
+        "nearest_seed_vertex_voxels": 0.9330230500521653,
+        "nearest_goal_vertex_voxels": 5.258766309218022,
+        "nearest_goal_triangle_surface_voxels": 5.258766309218022,
+        "face_samples_in_roi": 1,
+        "roi_face_sample_reference_counts_radius0": {
+          "390": 1
+        },
+        "roi_face_sample_reference_counts_radius2": {
+          "390": 1
+        },
+        "roi_vertices": 1,
+        "vertex_reference_counts_radius0": {
+          "390": 3110
+        },
+        "vertex_reference_counts_radius2": {
+          "390": 3110
+        },
+        "face_samples": 14103,
+        "face_sample_reference_counts_radius0": {
+          "390": 14103
+        },
+        "face_sample_reference_counts_radius2": {
+          "390": 14103
+        },
+        "area_voxel2": 956.1804706254242,
+        "sampled_area_by_reference_id": {
+          "0": {
+            "390": 956.180470625424
+          },
+          "2": {
+            "390": 956.180470625424
+          }
+        },
+        "unique_reference390_voxels_covered_within_radius1": 2115,
+        "ct_supported_area_within_radius1_voxel2": 955.7241812717648,
+        "component_selection": "closest to seed before annotations",
+        "source_obj": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-shape-soft-obj/z00768_y02408_x03536/z00768_y02408_x03536_step11_kibble/z00768_y02408_x03536_step11_kibble_all.obj"
+      },
+      "mesh_all_charts": {
+        "vertices": 3237,
+        "triangles": 6168,
+        "total_components": 3,
+        "nearest_seed_vertex_voxels": 0.9330230500521653,
+        "nearest_goal_vertex_voxels": 2.6861026685803404,
+        "nearest_goal_triangle_surface_voxels": 2.6493171935493303,
+        "face_samples_in_roi": 148,
+        "roi_face_sample_reference_counts_radius0": {
+          "390": 148
+        },
+        "roi_face_sample_reference_counts_radius2": {
+          "390": 148
+        },
+        "roi_vertices": 25,
+        "vertex_reference_counts_radius0": {
+          "390": 3235,
+          "0": 2
+        },
+        "vertex_reference_counts_radius2": {
+          "390": 3237
+        },
+        "face_samples": 14698,
+        "face_sample_reference_counts_radius0": {
+          "390": 14684,
+          "0": 14
+        },
+        "face_sample_reference_counts_radius2": {
+          "390": 14698
+        },
+        "area_voxel2": 990.9142656180009,
+        "sampled_area_by_reference_id": {
+          "0": {
+            "0": 0.8998803777085705,
+            "390": 990.0143852402919
+          },
+          "2": {
+            "390": 990.9142656180004
+          }
+        },
+        "unique_reference390_voxels_covered_within_radius1": 2197,
+        "ct_supported_area_within_radius1_voxel2": 988.1125948126504,
+        "component_selection": "all output charts (may be disconnected)",
+        "source_obj": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-shape-soft-obj/z00768_y02408_x03536/z00768_y02408_x03536_step11_kibble/z00768_y02408_x03536_step11_kibble_all.obj"
+      }
+    }
+  },
+  "native_geometry_audits": {
+    "mls-edge-off": {
+      "faces": 6078,
+      "candidates": 37599,
+      "overlap": 0,
+      "stab": 0,
+      "fold": 0,
+      "conflicts": 0,
+      "gap_max": 0,
+      "include_hinges": true,
+      "predicate_fixture_checks": 4,
+      "read_only": true
+    },
+    "mls-edge-soft": {
+      "faces": 5978,
+      "candidates": 37592,
+      "overlap": 0,
+      "stab": 0,
+      "fold": 0,
+      "conflicts": 0,
+      "gap_max": 0,
+      "include_hinges": true,
+      "predicate_fixture_checks": 4,
+      "read_only": true
+    },
+    "split-shape-off": {
+      "faces": 6245,
+      "candidates": 38575,
+      "overlap": 0,
+      "stab": 0,
+      "fold": 0,
+      "conflicts": 0,
+      "gap_max": 0,
+      "include_hinges": true,
+      "predicate_fixture_checks": 4,
+      "read_only": true
+    },
+    "split-shape-soft": {
+      "faces": 6168,
+      "candidates": 38816,
+      "overlap": 0,
+      "stab": 0,
+      "fold": 0,
+      "conflicts": 0,
+      "gap_max": 0,
+      "include_hinges": true,
+      "predicate_fixture_checks": 4,
+      "read_only": true
+    }
+  },
+  "seams": {
+    "split-shape-off": {
+      "charts": 2,
+      "source_boundary_edge_matches": [
+        {
+          "charts": [
+            0,
+            1
+          ],
+          "edges": 17
+        }
+      ],
+      "seed_chart": 0,
+      "closest_tip_chart": 1,
+      "tip_reachable_via_exact_shared_source_boundary_edges": true,
+      "output_welded": false,
+      "caveat": "Geometric matching of saved float32 edges; separate vertex indices, no stitching, no proof of anatomical identity"
+    },
+    "split-shape-soft": {
+      "charts": 3,
+      "source_boundary_edge_matches": [
+        {
+          "charts": [
+            0,
+            1
+          ],
+          "edges": 17
+        },
+        {
+          "charts": [
+            0,
+            2
+          ],
+          "edges": 7
+        }
+      ],
+      "seed_chart": 0,
+      "closest_tip_chart": 1,
+      "tip_reachable_via_exact_shared_source_boundary_edges": true,
+      "output_welded": false,
+      "caveat": "Geometric matching of saved float32 edges; separate vertex indices, no stitching, no proof of anatomical identity"
+    }
+  },
+  "deleted_faces": {
+    "cases": {
+      "mls-edge-off": {
+        "source_faces": 6252,
+        "kept_faces": 6078,
+        "removed_faces": 174,
+        "removed_area": 25.427382863685693,
+        "removed_centroid_reference_counts": {
+          "390": 171,
+          "0": 3
+        },
+        "source_goal_surface_distance": 2.99437674370868,
+        "kept_goal_surface_distance": 4.102501797977893,
+        "near_goal_removed_faces": [
+          1319,
+          1362,
+          1363,
+          1401,
+          1402,
+          1403,
+          1404,
+          1442,
+          1443,
+          1444,
+          1445,
+          1446,
+          1447,
+          1448,
+          1484,
+          1485,
+          1486,
+          1487,
+          1488,
+          1489,
+          1490,
+          1491,
+          1492,
+          1493,
+          1494,
+          1528,
+          1529,
+          1530,
+          1531,
+          1532,
+          1533,
+          1534,
+          1535,
+          1536,
+          1537,
+          1538,
+          1572,
+          1573,
+          1574,
+          1575,
+          1576,
+          1577,
+          1578,
+          1579,
+          1580,
+          1581,
+          1582,
+          1612,
+          1613,
+          1614,
+          1615,
+          1616,
+          1617,
+          1618,
+          1619,
+          1620,
+          1621,
+          1622,
+          1623,
+          1654,
+          1655,
+          1656,
+          1657,
+          1658,
+          1659,
+          1660,
+          1661,
+          1662,
+          1663,
+          1664,
+          1665,
+          1694,
+          1695,
+          1696,
+          1697,
+          1698,
+          1699,
+          1700,
+          1701,
+          1732,
+          1733,
+          1734
+        ],
+        "near_goal_removed_area": 13.198367652004292,
+        "removed_with_numeric_kept_contacts": 0,
+        "removed_kept_numeric_pairs": 0,
+        "closest_removed_face": 1623,
+        "closest_removed_triangle_xyz": [
+          [
+            49.467529296875,
+            54.42919921875,
+            32.80010986328125
+          ],
+          [
+            50.163818359375,
+            55.243408203125,
+            32.591552734375
+          ],
+          [
+            49.706787109375,
+            53.766845703125,
+            32.9991455078125
+          ]
+        ]
+      },
+      "mls-edge-soft": {
+        "source_faces": 6201,
+        "kept_faces": 5960,
+        "removed_faces": 241,
+        "removed_area": 45.30645350510112,
+        "removed_centroid_reference_counts": {
+          "390": 237,
+          "0": 4
+        },
+        "source_goal_surface_distance": 2.6493175601246737,
+        "kept_goal_surface_distance": 5.25876675692249,
+        "near_goal_removed_faces": [
+          1968,
+          2021,
+          2076,
+          2077,
+          2078,
+          2132,
+          2133,
+          2134,
+          2135,
+          2136,
+          2188,
+          2189,
+          2190,
+          2191,
+          2192,
+          2193,
+          2195,
+          2240,
+          2241,
+          2242,
+          2243,
+          2244,
+          2245,
+          2246,
+          2247,
+          2249,
+          2295,
+          2296,
+          2297,
+          2298,
+          2299,
+          2300,
+          2301,
+          2302,
+          2303,
+          2345,
+          2346,
+          2347,
+          2348,
+          2349,
+          2350,
+          2351,
+          2352,
+          2396,
+          2397,
+          2398,
+          2399,
+          2400,
+          2401,
+          2402,
+          2403,
+          2404,
+          2405,
+          2449,
+          2450,
+          2451,
+          2452,
+          2453,
+          2454,
+          2455,
+          2456,
+          2457,
+          2458,
+          2459,
+          2460,
+          2503,
+          2504,
+          2505,
+          2506,
+          2507,
+          2508,
+          2509,
+          2510,
+          2511,
+          2512,
+          2513,
+          2554,
+          2555,
+          2556,
+          2557,
+          2558,
+          2559,
+          2560,
+          2608,
+          2609,
+          2610,
+          2611,
+          2612,
+          2613,
+          2614,
+          2615,
+          2661,
+          2662,
+          2663,
+          2664,
+          2712,
+          2713,
+          6196
+        ],
+        "near_goal_removed_area": 19.985849103105117,
+        "removed_with_numeric_kept_contacts": 0,
+        "removed_kept_numeric_pairs": 0,
+        "closest_removed_face": 2612,
+        "closest_removed_triangle_xyz": [
+          [
+            50.0791015625,
+            56.291748046875,
+            32.4588623046875
+          ],
+          [
+            50.846923828125,
+            54.793212890625,
+            33.05975341796875
+          ],
+          [
+            49.737548828125,
+            56.04833984375,
+            32.5791015625
+          ]
+        ]
+      },
+      "mls-edge-strong": {
+        "source_faces": 5290,
+        "kept_faces": 5055,
+        "removed_faces": 235,
+        "removed_area": 69.19038786530487,
+        "removed_centroid_reference_counts": {
+          "390": 235
+        },
+        "source_goal_surface_distance": 4.578604173028615,
+        "kept_goal_surface_distance": 7.016832001737324,
+        "near_goal_removed_faces": [
+          1164,
+          1389,
+          1437,
+          1438,
+          1439,
+          1440,
+          1484,
+          1485,
+          1486,
+          1528,
+          1529,
+          1571,
+          1572
+        ],
+        "near_goal_removed_area": 3.4860380052675164,
+        "removed_with_numeric_kept_contacts": 0,
+        "removed_kept_numeric_pairs": 0,
+        "closest_removed_face": 1572,
+        "closest_removed_triangle_xyz": [
+          [
+            48.45751953125,
+            53.868896484375,
+            33.264404296875
+          ],
+          [
+            48.3486328125,
+            54.723388671875,
+            32.69097900390625
+          ],
+          [
+            49.351806640625,
+            54.489990234375,
+            34.33416748046875
+          ]
+        ]
+      }
+    },
+    "annotations_posthoc": true,
+    "units": "local XYZ voxels",
+    "source": "Saved VMESH global float32, exact face-coordinate matching",
+    "caveat": "3D numeric intersections differ from production projected overlaps; shared-vertex pairs excluded"
+  },
+  "resurface_loss": {
+    "split-cover-off": [
+      {
+        "before": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-cover-off-obj/z00768_y02408_x03536/z00768_y02408_x03536_step5_cc/z00768_y02408_x03536_step5_cc_001.obj",
+        "after": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-cover-off-obj/z00768_y02408_x03536/z00768_y02408_x03536_step7_cc_bpa/z00768_y02408_x03536_step7_cc_bpa_001.obj",
+        "before_faces": 6078,
+        "after_faces": 6078,
+        "before_area": 897.1371481848789,
+        "after_area": 897.1371481848789,
+        "before_goal_surface_distance": 4.102501844045965,
+        "after_goal_surface_distance": 4.102501844045965,
+        "source_boundary_vertices": 210,
+        "max_boundary_vertex_to_candidate_distance": 0.0
+      },
+      {
+        "before": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-cover-off-obj/z00768_y02408_x03536/z00768_y02408_x03536_step5_cc/z00768_y02408_x03536_step5_cc_002.obj",
+        "after": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-cover-off-obj/z00768_y02408_x03536/z00768_y02408_x03536_step7_cc_bpa/z00768_y02408_x03536_step7_cc_bpa_002.obj",
+        "before_faces": 167,
+        "after_faces": 178,
+        "before_area": 24.90002804491727,
+        "after_area": 25.921287943750137,
+        "before_goal_surface_distance": 2.994377187896891,
+        "after_goal_surface_distance": 3.067320077793157,
+        "source_boundary_vertices": 45,
+        "max_boundary_vertex_to_candidate_distance": 0.35277255064503704
+      }
+    ],
+    "split-cover-soft": [
+      {
+        "before": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-cover-soft-obj/z00768_y02408_x03536/z00768_y02408_x03536_step5_cc/z00768_y02408_x03536_step5_cc_001.obj",
+        "after": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-cover-soft-obj/z00768_y02408_x03536/z00768_y02408_x03536_step7_cc_bpa/z00768_y02408_x03536_step7_cc_bpa_001.obj",
+        "before_faces": 5960,
+        "after_faces": 5922,
+        "before_area": 946.5495305161826,
+        "after_area": 885.2828191458306,
+        "before_goal_surface_distance": 5.258766309218022,
+        "after_goal_surface_distance": 6.602024301481287,
+        "source_boundary_vertices": 259,
+        "max_boundary_vertex_to_candidate_distance": 6.660124037872485
+      },
+      {
+        "before": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-cover-soft-obj/z00768_y02408_x03536/z00768_y02408_x03536_step5_cc/z00768_y02408_x03536_step5_cc_002.obj",
+        "after": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-cover-soft-obj/z00768_y02408_x03536/z00768_y02408_x03536_step7_cc_bpa/z00768_y02408_x03536_step7_cc_bpa_002.obj",
+        "before_faces": 162,
+        "after_faces": 169,
+        "before_area": 28.510273308617542,
+        "after_area": 27.893616859143556,
+        "before_goal_surface_distance": 2.6493171935493303,
+        "after_goal_surface_distance": 2.6455803840113243,
+        "source_boundary_vertices": 48,
+        "max_boundary_vertex_to_candidate_distance": 0.8493338524143093
+      },
+      {
+        "before": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-cover-soft-obj/z00768_y02408_x03536/z00768_y02408_x03536_step5_cc/z00768_y02408_x03536_step5_cc_003.obj",
+        "after": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/split-cover-soft-obj/z00768_y02408_x03536/z00768_y02408_x03536_step7_cc_bpa/z00768_y02408_x03536_step7_cc_bpa_003.obj",
+        "before_faces": 28,
+        "after_faces": 28,
+        "before_area": 6.223521683958803,
+        "after_area": 6.223521683958803,
+        "before_goal_surface_distance": 8.6644787344305,
+        "after_goal_surface_distance": 8.6644787344305,
+        "source_boundary_vertices": 12,
+        "max_boundary_vertex_to_candidate_distance": 0.0
+      }
+    ]
+  },
+  "manifest": {
+    "cases": [
+      "split-shape-control",
+      "split-shape-off",
+      "split-shape-soft"
+    ],
+    "binary_sha256": "70f83d8173386ed620307a0b6e36babef97d1b3fd0719349643d075f977dbf1c",
+    "input_sha256": "dda0e746ad5421c26c2a6ca3aa2f506d78a46dd5dfe899d41d6c20ac29b48d09",
+    "pipeline_source_sha256": "78c12d2d9067eedd01e20f3818cddd1efc00d5dc150e4523d0aefe108fde1ef5",
+    "ownership_coverage_voxels": 0.25,
+    "bidirectional_rebuild_coverage_voxels": 0.5,
+    "all_original_separation_and_guards_enabled": true,
+    "labels_or_goal_used_for_recovery": false,
+    "default_final_geometry_identical": true
+  },
+  "executions": {
+    "split-saved-diag-01": {
+      "command": [
+        "python3",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/diagnose_split_faces.py"
+      ],
+      "returncode": 0,
+      "reason": "completed",
+      "elapsed_seconds": 2.0022484840010293,
+      "minimum_available_mib": 11158.33984375,
+      "max_child_rss_mib": 83.3125,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-saved-diag-01.log"
+    },
+    "split-saved-native-01": {
+      "command": [
+        "python3",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/run_saved_overlap_audit.py"
+      ],
+      "returncode": 1,
+      "reason": "completed",
+      "elapsed_seconds": 0.8012482189988077,
+      "minimum_available_mib": 11033.296875,
+      "max_child_rss_mib": 31.83203125,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-saved-native-01.log"
+    },
+    "split-saved-native-02": {
+      "command": [
+        "python3",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/run_saved_overlap_audit.py"
+      ],
+      "returncode": 0,
+      "reason": "completed",
+      "elapsed_seconds": 0.6009330529996078,
+      "minimum_available_mib": 11016.5703125,
+      "max_child_rss_mib": 31.9296875,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-saved-native-02.log"
+    },
+    "split-face-probe-01": {
+      "command": [
+        "python3",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/probe_safe_face_recovery.py"
+      ],
+      "returncode": 0,
+      "reason": "completed",
+      "elapsed_seconds": 1.0014632530001109,
+      "minimum_available_mib": 10578.2265625,
+      "max_child_rss_mib": 52.7578125,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-face-probe-01.log"
+    },
+    "split-area-probe-01": {
+      "command": [
+        "python3",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/probe_area_ownership.py"
+      ],
+      "returncode": 0,
+      "reason": "completed",
+      "elapsed_seconds": 1.0014981499989517,
+      "minimum_available_mib": 12118.1953125,
+      "max_child_rss_mib": 51.5,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-area-probe-01.log"
+    },
+    "split-coverage-build-01": {
+      "command": [
+        "cmake",
+        "--build",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/build",
+        "--target",
+        "cube_mesh",
+        "--parallel",
+        "1"
+      ],
+      "returncode": 0,
+      "reason": "completed",
+      "elapsed_seconds": 2.8032718389986258,
+      "minimum_available_mib": 10859.3828125,
+      "max_child_rss_mib": 71.50390625,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-coverage-build-01.log"
+    },
+    "split-coverage-native-01": {
+      "command": [
+        "python3",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/run_split_coverage_experiment.py"
+      ],
+      "returncode": 0,
+      "reason": "completed",
+      "elapsed_seconds": 25.901101325998752,
+      "minimum_available_mib": 11855.640625,
+      "max_child_rss_mib": 121.2578125,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-coverage-native-01.log"
+    },
+    "split-resurface-diag-01": {
+      "command": [
+        "python3",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/diagnose_resurface_loss.py"
+      ],
+      "returncode": 0,
+      "reason": "completed",
+      "elapsed_seconds": 7.0075127800009795,
+      "minimum_available_mib": 13792.0,
+      "max_child_rss_mib": 41.0,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-resurface-diag-01.log"
+    },
+    "split-shape-build-01": {
+      "command": [
+        "cmake",
+        "--build",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/build",
+        "--target",
+        "cube_mesh",
+        "--parallel",
+        "1"
+      ],
+      "returncode": 0,
+      "reason": "completed",
+      "elapsed_seconds": 3.2046901650028303,
+      "minimum_available_mib": 12536.5625,
+      "max_child_rss_mib": 69.05078125,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-shape-build-01.log"
+    },
+    "split-shape-native-01": {
+      "command": [
+        "python3",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/run_split_shape_experiment.py"
+      ],
+      "returncode": 0,
+      "reason": "completed",
+      "elapsed_seconds": 29.89653091299988,
+      "minimum_available_mib": 10413.34765625,
+      "max_child_rss_mib": 120.609375,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-shape-native-01.log"
+    },
+    "split-shape-qa-01": {
+      "command": [
+        "python3",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/check_split_shape_experiment.py"
+      ],
+      "returncode": 1,
+      "reason": "completed",
+      "elapsed_seconds": 0.6763218009982666,
+      "minimum_available_mib": 12019.55078125,
+      "max_child_rss_mib": 31.73828125,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-shape-qa-01.log"
+    },
+    "split-shape-qa-02": {
+      "command": [
+        "python3",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/check_split_shape_experiment.py"
+      ],
+      "returncode": 0,
+      "reason": "completed",
+      "elapsed_seconds": 2.6028976710003917,
+      "minimum_available_mib": 12064.9140625,
+      "max_child_rss_mib": 61.52734375,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-shape-qa-02.log"
+    },
+    "split-seam-diag-01": {
+      "command": [
+        "python3",
+        "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/diagnose_split_seams.py"
+      ],
+      "returncode": 0,
+      "reason": "completed",
+      "elapsed_seconds": 1.4019023520013434,
+      "minimum_available_mib": 9553.44140625,
+      "max_child_rss_mib": 46.4921875,
+      "gpu_devices_inaccessible": true,
+      "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/split-seam-diag-01.log"
+    }
+  },
+  "upstream_base": "bce8a65f97652316efb084171a17d2f1f8d3ae1a",
+  "patch": "split-ownership-coverage.patch",
+  "experimental_feature": "VES_OVERLAP_COVERAGE_GUARD=1",
+  "feature_default": "off",
+  "same_crop_union_tip_and_coverage_improved": true,
+  "single_indexed_mesh_achieved": false,
+  "held_out_validation": false,
+  "stable_selection_preserved": "adaptive8",
+  "research_candidate": "split-shape-soft",
+  "resource_limits": {
+    "memory_max_mib": 384,
+    "swap_max_mib": 0,
+    "cpu_quota_percent_of_one_core": 25,
+    "gpu_inaccessible": true,
+    "desktop_reserve_mib": 3072,
+    "minimum_available_mib": 9553.44140625
+  },
+  "limitations": [
+    "Goal distances and coverage gains of recovered output refer to union of separate charts",
+    "Seed indexed component does not improve; exact matching source boundary edges connect charts geometrically only",
+    "Same target-conditioned development corridor, annotations used only in evaluation; no held-out result",
+    "Same-target-triangle coverage bound is conservative and budget-limited, not a general Hausdorff solver",
+    "Gap-zero native geometry audit is numerical and tests actual crossings/overlaps, not minimum inter-sheet clearance",
+    "Full upstream CTest suite not run; tests are focused helper and predicate fixtures plus native integration",
+    "Earlier pipeline resurface call before this split phase is outside this patch"
+  ]
+}

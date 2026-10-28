@@ -1,0 +1,8 @@
+{
+  "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHercParis4/representations/umbilicus/20260411134726-umbilicus-20260524235033.json",
+  "status": 200,
+  "bytes": 10690,
+  "sha256": "5759e460773d23f582b9ce9dfdad1f96e0adfa2cb684101881d50c732f1e474e",
+  "catalogue_reference": "native/paris4-axis-provenance-01.json",
+  "gate_inferred": false
+}

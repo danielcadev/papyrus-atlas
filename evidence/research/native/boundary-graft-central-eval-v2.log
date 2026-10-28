@@ -1,0 +1,38 @@
+/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/independent-central32/v2-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble/z01808_y02320_x04112_step11_kibble_all.vmesh: conflicts=0 (overlap=0 stab=0 fold=0), 4/4 predicate fixtures
+v2 {
+  "vertices": 5311,
+  "triangles": 10204,
+  "components": 3,
+  "area_voxel2": 1562.7881767228407,
+  "reference_voxels_covered_within_radius1": 2265,
+  "reference_coverage_by_id": {
+    "247": 2209,
+    "248": 56
+  },
+  "samples": 21596,
+  "sample_reference_counts_radius0": {
+    "247": 15287,
+    "0": 5969,
+    "248": 340
+  },
+  "sample_reference_counts_radius2": {
+    "247": 19171,
+    "0": 1603,
+    "248": 822
+  },
+  "sampled_area_by_id_radius0": {
+    "0": 434.02801876344864,
+    "247": 1100.182268620471,
+    "248": 28.577889338921228
+  },
+  "mixed_reference_triangle_count": 0,
+  "input_ct_supported_area_radius1": 1490.5388679453763,
+  "frozen_geometric_tip_distance": 0.0,
+  "source_boundary_probes": 400,
+  "boundary_distance_median": 0.0,
+  "boundary_distance_p95": 0.0,
+  "boundary_distance_max": 1.5261027814282095,
+  "boundary_vertices_farther_than1": 4,
+  "source_obj": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/independent-central32/v2-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble/z01808_y02320_x04112_step11_kibble_all.obj"
+}
+outputs_byte_identical False

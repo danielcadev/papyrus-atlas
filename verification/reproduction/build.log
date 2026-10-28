@@ -1,0 +1,585 @@
+[1/100] Building C object CMakeFiles/sf_triangle.dir/deps/src/triangle/triangle.c.o
+[2/100] Building CXX object clipper2/CMakeFiles/Clipper2.dir/Clipper2Lib/src/clipper.engine.cpp.o
+[3/100] Building CXX object clipper2/CMakeFiles/Clipper2.dir/Clipper2Lib/src/clipper.offset.cpp.o
+[4/100] Building CXX object clipper2/CMakeFiles/Clipper2.dir/Clipper2Lib/src/clipper.rectclip.cpp.o
+[5/100] Building CXX object clipper2/CMakeFiles/Clipper2.dir/Clipper2Lib/src/clipper.triangulation.cpp.o
+[6/100] Building CXX object clipper2/CMakeFiles/Clipper2Z.dir/Clipper2Lib/src/clipper.engine.cpp.o
+[7/100] Building CXX object clipper2/CMakeFiles/Clipper2Z.dir/Clipper2Lib/src/clipper.offset.cpp.o
+[8/100] Building CXX object clipper2/CMakeFiles/Clipper2Z.dir/Clipper2Lib/src/clipper.rectclip.cpp.o
+[9/100] Building CXX object clipper2/CMakeFiles/Clipper2Z.dir/Clipper2Lib/src/clipper.triangulation.cpp.o
+[10/100] Linking C static library libsf_triangle.a
+[11/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/arena.c.o
+[12/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/except.c.o
+[13/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/csr.c.o
+[14/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/kdtree.c.o
+[15/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/union_find.c.o
+[16/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/cc_color.c.o
+[17/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/bfs.c.o
+[18/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/pca.c.o
+[19/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/mls_project.c.o
+[20/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/vert_weld.c.o
+[21/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/halo_loader.c.o
+[22/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/raw_sample.c.o
+[23/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/closest_tri.c.o
+[24/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/mesh_manifold.c.o
+[25/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/mesh_trim.c.o
+[26/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/obj_io.c.o
+[27/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/dump_obj.c.o
+[28/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/ves_platform.c.o
+[29/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/raw_snapback.c.o
+[30/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/snap_cg.c.o
+[31/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/eig3.c.o
+[32/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/dev_metric.c.o
+[33/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/run_ctx.c.o
+[34/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/mesh_bin.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/common/mesh_bin.c: In function ‘MeshBin_selftest’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/common/mesh_bin.c:539:9: warning: missing initializer for field ‘uv64’ of ‘MeshBinData’ [-Wmissing-field-initializers]
+  539 |         MeshBinData chunk={vertices,uv,faces,4,2};
+      |         ^~~~~~~~~~~
+In file included from /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/common/mesh_bin.c:1:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/common/mesh_bin.h:25:13: note: ‘uv64’ declared here
+   25 |     double *uv64;      /* precise reader only; exactly one UV pointer is set */
+      |             ^~~~
+[35/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/mesh_normals.c.o
+[36/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/pitch_table.c.o
+[37/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/common/tiff_io.c.o
+[38/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/extract/mesh_extract.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c: In function ‘MeshExtract_run’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:698:32: warning: comparison of integer expressions of different signedness: ‘long unsigned int’ and ‘int’ [-Wsign-compare]
+  698 |                     (size_t)p2 != D) {
+      |                                ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:699:37: warning: format ‘%zu’ expects argument of type ‘size_t’, but argument 5 has type ‘int’ [-Wformat=]
+  699 |                     fprintf(stderr, "MeshExtract: CT-weighted LOP armed but the "
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  700 |                             "raw halo volume is unavailable (%s, p=%d vs %zu); "
+  701 |                             "unweighted\n", raw_dir, p2, D);
+      |                                                          ~
+      |                                                          |
+      |                                                          int
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:700:76: note: format string is defined here
+  700 |                             "raw halo volume is unavailable (%s, p=%d vs %zu); "
+      |                                                                          ~~^
+      |                                                                            |
+      |                                                                            long unsigned int
+      |                                                                          %u
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:972:48: warning: comparison of integer expressions of different signedness: ‘long unsigned int’ and ‘int’ [-Wsign-compare]
+  972 |                                     (size_t)vz < D && (size_t)vy < H &&
+      |                                                ^
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:972:66: warning: comparison of integer expressions of different signedness: ‘long unsigned int’ and ‘int’ [-Wsign-compare]
+  972 |                                     (size_t)vz < D && (size_t)vy < H &&
+      |                                                                  ^
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:973:48: warning: comparison of integer expressions of different signedness: ‘long unsigned int’ and ‘int’ [-Wsign-compare]
+  973 |                                     (size_t)vx < W) {
+      |                                                ^
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:1224:28: warning: ‘_post_lop_comp’ directive output may be truncated writing 14 bytes into a region of size between 0 and 1023 [-Wformat-truncation=]
+ 1224 |                      "%s/%s_post_lop_comp%03zu.obj",
+      |                            ^~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:1223:13: note: ‘snprintf’ output 23 or more bytes (assuming 1046) into a destination of size 1024
+ 1223 |             snprintf(path, sizeof(path),
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1224 |                      "%s/%s_post_lop_comp%03zu.obj",
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1225 |                      sub, cube_id, out_count + 1);
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:1241:28: warning: ‘_post_lop_points_comp’ directive output may be truncated writing 21 bytes into a region of size between 0 and 1023 [-Wformat-truncation=]
+ 1241 |                      "%s/%s_post_lop_points_comp%03zu.obj",
+      |                            ^~~~~~~~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:1240:13: note: ‘snprintf’ output 30 or more bytes (assuming 1053) into a destination of size 1024
+ 1240 |             snprintf(ppath, sizeof(ppath),
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1241 |                      "%s/%s_post_lop_points_comp%03zu.obj",
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1242 |                      psub, cube_id, out_count + 1);
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:1309:32: warning: ‘_post_weld_comp’ directive output may be truncated writing 15 bytes into a region of size between 0 and 1023 [-Wformat-truncation=]
+ 1309 |                          "%s/%s_post_weld_comp%03zu.obj",
+      |                                ^~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:1308:17: note: ‘snprintf’ output 24 or more bytes (assuming 1047) into a destination of size 1024
+ 1308 |                 snprintf(wpath, sizeof(wpath),
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1309 |                          "%s/%s_post_weld_comp%03zu.obj",
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1310 |                          wsub, cube_id, out_count + 1);
+      |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:1365:36: warning: ‘_post_lop_trimmed_comp’ directive output may be truncated writing 22 bytes into a region of size between 0 and 1023 [-Wformat-truncation=]
+ 1365 |                              "%s/%s_post_lop_trimmed_comp%03zu.obj",
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:1364:21: note: ‘snprintf’ output 31 or more bytes (assuming 1054) into a destination of size 1024
+ 1364 |                     snprintf(tpath, sizeof(tpath),
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1365 |                              "%s/%s_post_lop_trimmed_comp%03zu.obj",
+      |                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1366 |                              tsub, cube_id, out_count + 1);
+      |                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:1605:48: warning: ‘_pre_simplify_comp’ directive output may be truncated writing 18 bytes into a region of size between 0 and 1023 [-Wformat-truncation=]
+ 1605 |             snprintf(path, sizeof(path), "%s/%s_pre_simplify_comp%03zu.obj",
+      |                                                ^~~~~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_extract.c:1605:13: note: ‘snprintf’ output 27 or more bytes (assuming 1050) into a destination of size 1024
+ 1605 |             snprintf(path, sizeof(path), "%s/%s_pre_simplify_comp%03zu.obj",
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1606 |                      sub, cube_id, out_count + 1);
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[39/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/extract/mesh_resplit.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c: In function ‘MeshResplit_run’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:562:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  562 |         for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na;    \
+      |         ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:567:33: note: in expansion of macro ‘ENSURE_CAP’
+  567 |     #define EMIT(MSH, CLD) do { ENSURE_CAP();                                   \
+      |                                 ^~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:596:13: note: in expansion of macro ‘EMIT’
+  596 |             EMIT(*cm, cl ? *cl : zerocl);          /* pass through with its cloud */
+      |             ^~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:562:68: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  562 |         for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na;    \
+      |                                                                    ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:567:33: note: in expansion of macro ‘ENSURE_CAP’
+  567 |     #define EMIT(MSH, CLD) do { ENSURE_CAP();                                   \
+      |                                 ^~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:596:13: note: in expansion of macro ‘EMIT’
+  596 |             EMIT(*cm, cl ? *cl : zerocl);          /* pass through with its cloud */
+      |             ^~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:570:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  570 |         if (accc) accc[cnt] = (CLD); cnt++; } while (0)
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:596:13: note: in expansion of macro ‘EMIT’
+  596 |             EMIT(*cm, cl ? *cl : zerocl);          /* pass through with its cloud */
+      |             ^~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:570:38: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  570 |         if (accc) accc[cnt] = (CLD); cnt++; } while (0)
+      |                                      ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:596:13: note: in expansion of macro ‘EMIT’
+  596 |             EMIT(*cm, cl ? *cl : zerocl);          /* pass through with its cloud */
+      |             ^~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:562:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  562 |         for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na;    \
+      |         ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:567:33: note: in expansion of macro ‘ENSURE_CAP’
+  567 |     #define EMIT(MSH, CLD) do { ENSURE_CAP();                                   \
+      |                                 ^~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:609:24: note: in expansion of macro ‘EMIT’
+  609 |         if (np == 0) { EMIT(*cm, cl ? *cl : zerocl); continue; }
+      |                        ^~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:562:68: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  562 |         for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na;    \
+      |                                                                    ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:567:33: note: in expansion of macro ‘ENSURE_CAP’
+  567 |     #define EMIT(MSH, CLD) do { ENSURE_CAP();                                   \
+      |                                 ^~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:609:24: note: in expansion of macro ‘EMIT’
+  609 |         if (np == 0) { EMIT(*cm, cl ? *cl : zerocl); continue; }
+      |                        ^~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:570:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  570 |         if (accc) accc[cnt] = (CLD); cnt++; } while (0)
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:609:24: note: in expansion of macro ‘EMIT’
+  609 |         if (np == 0) { EMIT(*cm, cl ? *cl : zerocl); continue; }
+      |                        ^~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:570:38: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  570 |         if (accc) accc[cnt] = (CLD); cnt++; } while (0)
+      |                                      ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:609:24: note: in expansion of macro ‘EMIT’
+  609 |         if (np == 0) { EMIT(*cm, cl ? *cl : zerocl); continue; }
+      |                        ^~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:562:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  562 |         for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na;    \
+      |         ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:567:33: note: in expansion of macro ‘ENSURE_CAP’
+  567 |     #define EMIT(MSH, CLD) do { ENSURE_CAP();                                   \
+      |                                 ^~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:617:13: note: in expansion of macro ‘EMIT’
+  617 |             EMIT(po[k], (poc ? poc[k] : zerocl));
+      |             ^~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:562:68: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  562 |         for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na;    \
+      |                                                                    ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:567:33: note: in expansion of macro ‘ENSURE_CAP’
+  567 |     #define EMIT(MSH, CLD) do { ENSURE_CAP();                                   \
+      |                                 ^~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:617:13: note: in expansion of macro ‘EMIT’
+  617 |             EMIT(po[k], (poc ? poc[k] : zerocl));
+      |             ^~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:570:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  570 |         if (accc) accc[cnt] = (CLD); cnt++; } while (0)
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:617:13: note: in expansion of macro ‘EMIT’
+  617 |             EMIT(po[k], (poc ? poc[k] : zerocl));
+      |             ^~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:570:38: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  570 |         if (accc) accc[cnt] = (CLD); cnt++; } while (0)
+      |                                      ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/extract/mesh_resplit.c:617:13: note: in expansion of macro ‘EMIT’
+  617 |             EMIT(po[k], (poc ? poc[k] : zerocl));
+      |             ^~~~
+[40/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/extract/pred_reject.c.o
+[41/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/split/oracle.c.o
+[42/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/split/bridge_cut.c.o
+[43/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/split/overlap_sep.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c: In function ‘detect_overlaps’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:497:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  497 |             if (x < fminx) fminx = x; if (x > fmaxx) fmaxx = x;
+      |             ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:497:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  497 |             if (x < fminx) fminx = x; if (x > fmaxx) fmaxx = x;
+      |                                       ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:498:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  498 |             if (y < fminy) fminy = y; if (y > fmaxy) fmaxy = y;
+      |             ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:498:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  498 |             if (y < fminy) fminy = y; if (y > fmaxy) fmaxy = y;
+      |                                       ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:504:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  504 |         if (ix0 < 0) ix0 = 0; if (ix1 >= nx) ix1 = nx - 1;
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:504:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  504 |         if (ix0 < 0) ix0 = 0; if (ix1 >= nx) ix1 = nx - 1;
+      |                               ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:505:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  505 |         if (iy0 < 0) iy0 = 0; if (iy1 >= ny) iy1 = ny - 1;
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:505:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  505 |         if (iy0 < 0) iy0 = 0; if (iy1 >= ny) iy1 = ny - 1;
+      |                               ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:531:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  531 |             if (x < fminx) fminx = x; if (x > fmaxx) fmaxx = x;
+      |             ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:531:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  531 |             if (x < fminx) fminx = x; if (x > fmaxx) fmaxx = x;
+      |                                       ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:532:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  532 |             if (y < fminy) fminy = y; if (y > fmaxy) fmaxy = y;
+      |             ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:532:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  532 |             if (y < fminy) fminy = y; if (y > fmaxy) fmaxy = y;
+      |                                       ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:538:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  538 |         if (ix0 < 0) ix0 = 0; if (ix1 >= nx) ix1 = nx - 1;
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:538:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  538 |         if (ix0 < 0) ix0 = 0; if (ix1 >= nx) ix1 = nx - 1;
+      |                               ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:539:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  539 |         if (iy0 < 0) iy0 = 0; if (iy1 >= ny) iy1 = ny - 1;
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:539:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  539 |         if (iy0 < 0) iy0 = 0; if (iy1 >= ny) iy1 = ny - 1;
+      |                               ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c: At top level:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:1079:12: warning: ‘merge_raw_volume_fit’ defined but not used [-Wunused-function]
+ 1079 | static int merge_raw_volume_fit(Arena_T arena,
+      |            ^~~~~~~~~~~~~~~~~~~~
+[44/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/split/overlap_merge.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_merge.c: In function ‘build_candidate’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_merge.c:2719:24: warning: variable ‘shown’ set but not used [-Wunused-but-set-variable=]
+ 2719 |         size_t di = 0, shown = 0;
+      |                        ^~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_merge.c: At top level:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_merge.c:1555:12: warning: ‘parameterize_repair_disk’ defined but not used [-Wunused-function]
+ 1555 | static int parameterize_repair_disk(Arena_T arena,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_merge.c:1366:12: warning: ‘domain_contains’ defined but not used [-Wunused-function]
+ 1366 | static int domain_contains(const OMDomain *domain, const double p[2])
+      |            ^~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_merge.c:1115:12: warning: ‘find_physical_contact_seed’ defined but not used [-Wunused-function]
+ 1115 | static int find_physical_contact_seed(Arena_T arena,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_merge.c:1052:12: warning: ‘triangles_overlap_strict’ defined but not used [-Wunused-function]
+ 1052 | static int triangles_overlap_strict(const double *uv,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_merge.c:1039:12: warning: ‘om_faces_share_vertex’ defined but not used [-Wunused-function]
+ 1039 | static int om_faces_share_vertex(const int32_t *faces,
+      |            ^~~~~~~~~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_merge.c:906:12: warning: ‘fit_mask_plane’ defined but not used [-Wunused-function]
+  906 | static int fit_mask_plane(Arena_T arena,
+      |            ^~~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_merge.c:706:12: warning: ‘connect_repair_disks’ defined but not used [-Wunused-function]
+  706 | static int connect_repair_disks(Arena_T arena,
+      |            ^~~~~~~~~~~~~~~~~~~~
+[45/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/split/overlap_quality.c.o
+[46/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/split/depth_peel.c.o
+[47/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/split/dev_cut.c.o
+[48/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/ball_pivot.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/ball_pivot.c: In function ‘grid_build’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/ball_pivot.c:397:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  397 |         if (V[i].z<zmin)zmin=V[i].z; if (V[i].z>zmax)zmax=V[i].z;
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/ball_pivot.c:397:38: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  397 |         if (V[i].z<zmin)zmin=V[i].z; if (V[i].z>zmax)zmax=V[i].z;
+      |                                      ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/ball_pivot.c:398:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  398 |         if (V[i].y<ymin)ymin=V[i].y; if (V[i].y>ymax)ymax=V[i].y;
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/ball_pivot.c:398:38: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  398 |         if (V[i].y<ymin)ymin=V[i].y; if (V[i].y>ymax)ymax=V[i].y;
+      |                                      ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/ball_pivot.c:399:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  399 |         if (V[i].x<xmin)xmin=V[i].x; if (V[i].x>xmax)xmax=V[i].x;
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/ball_pivot.c:399:38: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  399 |         if (V[i].x<xmin)xmin=V[i].x; if (V[i].x>xmax)xmax=V[i].x;
+      |                                      ^~
+[49/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/patch_repair.c.o
+[50/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/cvt_remesh.c.o
+[51/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/rvd_clip.c.o
+[52/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/orient_mesh.c.o
+[53/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/pinhole_fill.c.o
+[54/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/normal_orient.c.o
+[55/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/component_cull.c.o
+[56/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/manifold_guard.c.o
+[57/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/dev_gate.c.o
+[58/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/intersection_cleanup.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/intersection_cleanup.c: In function ‘IntersectionCleanup_cross_budget’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/intersection_cleanup.c:533:5: warning: missing initializer for field ‘candidate_a’ of ‘ClearancePair’ [-Wmissing-field-initializers]
+  533 |     ClearancePair p={{av,bv},{af,bf},{ab,bb},0,0,NULL};
+      |     ^~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/intersection_cleanup.c:431:14: note: ‘candidate_a’ declared here
+  431 |     int32_t *candidate_a,*candidate_b;
+      |              ^~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/intersection_cleanup.c: In function ‘IntersectionCleanup_partition_budget’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/intersection_cleanup.c:559:5: warning: missing initializer for field ‘candidate_a’ of ‘ClearancePair’ [-Wmissing-field-initializers]
+  559 |     ClearancePair p={{verts,verts},{faces,faces},{budget,budget},0,0,owner};
+      |     ^~~~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/intersection_cleanup.c:431:14: note: ‘candidate_a’ declared here
+  431 |     int32_t *candidate_a,*candidate_b;
+      |              ^~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/intersection_cleanup.c: In function ‘IntersectionCleanup_selftest’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/intersection_cleanup.c:1864:17: warning: missing initializer for field ‘candidate_a’ of ‘ClearancePair’ [-Wmissing-field-initializers]
+ 1864 |                 {expected,same ? expected : expected+N},8,0,same ? owner : NULL};
+      |                 ^
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/intersection_cleanup.c:431:14: note: ‘candidate_a’ declared here
+  431 |     int32_t *candidate_a,*candidate_b;
+      |              ^~~~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/intersection_cleanup.c:1869:21: warning: missing initializer for field ‘candidate_a’ of ‘ClearancePair’ [-Wmissing-field-initializers]
+ 1869 |                     {actual,same ? actual : actual+N},8,0,same ? owner : NULL};
+      |                     ^
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/intersection_cleanup.c:431:14: note: ‘candidate_a’ declared here
+  431 |     int32_t *candidate_a,*candidate_b;
+      |              ^~~~~~~~~~~
+[59/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/chart_lineage.c.o
+[60/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/chart_zipper.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_zipper.c: In function ‘cz_generate_direction’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_zipper.c:694:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  694 |                 if(i<dmin[tc])dmin[tc]=i;if(i>dmax[tc])dmax[tc]=i;
+      |                 ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_zipper.c:694:42: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  694 |                 if(i<dmin[tc])dmin[tc]=i;if(i>dmax[tc])dmax[tc]=i;
+      |                                          ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_zipper.c: In function ‘cz_process_transactions’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_zipper.c:1195:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1195 |     if(out_faces)*out_faces=NULL;if(out_nf)*out_nf=0;if(out_n_bridge)*out_n_bridge=0;
+      |     ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_zipper.c:1195:34: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1195 |     if(out_faces)*out_faces=NULL;if(out_nf)*out_nf=0;if(out_n_bridge)*out_n_bridge=0;
+      |                                  ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_zipper.c:1267:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1267 |                 if(q<mn[d])mn[d]=q;if(q>mx[d])mx[d]=q;
+      |                 ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_zipper.c:1267:36: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1267 |                 if(q<mn[d])mn[d]=q;if(q>mx[d])mx[d]=q;
+      |                                    ^~
+[61/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/chart_bridge_forest.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_bridge_forest.c: In function ‘cbf_filter_round’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_bridge_forest.c:1391:25: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1391 |                         if(x<lo[d])lo[d]=x;if(x>hi[d])hi[d]=x;
+      |                         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_bridge_forest.c:1391:44: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1391 |                         if(x<lo[d])lo[d]=x;if(x>hi[d])hi[d]=x;
+      |                                            ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_bridge_forest.c:1446:25: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1446 |                         if(x<lo[d])lo[d]=x;if(x>hi[d])hi[d]=x;
+      |                         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/chart_bridge_forest.c:1446:44: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1446 |                         if(x<lo[d])lo[d]=x;if(x>hi[d])hi[d]=x;
+      |                                            ^~
+[62/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/seam_weld.c.o
+[63/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/seam_planes.c.o
+[64/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/seam_refine.c.o
+[65/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/seam_band_cvt.c.o
+[66/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/sheet_reweld.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/sheet_reweld.c:342:45: warning: ‘/*’ within comment [-Wcomment]
+  342 |  * else flat y=0, normal +y. Returns via *nv/*nf (advanced). */
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/sheet_reweld.c: In function ‘SheetReweld_selftest’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/sheet_reweld.c:387:15: warning: variable ‘V’ set but not used [-Wunused-but-set-variable=]
+  387 |         float V[9*3]; int32_t F[3*3];
+      |               ^
+[67/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/seam_hole_fill.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/seam_hole_fill.c: In function ‘SeamHoleFill_process’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/seam_hole_fill.c:259:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  259 |             if (b0!=a0 || b1!=a1) break; j++;
+      |             ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/seam_hole_fill.c:259:42: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  259 |             if (b0!=a0 || b1!=a1) break; j++;
+      |                                          ^
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/seam_hole_fill.c:342:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  342 |             if (c < mn[a]) mn[a] = c; if (c > mx[a]) mx[a] = c;
+      |             ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/seam_hole_fill.c:342:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  342 |             if (c < mn[a]) mn[a] = c; if (c > mx[a]) mx[a] = c;
+      |                                       ^~
+[68/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/fold_cleanup.c.o
+[69/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/orient_weld.c.o
+[70/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/weld_cleanup.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/weld_cleanup.c: In function ‘angle_at’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/weld_cleanup.c:190:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  190 |     if (cs>1.0f) cs=1.0f; if (cs<-1.0f) cs=-1.0f;
+      |     ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/remesh/weld_cleanup.c:190:27: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  190 |     if (cs>1.0f) cs=1.0f; if (cs<-1.0f) cs=-1.0f;
+      |                           ^~
+[71/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/boundary_arc_weld.c.o
+[72/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/remesh/stream_weld_format.c.o
+[73/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/holefill/hole_fill.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/holefill/hole_fill.c: In function ‘fill_one_hole’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/holefill/hole_fill.c:2153:16: warning: variable ‘n_matched’ set but not used [-Wunused-but-set-variable=]
+ 2153 |         size_t n_matched = 0;
+      |                ^~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/holefill/hole_fill.c: At top level:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/holefill/hole_fill.c:619:12: warning: ‘is_interior_hole’ defined but not used [-Wunused-function]
+  619 | static int is_interior_hole(const int32_t *loop_verts, size_t n_loop_verts,
+      |            ^~~~~~~~~~~~~~~~
+[74/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/topology/mesh_topo.c.o
+[75/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/topology/seam_cut.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c: In function ‘corner_angle’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:95:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   95 |     if (c>1.0)c=1.0; if(c<-1.0)c=-1.0;
+      |     ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:95:22: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   95 |     if (c>1.0)c=1.0; if(c<-1.0)c=-1.0;
+      |                      ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c: In function ‘distortion_ri’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:220:13: warning: this ‘while’ clause does not guard... [-Wmisleading-indentation]
+  220 |             while(par[x]!=x)x=par[x]; while(par[y]!=y)y=par[y];
+      |             ^~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:220:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+  220 |             while(par[x]!=x)x=par[x]; while(par[y]!=y)y=par[y];
+      |                                       ^~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c: In function ‘heap_pop’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:292:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  292 |         if(l<h->n&&h->a[l].d<h->a[s].d)s=l; if(r<h->n&&h->a[r].d<h->a[s].d)s=r;
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:292:45: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  292 |         if(l<h->n&&h->a[l].d<h->a[s].d)s=l; if(r<h->n&&h->a[r].d<h->a[s].d)s=r;
+      |                                             ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:293:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  293 |         if(s==i)break; HItem t=h->a[s];h->a[s]=h->a[i];h->a[i]=t; i=s; }
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:293:24: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  293 |         if(s==i)break; HItem t=h->a[s];h->a[s]=h->a[i];h->a[i]=t; i=s; }
+      |                        ^~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c: At top level:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:859:7: warning: ‘/*’ within comment [-Wcomment]
+  859 |  * *pv/*pnv/*pf/*pnf describe the genus-0 (multi-boundary) mesh, and *paccum
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:859:12: warning: ‘/*’ within comment [-Wcomment]
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:859:16: warning: ‘/*’ within comment [-Wcomment]
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c: In function ‘genus_reduce’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:890:24: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  890 |                        if (reclaim) Arena_restore(arena,it); break; }
+      |                        ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/seam_cut.c:890:62: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  890 |                        if (reclaim) Arena_restore(arena,it); break; }
+      |                                                              ^~~~~
+[76/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/topology/developability.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/developability.c: In function ‘corner_angle3’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/developability.c:25:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   25 |     if (q < -1.0) q = -1.0; if (q > 1.0) q = 1.0;
+      |     ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/topology/developability.c:25:29: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   25 |     if (q < -1.0) q = -1.0; if (q > 1.0) q = 1.0;
+      |                             ^~
+[77/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/flatten/surface_snap.c.o
+[78/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/flatten/snap_darkcut.c.o
+[79/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/flatten/snap_quilt.c.o
+[80/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/flatten/snap_solve.c.o
+[81/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/flatten/recto_refine.c.o
+[82/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/flatten/disk_topology_repair.c.o
+[83/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/flatten/topology_invariants.c.o
+[84/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/flatten/ribbon_grid_io.c.o
+[85/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/whole/axis_warp.c.o
+[86/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/whole/shaft_warp.c.o
+[87/100] Building C object CMakeFiles/scrollfiesta_core.dir/src/pipeline/pipeline_cube.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c: In function ‘pipeline_process_cube’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:787:13: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  787 |             for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na; \
+      |             ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:792:40: note: in expansion of macro ‘DP_ENSURE’
+  792 |         #define DP_EMIT(MSH, CLD) do { DP_ENSURE();                             \
+      |                                        ^~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:816:21: note: in expansion of macro ‘DP_EMIT’
+  816 |                     DP_EMIT(pieces[k], zerocl);
+      |                     ^~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:787:72: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  787 |             for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na; \
+      |                                                                        ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:792:40: note: in expansion of macro ‘DP_ENSURE’
+  792 |         #define DP_EMIT(MSH, CLD) do { DP_ENSURE();                             \
+      |                                        ^~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:816:21: note: in expansion of macro ‘DP_EMIT’
+  816 |                     DP_EMIT(pieces[k], zerocl);
+      |                     ^~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:787:13: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  787 |             for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na; \
+      |             ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:792:40: note: in expansion of macro ‘DP_ENSURE’
+  792 |         #define DP_EMIT(MSH, CLD) do { DP_ENSURE();                             \
+      |                                        ^~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:822:17: note: in expansion of macro ‘DP_EMIT’
+  822 |                 DP_EMIT(*cm, cl ? *cl : zerocl);
+      |                 ^~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:787:72: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  787 |             for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na; \
+      |                                                                        ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:792:40: note: in expansion of macro ‘DP_ENSURE’
+  792 |         #define DP_EMIT(MSH, CLD) do { DP_ENSURE();                             \
+      |                                        ^~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:822:17: note: in expansion of macro ‘DP_EMIT’
+  822 |                 DP_EMIT(*cm, cl ? *cl : zerocl);
+      |                 ^~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:888:13: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  888 |             for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na; \
+      |             ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:893:40: note: in expansion of macro ‘DC_ENSURE’
+  893 |         #define DC_EMIT(MSH, CLD) do { DC_ENSURE();                             \
+      |                                        ^~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:943:29: note: in expansion of macro ‘DC_EMIT’
+  943 |                             DC_EMIT(rmesh[k], rcl ? rcl[k] : zerocl);
+      |                             ^~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:888:72: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  888 |             for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na; \
+      |                                                                        ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:893:40: note: in expansion of macro ‘DC_ENSURE’
+  893 |         #define DC_EMIT(MSH, CLD) do { DC_ENSURE();                             \
+      |                                        ^~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:943:29: note: in expansion of macro ‘DC_EMIT’
+  943 |                             DC_EMIT(rmesh[k], rcl ? rcl[k] : zerocl);
+      |                             ^~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:888:13: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  888 |             for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na; \
+      |             ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:893:40: note: in expansion of macro ‘DC_ENSURE’
+  893 |         #define DC_EMIT(MSH, CLD) do { DC_ENSURE();                             \
+      |                                        ^~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:957:17: note: in expansion of macro ‘DC_EMIT’
+  957 |                 DC_EMIT(*cm, cl ? *cl : zerocl);
+      |                 ^~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:888:72: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  888 |             for (size_t _i = 0; _i < cnt; _i++) na[_i].self = &na[_i]; acc = na; \
+      |                                                                        ^~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:893:40: note: in expansion of macro ‘DC_ENSURE’
+  893 |         #define DC_EMIT(MSH, CLD) do { DC_ENSURE();                             \
+      |                                        ^~~~~~~~~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/pipeline/pipeline_cube.c:957:17: note: in expansion of macro ‘DC_EMIT’
+  957 |                 DC_EMIT(*cm, cl ? *cl : zerocl);
+      |                 ^~~~~~~
+[88/100] Building CXX object CMakeFiles/scrollfiesta_core.dir/src/holefill/clipper2_wrap.cpp.o
+[89/100] Building CXX object CMakeFiles/scrollfiesta_core.dir/src/split/multicut_wrap.cpp.o
+[90/100] Building CXX object CMakeFiles/scrollfiesta_core.dir/src/common/gco_wrap.cpp.o
+[91/100] Building CXX object CMakeFiles/scrollfiesta_core.dir/src/common/attene_predicates_wrap.cpp.o
+[92/100] Building CXX object CMakeFiles/scrollfiesta_core.dir/deps/src/attene-predicates/uinteger.cpp.o
+[93/100] Building CXX object CMakeFiles/scrollfiesta_core.dir/deps/src/attene-predicates/ieee_binary.cpp.o
+[94/100] Building CXX object CMakeFiles/scrollfiesta_core.dir/docs/research/gco-v3.0/GCoptimization.cpp.o
+[95/100] Building CXX object CMakeFiles/scrollfiesta_core.dir/docs/research/gco-v3.0/LinkedBlockList.cpp.o
+[96/100] Linking CXX static library clipper2/libClipper2.a
+[97/100] Linking CXX static library clipper2/libClipper2Z.a
+[98/100] Linking CXX static library libscrollfiesta_core.a
+[99/100] Building C object CMakeFiles/cube_mesh.dir/src/main.c.o
+[100/100] Linking CXX executable cube_mesh

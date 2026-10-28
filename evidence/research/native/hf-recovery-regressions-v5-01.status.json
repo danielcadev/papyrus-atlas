@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/check_hole_recovery_regressions_v5.py"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 69.28540779899777,
+  "minimum_available_mib": 6363.265625,
+  "max_child_rss_mib": 33.6015625,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/hf-recovery-regressions-v5-01.log"
+}

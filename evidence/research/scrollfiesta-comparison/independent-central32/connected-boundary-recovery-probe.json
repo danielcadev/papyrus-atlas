@@ -1,0 +1,55 @@
+{
+  "eligible_faces": 41,
+  "added_face_ids": [],
+  "added_faces": 0,
+  "joined_repulsive_pairs": 0,
+  "lost_boundary_points": [
+    {
+      "point_parent_xyz": [
+        71.03125,
+        48.156494140625,
+        69.5615234375
+      ],
+      "previous_distance": 2.066082083472904,
+      "probe_distance": 4.012424523915281
+    },
+    {
+      "point_parent_xyz": [
+        71.947265625,
+        48.200927734375,
+        69.398681640625
+      ],
+      "previous_distance": 1.702848054886555,
+      "probe_distance": 4.4805884655017545
+    },
+    {
+      "point_parent_xyz": [
+        70.3759765625,
+        48.48681640625,
+        71.2120361328125
+      ],
+      "previous_distance": 1.2070444902601243,
+      "probe_distance": 2.294140595900998
+    },
+    {
+      "point_parent_xyz": [
+        77.92919921875,
+        56.53076171875,
+        72.437744140625
+      ],
+      "previous_distance": 1.462036555782963,
+      "probe_distance": 1.462036555782963
+    },
+    {
+      "point_parent_xyz": [
+        78.44482421875,
+        56.42236328125,
+        73.4208984375
+      ],
+      "previous_distance": 1.005476001242189,
+      "probe_distance": 1.005476001242189
+    }
+  ],
+  "labels_or_goal_used_for_selection": false,
+  "limitation": "Saved-data prototype; not native integration or full geometry audit"
+}

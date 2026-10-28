@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/check_boundary_graft_compatibility.py"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 25.097580968998955,
+  "minimum_available_mib": 7809.70703125,
+  "max_child_rss_mib": 120.5625,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/boundary-graft-compat-v2.log"
+}

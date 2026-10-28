@@ -1,0 +1,160 @@
+{
+  "schema": "full-hole-recovery-v5-evaluation-v1",
+  "passed": true,
+  "obj_root": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/full-y32-01-obj",
+  "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/hf-full-y32-v5-01.log",
+  "checks": {
+    "pipeline_ok_guard_zero_and_recovery_reported": true,
+    "step7_byte_identical_to_v4": true,
+    "source_and_other_v4_fill_preserved_in_both_stages": true,
+    "both_stages_no_exact_duplicates_degenerates_or_audited_conflicts": true,
+    "coverage_restored_and_sample_fidelity_within_quarter": true
+  },
+  "stages": {
+    "step8_holefill": {
+      "mesh": {
+        "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/full-y32-01-obj/z01808_y02320_x04112/z01808_y02320_x04112_step8_holefill/z01808_y02320_x04112_step8_holefill_all.vmesh",
+        "sha256": "b93672d63891ad10c079215a5d7296f9ba4a7a5134e25750f8ba35761c11d65f",
+        "vertices": 2852,
+        "faces": 5160,
+        "flags": 0,
+        "format_valid": true,
+        "finite_coordinates_and_uv": true,
+        "exact_duplicate_groups": 0,
+        "nondegenerate_duplicate_groups": 0,
+        "degenerate_duplicate_groups": 0,
+        "duplicate_extra_faces": 0,
+        "degenerate_faces": 0,
+        "duplicate_groups": []
+      },
+      "source_5139_preserved": true,
+      "other_v4_fill_faces_preserved": 4,
+      "new_full_fill_faces": 17,
+      "audit_mode": "reused_exact_oriented_geometry_multiset",
+      "audit_provenance": {
+        "native": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/saved-evaluation-02/native.json",
+        "strict": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/saved-evaluation-02/strict.json",
+        "geometry_sha256": "6c8666e673df057b010f9824e6bef5071b106810b1ad9efe22966752eb81a6b1"
+      },
+      "native": {
+        "faces": 5160,
+        "candidates": 31957,
+        "overlap": 0,
+        "stab": 0,
+        "fold": 0,
+        "conflicts": 0,
+        "gap_max": 0,
+        "include_hinges": true,
+        "predicate_fixture_checks": 4,
+        "read_only": true
+      },
+      "strict_checks": {
+        "source_multiplicity_and_cyclic_orientation_preserved": true,
+        "source_nondegenerate_for_supported_predicate": true,
+        "added_triangles_nondegenerate": true,
+        "no_intersection_outside_exact_common_simplex": true
+      },
+      "strict_exact_pairs_checked": 267,
+      "strict_scope": "new/v4-source and new/new; unchanged source/source not re-audited"
+    },
+    "step11_kibble": {
+      "mesh": {
+        "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/full-y32-01-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble/z01808_y02320_x04112_step11_kibble_all.vmesh",
+        "sha256": "b93672d63891ad10c079215a5d7296f9ba4a7a5134e25750f8ba35761c11d65f",
+        "vertices": 2852,
+        "faces": 5160,
+        "flags": 0,
+        "format_valid": true,
+        "finite_coordinates_and_uv": true,
+        "exact_duplicate_groups": 0,
+        "nondegenerate_duplicate_groups": 0,
+        "degenerate_duplicate_groups": 0,
+        "duplicate_extra_faces": 0,
+        "degenerate_faces": 0,
+        "duplicate_groups": []
+      },
+      "source_5139_preserved": true,
+      "other_v4_fill_faces_preserved": 4,
+      "new_full_fill_faces": 17,
+      "audit_mode": "reused_exact_oriented_geometry_multiset",
+      "audit_provenance": {
+        "native": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/saved-evaluation-02/native.json",
+        "strict": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/saved-evaluation-02/strict.json",
+        "geometry_sha256": "6c8666e673df057b010f9824e6bef5071b106810b1ad9efe22966752eb81a6b1"
+      },
+      "native": {
+        "faces": 5160,
+        "candidates": 31957,
+        "overlap": 0,
+        "stab": 0,
+        "fold": 0,
+        "conflicts": 0,
+        "gap_max": 0,
+        "include_hinges": true,
+        "predicate_fixture_checks": 4,
+        "read_only": true
+      },
+      "strict_checks": {
+        "source_multiplicity_and_cyclic_orientation_preserved": true,
+        "source_nondegenerate_for_supported_predicate": true,
+        "added_triangles_nondegenerate": true,
+        "no_intersection_outside_exact_common_simplex": true
+      },
+      "strict_exact_pairs_checked": 267,
+      "strict_scope": "new/v4-source and new/new; unchanged source/source not re-audited"
+    }
+  },
+  "saved_evaluator_sha256": "66f6f82c6b70365545021f37602db2bb817eaa771f09e6757ec2c654acd1a0a2",
+  "log_sha256": "e98efe4fec23b481faa3815aa1dc24386f60516a12f11fed75b576139e248f2d",
+  "step7": {
+    "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/full-y32-01-obj/z01808_y02320_x04112/z01808_y02320_x04112_step7_cc_bpa/z01808_y02320_x04112_step7_cc_bpa_all.vmesh",
+    "sha256": "6e85bd3045d24475bf0355be27b103116c50155e253942a82cbd26ce4f13faaa"
+  },
+  "metrics_mode": "reused_exact_oriented_geometry_multiset",
+  "metrics_provenance": {
+    "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/saved-evaluation-02/metrics.json",
+    "sha256": "b11432f2779c8090bb913189cd11b9db384e460e4cd1b5610470565f4ed5baf5"
+  },
+  "metrics": {
+    "vertices": 2852,
+    "faces": 5160,
+    "area_voxel2": 1287.5665951076785,
+    "reference_coverage_radius1": 2241,
+    "reference_coverage_by_id": {
+      "248": 2240,
+      "247": 1
+    },
+    "ct_otsu_supported_area_radius1": 1271.4811016445094,
+    "samples": 18722,
+    "source_boundary": {
+      "count": 427,
+      "median": 0.0,
+      "p95": 0.0,
+      "max": 0.7598520048408093,
+      "farther_than_quarter": 6,
+      "farther_than1": 0
+    },
+    "old_rejected_fill_sample_distance_to_candidate": {
+      "count": 221,
+      "median": 0.004474901132377755,
+      "p95": 0.05613721564314629,
+      "max": 0.08366538535565173,
+      "farther_than_quarter": 0,
+      "farther_than1": 0
+    },
+    "new_fill_sample_distance_to_v2_surface": {
+      "count": 387,
+      "median": 0.022542410899036365,
+      "p95": 0.0813413759440374,
+      "max": 0.11717636805713097,
+      "farther_than_quarter": 0,
+      "farther_than1": 0
+    }
+  },
+  "limitations": [
+    "Exact strict predicate covers all newly added faces against all v4 faces and each other; source/source strict pairs are not certified.",
+    "Finite sample fidelity is not a continuous coverage proof.",
+    "CT support, reference proximity and mesh area do not certify anatomical identity or fibers.",
+    "Same cube/scroll; broader regression and independent holdout remain separate."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "continuous-coverage-witness-replay-v1",
+  "passed": true,
+  "certificate": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/continuous-coverage-02.json",
+  "certificate_sha256": "b1ab101485498cca41689a3985b9bf42a983ba6db308ab698ee648b4080fd34f",
+  "meshes": {
+    "source": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/y32-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble/z01808_y02320_x04112_step11_kibble_all.vmesh",
+      "sha256": "5106f6cbec34df7decca0d3a01c33597f14da73ac3bdc35faa0f8f92180ef60e",
+      "vertices": 2852,
+      "faces": 5143,
+      "flags": 0
+    },
+    "before": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble/z01808_y02320_x04112_step11_kibble_all.vmesh",
+      "sha256": "d15db1d0cd0e08078c8ef786e121ae8189ddcca1bffe1aba51e551709c3e8a94",
+      "vertices": 2852,
+      "faces": 5160,
+      "flags": 0
+    },
+    "after": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/saved-evaluation-02/combined.vmesh",
+      "sha256": "6c8666e673df057b010f9824e6bef5071b106810b1ad9efe22966752eb81a6b1",
+      "vertices": 2852,
+      "faces": 5160,
+      "flags": 0
+    }
+  },
+  "delta_exact": "1/4",
+  "hausdorff_upper_bound_exact": "1/4",
+  "expected_witnesses": 3303,
+  "witnesses_verified": 3303,
+  "source_retained_in_both_with_multiplicity_and_orientation": true,
+  "directions": {
+    "before_patch_to_after_surface": {
+      "verified": true,
+      "root_geometries": 16,
+      "witnesses_verified": 769,
+      "identical_witnesses": 5,
+      "ball_witnesses": 764,
+      "complete_partitions": 16,
+      "maximum_depth": 4,
+      "subdivision_nodes": 251,
+      "no_target_search": true
+    },
+    "after_patch_to_before_surface": {
+      "verified": true,
+      "root_geometries": 17,
+      "witnesses_verified": 2534,
+      "identical_witnesses": 5,
+      "ball_witnesses": 2529,
+      "complete_partitions": 17,
+      "maximum_depth": 5,
+      "subdivision_nodes": 839,
+      "no_target_search": true
+    }
+  },
+  "verifier_budget": {
+    "max_witnesses": 100000,
+    "max_depth": 64,
+    "max_memory_mib": 192,
+    "max_json_bytes": 8388608,
+    "max_mesh_vertices": 100000,
+    "max_mesh_faces": 100000
+  },
+  "peak_process_rss_mib": 27.65234375,
+  "method": "exact leaf replay, complete prefix-free partitions, exact common-source retention; no nearest-point or target search",
+  "shared_code": "strict VMESH wire reader only; no import from certify_patch_coverage.py",
+  "limits": [
+    "Only the identified stored binary32 triangle unions are certified.",
+    "Hausdorff as a set distance ignores duplicate multiplicity and orientation after retention is checked.",
+    "No equal-area, topology, intersection-free, anatomical or fibre-identity claim.",
+    "External project resource guard remains mandatory."
+  ]
+}

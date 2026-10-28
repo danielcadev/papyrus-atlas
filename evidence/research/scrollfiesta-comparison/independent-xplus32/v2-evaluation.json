@@ -1,0 +1,55 @@
+{
+  "metrics_reused_from_byte_identical_output": "evaluation.json/cases/corrected",
+  "cases": {
+    "v2": {
+      "vertices": 5980,
+      "triangles": 11567,
+      "components": 5,
+      "area_voxel2": 2090.4569062303517,
+      "reference_voxels_covered_within_radius1": 1829,
+      "reference_coverage_by_id": {
+        "247": 1357,
+        "248": 472
+      },
+      "samples": 30371,
+      "sample_reference_counts_radius0": {
+        "247": 10024,
+        "0": 16297,
+        "248": 4050
+      },
+      "sample_reference_counts_radius2": {
+        "247": 17325,
+        "0": 4577,
+        "248": 8469
+      },
+      "sampled_area_by_id_radius0": {
+        "0": 1164.4054087669283,
+        "247": 662.6143091004224,
+        "248": 263.4371883630006
+      },
+      "mixed_reference_triangle_count": 0,
+      "input_ct_supported_area_radius1": 1833.0973967656773,
+      "frozen_geometric_tip_distance": 0.0,
+      "source_boundary_probes": 401,
+      "boundary_distance_median": 0.0,
+      "boundary_distance_p95": 0.10640922870556718,
+      "boundary_distance_max": 0.32246207982767267,
+      "boundary_vertices_farther_than1": 0,
+      "source_obj": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/independent-xplus32/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble/z01808_y02320_x04112_step11_kibble_all.obj"
+    }
+  },
+  "native_geometry": {
+    "v2": {
+      "faces": 11567,
+      "candidates": 71396,
+      "overlap": 0,
+      "stab": 0,
+      "fold": 0,
+      "conflicts": 0,
+      "gap_max": 0,
+      "include_hinges": true,
+      "predicate_fixture_checks": 4,
+      "read_only": true
+    }
+  }
+}

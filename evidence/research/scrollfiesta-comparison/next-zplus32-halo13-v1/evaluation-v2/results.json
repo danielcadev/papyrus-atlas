@@ -1,0 +1,1213 @@
+{
+  "experiment": "next-zplus32-halo13-v1",
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-next-z32-h13-eval-02.service",
+    "cpu_max": "25000 100000",
+    "memory_max": "402653184",
+    "memory_swap_max": "0",
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072
+  },
+  "cases": {
+    "v2-left": {
+      "stages": {
+        "step7_cc_bpa": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step7_cc_bpa/z01840_y02320_x04048_step7_cc_bpa_all.vmesh",
+          "sha256": "d6facd1922f90222f74144cf23b941a664a94b7d3fd82d8207226236d877b09e",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/d6facd1922f90222f74144cf23b941a664a94b7d3fd82d8207226236d877b09e-exact.json",
+          "reused_identical_geometry": false,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step7_cc_bpa/z01840_y02320_x04048_step7_cc_bpa_all.vmesh",
+          "vertices": 3312,
+          "faces": 6326,
+          "area_voxel2": 1071.4501909171315,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0
+        },
+        "step8_holefill": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step8_holefill/z01840_y02320_x04048_step8_holefill_all.vmesh",
+          "sha256": "bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9-exact.json",
+          "reused_identical_geometry": false,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step8_holefill/z01840_y02320_x04048_step8_holefill_all.vmesh",
+          "vertices": 3312,
+          "faces": 6332,
+          "area_voxel2": 1074.4071656474566,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0
+        },
+        "step11_kibble": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step11_kibble/z01840_y02320_x04048_step11_kibble_all.vmesh",
+          "sha256": "bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step8_holefill/z01840_y02320_x04048_step8_holefill_all.vmesh",
+          "vertices": 3312,
+          "faces": 6332,
+          "area_voxel2": 1074.4071656474566,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0,
+          "audit": {
+            "summary": {
+              "faces": 6332,
+              "candidates": 38719,
+              "overlap": 0,
+              "stab": 0,
+              "fold": 0,
+              "conflicts": 0,
+              "gap_max": 0,
+              "include_hinges": true,
+              "predicate_fixture_checks": 4,
+              "read_only": true
+            },
+            "result_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9-audit.json",
+            "pairs_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9-pairs.csv",
+            "command": [
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/saved_geometry_audit.independent",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step11_kibble/z01840_y02320_x04048_step11_kibble_all.vmesh",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9-audit.json",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9-pairs.csv",
+              "1840",
+              "2320",
+              "4048"
+            ],
+            "reused_identical_geometry": false
+          }
+        },
+        "step12_final": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step12_final/z01840_y02320_x04048_step12_final_all.vmesh",
+          "sha256": "e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-exact.json",
+          "reused_identical_geometry": false,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step12_final/z01840_y02320_x04048_step12_final_all.vmesh",
+          "vertices": 3312,
+          "faces": 6332,
+          "area_voxel2": 1074.5381081962528,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0,
+          "audit": {
+            "summary": {
+              "faces": 6332,
+              "candidates": 38719,
+              "overlap": 0,
+              "stab": 0,
+              "fold": 0,
+              "conflicts": 0,
+              "gap_max": 0,
+              "include_hinges": true,
+              "predicate_fixture_checks": 4,
+              "read_only": true
+            },
+            "result_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-audit.json",
+            "pairs_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-pairs.csv",
+            "command": [
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/saved_geometry_audit.independent",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step12_final/z01840_y02320_x04048_step12_final_all.vmesh",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-audit.json",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-pairs.csv",
+              "1840",
+              "2320",
+              "4048"
+            ],
+            "reused_identical_geometry": false
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/next-z32-h13-v2-left-01.log",
+        "runner_status": {
+          "command": [
+            "/usr/bin/python3",
+            "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/run_case.py",
+            "v2-left"
+          ],
+          "returncode": 0,
+          "reason": "completed",
+          "elapsed_seconds": 10.610803463998309,
+          "minimum_available_mib": 5227.2109375,
+          "max_child_rss_mib": 35.37109375,
+          "gpu_devices_inaccessible": true,
+          "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/next-z32-h13-v2-left-01.log"
+        },
+        "finished": {
+          "state": "process-exited",
+          "returncode": 0,
+          "elapsed_seconds": 10.314209484000457,
+          "pipeline_status_requires_log_review": true
+        },
+        "pipeline_statuses": [
+          "OK"
+        ],
+        "guards": [
+          {
+            "nonmanifold_edges": 0,
+            "removed_faces": 0,
+            "pinch_splits": 0,
+            "reorient_flips": 0
+          }
+        ],
+        "guard_lines": [
+          "  Guard: 0 NM-edge(s) (-0 faces), 0 pinch split(s), 0 reorient flip(s) (0.002s)"
+        ],
+        "guard_totals": {
+          "nonmanifold_edges": 0,
+          "removed_faces": 0,
+          "pinch_splits": 0,
+          "reorient_flips": 0
+        },
+        "trim_lines": [
+          "{\"case\": \"v2-left\", \"command\": [\"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/cube_mesh.boundary-graft-v2\", \"--stdin-raw\", \"154\", \"1840\", \"2320\", \"4048\", \"--halo\", \"13\", \"--trim-inset\", \"1\", \"--dump-obj\", \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj\", \"--no-simplify\"], \"stdin\": \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/left-prediction-zyx.raw\", \"environment\": {\"PATH\": \"/usr/bin:/bin\", \"LANG\": \"C\", \"MLS_EDGE_ADAPT\": \"soft\", \"VES_OVERLAP_COVERAGE_GUARD\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"VESUVIUS_THREADS\": \"1\", \"OMP_THREAD_LIMIT\": \"1\", \"CUDA_VISIBLE_DEVICES\": \"-1\", \"HIP_VISIBLE_DEVICES\": \"-1\", \"ROCR_VISIBLE_DEVICES\": \"\", \"MALLOC_ARENA_MAX\": \"1\"}}",
+          "  Trim: 3/3 comps kept, 3312/6332 -> 3312/6332 v/f (cut-at-plane, 0 faces cut) (0.001s)",
+          "  Timings: extract=8.207 cvt=0.000 trim=0.001 dump=0.007 total=10.308s  Status: OK"
+        ],
+        "timing_lines": [
+          "  Timings: extract=8.207 cvt=0.000 trim=0.001 dump=0.007 total=10.308s  Status: OK"
+        ],
+        "cgroup_memory_peak_bytes": null,
+        "memory_note": "Runner records max_child_rss_mib, not cgroup memory.peak; no peak invented."
+      },
+      "source_retention_step7_to_step8": {
+        "retained": true,
+        "missing_or_reoriented_faces": 0,
+        "missing_or_reoriented_distinct_faces": 0,
+        "missing": [],
+        "reused_identical_geometry": false
+      }
+    },
+    "v2-right": {
+      "stages": {
+        "step7_cc_bpa": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step7_cc_bpa/z01840_y02320_x04176_step7_cc_bpa_all.vmesh",
+          "sha256": "e235bfff761a2bac1e25ebb84fb32ee928f9abb744028155d1349f2677e8cd74",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e235bfff761a2bac1e25ebb84fb32ee928f9abb744028155d1349f2677e8cd74-exact.json",
+          "reused_identical_geometry": false,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step7_cc_bpa/z01840_y02320_x04176_step7_cc_bpa_all.vmesh",
+          "vertices": 3813,
+          "faces": 7011,
+          "area_voxel2": 1211.2632189493697,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0
+        },
+        "step8_holefill": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step8_holefill/z01840_y02320_x04176_step8_holefill_all.vmesh",
+          "sha256": "21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9-exact.json",
+          "reused_identical_geometry": false,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step8_holefill/z01840_y02320_x04176_step8_holefill_all.vmesh",
+          "vertices": 3813,
+          "faces": 7014,
+          "area_voxel2": 1211.9033917315637,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0
+        },
+        "step11_kibble": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step11_kibble/z01840_y02320_x04176_step11_kibble_all.vmesh",
+          "sha256": "21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step8_holefill/z01840_y02320_x04176_step8_holefill_all.vmesh",
+          "vertices": 3813,
+          "faces": 7014,
+          "area_voxel2": 1211.9033917315637,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0,
+          "audit": {
+            "summary": {
+              "faces": 7014,
+              "candidates": 42936,
+              "overlap": 0,
+              "stab": 0,
+              "fold": 0,
+              "conflicts": 0,
+              "gap_max": 0,
+              "include_hinges": true,
+              "predicate_fixture_checks": 4,
+              "read_only": true
+            },
+            "result_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9-audit.json",
+            "pairs_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9-pairs.csv",
+            "command": [
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/saved_geometry_audit.independent",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step11_kibble/z01840_y02320_x04176_step11_kibble_all.vmesh",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9-audit.json",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9-pairs.csv",
+              "1840",
+              "2320",
+              "4048"
+            ],
+            "reused_identical_geometry": false
+          }
+        },
+        "step12_final": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step12_final/z01840_y02320_x04176_step12_final_all.vmesh",
+          "sha256": "31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-exact.json",
+          "reused_identical_geometry": false,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step12_final/z01840_y02320_x04176_step12_final_all.vmesh",
+          "vertices": 3813,
+          "faces": 7014,
+          "area_voxel2": 1212.1014555589302,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0,
+          "audit": {
+            "summary": {
+              "faces": 7014,
+              "candidates": 42936,
+              "overlap": 0,
+              "stab": 0,
+              "fold": 0,
+              "conflicts": 0,
+              "gap_max": 0,
+              "include_hinges": true,
+              "predicate_fixture_checks": 4,
+              "read_only": true
+            },
+            "result_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-audit.json",
+            "pairs_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-pairs.csv",
+            "command": [
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/saved_geometry_audit.independent",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step12_final/z01840_y02320_x04176_step12_final_all.vmesh",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-audit.json",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-pairs.csv",
+              "1840",
+              "2320",
+              "4048"
+            ],
+            "reused_identical_geometry": false
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/next-z32-h13-v2-right-01.log",
+        "runner_status": {
+          "command": [
+            "/usr/bin/python3",
+            "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/run_case.py",
+            "v2-right"
+          ],
+          "returncode": 0,
+          "reason": "completed",
+          "elapsed_seconds": 10.810575218994927,
+          "minimum_available_mib": 5486.8984375,
+          "max_child_rss_mib": 37.53125,
+          "gpu_devices_inaccessible": true,
+          "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/next-z32-h13-v2-right-01.log"
+        },
+        "finished": {
+          "state": "process-exited",
+          "returncode": 0,
+          "elapsed_seconds": 10.592726734997996,
+          "pipeline_status_requires_log_review": true
+        },
+        "pipeline_statuses": [
+          "OK"
+        ],
+        "guards": [
+          {
+            "nonmanifold_edges": 0,
+            "removed_faces": 0,
+            "pinch_splits": 0,
+            "reorient_flips": 0
+          }
+        ],
+        "guard_lines": [
+          "  Guard: 0 NM-edge(s) (-0 faces), 0 pinch split(s), 0 reorient flip(s) (0.002s)"
+        ],
+        "guard_totals": {
+          "nonmanifold_edges": 0,
+          "removed_faces": 0,
+          "pinch_splits": 0,
+          "reorient_flips": 0
+        },
+        "trim_lines": [
+          "{\"case\": \"v2-right\", \"command\": [\"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/cube_mesh.boundary-graft-v2\", \"--stdin-raw\", \"154\", \"1840\", \"2320\", \"4176\", \"--halo\", \"13\", \"--trim-inset\", \"1\", \"--dump-obj\", \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj\", \"--no-simplify\"], \"stdin\": \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/right-prediction-zyx.raw\", \"environment\": {\"PATH\": \"/usr/bin:/bin\", \"LANG\": \"C\", \"MLS_EDGE_ADAPT\": \"soft\", \"VES_OVERLAP_COVERAGE_GUARD\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"VESUVIUS_THREADS\": \"1\", \"OMP_THREAD_LIMIT\": \"1\", \"CUDA_VISIBLE_DEVICES\": \"-1\", \"HIP_VISIBLE_DEVICES\": \"-1\", \"ROCR_VISIBLE_DEVICES\": \"\", \"MALLOC_ARENA_MAX\": \"1\"}}",
+          "  Trim: 7/7 comps kept, 3813/7014 -> 3813/7014 v/f (cut-at-plane, 0 faces cut) (0.000s)",
+          "  Timings: extract=8.802 cvt=0.000 trim=0.000 dump=0.084 total=10.587s  Status: OK"
+        ],
+        "timing_lines": [
+          "  Timings: extract=8.802 cvt=0.000 trim=0.000 dump=0.084 total=10.587s  Status: OK"
+        ],
+        "cgroup_memory_peak_bytes": null,
+        "memory_note": "Runner records max_child_rss_mib, not cgroup memory.peak; no peak invented."
+      },
+      "source_retention_step7_to_step8": {
+        "retained": true,
+        "missing_or_reoriented_faces": 0,
+        "missing_or_reoriented_distinct_faces": 0,
+        "missing": [],
+        "reused_identical_geometry": false
+      }
+    },
+    "v4-left": {
+      "stages": {
+        "step7_cc_bpa": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step7_cc_bpa/z01840_y02320_x04048_step7_cc_bpa_all.vmesh",
+          "sha256": "d6facd1922f90222f74144cf23b941a664a94b7d3fd82d8207226236d877b09e",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/d6facd1922f90222f74144cf23b941a664a94b7d3fd82d8207226236d877b09e-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step7_cc_bpa/z01840_y02320_x04048_step7_cc_bpa_all.vmesh",
+          "vertices": 3312,
+          "faces": 6326,
+          "area_voxel2": 1071.4501909171315,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0
+        },
+        "step8_holefill": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step8_holefill/z01840_y02320_x04048_step8_holefill_all.vmesh",
+          "sha256": "bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step8_holefill/z01840_y02320_x04048_step8_holefill_all.vmesh",
+          "vertices": 3312,
+          "faces": 6332,
+          "area_voxel2": 1074.4071656474566,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0
+        },
+        "step11_kibble": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step11_kibble/z01840_y02320_x04048_step11_kibble_all.vmesh",
+          "sha256": "bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step8_holefill/z01840_y02320_x04048_step8_holefill_all.vmesh",
+          "vertices": 3312,
+          "faces": 6332,
+          "area_voxel2": 1074.4071656474566,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0,
+          "audit": {
+            "summary": {
+              "faces": 6332,
+              "candidates": 38719,
+              "overlap": 0,
+              "stab": 0,
+              "fold": 0,
+              "conflicts": 0,
+              "gap_max": 0,
+              "include_hinges": true,
+              "predicate_fixture_checks": 4,
+              "read_only": true
+            },
+            "result_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9-audit.json",
+            "pairs_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9-pairs.csv",
+            "command": [
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/saved_geometry_audit.independent",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step11_kibble/z01840_y02320_x04048_step11_kibble_all.vmesh",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9-audit.json",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9-pairs.csv",
+              "1840",
+              "2320",
+              "4048"
+            ],
+            "reused_identical_geometry": true
+          }
+        },
+        "step12_final": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step12_final/z01840_y02320_x04048_step12_final_all.vmesh",
+          "sha256": "e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step12_final/z01840_y02320_x04048_step12_final_all.vmesh",
+          "vertices": 3312,
+          "faces": 6332,
+          "area_voxel2": 1074.5381081962528,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0,
+          "audit": {
+            "summary": {
+              "faces": 6332,
+              "candidates": 38719,
+              "overlap": 0,
+              "stab": 0,
+              "fold": 0,
+              "conflicts": 0,
+              "gap_max": 0,
+              "include_hinges": true,
+              "predicate_fixture_checks": 4,
+              "read_only": true
+            },
+            "result_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-audit.json",
+            "pairs_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-pairs.csv",
+            "command": [
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/saved_geometry_audit.independent",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step12_final/z01840_y02320_x04048_step12_final_all.vmesh",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-audit.json",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-pairs.csv",
+              "1840",
+              "2320",
+              "4048"
+            ],
+            "reused_identical_geometry": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/next-z32-h13-v4-left-01.log",
+        "runner_status": {
+          "command": [
+            "/usr/bin/python3",
+            "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/run_case.py",
+            "v4-left"
+          ],
+          "returncode": 0,
+          "reason": "completed",
+          "elapsed_seconds": 10.686039427004289,
+          "minimum_available_mib": 5595.05859375,
+          "max_child_rss_mib": 35.1875,
+          "gpu_devices_inaccessible": true,
+          "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/next-z32-h13-v4-left-01.log"
+        },
+        "finished": {
+          "state": "process-exited",
+          "returncode": 0,
+          "elapsed_seconds": 10.31288423800288,
+          "pipeline_status_requires_log_review": true
+        },
+        "pipeline_statuses": [
+          "OK"
+        ],
+        "guards": [
+          {
+            "nonmanifold_edges": 0,
+            "removed_faces": 0,
+            "pinch_splits": 0,
+            "reorient_flips": 0
+          }
+        ],
+        "guard_lines": [
+          "  Guard: 0 NM-edge(s) (-0 faces), 0 pinch split(s), 0 reorient flip(s) (0.002s)"
+        ],
+        "guard_totals": {
+          "nonmanifold_edges": 0,
+          "removed_faces": 0,
+          "pinch_splits": 0,
+          "reorient_flips": 0
+        },
+        "trim_lines": [
+          "{\"case\": \"v4-left\", \"command\": [\"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/cube_mesh.holefill-v4\", \"--stdin-raw\", \"154\", \"1840\", \"2320\", \"4048\", \"--halo\", \"13\", \"--trim-inset\", \"1\", \"--dump-obj\", \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-left-obj\", \"--no-simplify\"], \"stdin\": \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/left-prediction-zyx.raw\", \"environment\": {\"PATH\": \"/usr/bin:/bin\", \"LANG\": \"C\", \"MLS_EDGE_ADAPT\": \"soft\", \"VES_OVERLAP_COVERAGE_GUARD\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"VESUVIUS_THREADS\": \"1\", \"OMP_THREAD_LIMIT\": \"1\", \"CUDA_VISIBLE_DEVICES\": \"-1\", \"HIP_VISIBLE_DEVICES\": \"-1\", \"ROCR_VISIBLE_DEVICES\": \"\", \"MALLOC_ARENA_MAX\": \"1\"}}",
+          "  Trim: 3/3 comps kept, 3312/6332 -> 3312/6332 v/f (cut-at-plane, 0 faces cut) (0.001s)",
+          "  Timings: extract=8.211 cvt=0.000 trim=0.001 dump=0.007 total=10.308s  Status: OK"
+        ],
+        "timing_lines": [
+          "  Timings: extract=8.211 cvt=0.000 trim=0.001 dump=0.007 total=10.308s  Status: OK"
+        ],
+        "cgroup_memory_peak_bytes": null,
+        "memory_note": "Runner records max_child_rss_mib, not cgroup memory.peak; no peak invented."
+      },
+      "source_retention_step7_to_step8": {
+        "retained": true,
+        "missing_or_reoriented_faces": 0,
+        "missing_or_reoriented_distinct_faces": 0,
+        "missing": [],
+        "reused_identical_geometry": true
+      }
+    },
+    "v4-right": {
+      "stages": {
+        "step7_cc_bpa": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step7_cc_bpa/z01840_y02320_x04176_step7_cc_bpa_all.vmesh",
+          "sha256": "e235bfff761a2bac1e25ebb84fb32ee928f9abb744028155d1349f2677e8cd74",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e235bfff761a2bac1e25ebb84fb32ee928f9abb744028155d1349f2677e8cd74-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step7_cc_bpa/z01840_y02320_x04176_step7_cc_bpa_all.vmesh",
+          "vertices": 3813,
+          "faces": 7011,
+          "area_voxel2": 1211.2632189493697,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0
+        },
+        "step8_holefill": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step8_holefill/z01840_y02320_x04176_step8_holefill_all.vmesh",
+          "sha256": "21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step8_holefill/z01840_y02320_x04176_step8_holefill_all.vmesh",
+          "vertices": 3813,
+          "faces": 7014,
+          "area_voxel2": 1211.9033917315637,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0
+        },
+        "step11_kibble": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step11_kibble/z01840_y02320_x04176_step11_kibble_all.vmesh",
+          "sha256": "21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step8_holefill/z01840_y02320_x04176_step8_holefill_all.vmesh",
+          "vertices": 3813,
+          "faces": 7014,
+          "area_voxel2": 1211.9033917315637,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0,
+          "audit": {
+            "summary": {
+              "faces": 7014,
+              "candidates": 42936,
+              "overlap": 0,
+              "stab": 0,
+              "fold": 0,
+              "conflicts": 0,
+              "gap_max": 0,
+              "include_hinges": true,
+              "predicate_fixture_checks": 4,
+              "read_only": true
+            },
+            "result_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9-audit.json",
+            "pairs_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9-pairs.csv",
+            "command": [
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/saved_geometry_audit.independent",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step11_kibble/z01840_y02320_x04176_step11_kibble_all.vmesh",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9-audit.json",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9-pairs.csv",
+              "1840",
+              "2320",
+              "4048"
+            ],
+            "reused_identical_geometry": true
+          }
+        },
+        "step12_final": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step12_final/z01840_y02320_x04176_step12_final_all.vmesh",
+          "sha256": "31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step12_final/z01840_y02320_x04176_step12_final_all.vmesh",
+          "vertices": 3813,
+          "faces": 7014,
+          "area_voxel2": 1212.1014555589302,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0,
+          "audit": {
+            "summary": {
+              "faces": 7014,
+              "candidates": 42936,
+              "overlap": 0,
+              "stab": 0,
+              "fold": 0,
+              "conflicts": 0,
+              "gap_max": 0,
+              "include_hinges": true,
+              "predicate_fixture_checks": 4,
+              "read_only": true
+            },
+            "result_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-audit.json",
+            "pairs_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-pairs.csv",
+            "command": [
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/saved_geometry_audit.independent",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step12_final/z01840_y02320_x04176_step12_final_all.vmesh",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-audit.json",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-pairs.csv",
+              "1840",
+              "2320",
+              "4048"
+            ],
+            "reused_identical_geometry": true
+          }
+        }
+      },
+      "execution": {
+        "valid": true,
+        "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/next-z32-h13-v4-right-01.log",
+        "runner_status": {
+          "command": [
+            "/usr/bin/python3",
+            "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/run_case.py",
+            "v4-right"
+          ],
+          "returncode": 0,
+          "reason": "completed",
+          "elapsed_seconds": 10.887313480001467,
+          "minimum_available_mib": 5572.1953125,
+          "max_child_rss_mib": 37.96484375,
+          "gpu_devices_inaccessible": true,
+          "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/next-z32-h13-v4-right-01.log"
+        },
+        "finished": {
+          "state": "process-exited",
+          "returncode": 0,
+          "elapsed_seconds": 10.60063245100173,
+          "pipeline_status_requires_log_review": true
+        },
+        "pipeline_statuses": [
+          "OK"
+        ],
+        "guards": [
+          {
+            "nonmanifold_edges": 0,
+            "removed_faces": 0,
+            "pinch_splits": 0,
+            "reorient_flips": 0
+          }
+        ],
+        "guard_lines": [
+          "  Guard: 0 NM-edge(s) (-0 faces), 0 pinch split(s), 0 reorient flip(s) (0.002s)"
+        ],
+        "guard_totals": {
+          "nonmanifold_edges": 0,
+          "removed_faces": 0,
+          "pinch_splits": 0,
+          "reorient_flips": 0
+        },
+        "trim_lines": [
+          "{\"case\": \"v4-right\", \"command\": [\"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/cube_mesh.holefill-v4\", \"--stdin-raw\", \"154\", \"1840\", \"2320\", \"4176\", \"--halo\", \"13\", \"--trim-inset\", \"1\", \"--dump-obj\", \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-right-obj\", \"--no-simplify\"], \"stdin\": \"/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/right-prediction-zyx.raw\", \"environment\": {\"PATH\": \"/usr/bin:/bin\", \"LANG\": \"C\", \"MLS_EDGE_ADAPT\": \"soft\", \"VES_OVERLAP_COVERAGE_GUARD\": \"1\", \"OPENBLAS_NUM_THREADS\": \"1\", \"OMP_NUM_THREADS\": \"1\", \"MKL_NUM_THREADS\": \"1\", \"VESUVIUS_THREADS\": \"1\", \"OMP_THREAD_LIMIT\": \"1\", \"CUDA_VISIBLE_DEVICES\": \"-1\", \"HIP_VISIBLE_DEVICES\": \"-1\", \"ROCR_VISIBLE_DEVICES\": \"\", \"MALLOC_ARENA_MAX\": \"1\"}}",
+          "  Trim: 7/7 comps kept, 3813/7014 -> 3813/7014 v/f (cut-at-plane, 0 faces cut) (0.000s)",
+          "  Timings: extract=8.805 cvt=0.000 trim=0.000 dump=0.084 total=10.595s  Status: OK"
+        ],
+        "timing_lines": [
+          "  Timings: extract=8.805 cvt=0.000 trim=0.000 dump=0.084 total=10.595s  Status: OK"
+        ],
+        "cgroup_memory_peak_bytes": null,
+        "memory_note": "Runner records max_child_rss_mib, not cgroup memory.peak; no peak invented."
+      },
+      "source_retention_step7_to_step8": {
+        "retained": true,
+        "missing_or_reoriented_faces": 0,
+        "missing_or_reoriented_distinct_faces": 0,
+        "missing": [],
+        "reused_identical_geometry": true
+      }
+    }
+  },
+  "comparisons": {
+    "left": {
+      "step7_byte_identical": true,
+      "guards_no_increased_counter": true,
+      "step8_holefill": {
+        "byte_identical": true,
+        "faces_delta": 0,
+        "area_delta_voxel2": 0.0,
+        "new_duplicate_extra_faces": 0,
+        "new_duplicate_geometries": [],
+        "new_conflict_pairs": 0,
+        "new_conflict_geometry": [],
+        "no_new_conflicts_or_duplicates": true,
+        "audited_pair_comparison": false
+      },
+      "step11_kibble": {
+        "byte_identical": true,
+        "faces_delta": 0,
+        "area_delta_voxel2": 0.0,
+        "new_duplicate_extra_faces": 0,
+        "new_duplicate_geometries": [],
+        "new_conflict_pairs": 0,
+        "new_conflict_geometry": [],
+        "no_new_conflicts_or_duplicates": true,
+        "audited_pair_comparison": true
+      },
+      "step12_final": {
+        "byte_identical": true,
+        "faces_delta": 0,
+        "area_delta_voxel2": 0.0,
+        "new_duplicate_extra_faces": 0,
+        "new_duplicate_geometries": [],
+        "new_conflict_pairs": 0,
+        "new_conflict_geometry": [],
+        "no_new_conflicts_or_duplicates": true,
+        "audited_pair_comparison": true
+      }
+    },
+    "right": {
+      "step7_byte_identical": true,
+      "guards_no_increased_counter": true,
+      "step8_holefill": {
+        "byte_identical": true,
+        "faces_delta": 0,
+        "area_delta_voxel2": 0.0,
+        "new_duplicate_extra_faces": 0,
+        "new_duplicate_geometries": [],
+        "new_conflict_pairs": 0,
+        "new_conflict_geometry": [],
+        "no_new_conflicts_or_duplicates": true,
+        "audited_pair_comparison": false
+      },
+      "step11_kibble": {
+        "byte_identical": true,
+        "faces_delta": 0,
+        "area_delta_voxel2": 0.0,
+        "new_duplicate_extra_faces": 0,
+        "new_duplicate_geometries": [],
+        "new_conflict_pairs": 0,
+        "new_conflict_geometry": [],
+        "no_new_conflicts_or_duplicates": true,
+        "audited_pair_comparison": true
+      },
+      "step12_final": {
+        "byte_identical": true,
+        "faces_delta": 0,
+        "area_delta_voxel2": 0.0,
+        "new_duplicate_extra_faces": 0,
+        "new_duplicate_geometries": [],
+        "new_conflict_pairs": 0,
+        "new_conflict_geometry": [],
+        "no_new_conflicts_or_duplicates": true,
+        "audited_pair_comparison": true
+      }
+    },
+    "union_final": {
+      "byte_identical": true,
+      "faces_delta": 0,
+      "area_delta_voxel2": 0.0,
+      "new_duplicate_extra_faces": 0,
+      "new_duplicate_geometries": [],
+      "new_conflict_pairs": 0,
+      "new_conflict_geometry": [],
+      "no_new_conflicts_or_duplicates": true,
+      "audited_pair_comparison": true
+    }
+  },
+  "unions": {
+    "v2": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/v2-union-final-global-zyx.vmesh",
+      "sha256": "9509a0dac6e0a615cf7e3547111f46c3ff4dfe8ef18d0f5993e6135972567d86",
+      "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/9509a0dac6e0a615cf7e3547111f46c3ff4dfe8ef18d0f5993e6135972567d86-exact.json",
+      "reused_identical_geometry": false,
+      "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/v2-union-final-global-zyx.vmesh",
+      "vertices": 7125,
+      "faces": 13346,
+      "area_voxel2": 2286.639563755183,
+      "exact_duplicate_groups": 0,
+      "duplicate_extra_faces": 0,
+      "degenerate_faces": 0,
+      "audit": {
+        "summary": {
+          "faces": 13346,
+          "candidates": 81655,
+          "overlap": 0,
+          "stab": 0,
+          "fold": 0,
+          "conflicts": 0,
+          "gap_max": 0,
+          "include_hinges": true,
+          "predicate_fixture_checks": 4,
+          "read_only": true
+        },
+        "result_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/9509a0dac6e0a615cf7e3547111f46c3ff4dfe8ef18d0f5993e6135972567d86-audit.json",
+        "pairs_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/9509a0dac6e0a615cf7e3547111f46c3ff4dfe8ef18d0f5993e6135972567d86-pairs.csv",
+        "command": [
+          "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/saved_geometry_audit.independent",
+          "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/v2-union-final-global-zyx.vmesh",
+          "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/9509a0dac6e0a615cf7e3547111f46c3ff4dfe8ef18d0f5993e6135972567d86-audit.json",
+          "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/9509a0dac6e0a615cf7e3547111f46c3ff4dfe8ef18d0f5993e6135972567d86-pairs.csv",
+          "1840",
+          "2320",
+          "4048"
+        ],
+        "reused_identical_geometry": false
+      }
+    },
+    "v4": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/v4-union-final-global-zyx.vmesh",
+      "sha256": "9509a0dac6e0a615cf7e3547111f46c3ff4dfe8ef18d0f5993e6135972567d86",
+      "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/9509a0dac6e0a615cf7e3547111f46c3ff4dfe8ef18d0f5993e6135972567d86-exact.json",
+      "reused_identical_geometry": true,
+      "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/v2-union-final-global-zyx.vmesh",
+      "vertices": 7125,
+      "faces": 13346,
+      "area_voxel2": 2286.639563755183,
+      "exact_duplicate_groups": 0,
+      "duplicate_extra_faces": 0,
+      "degenerate_faces": 0,
+      "audit": {
+        "summary": {
+          "faces": 13346,
+          "candidates": 81655,
+          "overlap": 0,
+          "stab": 0,
+          "fold": 0,
+          "conflicts": 0,
+          "gap_max": 0,
+          "include_hinges": true,
+          "predicate_fixture_checks": 4,
+          "read_only": true
+        },
+        "result_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/9509a0dac6e0a615cf7e3547111f46c3ff4dfe8ef18d0f5993e6135972567d86-audit.json",
+        "pairs_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/9509a0dac6e0a615cf7e3547111f46c3ff4dfe8ef18d0f5993e6135972567d86-pairs.csv",
+        "command": [
+          "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/saved_geometry_audit.independent",
+          "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/v2-union-final-global-zyx.vmesh",
+          "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/9509a0dac6e0a615cf7e3547111f46c3ff4dfe8ef18d0f5993e6135972567d86-audit.json",
+          "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/9509a0dac6e0a615cf7e3547111f46c3ff4dfe8ef18d0f5993e6135972567d86-pairs.csv",
+          "1840",
+          "2320",
+          "4048"
+        ],
+        "reused_identical_geometry": true
+      }
+    }
+  },
+  "seams": {
+    "v2": {
+      "directions": {
+        "left_to_right": {
+          "expected_plane_world_x": 4175,
+          "boundary_edges_total": 286,
+          "boundary_vertices_total": 286,
+          "band_sample_vertices": 111,
+          "empty_band": false,
+          "distance_to_expected_plane": {
+            "count": 111,
+            "min": 0.0,
+            "mean": 0.7599151886261262,
+            "median": 0.30029296875,
+            "p95": 3.49560546875,
+            "max": 3.60693359375
+          },
+          "point_to_other_core_triangles": {
+            "count": 111,
+            "min": 2.0363203186494356,
+            "mean": 3.690902053881717,
+            "median": 2.5482827084243374,
+            "p95": 9.819084191429575,
+            "max": 11.94022394790666
+          },
+          "unmatched_threshold_voxels_exclusive": 4,
+          "unmatched_count": 25,
+          "unmatched_fraction": 0.22522522522522523,
+          "unmatched_fraction_reason": null,
+          "sample_vertex_indices": [
+            0,
+            2,
+            5,
+            6,
+            8,
+            14,
+            16,
+            21,
+            34,
+            35,
+            50,
+            66,
+            96,
+            128,
+            153,
+            171,
+            204,
+            235,
+            263,
+            283,
+            309,
+            353,
+            394,
+            422,
+            471,
+            515,
+            561,
+            613,
+            658,
+            693,
+            726,
+            760,
+            792,
+            843,
+            891,
+            926,
+            948,
+            992,
+            1024,
+            1053,
+            1107,
+            1136,
+            1171,
+            1214,
+            1256,
+            1284,
+            1318,
+            1330,
+            1354,
+            1355,
+            1362,
+            1363,
+            1381,
+            1382,
+            1383,
+            1384,
+            1388,
+            1389,
+            1396,
+            1424,
+            1440,
+            1453,
+            1456,
+            1468,
+            1568,
+            1580,
+            1592,
+            1605,
+            1618,
+            1628,
+            1638,
+            1643,
+            1644,
+            1645,
+            1646,
+            1649,
+            1650,
+            1719,
+            1720,
+            1737,
+            1801,
+            1806,
+            1846,
+            1851,
+            1902,
+            1970,
+            1976,
+            2051,
+            2122,
+            2128,
+            2198,
+            2201,
+            2277,
+            2347,
+            2350,
+            2431,
+            2509,
+            2513,
+            2592,
+            2596,
+            2672,
+            2744,
+            2748,
+            2817,
+            2889,
+            2970,
+            3047,
+            3112,
+            3158,
+            3159,
+            3196
+          ]
+        },
+        "right_to_left": {
+          "expected_plane_world_x": 4177,
+          "boundary_edges_total": 598,
+          "boundary_vertices_total": 598,
+          "band_sample_vertices": 133,
+          "empty_band": false,
+          "distance_to_expected_plane": {
+            "count": 133,
+            "min": 0.0,
+            "mean": 0.9977017739661654,
+            "median": 0.39111328125,
+            "p95": 3.3530273437499987,
+            "max": 3.63720703125
+          },
+          "point_to_other_core_triangles": {
+            "count": 133,
+            "min": 2.0363203186494356,
+            "mean": 3.2494977839680317,
+            "median": 2.7910857803609344,
+            "p95": 5.628050124770924,
+            "max": 6.7105837996313165
+          },
+          "unmatched_threshold_voxels_exclusive": 4,
+          "unmatched_count": 34,
+          "unmatched_fraction": 0.2556390977443609,
+          "unmatched_fraction_reason": null,
+          "sample_vertex_indices": [
+            528,
+            571,
+            616,
+            639,
+            667,
+            687,
+            688,
+            689,
+            706,
+            724,
+            742,
+            744,
+            761,
+            763,
+            777,
+            779,
+            780,
+            791,
+            794,
+            795,
+            796,
+            810,
+            821,
+            834,
+            1135,
+            1144,
+            1153,
+            1155,
+            1156,
+            1166,
+            1176,
+            1177,
+            1178,
+            1189,
+            1208,
+            1209,
+            1222,
+            1223,
+            1240,
+            1241,
+            1253,
+            1256,
+            1257,
+            1262,
+            1514,
+            1516,
+            1535,
+            1537,
+            1554,
+            1555,
+            1579,
+            1581,
+            1584,
+            1601,
+            1605,
+            1606,
+            1627,
+            1631,
+            1646,
+            1693,
+            1716,
+            1719,
+            1734,
+            1759,
+            1760,
+            1761,
+            1777,
+            1805,
+            1832,
+            1850,
+            1883,
+            1928,
+            1971,
+            1972,
+            2011,
+            2048,
+            2068,
+            2070,
+            2071,
+            2074,
+            2076,
+            2077,
+            2080,
+            2084,
+            2085,
+            2086,
+            2087,
+            2369,
+            2381,
+            2418,
+            2419,
+            2425,
+            2428,
+            2429,
+            2535,
+            2536,
+            2580,
+            2642,
+            2643,
+            2684,
+            2736,
+            2738,
+            2773,
+            2836,
+            2911,
+            2970,
+            3010,
+            3083,
+            3157,
+            3233,
+            3235,
+            3312,
+            3388,
+            3391,
+            3460,
+            3465,
+            3539,
+            3610,
+            3615,
+            3673,
+            3721,
+            3724,
+            3756,
+            3760,
+            3782,
+            3787,
+            3799,
+            3804,
+            3805,
+            3806,
+            3807,
+            3810,
+            3811
+          ]
+        }
+      },
+      "band_width_voxels": 4,
+      "sampling": "Every indexed vertex incident to an edge with exactly one face, within inclusive |worldX-plane|<=4; no subsampling or coordinate welding",
+      "target": "All triangles of the other final owned core; directed metrics reported in both directions",
+      "expected_gap_voxels": 2,
+      "interpretation": "Descriptive distances include intentional gap2; no weld, sheet identity, or final-cut activation certificate"
+    },
+    "v4": {
+      "reused_from_version": "v2",
+      "reason": "Both final core VMESH hashes identical"
+    }
+  },
+  "failures": [],
+  "passed": true,
+  "provenance": {
+    "frozen_input_sha256": "2edba49b64bf009fc4d215b6a0c0e9d59045028ed1c3cb609a9b203626a58176",
+    "evaluator_sha256": "7831ad086492eb8f0d7e492ea6440c9b2b1bcbd7a2953d3fe3403278e7517051",
+    "auditor_sha256": "dfb8ab7821edeedce91f634ce7d2e5f7b9e962024fe3b9c589c576942cf918c0",
+    "exact_certificate_sha256": "b2c8da49fc7ba1960037fca8156a343d435f48d7fc4618ad32c79d434afc87ff",
+    "point_triangle_helper_sha256": "7ecca793fc8d035f597491d24b5de8ac9e9662c81eb41c638f588b86ea227a4b"
+  },
+  "limitations": [
+    "New window, same CT cube and same scroll already used for development; no independent cube/scroll holdout",
+    "Otsu baseline with artificial zero prediction outside32^3; no trained predictor",
+    "Halo13 omits3 active context slices at each remote ROI edge; both versions get identical input",
+    "Adjacent owned cores are shifted local partitions, not an official dataset tiling",
+    "Ownership trim is tested; the expected gap2 is not a weld or seamless-surface certificate",
+    "No manual labels opened by evaluator. Same CT cube/scroll; not independent holdout.",
+    "Union is concatenated final meshes without welding or coordinate translation.",
+    "Do not combine pretrim halos: their overlap is intentional.",
+    "No final triangle-cut activation claimed; inspect trim_lines and pre-BPA owned trim.",
+    "Exact duplicate and native intersection audits do not certify anatomical identity."
+  ],
+  "cache": {
+    "unique_meshes_certified": 7,
+    "unique_meshes_native_audited": 5,
+    "audit_origin_world_zyx": [
+      1840,
+      2320,
+      4048
+    ],
+    "policy": "SHA256 of entire VMESH, fixed auditor/options/origin; identical hashes reuse exact metrics and audits"
+  }
+}

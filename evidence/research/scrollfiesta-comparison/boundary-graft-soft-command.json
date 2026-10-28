@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/build/cube_mesh.boundary-graft-v2",
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/inputs/adaptive8-taper3/cubes_PRED/z00768_y02408_x03536.tif",
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/boundary-graft-soft-output.tif",
+    "--dump-obj",
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/boundary-graft-soft-obj",
+    "--no-simplify"
+  ],
+  "binary_sha256": "417b540d3bb276658b3e3ae8881bdf9de5c85e5677d79132bd471ef8f5cd478a",
+  "input_sha256": "dda0e746ad5421c26c2a6ca3aa2f506d78a46dd5dfe899d41d6c20ac29b48d09"
+}

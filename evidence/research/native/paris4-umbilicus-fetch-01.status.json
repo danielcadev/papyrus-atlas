@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/fetch_paris4_umbilicus.py"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 0.8011294929965516,
+  "minimum_available_mib": 5619.44140625,
+  "max_child_rss_mib": 23.5546875,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/paris4-umbilicus-fetch-01.log"
+}

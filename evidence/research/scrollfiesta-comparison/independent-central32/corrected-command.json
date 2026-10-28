@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/build/cube_mesh.split-coverage",
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/independent-central32/cubes_PRED/z01808_y02320_x04112.tif",
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/independent-central32/corrected-output.tif",
+    "--dump-obj",
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/independent-central32/corrected-obj",
+    "--no-simplify"
+  ],
+  "MLS_EDGE_ADAPT": "soft",
+  "VES_OVERLAP_COVERAGE_GUARD": "1"
+}

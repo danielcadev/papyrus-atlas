@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/build/cube_mesh.split-coverage",
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/cubes_PRED/z01808_y02320_x04112.tif",
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/control-output.tif",
+    "--dump-obj",
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/control-obj",
+    "--no-simplify"
+  ],
+  "binary_sha256": "70f83d8173386ed620307a0b6e36babef97d1b3fd0719349643d075f977dbf1c",
+  "MLS_EDGE_ADAPT": "soft",
+  "VES_OVERLAP_COVERAGE_GUARD": "1"
+}

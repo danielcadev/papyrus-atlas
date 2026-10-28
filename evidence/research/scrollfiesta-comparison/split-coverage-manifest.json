@@ -1,0 +1,15 @@
+{
+  "cases": [
+    "split-cover-control",
+    "split-cover-off",
+    "split-cover-soft"
+  ],
+  "binary_sha256": "14afff7c928d81472231db52da792dbb9fb3065631c35090ecb4d5d63615cd1b",
+  "input_sha256": "dda0e746ad5421c26c2a6ca3aa2f506d78a46dd5dfe899d41d6c20ac29b48d09",
+  "pipeline_source_sha256": "bae7b7bbcfde316430845eabeb649eb9b21f25388af531e5815c041391e9b5b4",
+  "coverage_distance_voxels": 0.25,
+  "original_separation_enabled": true,
+  "original_resurface_and_guards_enabled": true,
+  "labels_or_goal_used_for_recovery": false,
+  "default_final_geometry_identical": true
+}

@@ -1,0 +1,107 @@
+{
+  "success": true,
+  "binary_sha256": "7385f391092a99e72ed444e374b193d0b375b0809ab9af47b743d2da741f1875",
+  "VES_HOLE_RECOVERY_SEARCH": "1",
+  "stages7_8_11_12_byte_identical_to_v4": true,
+  "cases": {
+    "left": {
+      "status_ok": true,
+      "guard_changes": 0,
+      "stages": {
+        "step7_cc_bpa": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step7_cc_bpa/z01840_y02320_x04048_step7_cc_bpa_all.vmesh",
+          "sha256": "d6facd1922f90222f74144cf23b941a664a94b7d3fd82d8207226236d877b09e",
+          "reference": {
+            "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step7_cc_bpa/z01840_y02320_x04048_step7_cc_bpa_all.vmesh",
+            "sha256": "d6facd1922f90222f74144cf23b941a664a94b7d3fd82d8207226236d877b09e"
+          },
+          "byte_identical_to_v4": true
+        },
+        "step8_holefill": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step8_holefill/z01840_y02320_x04048_step8_holefill_all.vmesh",
+          "sha256": "bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9",
+          "reference": {
+            "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step8_holefill/z01840_y02320_x04048_step8_holefill_all.vmesh",
+            "sha256": "bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9"
+          },
+          "byte_identical_to_v4": true
+        },
+        "step11_kibble": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step11_kibble/z01840_y02320_x04048_step11_kibble_all.vmesh",
+          "sha256": "bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9",
+          "reference": {
+            "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step11_kibble/z01840_y02320_x04048_step11_kibble_all.vmesh",
+            "sha256": "bbd757932ffa739a2a7637dc97a24483c0ed5c1de4543c6a0bc0260d7f412ae9"
+          },
+          "byte_identical_to_v4": true
+        },
+        "step12_final": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step12_final/z01840_y02320_x04048_step12_final_all.vmesh",
+          "sha256": "e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb",
+          "reference": {
+            "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step12_final/z01840_y02320_x04048_step12_final_all.vmesh",
+            "sha256": "e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb"
+          },
+          "byte_identical_to_v4": true
+        }
+      },
+      "stdin_sha256": "6be2d65fe5de321794ed975068d7ba5070b8bbc3610feb0f1f1cc4f6aa276a89",
+      "binary_sha256": "7385f391092a99e72ed444e374b193d0b375b0809ab9af47b743d2da741f1875",
+      "success": true,
+      "state": "byte-identical",
+      "evidence_reused_from": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/results.json#cases/v4-left",
+      "prior_audits_reused": true
+    },
+    "right": {
+      "status_ok": true,
+      "guard_changes": 0,
+      "stages": {
+        "step7_cc_bpa": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/right/obj/z01840_y02320_x04176/z01840_y02320_x04176_step7_cc_bpa/z01840_y02320_x04176_step7_cc_bpa_all.vmesh",
+          "sha256": "e235bfff761a2bac1e25ebb84fb32ee928f9abb744028155d1349f2677e8cd74",
+          "reference": {
+            "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step7_cc_bpa/z01840_y02320_x04176_step7_cc_bpa_all.vmesh",
+            "sha256": "e235bfff761a2bac1e25ebb84fb32ee928f9abb744028155d1349f2677e8cd74"
+          },
+          "byte_identical_to_v4": true
+        },
+        "step8_holefill": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/right/obj/z01840_y02320_x04176/z01840_y02320_x04176_step8_holefill/z01840_y02320_x04176_step8_holefill_all.vmesh",
+          "sha256": "21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9",
+          "reference": {
+            "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step8_holefill/z01840_y02320_x04176_step8_holefill_all.vmesh",
+            "sha256": "21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9"
+          },
+          "byte_identical_to_v4": true
+        },
+        "step11_kibble": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/right/obj/z01840_y02320_x04176/z01840_y02320_x04176_step11_kibble/z01840_y02320_x04176_step11_kibble_all.vmesh",
+          "sha256": "21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9",
+          "reference": {
+            "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step11_kibble/z01840_y02320_x04176_step11_kibble_all.vmesh",
+            "sha256": "21bb03532983ee0afcc10f6a730717122bb4f8a5f832ebff8cf7843d7efbc9b9"
+          },
+          "byte_identical_to_v4": true
+        },
+        "step12_final": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/right/obj/z01840_y02320_x04176/z01840_y02320_x04176_step12_final/z01840_y02320_x04176_step12_final_all.vmesh",
+          "sha256": "31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc",
+          "reference": {
+            "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step12_final/z01840_y02320_x04176_step12_final_all.vmesh",
+            "sha256": "31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc"
+          },
+          "byte_identical_to_v4": true
+        }
+      },
+      "stdin_sha256": "6a9e2c84c8ac8b6ab1b505f61a8188a30a9f30f8c7b5402b152d0d822a492654",
+      "binary_sha256": "7385f391092a99e72ed444e374b193d0b375b0809ab9af47b743d2da741f1875",
+      "success": true,
+      "state": "byte-identical",
+      "evidence_reused_from": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/results.json#cases/v4-right",
+      "prior_audits_reused": true
+    }
+  },
+  "evaluation_reused_from": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/results.json",
+  "union_and_seam_metrics_reused": true,
+  "note": "Both final cores are byte-identical; no new audit, union, seam measurement or weld performed"
+}

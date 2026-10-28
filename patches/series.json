@@ -1,0 +1,66 @@
+{
+  "upstream": {
+    "repository": "Hob3rMallow/scrollfiesta_public",
+    "commit": "bce8a65f97652316efb084171a17d2f1f8d3ae1a",
+    "url": "https://codeload.github.com/Hob3rMallow/scrollfiesta_public/tar.gz/bce8a65f97652316efb084171a17d2f1f8d3ae1a",
+    "sha256": "8d274779c379dd3146dccb6c6be746b59a0261a2836036f16f66f965d23b6e29",
+    "compressed_bytes": 77065617
+  },
+  "patches": [
+    {
+      "file": "0001-experimental-baseline.patch",
+      "sha256": "9b9b28d82b17c11a48bd8e4a4044ffe65d954eca1844d3aa3f08b2e455f2ba90",
+      "before": {
+        "src/common/mls_project.c": "6076de0c3659f54191fc8e3c2a020ab3e7954a31c8de51fca119adebf6731a24",
+        "src/pipeline/pipeline_cube.c": "92315b5d7fba0d343c4e5a2314cb48bacde526126091fad8b2684de5bec034e0",
+        "src/split/overlap_sep.c": "213f8c4fbe77fd2de94ada6da221e90d5e2cd463134f28f33fe6dc1e1f802b1f"
+      },
+      "after": {
+        "src/common/mls_project.c": "f821328919f269a227e3fc523d4e8e5f231ef51fa42dcc61260384cd83756260",
+        "src/pipeline/pipeline_cube.c": "78c12d2d9067eedd01e20f3818cddd1efc00d5dc150e4523d0aefe108fde1ef5",
+        "src/split/overlap_sep.c": "213f8c4fbe77fd2de94ada6da221e90d5e2cd463134f28f33fe6dc1e1f802b1f"
+      }
+    },
+    {
+      "file": "0002-boundary-grafting-v2.patch",
+      "sha256": "47eacbbe076934b25efe87d5fd643adff87294a7a6d226375f34ee5f16aa7670",
+      "before": {
+        "src/split/overlap_sep.c": "213f8c4fbe77fd2de94ada6da221e90d5e2cd463134f28f33fe6dc1e1f802b1f"
+      },
+      "after": {
+        "src/split/overlap_sep.c": "86ef8c606f8d8289d6c841bd7aff39939f727b919cba3a74023890038e5c730c"
+      }
+    },
+    {
+      "file": "0003-holefill-duplicate-v4.patch",
+      "sha256": "bb2e3b4e76f3765a5ebc6c01fd8ab7ad473f1e4e059f9a30148237add4d0abd6",
+      "before": {
+        "src/holefill/hole_fill.c": "33802b8877cf1b9e487be64678a49aff9e544ea6336e013008d40fa1f15e5b84"
+      },
+      "after": {
+        "src/holefill/hole_fill.c": "13932ae8347c416785edef355bfa5175b7b309e1c6cfc03dbe200fc4a9fd4eac"
+      }
+    },
+    {
+      "file": "0004-bounded-hole-recovery-v5.patch",
+      "sha256": "9ab8c8b043c522b1107b231fbb90f4485bfbb3d2afee559e50edb568a5c701f5",
+      "before": {
+        "src/holefill/hole_fill.c": "13932ae8347c416785edef355bfa5175b7b309e1c6cfc03dbe200fc4a9fd4eac",
+        "src/holefill/hole_recovery_search.inc": null
+      },
+      "after": {
+        "src/holefill/hole_fill.c": "331c2bc14373e2587cd8f35dc95e82c1da18df0d9553d02e6a66249f0b62bb5b",
+        "src/holefill/hole_recovery_search.inc": "8eeb4447604d954fcced527529ebdea625039d5069c1fef40175aa2c55ce45dc"
+      }
+    }
+  ],
+  "final_sources": {
+    "src/common/mls_project.c": "f821328919f269a227e3fc523d4e8e5f231ef51fa42dcc61260384cd83756260",
+    "src/pipeline/pipeline_cube.c": "78c12d2d9067eedd01e20f3818cddd1efc00d5dc150e4523d0aefe108fde1ef5",
+    "src/split/overlap_sep.c": "86ef8c606f8d8289d6c841bd7aff39939f727b919cba3a74023890038e5c730c",
+    "src/holefill/hole_fill.c": "331c2bc14373e2587cd8f35dc95e82c1da18df0d9553d02e6a66249f0b62bb5b",
+    "src/holefill/hole_recovery_search.inc": "8eeb4447604d954fcced527529ebdea625039d5069c1fef40175aa2c55ce45dc",
+    "CMakeLists.txt": "f04cdeee5a9f8eadebd058fe76ca131b18452389feeb12842c3c985151a99932"
+  },
+  "scope": "Pinned experimental baseline dependencies, boundary grafting v2 and hole recovery v5 only; later v6 exact-contact changes excluded."
+}

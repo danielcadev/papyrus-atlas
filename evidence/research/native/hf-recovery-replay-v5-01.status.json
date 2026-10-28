@@ -1,0 +1,14 @@
+{
+  "command": [
+    "bash",
+    "-c",
+    "set -e; cd /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison; test ! -e build/cube_mesh.holefill-v5; cp -p build/cube_mesh build/cube_mesh.holefill-v5; c++ -fopenmp build/replay_holefill.o build/libscrollfiesta_core.a build/libsf_triangle.a build/clipper2/libClipper2.a build/clipper2/libClipper2Z.a /lib64/libtiff.so.6 -lm -o build/replay_holefill.v5; env VES_HOLE_RECOVERY_SEARCH=0 build/replay_holefill.v5 fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step7_cc_bpa/z01808_y02320_x04112_step7_cc_bpa_all.vmesh hole-recovery-v5/replay-off.vmesh; cmp hole-recovery-v5/replay-off.vmesh holefill-repair-v4/replay.vmesh; env VES_HOLE_RECOVERY_SEARCH=1 HOLEFILL_DEBUG=1 build/replay_holefill.v5 fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step7_cc_bpa/z01808_y02320_x04112_step7_cc_bpa_all.vmesh hole-recovery-v5/replay-on.vmesh"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 2.202722519003146,
+  "minimum_available_mib": 7430.87890625,
+  "max_child_rss_mib": 22.34765625,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/hf-recovery-replay-v5-01.log"
+}

@@ -1,0 +1,51 @@
+{
+  "status": "verified_local_release_ready_for_upload",
+  "published": false,
+  "submitted": false,
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-software-release-seal-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "clean_reproduction_passed": true,
+  "upstream_online_retrieval_passed": true,
+  "public_ct_annotation_online_retrieval_passed": true,
+  "source_fixture_gold_digests_passed": true,
+  "graft_recovered_source_faces": 27,
+  "hole_recovered_faces": 17,
+  "final_hole_faces": 5160,
+  "v5_final_sha256": "b93672d63891ad10c079215a5d7296f9ba4a7a5134e25750f8ba35761c11d65f",
+  "exact_new_pairs": 267,
+  "exact_new_contacts": 0,
+  "historical_evidence_files": 2084,
+  "external_or_omitted_inputs_executables": 26,
+  "historical_mutable_reference_drift": [
+    {
+      "path": "CONTEXT.md",
+      "bytes": 19866,
+      "sha256": "5297e86b6eb489bc25accba1a6c2d1b023217517afb39d23882f7e53aafd127a",
+      "historical_sha256": "d38ed4462ab0726eeb4f73baf6f9117e687a4ab3b5fca2f51e2bf088e16d69d0"
+    }
+  ],
+  "human_submission_fields_remaining": [
+    "name",
+    "email",
+    "team description",
+    "public contribution URL",
+    "terms acceptance"
+  ],
+  "scope": "MIT contribution patches and helpers with attributed historical geometry evidence. Upstream checkout, third-party implementations/binaries and original arrays are not redistributed. No new text or guaranteed prize."
+}

@@ -1,0 +1,245 @@
+{
+  "schema": "paris4-local-branches-v1",
+  "state": "completed-inconclusive-local-relation",
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-local-branches-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": "402653184",
+    "memory_swap_max": "0",
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072
+  },
+  "rules": {
+    "seed_z": 160,
+    "target_xy": [
+      128,
+      128
+    ],
+    "seed_radial_step": 0.25,
+    "seed_profile_range": [
+      269.0,
+      320.0
+    ],
+    "seed_windows": [
+      [
+        "B1",
+        277.0,
+        288.0
+      ],
+      [
+        "B2",
+        294.0,
+        312.0
+      ]
+    ],
+    "smoothing_sigma_voxels": 0.75,
+    "local_prominence_halfwidth_voxels": 1.5,
+    "prominence_noise_factor": 2.0,
+    "prominence_range_fraction": 0.1,
+    "seed_boundary_margin_voxels": 1.0,
+    "tensor_halfwidths_voxels": [
+      2,
+      4
+    ],
+    "tensor_gaussian_sigmas": [
+      1.0,
+      2.0
+    ],
+    "tensor_minimum_largest_to_second_ratio": 3.0,
+    "normal_scale_agreement_degrees": 15.0,
+    "normal_profile_range": [
+      -8.0,
+      8.0
+    ],
+    "normal_profile_step": 0.25,
+    "normal_crest_search_range": [
+      -2.0,
+      2.0
+    ],
+    "minimum_flank_contrast_noise_factor": 4.0,
+    "observed_interfaces": "half prominence relative to higher of two flanking minima; optical only",
+    "maximum_tracking_steps": 0,
+    "no_parameter_fallbacks": true
+  },
+  "source_box_xyz": [
+    [
+      112,
+      112,
+      144
+    ],
+    [
+      175,
+      159,
+      191
+    ]
+  ],
+  "box_bounds": "inclusive voxel centers",
+  "source_origin_world_zyx": [
+    1744,
+    2256,
+    4048
+  ],
+  "source_volume_id": "20230205180739",
+  "calibration_valid": false,
+  "winding_gate_ready": false,
+  "pitch_voxels": null,
+  "branch_relation": "unresolved",
+  "same_leaf_inferred": false,
+  "manual_labels_opened": true,
+  "mask_used_for_measurements": false,
+  "result_meshes_opened": false,
+  "inputs": {
+    "CT": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/data/01744_02256_04048_volume.nrrd",
+      "sha256": "3041f5bd3bf5b9d3d68be6a65934c39664d04c2f221ca23561bde0d1376ee110"
+    },
+    "mask": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/data/01744_02256_04048_mask.nrrd",
+      "sha256": "5925bff9b6bd5398504bc2aa67621a0632fcadf3d4b2638055e1d4dd7b781e64"
+    },
+    "calibration": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/paris4-winding-calibration-v1/calibration.json",
+      "sha256": "bdf55d44b3e96cfd7db3a1a53e6ec9076e938144082712e651a58893c8ab651f"
+    },
+    "axis": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/paris4-winding-calibration-v1/umbilicus-world-zyx.csv",
+      "sha256": "9bd2e8611cd23aad5266fce6653b47a0bd109aad74d897ede29d4a8c9acefb37"
+    },
+    "helpers": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/inventory_paris4_radial_labels.py",
+      "sha256": "60ca1af4d038986dd44b2bc53d0000573fa428fc2b8822988059f32aba983241"
+    },
+    "script": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/diagnose_paris4_local_branches.py",
+      "sha256": "4f2562d4749085db280dec93332e02c8301422a98ac35755522b19a5ca4e12f6"
+    }
+  },
+  "branches": [
+    {
+      "name": "B1",
+      "frozen_window": [
+        277.0,
+        288.0
+      ],
+      "significant_seed_candidates": [],
+      "state": "inconclusive",
+      "stop_reasons": [
+        "no_significant_seed_crest"
+      ],
+      "optical_interfaces": null,
+      "branch_relation": "unresolved",
+      "anatomical_identity_inferred": false,
+      "anchor_source_xyz": [
+        138.4675720820968,
+        133.14278577849285,
+        160.0
+      ],
+      "anchor_type": "window midpoint for context ONLY; not a seed"
+    },
+    {
+      "name": "B2",
+      "frozen_window": [
+        294.0,
+        312.0
+      ],
+      "significant_seed_candidates": [],
+      "state": "inconclusive",
+      "stop_reasons": [
+        "no_significant_seed_crest"
+      ],
+      "optical_interfaces": null,
+      "branch_relation": "unresolved",
+      "anatomical_identity_inferred": false,
+      "anchor_source_xyz": [
+        156.86686496580091,
+        142.18247722121785,
+        160.0
+      ],
+      "anchor_type": "window midpoint for context ONLY; not a seed"
+    }
+  ],
+  "limitations": [
+    "Unique CT crests and optical interfaces do not establish anatomical identity",
+    "No inter-slice tracking or joining; this diagnoses initial local ambiguity",
+    "Noise proxy and sampling brackets are not calibrated physical confidence intervals"
+  ],
+  "headers": {
+    "CT": {
+      "type": "uint8",
+      "dimension": "3",
+      "space": "left-posterior-superior",
+      "sizes": "256 256 256",
+      "space directions": "(1,0,0) (0,1,0) (0,0,1)",
+      "encoding": "gzip",
+      "space origin": "(1744,2256,4048)"
+    },
+    "mask": {
+      "type": "uint16",
+      "dimension": "3",
+      "space": "left-posterior-superior",
+      "sizes": "256 256 256",
+      "space directions": "(1,0,0) (0,1,0) (0,0,1)",
+      "kinds": "domain domain domain",
+      "endian": "little",
+      "encoding": "gzip",
+      "space origin": "(1744,2256,4048)"
+    }
+  },
+  "seed_profile": {
+    "theta_radians": 0.4566686206130999,
+    "axis_source_xyz": [
+      -115.08365912016689,
+      8.571428092160204,
+      160.0
+    ],
+    "peaks": [
+      {
+        "sample": 32,
+        "coordinate": 277.0,
+        "smoothed_intensity": 149.89152548368122,
+        "prominence": 6.820581636004391,
+        "above_threshold": false
+      },
+      {
+        "sample": 57,
+        "coordinate": 283.25,
+        "smoothed_intensity": 167.01697666734566,
+        "prominence": 3.3433747790377595,
+        "above_threshold": false
+      },
+      {
+        "sample": 106,
+        "coordinate": 295.5,
+        "smoothed_intensity": 165.47169250208708,
+        "prominence": 0.25097734204919675,
+        "above_threshold": false
+      },
+      {
+        "sample": 134,
+        "coordinate": 302.5,
+        "smoothed_intensity": 214.115505317933,
+        "prominence": 2.0786177528914607,
+        "above_threshold": false
+      }
+    ],
+    "noise_proxy": 2.5236488322541626,
+    "prominence_threshold": 16.093563114331573,
+    "noise_proxy_is_calibrated_sigma": false
+  },
+  "stop_reason": "Initial local diagnostic complete; no 3D branch joining or leaf-identity claim is authorized by optical profiles alone",
+  "artifacts": {
+    "B1-linked-cuts.png": "1598df4c6d887b891844422c8ec70bd6f7244a8cd23f998d0e248a74d3996f4d",
+    "B2-linked-cuts.png": "661f8006d521b2c2479c7219cc236d0d16bd725ea8e7873b07741d5336dd1bd5",
+    "seed-radial-profile.csv": "cb8d1638bdc6a6a53e66df45919b9efdf410328cd0fe250304d55023245bcf2e",
+    "seed-radial-profile.png": "a6477d6763f5f17cccfb778482a5d646d87c003ed975807d047181a9a2c1d70a"
+  }
+}

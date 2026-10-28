@@ -1,0 +1,182 @@
+--- a/src/split/overlap_sep.c
++++ b/src/split/overlap_sep.c
+@@ -435,7 +435,7 @@
+ 
+ /* ===== Grid-based 2D overlap detection ===== */
+ 
+-static void detect_overlaps(Arena_T arena,
++static int detect_overlaps(Arena_T arena,
+                             const int32_t *faces, size_t nf,
+                             const float *proj, size_t nv,
+                             int32_t **out_fa, int32_t **out_fb,
+@@ -558,13 +558,14 @@
+         *out_fa = NULL;
+         *out_fb = NULL;
+         *out_n_ovl = 0;
+-        return;
++        return 1;
+     }
+ 
+     /* Collect overlap pairs (as packed uint64 keys, will dedup) */
+     uint64_t *ovl_keys = (uint64_t *)ARENA_ALLOC(arena,
+         (size_t)(max_pairs * sizeof(uint64_t)));
+     size_t n_raw = 0;
++    int complete = 1;
+ 
+     for (int32_t ci = 0; ci < n_cells; ci++) {
+         int32_t start = cell_off[ci];
+@@ -582,6 +583,8 @@
+                         ovl_keys[n_raw++] =
+                             ((uint64_t)(uint32_t)lo << 32) |
+                             (uint64_t)(uint32_t)hi;
++                    } else {
++                        complete = 0;
+                     }
+                 }
+             }
+@@ -592,7 +595,7 @@
+         *out_fa = NULL;
+         *out_fb = NULL;
+         *out_n_ovl = 0;
+-        return;
++        return 1;
+     }
+ 
+     /* Sort and dedup */
+@@ -617,6 +620,109 @@
+     *out_fa = ofa;
+     *out_fb = ofb;
+     *out_n_ovl = n_unique;
++    return complete;
++}
++
++/* Recover only original tiny-label faces through original shared edges.
++ * Existing owners never move or merge. Every assignment sees the current
++ * symmetric conflict graph, including earlier recovered faces. Geometry is
++ * untouched; the normal extraction/manifold guards still run afterward.
++ * Labels are committed only after an audit of every recorded conflict. */
++static size_t recover_tiny_boundary_faces(Arena_T arena, int32_t *labels,
++                                          size_t nf, int32_t nc,
++                                          const int32_t *aa, const int32_t *ab,
++                                          size_t na,
++                                          const int32_t *oa, const int32_t *ob,
++                                          size_t no, int overlaps_complete)
++{
++    /* CSR uses int32 indices. Bound additional scratch conservatively to
++     * 128 MiB; an unproven/over-budget recovery leaves all labels alone. */
++    if (!overlaps_complete || !nf || nc <= 0 || nf > INT_MAX ||
++        (size_t)nc > nf || na > INT_MAX / 2 || no > INT_MAX / 2 ||
++        32.0 * (double)nf + 64.0 * ((double)na + (double)no) > 128.0*1024*1024)
++        return 0;
++    for (size_t i = 0; i < nf; i++)
++        if (labels[i] < 0 || labels[i] >= nc) return 0;
++    for (size_t i = 0; i < na; i++)
++        if (aa[i] < 0 || ab[i] < 0 || (size_t)aa[i] >= nf || (size_t)ab[i] >= nf)
++            return 0;
++    for (size_t i = 0; i < no; i++)
++        if (oa[i] < 0 || ob[i] < 0 || (size_t)oa[i] >= nf || (size_t)ob[i] >= nf ||
++            labels[oa[i]] == labels[ob[i]]) return 0;
++
++    Arena_Mark mark = Arena_save(arena);
++    int32_t *counts = ARENA_CALLOC(arena, (size_t)nc, sizeof(*counts));
++    int32_t *assigned = ARENA_ALLOC(arena, nf * sizeof(*assigned));
++    for (size_t i = 0; i < nf; i++) counts[labels[i]]++;
++    for (size_t i = 0; i < nf; i++)
++        assigned[i] = counts[labels[i]] >= 16 ? labels[i] : -1;
++
++    CSR_T graphs[2];
++    for (int g = 0; g < 2; g++) {
++        size_t ne = g == 0 ? na : no;
++        const int32_t *a = g == 0 ? aa : oa;
++        const int32_t *b = g == 0 ? ab : ob;
++        int32_t *rows = ARENA_ALLOC(arena, 2 * ne * sizeof(*rows));
++        int32_t *cols = ARENA_ALLOC(arena, 2 * ne * sizeof(*cols));
++        for (size_t e = 0; e < ne; e++) {
++            rows[2*e] = a[e]; cols[2*e] = b[e];
++            rows[2*e+1] = b[e]; cols[2*e+1] = a[e];
++        }
++        graphs[g] = CSR_from_coo(arena, rows, cols, NULL, 2 * ne, nf);
++    }
++    const int32_t *ao = CSR_offset(graphs[0]), *at = CSR_target(graphs[0]);
++    const int32_t *co = CSR_offset(graphs[1]), *ct = CSR_target(graphs[1]);
++    int32_t *queue = ARENA_ALLOC(arena, nf * sizeof(*queue));
++    uint8_t *queued = ARENA_CALLOC(arena, nf, sizeof(*queued));
++    size_t head = 0, tail = 0, pending = 0, recovered = 0;
++    /* A circular queue has at most one entry per face. A blocked face can
++     * retry only when a newly assigned neighbor offers another owner. */
++    for (size_t f = 0; f < nf; f++) {
++        if (assigned[f] >= 0) continue;
++        for (int32_t e = ao[f]; e < ao[f+1]; e++) {
++            if (assigned[at[e]] < 0) continue;
++            queue[tail] = (int32_t)f; tail = (tail + 1) % nf;
++            queued[f] = 1; pending++; break;
++        }
++    }
++    while (pending) {
++        int32_t f = queue[head]; head = (head + 1) % nf;
++        pending--; queued[f] = 0;
++        if (assigned[f] >= 0) continue;
++        int32_t best = -1, best_edges = 0;
++        for (int32_t e = ao[f]; e < ao[f+1]; e++) {
++            int32_t owner = assigned[at[e]];
++            if (owner < 0) continue;
++            int safe = 1;
++            for (int32_t c = co[f]; c < co[f+1]; c++)
++                if (assigned[ct[c]] == owner) { safe = 0; break; }
++            if (!safe) continue;
++            int32_t shared = 0;
++            for (int32_t k = ao[f]; k < ao[f+1]; k++)
++                if (assigned[at[k]] == owner) shared++;
++            if (shared > best_edges || (shared == best_edges && owner < best)) {
++                best = owner; best_edges = shared;
++            }
++        }
++        if (best < 0) continue;
++        assigned[f] = best; recovered++;
++        for (int32_t e = ao[f]; e < ao[f+1]; e++) {
++            int32_t neighbor = at[e];
++            if (assigned[neighbor] >= 0 || queued[neighbor]) continue;
++            assert(pending < nf);
++            queue[tail] = neighbor; tail = (tail + 1) % nf;
++            queued[neighbor] = 1; pending++;
++        }
++    }
++    for (size_t e = 0; e < no; e++) {
++        int32_t a = assigned[oa[e]] >= 0 ? assigned[oa[e]] : labels[oa[e]];
++        int32_t b = assigned[ob[e]] >= 0 ? assigned[ob[e]] : labels[ob[e]];
++        if (a == b) { Arena_restore(arena, mark); return 0; }
++    }
++    for (size_t f = 0; f < nf; f++)
++        if (assigned[f] >= 0) labels[f] = assigned[f];
++    Arena_restore(arena, mark);
++    return recovered;
+ }
+ 
+ /* ===== Delamination-merge audit/fitting helpers ===== */
+@@ -2943,7 +3049,7 @@
+     size_t n_ovl = 0;
+     int32_t *ovl_fa = NULL, *ovl_fb = NULL;
+ 
+-    detect_overlaps(arena, mesh->faces, nf, proj, nv,
++    int overlaps_complete = detect_overlaps(arena, mesh->faces, nf, proj, nv,
+                     &ovl_fa, &ovl_fb, &n_ovl);
+ 
+     fprintf(stderr, "    phase 3 (overlaps): %zu pairs, %.3fs\n",
+@@ -3214,6 +3320,17 @@
+             if (face_labels[ovl_fa[i]] == face_labels[ovl_fb[i]]) rejoined++;
+         fprintf(stderr, "    after phase-5 merge: %zu/%zu overlap edges JOINED (must be 0)\n",
+                 rejoined, n_ovl);
++    }
++
++    {
++        const char *guard = getenv("VES_OVERLAP_COVERAGE_GUARD");
++        if (guard && strcmp(guard, "1") == 0) {
++            size_t recovered = recover_tiny_boundary_faces(arena, face_labels,
++                nf, num_clusters, adj_fa, adj_fb, n_adj,
++                ovl_fa, ovl_fb, n_ovl, overlaps_complete);
++            fprintf(stderr, "    boundary recovery: %zu faces, overlap list %s\n",
++                    recovered, overlaps_complete ? "complete" : "truncated (recovery disabled)");
++        }
+     }
+ 
+     /* Count distinct labels */

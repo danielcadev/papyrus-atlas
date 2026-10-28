@@ -1,0 +1,22 @@
+test_cli_refuses_overwrite (test_certify_patch_coverage.CoverageFileTests.test_cli_refuses_overwrite) ... ok
+test_full_surface_coverage_can_use_shared_background (test_certify_patch_coverage.CoverageFileTests.test_full_surface_coverage_can_use_shared_background) ... ok
+test_missing_or_reoriented_source_fails_before_coverage (test_certify_patch_coverage.CoverageFileTests.test_missing_or_reoriented_source_fails_before_coverage) ... ok
+test_oriented_multiset_subtraction_and_bidirectional_full_patch_proof (test_certify_patch_coverage.CoverageFileTests.test_oriented_multiset_subtraction_and_bidirectional_full_patch_proof) ... ok
+test_ball_squared_test_accepts_equality_and_rejects_wrong_sign (test_certify_patch_coverage.CoverageMathTests.test_ball_squared_test_accepts_equality_and_rejects_wrong_sign) ... ok
+test_budget_failures_are_inconclusive (test_certify_patch_coverage.CoverageMathTests.test_budget_failures_are_inconclusive) ... ok
+test_exact_aabb_filter_includes_boundary_and_rejects_one_float32_ulp_above (test_certify_patch_coverage.CoverageMathTests.test_exact_aabb_filter_includes_boundary_and_rejects_one_float32_ulp_above) ... ok
+test_exact_delta_degenerate_point_is_certified (test_certify_patch_coverage.CoverageMathTests.test_exact_delta_degenerate_point_is_certified) ... ok
+test_exact_delta_parallel_positive_area_is_conservatively_inconclusive (test_certify_patch_coverage.CoverageMathTests.test_exact_delta_parallel_positive_area_is_conservatively_inconclusive) ... ok
+test_exported_witnesses_cover_root_and_reconstruct_exact_bound (test_certify_patch_coverage.CoverageMathTests.test_exported_witnesses_cover_root_and_reconstruct_exact_bound) ... ok
+test_identical_large_triangle_has_exact_zero_distance_witness (test_certify_patch_coverage.CoverageMathTests.test_identical_large_triangle_has_exact_zero_distance_witness) ... ok
+test_midpoint_subdivision_has_exact_rational_coordinates (test_certify_patch_coverage.CoverageMathTests.test_midpoint_subdivision_has_exact_rational_coordinates) ... ok
+test_parallel_triangles_inside_delta_certify_both_directions (test_certify_patch_coverage.CoverageMathTests.test_parallel_triangles_inside_delta_certify_both_directions) ... ok
+test_rational_weights_remain_inside_target (test_certify_patch_coverage.CoverageMathTests.test_rational_weights_remain_inside_target) ... ok
+test_separation_above_delta_cannot_pass (test_certify_patch_coverage.CoverageMathTests.test_separation_above_delta_cannot_pass) ... ok
+test_unoriented_geometric_duplicate_is_proved_once (test_certify_patch_coverage.CoverageMathTests.test_unoriented_geometric_duplicate_is_proved_once) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.094s
+
+OK
+{"passed": true, "status": "certified", "delta_exact": "1/4", "before_patch_faces": 17, "after_patch_faces": 17, "output": "research/scrollfiesta-comparison/hole-recovery-v5/continuous-coverage-02.json"}

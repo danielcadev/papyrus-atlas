@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/cube_mesh.holefill-v5",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/inputs/adaptive8-taper3/cubes_PRED/z00768_y02408_x03536.tif",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/regressions-v5-01/original/output.tif",
+    "--dump-obj",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/regressions-v5-01/original/obj",
+    "--no-simplify"
+  ],
+  "binary_sha256": "7385f391092a99e72ed444e374b193d0b375b0809ab9af47b743d2da741f1875",
+  "VES_HOLE_RECOVERY_SEARCH": "1",
+  "MLS_EDGE_ADAPT": "soft",
+  "VES_OVERLAP_COVERAGE_GUARD": "1"
+}

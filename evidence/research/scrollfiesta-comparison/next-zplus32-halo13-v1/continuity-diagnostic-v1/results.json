@@ -1,0 +1,3232 @@
+{
+  "method": "saved-core-continuity-v1",
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-next-z32-continuity-diag-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": "402653184",
+    "memory_swap_max": "0",
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072
+  },
+  "passed": true,
+  "failures": [],
+  "provenance": {
+    "script": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/diagnose_core_continuity.py",
+      "sha256": "c1ce3f14ac40764d32022830d739ca9b059f9867951b693f276ab42094dbf5e6"
+    },
+    "evaluation": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/results.json",
+      "sha256": "19607f664af0bdab7cfbb4fbe09ccb7541516b484d16d776bd01d7379d7ec4c5"
+    },
+    "frozen_input": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/frozen-input.json",
+      "sha256": "2edba49b64bf009fc4d215b6a0c0e9d59045028ed1c3cb609a9b203626a58176"
+    },
+    "inputs": {
+      "real_ct": {
+        "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/data/01744_02256_04048_volume.nrrd",
+        "sha256": "3041f5bd3bf5b9d3d68be6a65934c39664d04c2f221ca23561bde0d1376ee110"
+      },
+      "raw_active": {
+        "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/raw-active-zyx.npy",
+        "sha256": "7090c8aa0dcde5572c27b7a3c082ccba222fe6fd4b63d70fb3c7b81b62332a78"
+      },
+      "prediction_active": {
+        "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/prediction-active-zyx.npy",
+        "sha256": "fd538e59d2cc618654b5649a70f33abc4cc8909f9631920def9bf03fbef4fe16"
+      },
+      "stdin": {
+        "left": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/left-prediction-zyx.raw",
+          "sha256": "6be2d65fe5de321794ed975068d7ba5070b8bbc3610feb0f1f1cc4f6aa276a89"
+        },
+        "right": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/right-prediction-zyx.raw",
+          "sha256": "6a9e2c84c8ac8b6ab1b505f61a8188a30a9f30f8c7b5402b152d0d822a492654"
+        }
+      },
+      "real_ct_crop_equal": true,
+      "frozen_threshold_equal": true,
+      "entire_padded_inputs_equal_expected": true,
+      "overlap_equal": true,
+      "overlap_global_zyx_half_open": [
+        [
+          1827,
+          2307,
+          4163
+        ],
+        [
+          1981,
+          2461,
+          4189
+        ]
+      ],
+      "manual_labels_opened": false
+    },
+    "meshes": {
+      "left": {
+        "final": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step12_final/z01840_y02320_x04048_step12_final_all.vmesh",
+          "sha256": "e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step12_final/z01840_y02320_x04048_step12_final_all.vmesh",
+          "vertices": 3312,
+          "faces": 6332,
+          "area_voxel2": 1074.5381081962528,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0,
+          "audit": {
+            "summary": {
+              "faces": 6332,
+              "candidates": 38719,
+              "overlap": 0,
+              "stab": 0,
+              "fold": 0,
+              "conflicts": 0,
+              "gap_max": 0,
+              "include_hinges": true,
+              "predicate_fixture_checks": 4,
+              "read_only": true
+            },
+            "result_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-audit.json",
+            "pairs_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-pairs.csv",
+            "command": [
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/saved_geometry_audit.independent",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step12_final/z01840_y02320_x04048_step12_final_all.vmesh",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-audit.json",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e03bee19744956bc153b621a7df2d158c9e9f5824a84dbc3c8234960872dfffb-pairs.csv",
+              "1840",
+              "2320",
+              "4048"
+            ],
+            "reused_identical_geometry": true
+          }
+        },
+        "source_step7": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step7_cc_bpa/z01840_y02320_x04048_step7_cc_bpa_all.vmesh",
+          "sha256": "d6facd1922f90222f74144cf23b941a664a94b7d3fd82d8207226236d877b09e",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/d6facd1922f90222f74144cf23b941a664a94b7d3fd82d8207226236d877b09e-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step7_cc_bpa/z01840_y02320_x04048_step7_cc_bpa_all.vmesh",
+          "vertices": 3312,
+          "faces": 6326,
+          "area_voxel2": 1071.4501909171315,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0
+        },
+        "step7_to_step8_retention_reused": {
+          "retained": true,
+          "missing_or_reoriented_faces": 0,
+          "missing_or_reoriented_distinct_faces": 0,
+          "missing": [],
+          "reused_identical_geometry": true
+        },
+        "guards_reused": {
+          "nonmanifold_edges": 0,
+          "removed_faces": 0,
+          "pinch_splits": 0,
+          "reorient_flips": 0
+        }
+      },
+      "right": {
+        "final": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step12_final/z01840_y02320_x04176_step12_final_all.vmesh",
+          "sha256": "31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step12_final/z01840_y02320_x04176_step12_final_all.vmesh",
+          "vertices": 3813,
+          "faces": 7014,
+          "area_voxel2": 1212.1014555589302,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0,
+          "audit": {
+            "summary": {
+              "faces": 7014,
+              "candidates": 42936,
+              "overlap": 0,
+              "stab": 0,
+              "fold": 0,
+              "conflicts": 0,
+              "gap_max": 0,
+              "include_hinges": true,
+              "predicate_fixture_checks": 4,
+              "read_only": true
+            },
+            "result_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-audit.json",
+            "pairs_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-pairs.csv",
+            "command": [
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/saved_geometry_audit.independent",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step12_final/z01840_y02320_x04176_step12_final_all.vmesh",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-audit.json",
+              "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/31267121f083632a915975ab91df0661078e41f0990774fb2a3d7d2a8a46c7fc-pairs.csv",
+              "1840",
+              "2320",
+              "4048"
+            ],
+            "reused_identical_geometry": true
+          }
+        },
+        "source_step7": {
+          "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v4-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step7_cc_bpa/z01840_y02320_x04176_step7_cc_bpa_all.vmesh",
+          "sha256": "e235bfff761a2bac1e25ebb84fb32ee928f9abb744028155d1349f2677e8cd74",
+          "metrics_file": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/evaluation-v2/e235bfff761a2bac1e25ebb84fb32ee928f9abb744028155d1349f2677e8cd74-exact.json",
+          "reused_identical_geometry": true,
+          "first_geometry_path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-right-obj/z01840_y02320_x04176/z01840_y02320_x04176_step7_cc_bpa/z01840_y02320_x04176_step7_cc_bpa_all.vmesh",
+          "vertices": 3813,
+          "faces": 7011,
+          "area_voxel2": 1211.2632189493697,
+          "exact_duplicate_groups": 0,
+          "duplicate_extra_faces": 0,
+          "degenerate_faces": 0
+        },
+        "step7_to_step8_retention_reused": {
+          "retained": true,
+          "missing_or_reoriented_faces": 0,
+          "missing_or_reoriented_distinct_faces": 0,
+          "missing": [],
+          "reused_identical_geometry": true
+        },
+        "guards_reused": {
+          "nonmanifold_edges": 0,
+          "removed_faces": 0,
+          "pinch_splits": 0,
+          "reorient_flips": 0
+        }
+      }
+    },
+    "distance_details": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/continuity-diagnostic-v1/distance-details.json",
+      "sha256": "a524e844cf322321d6543654781b6de10206c13df9fc1fc06c03247c4ac5a155"
+    }
+  },
+  "coordinates": "All mesh/sample coordinates and normals are global ZYX; distances in voxels",
+  "active_roi_global_zyx_half_open": [
+    [
+      1888,
+      2368,
+      4160
+    ],
+    [
+      1920,
+      2400,
+      4192
+    ]
+  ],
+  "effective_context_global_zyx_half_open": {
+    "left": [
+      [
+        1888,
+        2368,
+        4160
+      ],
+      [
+        1920,
+        2400,
+        4189
+      ]
+    ],
+    "right": [
+      [
+        1888,
+        2368,
+        4163
+      ],
+      [
+        1920,
+        2400,
+        4192
+      ]
+    ]
+  },
+  "directions": {
+    "left": {
+      "historic_metrics_reused": {
+        "expected_plane_world_x": 4175,
+        "boundary_edges_total": 286,
+        "boundary_vertices_total": 286,
+        "band_sample_vertices": 111,
+        "empty_band": false,
+        "distance_to_expected_plane": {
+          "count": 111,
+          "min": 0.0,
+          "mean": 0.7599151886261262,
+          "median": 0.30029296875,
+          "p95": 3.49560546875,
+          "max": 3.60693359375
+        },
+        "point_to_other_core_triangles": {
+          "count": 111,
+          "min": 2.0363203186494356,
+          "mean": 3.690902053881717,
+          "median": 2.5482827084243374,
+          "p95": 9.819084191429575,
+          "max": 11.94022394790666
+        },
+        "unmatched_threshold_voxels_exclusive": 4,
+        "unmatched_count": 25,
+        "unmatched_fraction": 0.22522522522522523,
+        "unmatched_fraction_reason": null,
+        "sample_vertex_indices": [
+          0,
+          2,
+          5,
+          6,
+          8,
+          14,
+          16,
+          21,
+          34,
+          35,
+          50,
+          66,
+          96,
+          128,
+          153,
+          171,
+          204,
+          235,
+          263,
+          283,
+          309,
+          353,
+          394,
+          422,
+          471,
+          515,
+          561,
+          613,
+          658,
+          693,
+          726,
+          760,
+          792,
+          843,
+          891,
+          926,
+          948,
+          992,
+          1024,
+          1053,
+          1107,
+          1136,
+          1171,
+          1214,
+          1256,
+          1284,
+          1318,
+          1330,
+          1354,
+          1355,
+          1362,
+          1363,
+          1381,
+          1382,
+          1383,
+          1384,
+          1388,
+          1389,
+          1396,
+          1424,
+          1440,
+          1453,
+          1456,
+          1468,
+          1568,
+          1580,
+          1592,
+          1605,
+          1618,
+          1628,
+          1638,
+          1643,
+          1644,
+          1645,
+          1646,
+          1649,
+          1650,
+          1719,
+          1720,
+          1737,
+          1801,
+          1806,
+          1846,
+          1851,
+          1902,
+          1970,
+          1976,
+          2051,
+          2122,
+          2128,
+          2198,
+          2201,
+          2277,
+          2347,
+          2350,
+          2431,
+          2509,
+          2513,
+          2592,
+          2596,
+          2672,
+          2744,
+          2748,
+          2817,
+          2889,
+          2970,
+          3047,
+          3112,
+          3158,
+          3159,
+          3196
+        ]
+      },
+      "new_detail_crosscheck_matches_historic": true,
+      "unmatched_vertex_indices": [
+        16,
+        21,
+        34,
+        1355,
+        1363,
+        1381,
+        1382,
+        1383,
+        1384,
+        1388,
+        1389,
+        1396,
+        1424,
+        1440,
+        1453,
+        1456,
+        1468,
+        1643,
+        1644,
+        1649,
+        1650,
+        1719,
+        1720,
+        3158,
+        3196
+      ],
+      "surface_components": [
+        {
+          "id": 0,
+          "face_count": 2622
+        },
+        {
+          "id": 1,
+          "face_count": 321
+        },
+        {
+          "id": 2,
+          "face_count": 3389
+        }
+      ],
+      "boundary_components": [
+        {
+          "id": 0,
+          "vertex_count": 118,
+          "bbox_global_zyx": [
+            [
+              1888.328857421875,
+              2382.4755859375,
+              4160.3310546875
+            ],
+            [
+              1919.7041015625,
+              2399.594482421875,
+              4175.0
+            ]
+          ],
+          "degree_not_two_vertices": [],
+          "surface_components": [
+            0
+          ]
+        },
+        {
+          "id": 1,
+          "vertex_count": 49,
+          "bbox_global_zyx": [
+            [
+              1888.431640625,
+              2368.49853515625,
+              4160.23974609375
+            ],
+            [
+              1898.0301513671875,
+              2373.45703125,
+              4174.67626953125
+            ]
+          ],
+          "degree_not_two_vertices": [],
+          "surface_components": [
+            1
+          ]
+        },
+        {
+          "id": 2,
+          "vertex_count": 119,
+          "bbox_global_zyx": [
+            [
+              1888.202392578125,
+              2368.3642578125,
+              4160.00048828125
+            ],
+            [
+              1919.5771484375,
+              2389.552978515625,
+              4175.0
+            ]
+          ],
+          "degree_not_two_vertices": [],
+          "surface_components": [
+            2
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": 0,
+          "ordered_vertex_indices": [
+            34,
+            21,
+            16,
+            2,
+            8,
+            5,
+            0,
+            6,
+            14,
+            35,
+            50,
+            66,
+            96,
+            128,
+            153,
+            171,
+            204,
+            235,
+            263,
+            283,
+            309,
+            353,
+            394,
+            422,
+            471,
+            515,
+            561,
+            613,
+            658,
+            693,
+            726,
+            760,
+            792,
+            843,
+            891,
+            926,
+            948,
+            992,
+            1024,
+            1053,
+            1107,
+            1136,
+            1171,
+            1214,
+            1256,
+            1284,
+            1318,
+            1330,
+            1362,
+            1354,
+            1355,
+            1363
+          ],
+          "closed": false,
+          "boundary_component": 0,
+          "surface_components": [
+            0
+          ],
+          "bbox_global_zyx": [
+            [
+              1888.328857421875,
+              2382.4755859375,
+              4171.4365234375
+            ],
+            [
+              1919.6165771484375,
+              2399.101806640625,
+              4175.0
+            ]
+          ],
+          "unmatched_vertices": [
+            34,
+            21,
+            16,
+            1355,
+            1363
+          ],
+          "distance": {
+            "count": 52,
+            "min": 2.0381811597134285,
+            "mean": 2.8672817904154657,
+            "median": 2.548080501806362,
+            "p95": 4.960399716881067,
+            "max": 6.004485302800709
+          },
+          "normal_abs_dot_other_face": {
+            "count": 52,
+            "min": 0.43019015295780483,
+            "mean": 0.958267428772322,
+            "median": 0.9995309434540183,
+            "p95": 0.9999822412636303,
+            "max": 0.9999995443916135
+          },
+          "hint_counts": {
+            "near_artificial_roi_boundary": 22,
+            "no_other_core_surface_within_4_voxels": 5,
+            "local_prediction_support_despite_geometric_gap": 3,
+            "nonreciprocal_nearest_band_vertex": 36,
+            "normal_misalignment_or_curvature": 6
+          },
+          "target_chain_votes": {
+            "0": 14,
+            "1": 13,
+            "2": 25
+          },
+          "ownership_near_both_planes": false,
+          "candidate_geometric_support": "uncertain",
+          "anatomical_correspondence": "unverified",
+          "authorizes_weld": false
+        },
+        {
+          "id": 1,
+          "ordered_vertex_indices": [
+            1381,
+            1382,
+            1383,
+            1384,
+            1388,
+            1389,
+            1396,
+            1424,
+            1440,
+            1453,
+            1468,
+            1456
+          ],
+          "closed": false,
+          "boundary_component": 1,
+          "surface_components": [
+            1
+          ],
+          "bbox_global_zyx": [
+            [
+              1888.431640625,
+              2368.49853515625,
+              4171.39306640625
+            ],
+            [
+              1890.817626953125,
+              2371.05615234375,
+              4174.67626953125
+            ]
+          ],
+          "unmatched_vertices": [
+            1381,
+            1382,
+            1383,
+            1384,
+            1388,
+            1389,
+            1396,
+            1424,
+            1440,
+            1453,
+            1468,
+            1456
+          ],
+          "distance": {
+            "count": 12,
+            "min": 8.474266171150468,
+            "mean": 10.065539487079489,
+            "median": 9.819084191429575,
+            "p95": 11.767789285964717,
+            "max": 11.94022394790666
+          },
+          "normal_abs_dot_other_face": {
+            "count": 12,
+            "min": 0.001425911820130684,
+            "mean": 0.1327198592380306,
+            "median": 0.047074454246372494,
+            "p95": 0.32965952047280717,
+            "max": 0.34865714358380206
+          },
+          "hint_counts": {
+            "near_artificial_roi_boundary": 7,
+            "normal_misalignment_or_curvature": 12,
+            "no_other_core_surface_within_4_voxels": 12,
+            "local_prediction_support_despite_geometric_gap": 6,
+            "nonreciprocal_nearest_band_vertex": 12
+          },
+          "target_chain_votes": {
+            "3": 12
+          },
+          "ownership_near_both_planes": false,
+          "candidate_geometric_support": "uncertain",
+          "anatomical_correspondence": "unverified",
+          "authorizes_weld": false
+        },
+        {
+          "id": 2,
+          "ordered_vertex_indices": [
+            1649,
+            1719,
+            1643,
+            1650,
+            1720,
+            1644,
+            1645,
+            1646,
+            1638,
+            1628,
+            1618,
+            1605,
+            1592,
+            1580,
+            1568,
+            1737,
+            1806,
+            1801,
+            1851,
+            1846,
+            1902,
+            1976,
+            1970,
+            2051,
+            2128,
+            2122,
+            2201,
+            2198,
+            2277,
+            2350,
+            2347,
+            2431,
+            2513,
+            2509,
+            2596,
+            2592,
+            2672,
+            2748,
+            2744,
+            2817,
+            2889,
+            2970,
+            3047,
+            3112,
+            3159,
+            3158,
+            3196
+          ],
+          "closed": false,
+          "boundary_component": 2,
+          "surface_components": [
+            2
+          ],
+          "bbox_global_zyx": [
+            [
+              1888.2490234375,
+              2368.411865234375,
+              4171.40380859375
+            ],
+            [
+              1911.4542236328125,
+              2386.36669921875,
+              4175.0
+            ]
+          ],
+          "unmatched_vertices": [
+            1649,
+            1719,
+            1643,
+            1650,
+            1720,
+            1644,
+            3158,
+            3196
+          ],
+          "distance": {
+            "count": 47,
+            "min": 2.0363203186494356,
+            "mean": 2.9745744900917557,
+            "median": 2.3173104489317895,
+            "p95": 5.940698868723324,
+            "max": 6.083759825406391
+          },
+          "normal_abs_dot_other_face": {
+            "count": 47,
+            "min": 0.035332997682006956,
+            "mean": 0.8418463286659196,
+            "median": 0.9984620858251595,
+            "p95": 0.9999798060777264,
+            "max": 0.9999998460928098
+          },
+          "hint_counts": {
+            "near_artificial_roi_boundary": 18,
+            "normal_misalignment_or_curvature": 10,
+            "no_other_core_surface_within_4_voxels": 8,
+            "nonreciprocal_nearest_band_vertex": 27,
+            "local_prediction_support_despite_geometric_gap": 4
+          },
+          "target_chain_votes": {
+            "3": 47
+          },
+          "ownership_near_both_planes": false,
+          "candidate_geometric_support": "uncertain",
+          "anatomical_correspondence": "unverified",
+          "authorizes_weld": false
+        }
+      ],
+      "sample_diagnostics": {
+        "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/continuity-diagnostic-v1/sample-diagnostics.json",
+        "sha256": "a9bf04ec09715bbed86b5eae49b3805a0f2d0b1a36ec11072183c708f0202a54"
+      },
+      "unmatched_samples": [
+        {
+          "vertex": 16,
+          "global_zyx": [
+            1888.3524169921875,
+            2398.941162109375,
+            4173.4140625
+          ],
+          "distance": 4.019850737661689,
+          "closest_global_zyx": [
+            1888.2777099609375,
+            2398.639404296875,
+            4177.421875
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.9878296750008027,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 21,
+          "global_zyx": [
+            1888.37744140625,
+            2399.02001953125,
+            4172.42431640625
+          ],
+          "distance": 5.013023660006696,
+          "closest_global_zyx": [
+            1888.2777099609375,
+            2398.639404296875,
+            4177.421875
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.983454729443332,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 34,
+          "global_zyx": [
+            1888.402587890625,
+            2399.101806640625,
+            4171.4365234375
+          ],
+          "distance": 6.004485302800709,
+          "closest_global_zyx": [
+            1888.2777099609375,
+            2398.639404296875,
+            4177.421875
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.9749223967406347,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1355,
+          "global_zyx": [
+            1919.573486328125,
+            2382.53955078125,
+            4172.5087890625
+          ],
+          "distance": 4.917343763414644,
+          "closest_global_zyx": [
+            1918.9446519778448,
+            2382.6978643971693,
+            4177.383188907252
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.7677071346393181,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1363,
+          "global_zyx": [
+            1919.6165771484375,
+            2382.561767578125,
+            4171.5126953125
+          ],
+          "distance": 5.90970955164288,
+          "closest_global_zyx": [
+            1918.899941151511,
+            2382.775106082421,
+            4177.374912172637
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.7545548607354621,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1381,
+          "global_zyx": [
+            1888.44970703125,
+            2368.87158203125,
+            4171.51953125
+          ],
+          "distance": 11.94022394790666,
+          "closest_global_zyx": [
+            1895.1024169921875,
+            2377.04345703125,
+            4177.134765625
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.2864420745010156,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1382,
+          "global_zyx": [
+            1888.431640625,
+            2368.722900390625,
+            4172.50341796875
+          ],
+          "distance": 11.626706380739492,
+          "closest_global_zyx": [
+            1895.1024169921875,
+            2377.04345703125,
+            4177.134765625
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.34865714358380206,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1383,
+          "global_zyx": [
+            1888.450439453125,
+            2368.574951171875,
+            4173.5
+          ],
+          "distance": 11.365558403314038,
+          "closest_global_zyx": [
+            1895.1024169921875,
+            2377.04345703125,
+            4177.134765625
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.3141160106547205,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1384,
+          "global_zyx": [
+            1888.5218505859375,
+            2368.49853515625,
+            4174.50927734375
+          ],
+          "distance": 11.099821982015804,
+          "closest_global_zyx": [
+            1895.036231088076,
+            2377.088842814205,
+            4177.150396244421
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.2922424504495076,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1388,
+          "global_zyx": [
+            1889.1256103515625,
+            2369.07861328125,
+            4173.53271484375
+          ],
+          "distance": 10.589415631281874,
+          "closest_global_zyx": [
+            1895.1024169921875,
+            2377.04345703125,
+            4177.134765625
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.18755580582554457,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1389,
+          "global_zyx": [
+            1889.1297607421875,
+            2369.02783203125,
+            4174.5283203125
+          ],
+          "distance": 10.330364175010592,
+          "closest_global_zyx": [
+            1895.1024169921875,
+            2377.04345703125,
+            4177.134765625
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.05758089433745725,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1396,
+          "global_zyx": [
+            1889.8743896484375,
+            2369.9501953125,
+            4174.67626953125
+          ],
+          "distance": 9.14825338252897,
+          "closest_global_zyx": [
+            1895.1162823282739,
+            2377.033338007784,
+            4177.134356316185
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.024000895472420507,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1424,
+          "global_zyx": [
+            1890.0753173828125,
+            2370.21923828125,
+            4174.599609375
+          ],
+          "distance": 8.846931343695122,
+          "closest_global_zyx": [
+            1895.120743552086,
+            2377.0300821740875,
+            4177.134224619542
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.004268246271337654,
+          "hints": [
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1440,
+          "global_zyx": [
+            1890.353759765625,
+            2370.59326171875,
+            4174.3671875
+          ],
+          "distance": 8.474266171150468,
+          "closest_global_zyx": [
+            1895.1287895841492,
+            2377.0242101211675,
+            4177.1339870983
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.001425911820130684,
+          "hints": [
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1453,
+          "global_zyx": [
+            1890.3614501953125,
+            2370.554931640625,
+            4173.26416015625
+          ],
+          "distance": 8.919171154069513,
+          "closest_global_zyx": [
+            1895.17328005165,
+            2376.9917406532904,
+            4177.132673726565
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.01327297341406581,
+          "hints": [
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1456,
+          "global_zyx": [
+            1890.817626953125,
+            2371.05615234375,
+            4171.39306640625
+          ],
+          "distance": 9.307804207848555,
+          "closest_global_zyx": [
+            1895.7894287109375,
+            2376.576904296875,
+            4177.0
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.02650789037107711,
+          "hints": [
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1468,
+          "global_zyx": [
+            1890.64404296875,
+            2370.86767578125,
+            4172.05712890625
+          ],
+          "distance": 9.137957065392754,
+          "closest_global_zyx": [
+            1895.7894287109375,
+            2376.576904296875,
+            4177.0
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.036568014155287744,
+          "hints": [
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1643,
+          "global_zyx": [
+            1888.501953125,
+            2385.4892578125,
+            4171.49609375
+          ],
+          "distance": 5.890016125900217,
+          "closest_global_zyx": [
+            1888.7340087890625,
+            2385.001953125,
+            4177.361328125
+          ],
+          "source_surface_components": [
+            2
+          ],
+          "source_boundary_component": 2,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.11285482439017977,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1644,
+          "global_zyx": [
+            1888.4342041015625,
+            2385.44921875,
+            4172.48583984375
+          ],
+          "distance": 4.905131534480976,
+          "closest_global_zyx": [
+            1888.7340087890625,
+            2385.001953125,
+            4177.361328125
+          ],
+          "source_surface_components": [
+            2
+          ],
+          "source_boundary_component": 2,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.23100239402012993,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1649,
+          "global_zyx": [
+            1888.287841796875,
+            2386.36669921875,
+            4171.46337890625
+          ],
+          "distance": 6.06551770720722,
+          "closest_global_zyx": [
+            1888.5340148486366,
+            2385.127292766489,
+            4177.395813105727
+          ],
+          "source_surface_components": [
+            2
+          ],
+          "source_boundary_component": 2,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.06515524974982029,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1650,
+          "global_zyx": [
+            1888.2490234375,
+            2386.344970703125,
+            4172.46044921875
+          ],
+          "distance": 5.0886598837325865,
+          "closest_global_zyx": [
+            1888.3954385583245,
+            2385.214140910536,
+            4177.41970783319
+          ],
+          "source_surface_components": [
+            2
+          ],
+          "source_boundary_component": 2,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.035332997682006956,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1719,
+          "global_zyx": [
+            1888.93798828125,
+            2385.131591796875,
+            4171.40380859375
+          ],
+          "distance": 5.962420044218941,
+          "closest_global_zyx": [
+            1888.7340087890625,
+            2385.001953125,
+            4177.361328125
+          ],
+          "source_surface_components": [
+            2
+          ],
+          "source_boundary_component": 2,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.24863412522272535,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1720,
+          "global_zyx": [
+            1888.876708984375,
+            2385.091064453125,
+            4172.400390625
+          ],
+          "distance": 4.963789384477214,
+          "closest_global_zyx": [
+            1888.7340087890625,
+            2385.001953125,
+            4177.361328125
+          ],
+          "source_surface_components": [
+            2
+          ],
+          "source_boundary_component": 2,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.32684242984207207,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 3158,
+          "global_zyx": [
+            1910.5538330078125,
+            2368.6025390625,
+            4172.51708984375
+          ],
+          "distance": 4.9734118277881585,
+          "closest_global_zyx": [
+            1910.437744140625,
+            2368.363525390625,
+            4177.4833984375
+          ],
+          "source_surface_components": [
+            2
+          ],
+          "source_boundary_component": 2,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.967683557576857,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 3196,
+          "global_zyx": [
+            1911.4542236328125,
+            2368.411865234375,
+            4171.4853515625
+          ],
+          "distance": 6.083759825406391,
+          "closest_global_zyx": [
+            1910.437744140625,
+            2368.363525390625,
+            4177.4833984375
+          ],
+          "source_surface_components": [
+            2
+          ],
+          "source_boundary_component": 2,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9636175529297232,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        }
+      ],
+      "unmatched_hint_counts": {
+        "near_artificial_roi_boundary": 20,
+        "no_other_core_surface_within_4_voxels": 25,
+        "local_prediction_support_despite_geometric_gap": 13,
+        "nonreciprocal_nearest_band_vertex": 25,
+        "normal_misalignment_or_curvature": 20
+      }
+    },
+    "right": {
+      "historic_metrics_reused": {
+        "expected_plane_world_x": 4177,
+        "boundary_edges_total": 598,
+        "boundary_vertices_total": 598,
+        "band_sample_vertices": 133,
+        "empty_band": false,
+        "distance_to_expected_plane": {
+          "count": 133,
+          "min": 0.0,
+          "mean": 0.9977017739661654,
+          "median": 0.39111328125,
+          "p95": 3.3530273437499987,
+          "max": 3.63720703125
+        },
+        "point_to_other_core_triangles": {
+          "count": 133,
+          "min": 2.0363203186494356,
+          "mean": 3.2494977839680317,
+          "median": 2.7910857803609344,
+          "p95": 5.628050124770924,
+          "max": 6.7105837996313165
+        },
+        "unmatched_threshold_voxels_exclusive": 4,
+        "unmatched_count": 34,
+        "unmatched_fraction": 0.2556390977443609,
+        "unmatched_fraction_reason": null,
+        "sample_vertex_indices": [
+          528,
+          571,
+          616,
+          639,
+          667,
+          687,
+          688,
+          689,
+          706,
+          724,
+          742,
+          744,
+          761,
+          763,
+          777,
+          779,
+          780,
+          791,
+          794,
+          795,
+          796,
+          810,
+          821,
+          834,
+          1135,
+          1144,
+          1153,
+          1155,
+          1156,
+          1166,
+          1176,
+          1177,
+          1178,
+          1189,
+          1208,
+          1209,
+          1222,
+          1223,
+          1240,
+          1241,
+          1253,
+          1256,
+          1257,
+          1262,
+          1514,
+          1516,
+          1535,
+          1537,
+          1554,
+          1555,
+          1579,
+          1581,
+          1584,
+          1601,
+          1605,
+          1606,
+          1627,
+          1631,
+          1646,
+          1693,
+          1716,
+          1719,
+          1734,
+          1759,
+          1760,
+          1761,
+          1777,
+          1805,
+          1832,
+          1850,
+          1883,
+          1928,
+          1971,
+          1972,
+          2011,
+          2048,
+          2068,
+          2070,
+          2071,
+          2074,
+          2076,
+          2077,
+          2080,
+          2084,
+          2085,
+          2086,
+          2087,
+          2369,
+          2381,
+          2418,
+          2419,
+          2425,
+          2428,
+          2429,
+          2535,
+          2536,
+          2580,
+          2642,
+          2643,
+          2684,
+          2736,
+          2738,
+          2773,
+          2836,
+          2911,
+          2970,
+          3010,
+          3083,
+          3157,
+          3233,
+          3235,
+          3312,
+          3388,
+          3391,
+          3460,
+          3465,
+          3539,
+          3610,
+          3615,
+          3673,
+          3721,
+          3724,
+          3756,
+          3760,
+          3782,
+          3787,
+          3799,
+          3804,
+          3805,
+          3806,
+          3807,
+          3810,
+          3811
+        ]
+      },
+      "new_detail_crosscheck_matches_historic": true,
+      "unmatched_vertex_indices": [
+        528,
+        571,
+        777,
+        779,
+        780,
+        791,
+        794,
+        810,
+        821,
+        834,
+        1135,
+        1144,
+        1153,
+        1155,
+        1156,
+        1209,
+        1223,
+        1241,
+        1535,
+        1554,
+        1555,
+        1579,
+        1581,
+        1601,
+        1627,
+        1646,
+        2070,
+        2071,
+        2076,
+        2077,
+        2080,
+        2418,
+        2419,
+        3807
+      ],
+      "surface_components": [
+        {
+          "id": 0,
+          "face_count": 2313
+        },
+        {
+          "id": 1,
+          "face_count": 1496
+        },
+        {
+          "id": 2,
+          "face_count": 293
+        },
+        {
+          "id": 3,
+          "face_count": 33
+        },
+        {
+          "id": 4,
+          "face_count": 23
+        },
+        {
+          "id": 5,
+          "face_count": 25
+        },
+        {
+          "id": 6,
+          "face_count": 2831
+        }
+      ],
+      "boundary_components": [
+        {
+          "id": 0,
+          "vertex_count": 215,
+          "bbox_global_zyx": [
+            [
+              1888.0126953125,
+              2375.5849609375,
+              4177.0
+            ],
+            [
+              1919.735107421875,
+              2398.639404296875,
+              4192.13720703125
+            ]
+          ],
+          "degree_not_two_vertices": [],
+          "surface_components": [
+            0
+          ]
+        },
+        {
+          "id": 1,
+          "vertex_count": 150,
+          "bbox_global_zyx": [
+            [
+              1893.36279296875,
+              2386.355224609375,
+              4177.0
+            ],
+            [
+              1917.841796875,
+              2396.58984375,
+              4190.974609375
+            ]
+          ],
+          "degree_not_two_vertices": [],
+          "surface_components": [
+            1
+          ]
+        },
+        {
+          "id": 2,
+          "vertex_count": 63,
+          "bbox_global_zyx": [
+            [
+              1895.6295166015625,
+              2394.266357421875,
+              4187.1513671875
+            ],
+            [
+              1911.2579345703125,
+              2399.399658203125,
+              4191.61474609375
+            ]
+          ],
+          "degree_not_two_vertices": [],
+          "surface_components": [
+            2
+          ]
+        },
+        {
+          "id": 3,
+          "vertex_count": 21,
+          "bbox_global_zyx": [
+            [
+              1913.2012939453125,
+              2394.860595703125,
+              4189.74951171875
+            ],
+            [
+              1919.2774658203125,
+              2397.86083984375,
+              4191.92431640625
+            ]
+          ],
+          "degree_not_two_vertices": [],
+          "surface_components": [
+            3
+          ]
+        },
+        {
+          "id": 4,
+          "vertex_count": 17,
+          "bbox_global_zyx": [
+            [
+              1913.3927001953125,
+              2385.4892578125,
+              4187.044921875
+            ],
+            [
+              1917.6533203125,
+              2390.3271484375,
+              4189.83056640625
+            ]
+          ],
+          "degree_not_two_vertices": [],
+          "surface_components": [
+            4
+          ]
+        },
+        {
+          "id": 5,
+          "vertex_count": 19,
+          "bbox_global_zyx": [
+            [
+              1916.2705078125,
+              2389.474853515625,
+              4189.51123046875
+            ],
+            [
+              1918.7030029296875,
+              2394.98779296875,
+              4191.36181640625
+            ]
+          ],
+          "degree_not_two_vertices": [],
+          "surface_components": [
+            5
+          ]
+        },
+        {
+          "id": 6,
+          "vertex_count": 113,
+          "bbox_global_zyx": [
+            [
+              1888.079345703125,
+              2368.2939453125,
+              4177.0
+            ],
+            [
+              1910.437744140625,
+              2385.324951171875,
+              4192.13134765625
+            ]
+          ],
+          "degree_not_two_vertices": [],
+          "surface_components": [
+            6
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": 0,
+          "ordered_vertex_indices": [
+            528,
+            571,
+            616,
+            667,
+            639,
+            689,
+            688,
+            687,
+            706,
+            744,
+            763,
+            796,
+            795,
+            761,
+            724,
+            742,
+            780,
+            779,
+            794,
+            810,
+            834,
+            821,
+            791,
+            777
+          ],
+          "closed": false,
+          "boundary_component": 0,
+          "surface_components": [
+            0
+          ],
+          "bbox_global_zyx": [
+            [
+              1888.258056640625,
+              2395.489501953125,
+              4177.0
+            ],
+            [
+              1898.0341796875,
+              2398.639404296875,
+              4180.63720703125
+            ]
+          ],
+          "unmatched_vertices": [
+            528,
+            571,
+            780,
+            779,
+            794,
+            810,
+            834,
+            821,
+            791,
+            777
+          ],
+          "distance": {
+            "count": 24,
+            "min": 2.0380744750659954,
+            "mean": 3.6475481703260884,
+            "median": 3.651332419699706,
+            "p95": 5.694908149938869,
+            "max": 5.91909378613247
+          },
+          "normal_abs_dot_other_face": {
+            "count": 24,
+            "min": 0.743029512382374,
+            "mean": 0.9508438911049675,
+            "median": 0.9996303499064596,
+            "p95": 0.9998319257980187,
+            "max": 0.9998475241361747
+          },
+          "hint_counts": {
+            "near_artificial_roi_boundary": 9,
+            "normal_misalignment_or_curvature": 4,
+            "no_other_core_surface_within_4_voxels": 10,
+            "local_prediction_support_despite_geometric_gap": 10,
+            "nonreciprocal_nearest_band_vertex": 20
+          },
+          "target_chain_votes": {
+            "0": 24
+          },
+          "ownership_near_both_planes": false,
+          "candidate_geometric_support": "uncertain",
+          "anatomical_correspondence": "unverified",
+          "authorizes_weld": false
+        },
+        {
+          "id": 1,
+          "ordered_vertex_indices": [
+            1135,
+            1144,
+            1153,
+            1155,
+            1156,
+            1166,
+            1176,
+            1177,
+            1178,
+            1189,
+            1208,
+            1222,
+            1240,
+            1256,
+            1262,
+            1257,
+            1253,
+            1241,
+            1223,
+            1209
+          ],
+          "closed": false,
+          "boundary_component": 0,
+          "surface_components": [
+            0
+          ],
+          "bbox_global_zyx": [
+            [
+              1915.48095703125,
+              2379.665283203125,
+              4177.0
+            ],
+            [
+              1919.735107421875,
+              2388.142333984375,
+              4180.580078125
+            ]
+          ],
+          "unmatched_vertices": [
+            1135,
+            1144,
+            1153,
+            1155,
+            1156,
+            1241,
+            1223,
+            1209
+          ],
+          "distance": {
+            "count": 20,
+            "min": 2.314478044335497,
+            "mean": 3.756730579046182,
+            "median": 3.2922761792092707,
+            "p95": 5.743664659287092,
+            "max": 6.7105837996313165
+          },
+          "normal_abs_dot_other_face": {
+            "count": 20,
+            "min": 0.9477257860029,
+            "mean": 0.9917554460159079,
+            "median": 0.9979096254642401,
+            "p95": 0.9996808351804521,
+            "max": 0.9997189540880977
+          },
+          "hint_counts": {
+            "no_other_core_surface_within_4_voxels": 8,
+            "local_prediction_support_despite_geometric_gap": 6,
+            "nonreciprocal_nearest_band_vertex": 17,
+            "near_artificial_roi_boundary": 8
+          },
+          "target_chain_votes": {
+            "0": 20
+          },
+          "ownership_near_both_planes": false,
+          "candidate_geometric_support": "uncertain",
+          "anatomical_correspondence": "unverified",
+          "authorizes_weld": false
+        },
+        {
+          "id": 2,
+          "ordered_vertex_indices": [
+            1535,
+            1554,
+            1627,
+            1646,
+            1601,
+            1579,
+            1581,
+            1555,
+            1514,
+            1516,
+            1537,
+            1584,
+            1606,
+            1605,
+            1631,
+            1719,
+            1761,
+            1760,
+            1734,
+            1693,
+            1716,
+            1759,
+            1777,
+            1805,
+            1832,
+            1850,
+            1883,
+            1928,
+            1972,
+            1971,
+            2011,
+            2048,
+            2068,
+            2074,
+            2086,
+            2087,
+            2085,
+            2084,
+            2077,
+            2076,
+            2080,
+            2071,
+            2070
+          ],
+          "closed": false,
+          "boundary_component": 1,
+          "surface_components": [
+            1
+          ],
+          "bbox_global_zyx": [
+            [
+              1895.3209228515625,
+              2386.6337890625,
+              4177.0
+            ],
+            [
+              1915.7601318359375,
+              2396.543212890625,
+              4180.63720703125
+            ]
+          ],
+          "unmatched_vertices": [
+            1535,
+            1554,
+            1627,
+            1646,
+            1601,
+            1579,
+            1581,
+            1555,
+            2077,
+            2076,
+            2080,
+            2071,
+            2070
+          ],
+          "distance": {
+            "count": 43,
+            "min": 2.0380744750659954,
+            "mean": 3.387760930899418,
+            "median": 2.8904047842544784,
+            "p95": 5.562220151951992,
+            "max": 5.91909378613247
+          },
+          "normal_abs_dot_other_face": {
+            "count": 43,
+            "min": 0.9932473663024717,
+            "mean": 0.9992347798115163,
+            "median": 0.9997864902874755,
+            "p95": 0.9999714854840441,
+            "max": 0.999986198040644
+          },
+          "hint_counts": {
+            "no_other_core_surface_within_4_voxels": 13,
+            "local_prediction_support_despite_geometric_gap": 13,
+            "nonreciprocal_nearest_band_vertex": 34
+          },
+          "target_chain_votes": {
+            "0": 43
+          },
+          "ownership_near_both_planes": false,
+          "candidate_geometric_support": "uncertain",
+          "anatomical_correspondence": "unverified",
+          "authorizes_weld": false
+        },
+        {
+          "id": 3,
+          "ordered_vertex_indices": [
+            2419,
+            2418,
+            2425,
+            2428,
+            2429,
+            2536,
+            2535,
+            2643,
+            2642,
+            2738,
+            2736,
+            2381,
+            2369,
+            2580,
+            2684,
+            2773,
+            3010,
+            2836,
+            3083,
+            2911,
+            3157,
+            2970,
+            3235,
+            3233,
+            3312,
+            3391,
+            3388,
+            3465,
+            3460,
+            3539,
+            3615,
+            3610,
+            3673,
+            3724,
+            3721,
+            3760,
+            3756,
+            3787,
+            3782,
+            3804,
+            3799,
+            3810,
+            3805,
+            3811,
+            3806,
+            3807
+          ],
+          "closed": false,
+          "boundary_component": 6,
+          "surface_components": [
+            6
+          ],
+          "bbox_global_zyx": [
+            [
+              1888.2186279296875,
+              2368.363525390625,
+              4177.0
+            ],
+            [
+              1910.437744140625,
+              2385.324951171875,
+              4180.5126953125
+            ]
+          ],
+          "unmatched_vertices": [
+            2419,
+            2418,
+            3807
+          ],
+          "distance": {
+            "count": 46,
+            "min": 2.0363203186494356,
+            "mean": 2.692037338485294,
+            "median": 2.3771078292867545,
+            "p95": 4.712097742571663,
+            "max": 5.959645008620821
+          },
+          "normal_abs_dot_other_face": {
+            "count": 46,
+            "min": 0.2935977577944755,
+            "mean": 0.9555583032363186,
+            "median": 0.9985128922243831,
+            "p95": 0.9999823695671912,
+            "max": 0.9999975168425299
+          },
+          "hint_counts": {
+            "near_artificial_roi_boundary": 18,
+            "no_other_core_surface_within_4_voxels": 3,
+            "nonreciprocal_nearest_band_vertex": 26,
+            "normal_misalignment_or_curvature": 2
+          },
+          "target_chain_votes": {
+            "2": 46
+          },
+          "ownership_near_both_planes": false,
+          "candidate_geometric_support": "uncertain",
+          "anatomical_correspondence": "unverified",
+          "authorizes_weld": false
+        }
+      ],
+      "sample_diagnostics": {
+        "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/continuity-diagnostic-v1/sample-diagnostics.json",
+        "sha256": "a9bf04ec09715bbed86b5eae49b3805a0f2d0b1a36ec11072183c708f0202a54"
+      },
+      "unmatched_samples": [
+        {
+          "vertex": 528,
+          "global_zyx": [
+            1888.258056640625,
+            2398.473388671875,
+            4180.4453125
+          ],
+          "distance": 5.714321219491497,
+          "closest_global_zyx": [
+            1889.0595703125,
+            2398.045166015625,
+            4174.8037109375
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.743029512382374,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 571,
+          "global_zyx": [
+            1888.2626953125,
+            2398.52099609375,
+            4179.44140625
+          ],
+          "distance": 4.729655573131929,
+          "closest_global_zyx": [
+            1889.0595703125,
+            2398.045166015625,
+            4174.8037109375
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.750010645294027,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "normal_misalignment_or_curvature",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 777,
+          "global_zyx": [
+            1897.728515625,
+            2395.489501953125,
+            4180.63720703125
+          ],
+          "distance": 5.91909378613247,
+          "closest_global_zyx": [
+            1896.9666748046875,
+            2396.549072265625,
+            4174.86376953125
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.9997854301270146,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 779,
+          "global_zyx": [
+            1896.53564453125,
+            2395.98583984375,
+            4179.078125
+          ],
+          "distance": 4.237274194158658,
+          "closest_global_zyx": [
+            1896.4209178281221,
+            2396.6514884456737,
+            4174.895034955687
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.9996231340343801,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 780,
+          "global_zyx": [
+            1896.2066650390625,
+            2396.0869140625,
+            4178.87109375
+          ],
+          "distance": 4.007243460230196,
+          "closest_global_zyx": [
+            1895.962867001272,
+            2396.7376985410974,
+            4174.924570947742
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.9996818349276005,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 791,
+          "global_zyx": [
+            1897.7984619140625,
+            2395.52978515625,
+            4180.29150390625
+          ],
+          "distance": 5.584900755807314,
+          "closest_global_zyx": [
+            1896.9666748046875,
+            2396.549072265625,
+            4174.86376953125
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.999813747864996,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 794,
+          "global_zyx": [
+            1896.8778076171875,
+            2395.878662109375,
+            4179.306640625
+          ],
+          "distance": 4.4889713160751255,
+          "closest_global_zyx": [
+            1896.7571580173774,
+            2396.5883899655055,
+            4174.875772366877
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.999696132008968,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 810,
+          "global_zyx": [
+            1897.3525390625,
+            2395.752197265625,
+            4179.47705078125
+          ],
+          "distance": 4.697474308890231,
+          "closest_global_zyx": [
+            1896.9666748046875,
+            2396.549072265625,
+            4174.86376953125
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.9997807074301842,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 821,
+          "global_zyx": [
+            1898.0341796875,
+            2395.549560546875,
+            4179.8544921875
+          ],
+          "distance": 5.200567563483255,
+          "closest_global_zyx": [
+            1896.9666748046875,
+            2396.549072265625,
+            4174.86376953125
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.9998345005332082,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 834,
+          "global_zyx": [
+            1897.7510986328125,
+            2395.639892578125,
+            4179.65869140625
+          ],
+          "distance": 4.94299547174043,
+          "closest_global_zyx": [
+            1896.9666748046875,
+            2396.549072265625,
+            4174.86376953125
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            0
+          ],
+          "normal_abs_dot_other_face": 0.9998173356319449,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1135,
+          "global_zyx": [
+            1915.681640625,
+            2386.6337890625,
+            4180.57470703125
+          ],
+          "distance": 5.692774178216343,
+          "closest_global_zyx": [
+            1916.7747802734375,
+            2387.001708984375,
+            4175.0
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.9974016363224659,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1144,
+          "global_zyx": [
+            1915.59130859375,
+            2386.958984375,
+            4180.2255859375
+          ],
+          "distance": 5.358094717254105,
+          "closest_global_zyx": [
+            1916.7747802734375,
+            2387.001708984375,
+            4175.0
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.9977538517449358,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1153,
+          "global_zyx": [
+            1915.562255859375,
+            2387.17724609375,
+            4179.87060546875
+          ],
+          "distance": 5.022332761146234,
+          "closest_global_zyx": [
+            1916.7747802734375,
+            2387.001708984375,
+            4175.0
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.9980653991835444,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1155,
+          "global_zyx": [
+            1915.48095703125,
+            2387.4873046875,
+            4179.49755859375
+          ],
+          "distance": 4.705083960263888,
+          "closest_global_zyx": [
+            1916.7747802734375,
+            2387.001708984375,
+            4175.0
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.998273801241789,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1156,
+          "global_zyx": [
+            1915.5433349609375,
+            2387.589599609375,
+            4179.0361328125
+          ],
+          "distance": 4.260491342960687,
+          "closest_global_zyx": [
+            1916.763426545111,
+            2387.023693758153,
+            4174.993495854124
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.9984629433595466,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1209,
+          "global_zyx": [
+            1919.735107421875,
+            2379.665283203125,
+            4180.580078125
+          ],
+          "distance": 6.7105837996313165,
+          "closest_global_zyx": [
+            1919.4564208984375,
+            2382.4755859375,
+            4174.49267578125
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.9932488019519673,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1223,
+          "global_zyx": [
+            1919.5968017578125,
+            2380.5615234375,
+            4179.529296875
+          ],
+          "distance": 5.389888132567554,
+          "closest_global_zyx": [
+            1919.4564208984375,
+            2382.4755859375,
+            4174.49267578125
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.9963539126795161,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1241,
+          "global_zyx": [
+            1919.409423828125,
+            2381.447021484375,
+            4178.4765625
+          ],
+          "distance": 4.11479123974509,
+          "closest_global_zyx": [
+            1919.4564208984375,
+            2382.4755859375,
+            4174.49267578125
+          ],
+          "source_surface_components": [
+            0
+          ],
+          "source_boundary_component": 0,
+          "source_chain_ids": [
+            1
+          ],
+          "normal_abs_dot_other_face": 0.9959873213237493,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1535,
+          "global_zyx": [
+            1897.728515625,
+            2395.489501953125,
+            4180.63720703125
+          ],
+          "distance": 5.91909378613247,
+          "closest_global_zyx": [
+            1896.9666748046875,
+            2396.549072265625,
+            4174.86376953125
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9997802385107856,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1554,
+          "global_zyx": [
+            1897.7984619140625,
+            2395.52978515625,
+            4180.29150390625
+          ],
+          "distance": 5.584900755807314,
+          "closest_global_zyx": [
+            1896.9666748046875,
+            2396.549072265625,
+            4174.86376953125
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9998595307648008,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1555,
+          "global_zyx": [
+            1896.2066650390625,
+            2396.0869140625,
+            4178.87109375
+          ],
+          "distance": 4.007243460230196,
+          "closest_global_zyx": [
+            1895.962867001272,
+            2396.7376985410974,
+            4174.924570947742
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9997761728785838,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1579,
+          "global_zyx": [
+            1896.8778076171875,
+            2395.878662109375,
+            4179.306640625
+          ],
+          "distance": 4.4889713160751255,
+          "closest_global_zyx": [
+            1896.7571580173774,
+            2396.5883899655055,
+            4174.875772366877
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9997864902874755,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1581,
+          "global_zyx": [
+            1896.53564453125,
+            2395.98583984375,
+            4179.078125
+          ],
+          "distance": 4.237274194158658,
+          "closest_global_zyx": [
+            1896.4209178281221,
+            2396.6514884456737,
+            4174.895034955687
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9997404357705235,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1601,
+          "global_zyx": [
+            1897.3525390625,
+            2395.752197265625,
+            4179.47705078125
+          ],
+          "distance": 4.697474308890231,
+          "closest_global_zyx": [
+            1896.9666748046875,
+            2396.549072265625,
+            4174.86376953125
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9998270287375152,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1627,
+          "global_zyx": [
+            1898.0341796875,
+            2395.549560546875,
+            4179.8544921875
+          ],
+          "distance": 5.200567563483255,
+          "closest_global_zyx": [
+            1896.9666748046875,
+            2396.549072265625,
+            4174.86376953125
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9998739754955943,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 1646,
+          "global_zyx": [
+            1897.7510986328125,
+            2395.639892578125,
+            4179.65869140625
+          ],
+          "distance": 4.94299547174043,
+          "closest_global_zyx": [
+            1896.9666748046875,
+            2396.549072265625,
+            4174.86376953125
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9998712498269998,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 2070,
+          "global_zyx": [
+            1915.681640625,
+            2386.6337890625,
+            4180.57470703125
+          ],
+          "distance": 5.692774178216343,
+          "closest_global_zyx": [
+            1916.7747802734375,
+            2387.001708984375,
+            4175.0
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.997087977164678,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 2071,
+          "global_zyx": [
+            1915.59130859375,
+            2386.958984375,
+            4180.2255859375
+          ],
+          "distance": 5.358094717254105,
+          "closest_global_zyx": [
+            1916.7747802734375,
+            2387.001708984375,
+            4175.0
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9974154350335321,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 2076,
+          "global_zyx": [
+            1915.48095703125,
+            2387.4873046875,
+            4179.49755859375
+          ],
+          "distance": 4.705083960263888,
+          "closest_global_zyx": [
+            1916.7747802734375,
+            2387.001708984375,
+            4175.0
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9980643477365047,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 2077,
+          "global_zyx": [
+            1915.5433349609375,
+            2387.589599609375,
+            4179.0361328125
+          ],
+          "distance": 4.260491342960687,
+          "closest_global_zyx": [
+            1916.763426545111,
+            2387.023693758153,
+            4174.993495854124
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9983384964127934,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 2080,
+          "global_zyx": [
+            1915.562255859375,
+            2387.17724609375,
+            4179.87060546875
+          ],
+          "distance": 5.022332761146234,
+          "closest_global_zyx": [
+            1916.7747802734375,
+            2387.001708984375,
+            4175.0
+          ],
+          "source_surface_components": [
+            1
+          ],
+          "source_boundary_component": 1,
+          "source_chain_ids": [
+            2
+          ],
+          "normal_abs_dot_other_face": 0.9978515876020172,
+          "hints": [
+            "no_other_core_surface_within_4_voxels",
+            "local_prediction_support_despite_geometric_gap",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 2418,
+          "global_zyx": [
+            1888.693359375,
+            2382.60791015625,
+            4179.53369140625
+          ],
+          "distance": 4.975126258863794,
+          "closest_global_zyx": [
+            1889.5863265823,
+            2382.805403420862,
+            4174.643345072016
+          ],
+          "source_surface_components": [
+            6
+          ],
+          "source_boundary_component": 6,
+          "source_chain_ids": [
+            3
+          ],
+          "normal_abs_dot_other_face": 0.9974425670032477,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 2419,
+          "global_zyx": [
+            1888.5855712890625,
+            2382.53857421875,
+            4180.5126953125
+          ],
+          "distance": 5.959645008620821,
+          "closest_global_zyx": [
+            1889.6294018298354,
+            2382.753211770632,
+            4174.649102800034
+          ],
+          "source_surface_components": [
+            6
+          ],
+          "source_boundary_component": 6,
+          "source_chain_ids": [
+            3
+          ],
+          "normal_abs_dot_other_face": 0.9733845171134192,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        },
+        {
+          "vertex": 3807,
+          "global_zyx": [
+            1909.4833984375,
+            2368.465087890625,
+            4179.4951171875
+          ],
+          "distance": 4.960422920081543,
+          "closest_global_zyx": [
+            1909.3657925615018,
+            2368.9292176432946,
+            4174.557856005763
+          ],
+          "source_surface_components": [
+            6
+          ],
+          "source_boundary_component": 6,
+          "source_chain_ids": [
+            3
+          ],
+          "normal_abs_dot_other_face": 0.969817756012973,
+          "hints": [
+            "near_artificial_roi_boundary",
+            "no_other_core_surface_within_4_voxels",
+            "nonreciprocal_nearest_band_vertex"
+          ]
+        }
+      ],
+      "unmatched_hint_counts": {
+        "near_artificial_roi_boundary": 8,
+        "normal_misalignment_or_curvature": 2,
+        "no_other_core_surface_within_4_voxels": 34,
+        "local_prediction_support_despite_geometric_gap": 29,
+        "nonreciprocal_nearest_band_vertex": 34
+      }
+    }
+  },
+  "interpretation": {
+    "boundary_chains": "Maximal nonbranching paths of boundary edges whose two endpoints are in the original inclusive plane band; isolated samples retained; branch vertices can occur in several chains",
+    "components": "Surface components connect faces by shared indexed edges. Boundary components use the full indexed boundary graph before seam-band restriction.",
+    "normal_coherence": "Magnitude of incident area-vector sum divided by sum of magnitudes; low coherence makes a vertex normal uncertain",
+    "roi_near": "Within 2 voxels of first/last ROI voxel-center plane; artificial-zero proximity, not an anatomical edge",
+    "remote_context_near": "Either source or closest point within 4 voxels of left last-context X or right first-context X; absent 3-slice remote context is a hypothesis, not a causal finding",
+    "stronger_support": ">=3 samples, all distances<=4, both ownership offsets<=2, all normal coherence>=0.8 and abs dot>=0.9, >=50% reciprocal band-vertex matches, one target chain, no ROI/context/branch hints. Descriptive only; no weld authorization.",
+    "ct": "Exact raw crop checked against frozen real CT; pred checked against exclusive >126. Foreground supports local intensity only; no labels, fiber tracking or sheet correspondence.",
+    "step7": "Hashes, retention and guards are reused as provenance. Closest geometry is final owned mesh, not overlapping pretrim halos.",
+    "not_repeated": "No remeshing, native audit, coverage evaluation, or v2/v4 duplicate run. New per-sample query cache prevents future repeated point/triangle work."
+  },
+  "post_weld_validation_plan": [
+    "Preserve this original two-core sample set and hashes. Never choose new correspondences solely from post-weld proximity.",
+    "Require a face/vertex provenance map for output; certify original oriented source faces or explicitly account for every changed/removed source face.",
+    "Check exact duplicates, degeneracy, edge/manifold/orientation guards and native all-face overlap/stab/fold audit on the actual saved welded output.",
+    "Keep directional 25/34 baseline against the opposite owned core. Never measure against the complete union: own incident faces make this distance trivially zero. If opposite-owner geometry changes, query only that changed geometry.",
+    "Separately measure added seam-face support, residual seam boundary edges and connected paths between original owners. Zero point-to-new-face distance can be true by construction and is not a recovery/identity certificate.",
+    "Report newly added seam faces by original chain pair, geometric displacement, CT support, near-ROI/context flags and normal ambiguity. Zero intersections alone does not certify sheet identity.",
+    "Inspect real-CT slices at accepted and rejected seam chains and document uncertain fiber continuity; do not infer anatomic identity from Otsu support or labels."
+  ]
+}

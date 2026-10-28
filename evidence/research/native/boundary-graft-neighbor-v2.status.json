@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/run_boundary_graft_case.py"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 54.99997655200059,
+  "minimum_available_mib": 8226.85546875,
+  "max_child_rss_mib": 33.77734375,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/native/boundary-graft-neighbor-v2.log"
+}

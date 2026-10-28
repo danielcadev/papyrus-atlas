@@ -1,0 +1,19 @@
+{
+  "recovered_original_face_ids": [
+    7931,
+    8082,
+    8085,
+    8149,
+    8222,
+    8295,
+    8296,
+    8368,
+    8369,
+    8438,
+    8512,
+    8900,
+    8901
+  ],
+  "unchanged_source_triangles": true,
+  "exact_probe_agreement": true
+}

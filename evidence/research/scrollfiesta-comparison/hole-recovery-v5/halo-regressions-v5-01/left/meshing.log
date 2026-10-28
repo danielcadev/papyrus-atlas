@@ -1,0 +1,62 @@
+cube_mesh: z01840_y02320_x04048 (threads=1, halo=13)
+    comp 2: Hoppe orient flipped 0/1485 normals (r=1.20)
+    comp 2: patch_repair 0/2 patches (tears=2, -0 +0 faces; skip g2 r0 p0 t0)
+    comp 1: Hoppe orient flipped 124/2126 normals (r=1.20)
+    comp 1: patch_repair 0/0 patches (tears=0, -0 +0 faces; skip g0 r0 p0 t0)
+  Extract: 2 components (8.299s)
+  [dump] VMESH + 2 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step1_bpa
+  [dump] VMESH + 2 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step4_bpa
+  DepthPeel: 2 -> 2 components (0 stack(s) peeled into 0 layers, 0.000s)
+  [dump] VMESH + 2 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step1b_peel
+  DevCut: 2 -> 2 components (0 cut, 0 gate-rejected, 0.003s)
+  [dump] VMESH + 2 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step1c_devcut
+  step3-overlap: nv=1371 nf=2617 sheet_count=0
+    phase 1 (project): 0.000s
+    phase 2 (adjacency): 3862 edges, avg_len=0.6634, 0.000s
+    phase 3 (overlaps): 1 pairs, 0.002s
+    phase 4 (multicut): rc=0, clusters=2, 0.008s
+    cluster sizes (top): 2614 3 (of 2617 faces)
+    overlap edges: 1 CUT, 0 JOINED  (JOINED = -1e6 edge left within a cluster = solver did not act)
+    weld diag: 1 size-eligible leftover pairs, 0 overlap-SAFE
+    phase 5 (merge small, overlap-safe): 0 faces relabeled
+    after phase-5 merge: 0/1 overlap edges JOINED (must be 0)
+    boundary recovery: 2 faces, overlap list complete
+    phase 5: 2 non-empty clusters
+  step3-overlap: 2 pieces, 0.009s total
+    piece 0: nv=1371 nf=2616
+    piece 1: nv=3 nf=1
+    overlap ownership retained: 1 faces; 3D coverage by owner not proven at 0.25 vox
+  step3-overlap: nv=186 nf=321 sheet_count=0
+    phase 1 (project): 0.000s
+    phase 2 (adjacency): 457 edges, avg_len=0.7149, 0.000s
+    phase 3 (overlaps): 0 pairs, 0.000s
+    no overlaps -> returning unchanged
+  step3-overlap: nv=1755 nf=3389 sheet_count=0
+    phase 1 (project): 0.000s
+    phase 2 (adjacency): 5024 edges, avg_len=0.5990, 0.001s
+    phase 3 (overlaps): 0 pairs, 0.077s
+    no overlaps -> returning unchanged
+  [dump] VMESH + 3 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step5_cc
+    re-LOP candidate rejected: 321 -> 315 faces; overlap-free bidirectional coverage unproven at 0.5 vox; source chart retained
+    re-LOP candidate rejected: 3389 -> 3388 faces; overlap-free bidirectional coverage unproven at 0.5 vox; source chart retained
+  Split: 2 -> 3 components (1 bridge-cut, 1 overlap, 0 re-surfaced, 0 pinch-split, 1.701s)
+  [dump] VMESH + 3 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step7_cc_bpa
+  [hole_fill] 3 boundary loops (largest=0 with 119 verts)
+  [hole_fill] geom loop 1 geom: min_edge=0.3658 max_edge=1.193 ratio=3.3 min_angle=24.18 deg min_nonadj=0.563
+  [hole_fill] geom loop 2 geom: min_edge=0.4069 max_edge=2.299 ratio=5.6 min_angle=68.98 deg min_nonadj=1.134
+  [hole_fill] 3 loops, 2 interior, 0 micro, 2 filled (0 chart-cycle fallback) in 0.00 s
+  [hole_fill] 1 boundary loops (largest=0 with 50 verts)
+  [hole_fill] 1 loops, 0 interior, 0 micro, 0 filled (0 chart-cycle fallback) in 0.00 s
+  [hole_fill] 1 boundary loops (largest=0 with 120 verts)
+  [hole_fill] 1 loops, 0 interior, 0 micro, 0 filled (0 chart-cycle fallback) in 0.00 s
+  HoleFill: 0 pinch splits, 0 3-loop fills (+0 tris), 0 loops skipped, 3 comps CDT-filled (0.004s)
+  [dump] VMESH + 3 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step8_holefill
+  Sever: 0 short handle(s) cut across 0/3 comp(s) (0.001s)
+  Chart normalize: 3 semantic -> 3 connected chart(s), 0 kibble chart(s) culled (no cuts, 0.000s)
+  [dump] VMESH + 3 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step9_chart_cc
+  Kibble: 0 culled, 3 kept (0.000s)
+  [dump] VMESH + 3 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step11_kibble
+  Trim: 3/3 comps kept, 3312/6332 -> 3312/6332 v/f (cut-at-plane, 0 faces cut) (0.001s)
+  Guard: 0 NM-edge(s) (-0 faces), 0 pinch split(s), 0 reorient flip(s) (0.002s)
+  [dump] VMESH + 3 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/halo-regressions-v5-01/left/obj/z01840_y02320_x04048/z01840_y02320_x04048_step12_final
+  Timings: extract=8.299 cvt=0.000 trim=0.001 dump=0.007 total=10.396s  Status: OK

@@ -1,0 +1,41 @@
+--- a/src/common/mls_project.c
++++ b/src/common/mls_project.c
+@@ -279,6 +279,12 @@
+     assert(verts);
+     assert(out_verts);
+     assert(radius_vox > 0.0f);
++
++    /* Local research opt-in. Default projection and radius are unchanged. */
++    double edge_strength = 0.0;
++    const char *edge_mode = getenv("MLS_EDGE_ADAPT");
++    if (edge_mode && strcmp(edge_mode, "soft") == 0) edge_strength = 2.0;
++    if (edge_mode && strcmp(edge_mode, "strong") == 0) edge_strength = 8.0;
+ 
+     /* Experiment knob (MLS_RADIUS_VOX): override the LOP/MLS kernel radius at
+      * runtime so a smaller radius can be swept without rebuilding. At a tight
+@@ -733,6 +739,25 @@
+                 double dvy_c = vyd - cy;
+                 double dvx_c = vxd - cx;
+                 double d_proj = dvz_c * nz_d + dvy_c * ny_d + dvx_c * nx_d;
++                if (edge_strength > 0.0) {
++                    /* Tangential centroid imbalance, standardized by local
++                     * variance. A symmetric neighbourhood has zero tangent
++                     * mean; a truncated neighbourhood can have a large mean.
++                     * Dampen only beyond a dimensionless 0.25 threshold.
++                     * This leaves the fitted normal and direction intact and
++                     * bounds the step between zero and the original step.
++                     * No target coordinates or annotation data enter here. */
++                    double imbalance = 0.0;
++                    for (int tangent = 1; tangent < 3; tangent++) {
++                        double offset = pbz * eigvecs[0][tangent]
++                                      + pby * eigvecs[1][tangent]
++                                      + pbx * eigvecs[2][tangent];
++                        double variance = fmax(eigvals[tangent], 1e-12);
++                        imbalance += offset * offset / variance;
++                    }
++                    if (imbalance > 0.25)
++                        d_proj /= 1.0 + edge_strength * (imbalance - 0.25);
++                }
+                 out_verts[i*3+0] = (float)(vzd - d_proj * nz_d);
+                 out_verts[i*3+1] = (float)(vyd - d_proj * ny_d);
+                 out_verts[i*3+2] = (float)(vxd - d_proj * nx_d);

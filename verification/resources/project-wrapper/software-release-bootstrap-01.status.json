@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/releases/software-progress-prize-2026-10-v1/tools/bootstrap.py",
+    "--destination",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1",
+    "--archive",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/source.tar.gz"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 4.478533064999283,
+  "minimum_available_mib": 8535.8203125,
+  "max_child_rss_mib": 34.11328125,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/software-release-bootstrap-01.log"
+}

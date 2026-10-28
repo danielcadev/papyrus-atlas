@@ -1,0 +1,87 @@
+cube_mesh: /home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/cubes_PRED/z01808_y02320_x04112.tif (threads=1, halo=0)
+    comp 3: Hoppe orient flipped 265/3131 normals (r=1.20)
+    comp 3: patch_repair 4/7 patches (tears=11, -437 +477 faces; skip g3 r0 p0 t0)
+  Extract: 1 components (16.205s)
+  [dump] VMESH + 1 OBJs + CC-coloured combined -> /home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step1_bpa
+  [dump] VMESH + 1 OBJs + CC-coloured combined -> /home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step4_bpa
+  DepthPeel: 1 -> 1 components (0 stack(s) peeled into 0 layers, 0.000s)
+  [dump] VMESH + 1 OBJs + CC-coloured combined -> /home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step1b_peel
+  DevCut: 1 -> 1 components (0 cut, 0 gate-rejected, 0.003s)
+  [dump] VMESH + 1 OBJs + CC-coloured combined -> /home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step1c_devcut
+  step3-overlap: nv=2794 nf=5173 sheet_count=0
+    phase 1 (project): 0.000s
+    phase 2 (adjacency): 7545 edges, avg_len=0.6935, 0.001s
+    phase 3 (overlaps): 2708 pairs, 0.005s
+    phase 4 (multicut): rc=0, clusters=20, 0.102s
+    cluster sizes (top): 2751 1854 255 162 41 32 17 12 (of 5173 faces)
+    overlap edges: 2708 CUT, 0 JOINED  (JOINED = -1e6 edge left within a cluster = solver did not act)
+    weld diag: 18 size-eligible leftover pairs, 0 overlap-SAFE
+    phase 5 (merge small, overlap-safe): 0 faces relabeled
+    after phase-5 merge: 0/2708 overlap edges JOINED (must be 0)
+    boundary recovery: 27 faces, overlap list complete
+    phase 5: 20 non-empty clusters
+  step3-overlap: 20 pieces, 0.103s total
+    piece 0: nv=4 nf=2
+    piece 1: nv=7 nf=5
+    piece 2: nv=36 nf=42
+    piece 3: nv=3 nf=1
+    piece 4: nv=3 nf=1
+    piece 5: nv=4 nf=2
+    piece 6: nv=7 nf=3
+    piece 7: nv=33 nf=43
+    piece 8: nv=5 nf=3
+    piece 9: nv=1053 nf=1858
+    piece 10: nv=3 nf=1
+    piece 11: nv=1457 nf=2755
+    piece 12: nv=3 nf=1
+    piece 13: nv=150 nf=256
+    piece 14: nv=5 nf=3
+    piece 15: nv=16 nf=18
+    piece 16: nv=10 nf=7
+    piece 17: nv=6 nf=4
+    piece 18: nv=102 nf=167
+    piece 19: nv=3 nf=1
+    overlap ownership retained: 2 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 5 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 42 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 1 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 1 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 2 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 3 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 43 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 3 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 1 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 1 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 3 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 18 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 7 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 4 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 167 faces; 3D coverage by owner not proven at 0.25 vox
+    overlap ownership retained: 1 faces; 3D coverage by owner not proven at 0.25 vox
+  [dump] VMESH + 7 OBJs + CC-coloured combined -> /home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step5_cc
+    re-LOP deferred: 1858 faces, 109 projected overlap pairs (audit rc=0); source geometry retained for sheet separation
+    re-LOP deferred: 2755 faces, 4 projected overlap pairs (audit rc=0); source geometry retained for sheet separation
+    re-LOP candidate rejected: 256 -> 264 faces; overlap-free bidirectional coverage unproven at 0.5 vox; source chart retained
+    re-LOP candidate rejected: 167 -> 173 faces; overlap-free bidirectional coverage unproven at 0.5 vox; source chart retained
+  Split: 1 -> 7 components (0 bridge-cut, 1 overlap, 0 re-surfaced, 5 pinch-split, 0.207s)
+  [dump] VMESH + 7 OBJs + CC-coloured combined -> /home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step7_cc_bpa
+  [hole_fill] 3 boundary loops (largest=0 with 230 verts)
+  [hole_fill] geom loop 1 geom: min_edge=0.3236 max_edge=1.62 ratio=5.0 min_angle=68.59 deg min_nonadj=0.6013
+  [hole_fill] geom loop 2 geom: min_edge=0.2958 max_edge=2.352 ratio=7.9 min_angle=24.47 deg min_nonadj=0
+  [hole_fill] 3 loops, 2 interior, 0 micro, 2 filled (1 chart-cycle fallback) in 0.00 s
+  [hole_fill] 2 boundary loops (largest=0 with 158 verts)
+  [hole_fill] geom loop 1 geom: min_edge=0.4707 max_edge=1.553 ratio=3.3 min_angle=12.13 deg min_nonadj=0
+  [hole_fill] 2 loops, 1 interior, 0 micro, 0 filled (0 chart-cycle fallback) in 0.00 s
+  [hole_fill] 1 boundary loops (largest=0 with 43 verts)
+  [hole_fill] 1 loops, 0 interior, 0 micro, 0 filled (0 chart-cycle fallback) in 0.00 s
+  [hole_fill] 1 boundary loops (largest=0 with 36 verts)
+  [hole_fill] 1 loops, 0 interior, 0 micro, 0 filled (0 chart-cycle fallback) in 0.00 s
+  HoleFill: 0 pinch splits, 0 3-loop fills (+0 tris), 1 loops skipped, 4 comps CDT-filled (0.003s)
+  [dump] VMESH + 7 OBJs + CC-coloured combined -> /home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step8_holefill
+  Sever: 0 short handle(s) cut across 0/7 comp(s) (0.001s)
+  Chart normalize: 7 semantic -> 7 connected chart(s), 0 kibble chart(s) culled (no cuts, 0.000s)
+  [dump] VMESH + 7 OBJs + CC-coloured combined -> /home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step9_chart_cc
+  Kibble: 0 culled, 7 kept (0.000s)
+  [dump] VMESH + 7 OBJs + CC-coloured combined -> /home/danielcastrillon/kyty_work/recovery/vesuvius-layer-pilot/scrollfiesta-comparison/fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble
+  Guard: 0 NM-edge(s) (-0 faces), 0 pinch split(s), 0 reorient flip(s) (0.002s)
+  Timings: extract=16.205 cvt=0.000 trim=0.000 dump=0.000 total=16.714s  Status: OK

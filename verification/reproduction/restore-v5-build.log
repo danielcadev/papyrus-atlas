@@ -1,0 +1,56 @@
+[1/3] Building C object CMakeFiles/scrollfiesta_core.dir/src/split/overlap_sep.c.o
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c: In function ‘detect_overlaps’:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:497:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  497 |             if (x < fminx) fminx = x; if (x > fmaxx) fmaxx = x;
+      |             ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:497:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  497 |             if (x < fminx) fminx = x; if (x > fmaxx) fmaxx = x;
+      |                                       ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:498:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  498 |             if (y < fminy) fminy = y; if (y > fmaxy) fmaxy = y;
+      |             ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:498:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  498 |             if (y < fminy) fminy = y; if (y > fmaxy) fmaxy = y;
+      |                                       ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:504:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  504 |         if (ix0 < 0) ix0 = 0; if (ix1 >= nx) ix1 = nx - 1;
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:504:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  504 |         if (ix0 < 0) ix0 = 0; if (ix1 >= nx) ix1 = nx - 1;
+      |                               ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:505:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  505 |         if (iy0 < 0) iy0 = 0; if (iy1 >= ny) iy1 = ny - 1;
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:505:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  505 |         if (iy0 < 0) iy0 = 0; if (iy1 >= ny) iy1 = ny - 1;
+      |                               ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:531:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  531 |             if (x < fminx) fminx = x; if (x > fmaxx) fmaxx = x;
+      |             ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:531:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  531 |             if (x < fminx) fminx = x; if (x > fmaxx) fmaxx = x;
+      |                                       ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:532:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  532 |             if (y < fminy) fminy = y; if (y > fmaxy) fmaxy = y;
+      |             ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:532:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  532 |             if (y < fminy) fminy = y; if (y > fmaxy) fmaxy = y;
+      |                                       ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:538:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  538 |         if (ix0 < 0) ix0 = 0; if (ix1 >= nx) ix1 = nx - 1;
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:538:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  538 |         if (ix0 < 0) ix0 = 0; if (ix1 >= nx) ix1 = nx - 1;
+      |                               ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:539:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  539 |         if (iy0 < 0) iy0 = 0; if (iy1 >= ny) iy1 = ny - 1;
+      |         ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:539:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  539 |         if (iy0 < 0) iy0 = 0; if (iy1 >= ny) iy1 = ny - 1;
+      |                               ^~
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c: At top level:
+/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/source/src/split/overlap_sep.c:1079:12: warning: ‘merge_raw_volume_fit’ defined but not used [-Wunused-function]
+ 1079 | static int merge_raw_volume_fit(Arena_T arena,
+      |            ^~~~~~~~~~~~~~~~~~~~
+[2/3] Linking CXX static library libscrollfiesta_core.a
+[3/3] Linking CXX executable cube_mesh

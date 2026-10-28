@@ -1,0 +1,14 @@
+{
+  "command": [
+    "bash",
+    "-c",
+    "set -e; cd /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison; mkdir hole-recovery-v5; build/hole_recovery_candidate.v1 fresh-yplus32-v2/corrected-obj/z01808_y02320_x04112/z01808_y02320_x04112_step7_cc_bpa/z01808_y02320_x04112_step7_cc_bpa_all.vmesh holefill-repair/replay-v2-holes/weld_hole0003_loop5_19v_in.obj hole-recovery-v5/candidate-boundary-only-01.vmesh 2000000"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 1.8022256440017372,
+  "minimum_available_mib": 6068.04296875,
+  "max_child_rss_mib": 16.1171875,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/hf-recovery-search-01.log"
+}

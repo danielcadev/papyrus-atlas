@@ -1,0 +1,1 @@
+{"output": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/paris4-winding-calibration-v1", "state": "completed-fail-closed", "axis_valid": true, "pitch_identifiable": false, "calibration_valid": false, "reasons": ["CT_radial_period_not_identifiable_under_frozen_criteria", "accepted_profiles_do_not_bracket_target_radial_support"]}

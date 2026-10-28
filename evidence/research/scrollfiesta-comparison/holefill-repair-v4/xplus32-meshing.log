@@ -1,0 +1,63 @@
+cube_mesh: /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/independent-xplus32/cubes_PRED/z01808_y02320_x04112.tif (threads=1, halo=0)
+    comp 1: Hoppe orient flipped 88/6725 normals (r=1.20)
+    comp 1: patch_repair 2/6 patches (tears=7, -178 +187 faces; skip g4 r0 p0 t0)
+  Extract: 1 components (10.803s)
+  [dump] VMESH + 1 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/xplus32-obj/z01808_y02320_x04112/z01808_y02320_x04112_step1_bpa
+  [dump] VMESH + 1 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/xplus32-obj/z01808_y02320_x04112/z01808_y02320_x04112_step4_bpa
+  DepthPeel: 1 -> 1 components (0 stack(s) peeled into 0 layers, 0.001s)
+  [dump] VMESH + 1 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/xplus32-obj/z01808_y02320_x04112/z01808_y02320_x04112_step1b_peel
+    re-LOP assign: 2 pieces, dropped 173/15442 seam-ambiguous points (margin 1.50 vox)
+    DevCut gate: comp 0 -> 2 pieces, parent_nondev=0.1114 worst_piece=0.0024 (margin 0.020 ceil 0.050) -> ACCEPT
+  DevCut: 1 -> 2 components (1 cut, 0 gate-rejected, 37.821s)
+  [dump] VMESH + 2 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/xplus32-obj/z01808_y02320_x04112/z01808_y02320_x04112_step1c_devcut
+  step3-overlap: nv=111 nf=191 sheet_count=0
+    phase 1 (project): 0.000s
+    phase 2 (adjacency): 272 edges, avg_len=0.6982, 0.000s
+    phase 3 (overlaps): 0 pairs, 0.000s
+    no overlaps -> returning unchanged
+  step3-overlap: nv=4304 nf=8410 sheet_count=0
+    phase 1 (project): 0.000s
+    phase 2 (adjacency): 12515 edges, avg_len=0.6108, 0.002s
+    phase 3 (overlaps): 0 pairs, 0.006s
+    no overlaps -> returning unchanged
+  step3-overlap: nv=101 nf=175 sheet_count=0
+    phase 1 (project): 0.000s
+    phase 2 (adjacency): 250 edges, avg_len=0.7140, 0.000s
+    phase 3 (overlaps): 0 pairs, 0.000s
+    no overlaps -> returning unchanged
+  step3-overlap: nv=72 nf=121 sheet_count=0
+    phase 1 (project): 0.000s
+    phase 2 (adjacency): 171 edges, avg_len=0.6227, 0.000s
+    phase 3 (overlaps): 0 pairs, 0.000s
+    no overlaps -> returning unchanged
+  step3-overlap: nv=1387 nf=2646 sheet_count=0
+    phase 1 (project): 0.000s
+    phase 2 (adjacency): 3906 edges, avg_len=0.8100, 0.000s
+    phase 3 (overlaps): 0 pairs, 0.002s
+    no overlaps -> returning unchanged
+  [dump] VMESH + 5 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/xplus32-obj/z01808_y02320_x04112/z01808_y02320_x04112_step5_cc
+    re-LOP candidate rejected: 8410 -> 8405 faces; overlap-free bidirectional coverage unproven at 0.5 vox; source chart retained
+    re-LOP candidate rejected: 175 -> 175 faces; overlap-free bidirectional coverage unproven at 0.5 vox; source chart retained
+  Split: 2 -> 5 components (1 bridge-cut, 0 overlap, 2 re-surfaced, 0 pinch-split, 4.907s)
+  [dump] VMESH + 5 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/xplus32-obj/z01808_y02320_x04112/z01808_y02320_x04112_step7_cc_bpa
+  [hole_fill] 1 boundary loops (largest=0 with 30 verts)
+  [hole_fill] 1 loops, 0 interior, 0 micro, 0 filled (0 chart-cycle fallback) in 0.00 s
+  [hole_fill] 3 boundary loops (largest=0 with 183 verts)
+  [hole_fill] geom loop 1 geom: min_edge=1.103 max_edge=2.249 ratio=2.0 min_angle=81.64 deg min_nonadj=2.422
+  [hole_fill] geom loop 2 geom: min_edge=0.3122 max_edge=0.9759 ratio=3.1 min_angle=51.31 deg min_nonadj=0.7621
+  [hole_fill] 3 loops, 2 interior, 0 micro, 2 filled (0 chart-cycle fallback) in 0.00 s
+  [hole_fill] 1 boundary loops (largest=0 with 26 verts)
+  [hole_fill] 1 loops, 0 interior, 0 micro, 0 filled (0 chart-cycle fallback) in 0.00 s
+  [hole_fill] 1 boundary loops (largest=0 with 22 verts)
+  [hole_fill] 1 loops, 0 interior, 0 micro, 0 filled (0 chart-cycle fallback) in 0.00 s
+  [hole_fill] 1 boundary loops (largest=0 with 127 verts)
+  [hole_fill] 1 loops, 0 interior, 0 micro, 0 filled (0 chart-cycle fallback) in 0.00 s
+  HoleFill: 0 pinch splits, 0 3-loop fills (+0 tris), 0 loops skipped, 5 comps CDT-filled (0.007s)
+  [dump] VMESH + 5 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/xplus32-obj/z01808_y02320_x04112/z01808_y02320_x04112_step8_holefill
+  Sever: 0 short handle(s) cut across 0/5 comp(s) (0.077s)
+  Chart normalize: 5 semantic -> 5 connected chart(s), 0 kibble chart(s) culled (no cuts, 0.000s)
+  [dump] VMESH + 5 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/xplus32-obj/z01808_y02320_x04112/z01808_y02320_x04112_step9_chart_cc
+  Kibble: 0 culled, 5 kept (0.000s)
+  [dump] VMESH + 5 OBJs + CC-coloured combined -> /home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/xplus32-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble
+  Guard: 0 NM-edge(s) (-0 faces), 0 pinch split(s), 0 reorient flip(s) (0.005s)
+  Timings: extract=10.803 cvt=0.000 trim=0.000 dump=0.000 total=54.196s  Status: OK

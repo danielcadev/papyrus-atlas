@@ -1,0 +1,65 @@
+{
+  "candidate": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/saved-evaluation-02/combined.vmesh",
+  "sha256": "6c8666e673df057b010f9824e6bef5071b106810b1ad9efe22966752eb81a6b1",
+  "source_faces": 5139,
+  "all_source_indices_and_coordinates_exact": true,
+  "other_v4_fill_faces_preserved": 4,
+  "new_full_fill_faces": 17,
+  "vertices": 2852,
+  "faces": 5160,
+  "area_voxel2": 1287.5665951076785,
+  "reference_coverage_radius1": 2241,
+  "reference_coverage_by_id": {
+    "248": 2240,
+    "247": 1
+  },
+  "ct_otsu_supported_area_radius1": 1271.4811016445094,
+  "samples": 18722,
+  "source_boundary": {
+    "count": 427,
+    "median": 0.0,
+    "p95": 0.0,
+    "max": 0.7598520048408093,
+    "farther_than_quarter": 6,
+    "farther_than1": 0
+  },
+  "old_rejected_fill_sample_distance_to_candidate": {
+    "count": 221,
+    "median": 0.004474901132377755,
+    "p95": 0.05613721564314629,
+    "max": 0.08366538535565173,
+    "farther_than_quarter": 0,
+    "farther_than1": 0
+  },
+  "new_fill_sample_distance_to_v2_surface": {
+    "count": 387,
+    "median": 0.022542410899036365,
+    "p95": 0.0813413759440374,
+    "max": 0.11717636805713097,
+    "farther_than_quarter": 0,
+    "farther_than1": 0
+  },
+  "native_audit": {
+    "faces": 5160,
+    "candidates": 31957,
+    "overlap": 0,
+    "stab": 0,
+    "fold": 0,
+    "conflicts": 0,
+    "gap_max": 0,
+    "include_hinges": true,
+    "predicate_fixture_checks": 4,
+    "read_only": true
+  },
+  "strict_certificate": {
+    "source_multiplicity_and_cyclic_orientation_preserved": true,
+    "source_nondegenerate_for_supported_predicate": true,
+    "added_triangles_nondegenerate": true,
+    "no_intersection_outside_exact_common_simplex": true
+  },
+  "limitations": [
+    "Only saved float32 geometry; production replay still required",
+    "Exact source retention is proved; finite sample fidelity does not prove all old generated geometry is preserved",
+    "CT support and reference proximity do not certify anatomical identity or fibers"
+  ]
+}

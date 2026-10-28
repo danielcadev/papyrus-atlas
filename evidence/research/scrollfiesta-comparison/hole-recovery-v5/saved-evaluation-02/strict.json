@@ -1,0 +1,68 @@
+{
+  "schema": "exact-patch-intersections-v1",
+  "passed": true,
+  "checks": {
+    "source_multiplicity_and_cyclic_orientation_preserved": true,
+    "source_nondegenerate_for_supported_predicate": true,
+    "added_triangles_nondegenerate": true,
+    "no_intersection_outside_exact_common_simplex": true
+  },
+  "source": {
+    "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/y32-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble/z01808_y02320_x04112_step11_kibble_all.vmesh",
+    "sha256": "5106f6cbec34df7decca0d3a01c33597f14da73ac3bdc35faa0f8f92180ef60e",
+    "vertices": 2852,
+    "faces": 5143,
+    "flags": 0
+  },
+  "candidate": {
+    "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/saved-evaluation-02/combined.vmesh",
+    "sha256": "6c8666e673df057b010f9824e6bef5071b106810b1ad9efe22966752eb81a6b1",
+    "vertices": 2852,
+    "faces": 5160,
+    "flags": 0
+  },
+  "missing_or_reoriented_source_faces": 0,
+  "added_faces": 17,
+  "added_candidate_face_indices": [
+    5143,
+    5144,
+    5145,
+    5146,
+    5147,
+    5148,
+    5149,
+    5150,
+    5151,
+    5152,
+    5153,
+    5154,
+    5155,
+    5156,
+    5157,
+    5158,
+    5159
+  ],
+  "source_degenerate_face_indices": [],
+  "added_degenerate_face_indices": [],
+  "potential_pairs": 87567,
+  "aabb_overlapping_pairs": 267,
+  "exact_pairs_checked": 267,
+  "conflicts": 0,
+  "conflict_examples": [],
+  "conflict_examples_truncated": false,
+  "method": {
+    "coordinate_space": "stored global ZYX binary32",
+    "arithmetic": "exact fractions of stored binary32 coordinates",
+    "tolerance": 0,
+    "native_geometry_imports": false,
+    "source_key": "oriented coordinate multiset modulo cyclic rotations",
+    "allowed_contact": "subset of exact common-corner simplex"
+  },
+  "limits": [
+    "Source/source pairs are not audited.",
+    "No boundary, topology, angle-fan, winding-field, coverage or anatomical identity certificate.",
+    "Unindexed contact without common corner coordinates is rejected conservatively.",
+    "Zero added faces can pass; passing alone does not prove a hole was closed.",
+    "Only saved binary32 geometry is certified, with no minimum-clearance claim."
+  ]
+}

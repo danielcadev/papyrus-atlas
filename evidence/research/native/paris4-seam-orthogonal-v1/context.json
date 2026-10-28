@@ -1,0 +1,223 @@
+{
+  "schema": "paris4-seam-orthogonal-v1",
+  "state": "six-orthogonal-views-rendered-no-calibration",
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-seam-orthogonal-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": "402653184",
+    "memory_swap_max": "0",
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072
+  },
+  "method": "fixed orthogonal CT views with manual-label overlay; same development cube",
+  "source_origin_world_zyx": [
+    1744,
+    2256,
+    4048
+  ],
+  "source_volume_id": "20230205180739",
+  "manual_labels_opened": true,
+  "result_meshes_opened": false,
+  "calibration_valid": false,
+  "winding_gate_ready": false,
+  "pitch_voxels": null,
+  "inputs": {
+    "CT": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/data/01744_02256_04048_volume.nrrd",
+      "sha256": "3041f5bd3bf5b9d3d68be6a65934c39664d04c2f221ca23561bde0d1376ee110"
+    },
+    "mask": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/data/01744_02256_04048_mask.nrrd",
+      "sha256": "5925bff9b6bd5398504bc2aa67621a0632fcadf3d4b2638055e1d4dd7b781e64"
+    },
+    "helpers": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/inventory_paris4_radial_labels.py",
+      "sha256": "60ca1af4d038986dd44b2bc53d0000573fa428fc2b8822988059f32aba983241"
+    },
+    "script": {
+      "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/render_paris4_seam_orthogonal.py",
+      "sha256": "0eb41f34afb48e07c9c8d39b61ba5e8e440e61922ce852b1cd2647bda3b93d45"
+    }
+  },
+  "views": [
+    {
+      "plane": "YZ",
+      "fixed_axis": "X",
+      "source_coordinate": 127,
+      "world_coordinate": 4175,
+      "horizontal_axis": "Y",
+      "vertical_axis": "Z",
+      "vertical_increases": "down",
+      "file": "yz-x127.png",
+      "positive_ids": [
+        163,
+        241,
+        242,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249
+      ],
+      "CT_mapping": "full uint8 range; uint16 divided by257; no per-slice normalization"
+    },
+    {
+      "plane": "YZ",
+      "fixed_axis": "X",
+      "source_coordinate": 128,
+      "world_coordinate": 4176,
+      "horizontal_axis": "Y",
+      "vertical_axis": "Z",
+      "vertical_increases": "down",
+      "file": "yz-x128.png",
+      "positive_ids": [
+        163,
+        241,
+        242,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249
+      ],
+      "CT_mapping": "full uint8 range; uint16 divided by257; no per-slice normalization"
+    },
+    {
+      "plane": "YZ",
+      "fixed_axis": "X",
+      "source_coordinate": 129,
+      "world_coordinate": 4177,
+      "horizontal_axis": "Y",
+      "vertical_axis": "Z",
+      "vertical_increases": "down",
+      "file": "yz-x129.png",
+      "positive_ids": [
+        163,
+        241,
+        242,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249
+      ],
+      "CT_mapping": "full uint8 range; uint16 divided by257; no per-slice normalization"
+    },
+    {
+      "plane": "XZ",
+      "fixed_axis": "Y",
+      "source_coordinate": 112,
+      "world_coordinate": 2368,
+      "horizontal_axis": "X",
+      "vertical_axis": "Z",
+      "vertical_increases": "down",
+      "file": "xz-y112.png",
+      "positive_ids": [
+        245,
+        246,
+        247,
+        248,
+        249
+      ],
+      "CT_mapping": "full uint8 range; uint16 divided by257; no per-slice normalization"
+    },
+    {
+      "plane": "XZ",
+      "fixed_axis": "Y",
+      "source_coordinate": 128,
+      "world_coordinate": 2384,
+      "horizontal_axis": "X",
+      "vertical_axis": "Z",
+      "vertical_increases": "down",
+      "file": "xz-y128.png",
+      "positive_ids": [
+        246,
+        247,
+        248,
+        249
+      ],
+      "CT_mapping": "full uint8 range; uint16 divided by257; no per-slice normalization"
+    },
+    {
+      "plane": "XZ",
+      "fixed_axis": "Y",
+      "source_coordinate": 144,
+      "world_coordinate": 2400,
+      "horizontal_axis": "X",
+      "vertical_axis": "Z",
+      "vertical_increases": "down",
+      "file": "xz-y144.png",
+      "positive_ids": [
+        241,
+        246,
+        247,
+        248,
+        249
+      ],
+      "CT_mapping": "full uint8 range; uint16 divided by257; no per-slice normalization"
+    }
+  ],
+  "zero_label_meaning": "unknown/unannotated; uncolored CT, never empty space",
+  "rectangle_source_zyx": [
+    [
+      144,
+      112,
+      112
+    ],
+    [
+      176,
+      144,
+      144
+    ]
+  ],
+  "seam_source_x": [
+    127,
+    129
+  ],
+  "seam_world_x": [
+    4175,
+    4177
+  ],
+  "headers": {
+    "CT": {
+      "type": "uint8",
+      "dimension": "3",
+      "space": "left-posterior-superior",
+      "sizes": "256 256 256",
+      "space directions": "(1,0,0) (0,1,0) (0,0,1)",
+      "encoding": "gzip",
+      "space origin": "(1744,2256,4048)"
+    },
+    "mask": {
+      "type": "uint16",
+      "dimension": "3",
+      "space": "left-posterior-superior",
+      "sizes": "256 256 256",
+      "space directions": "(1,0,0) (0,1,0) (0,0,1)",
+      "kinds": "domain domain domain",
+      "endian": "little",
+      "encoding": "gzip",
+      "space origin": "(1744,2256,4048)"
+    }
+  },
+  "artifacts": {
+    "xz-y112.png": "2606e6d22f21c21be51db2c7bf1d5c22b2c9e0f0cebd996abd34f5a0b547e177",
+    "xz-y128.png": "741633ffcc16e6e4a18509051a7e97fa01f542aed0b8b2d9a6dd6edd55a6ccf1",
+    "xz-y144.png": "cf4e69895e721269b4c0c30eb82f292d2b09ae98686bc404ed64837d3d744517",
+    "yz-x127.png": "bf037907efc995fe240df6895f05dd6362d2858beba49bf9fa3ccfc9eca39e2b",
+    "yz-x128.png": "e2d3362074b5f89237996f22a14d8ccbb950ca0436c3ad90e3383414097c2918",
+    "yz-x129.png": "b57397fa8d48755fbe12dc6f5578779259316a6f2c827e5f684f49f06aec1453"
+  }
+}

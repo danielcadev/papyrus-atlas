@@ -1,0 +1,37 @@
+{
+  "command": [
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/cube_mesh.holefill-v5",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/inputs/adaptive8-taper3/cubes_PRED/z00768_y02408_x03536.tif",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/regressions-v5-01/original/output.tif",
+    "--dump-obj",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/regressions-v5-01/original/obj",
+    "--no-simplify"
+  ],
+  "input_sha256": "dda0e746ad5421c26c2a6ca3aa2f506d78a46dd5dfe899d41d6c20ac29b48d09",
+  "final": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/regressions-v5-01/original/obj/z00768_y02408_x03536/z00768_y02408_x03536_step11_kibble/z00768_y02408_x03536_step11_kibble_all.vmesh",
+  "final_sha256": "32b6613445ed42abf1929d1bb4d8e0d9943fea175b1541b91fb8dd3d57a777c8",
+  "source_sha256": "2900cd9e7dfbbed1f59e01f4333ec2898b8d6c0bfa539712e6d4e9bd21c18b2d",
+  "step7_byte_identical_to_frozen": true,
+  "byte_identical_to_v4": true,
+  "byte_identical_to_v2": true,
+  "guard_changes": 0,
+  "status_ok": true,
+  "state": "byte-identical",
+  "prior_native_audit_reused": true,
+  "native_geometry_reused_from": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/boundary-graft-soft-native-geometry.json",
+  "metrics_reused_from": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/boundary-graft-soft-evaluation.json",
+  "frozen_provenance": {
+    "input": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/inputs/adaptive8-taper3/cubes_PRED/z00768_y02408_x03536.tif",
+    "input_sha256": "dda0e746ad5421c26c2a6ca3aa2f506d78a46dd5dfe899d41d6c20ac29b48d09",
+    "v4_final": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/original-obj/z00768_y02408_x03536/z00768_y02408_x03536_step11_kibble/z00768_y02408_x03536_step11_kibble_all.vmesh",
+    "v2_final": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/boundary-graft-soft-obj/z00768_y02408_x03536/z00768_y02408_x03536_step11_kibble/z00768_y02408_x03536_step11_kibble_all.vmesh",
+    "final_sha256": "32b6613445ed42abf1929d1bb4d8e0d9943fea175b1541b91fb8dd3d57a777c8",
+    "v4_source": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/holefill-repair-v4/original-obj/z00768_y02408_x03536/z00768_y02408_x03536_step7_cc_bpa/z00768_y02408_x03536_step7_cc_bpa_all.vmesh",
+    "v2_source": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/boundary-graft-soft-obj/z00768_y02408_x03536/z00768_y02408_x03536_step7_cc_bpa/z00768_y02408_x03536_step7_cc_bpa_all.vmesh",
+    "source_sha256": "2900cd9e7dfbbed1f59e01f4333ec2898b8d6c0bfa539712e6d4e9bd21c18b2d",
+    "native_audit": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/boundary-graft-soft-native-geometry.json",
+    "native_audit_sha256": "0076f9084ed8c8ced4cea9b0d04b4e6d5ade157ad64fe593bdc99e5cf2751299",
+    "metrics": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/boundary-graft-soft-evaluation.json",
+    "metrics_sha256": "2baa1959a23b5c94e2929d33dc4749cfbcb2924f3239d91029484aa5bbc0727c"
+  }
+}

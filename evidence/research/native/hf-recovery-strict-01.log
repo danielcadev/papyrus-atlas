@@ -1,0 +1,22 @@
+test_coplanar_containment_and_crossing_without_shared_corners (test_exact_patch_intersections.ExactIntersectionTests.test_coplanar_containment_and_crossing_without_shared_corners) ... ok
+test_coplanar_overlap_beyond_shared_edge_rejected (test_exact_patch_intersections.ExactIntersectionTests.test_coplanar_overlap_beyond_shared_edge_rejected) ... ok
+test_degenerate_unsupported_and_binary32_subnormal_nondegenerate (test_exact_patch_intersections.ExactIntersectionTests.test_degenerate_unsupported_and_binary32_subnormal_nondegenerate) ... ok
+test_duplicate_and_reverse_duplicate (test_exact_patch_intersections.ExactIntersectionTests.test_duplicate_and_reverse_duplicate) ... ok
+test_point_touch_shared_corner_allowed_coplanar_and_spatial (test_exact_patch_intersections.ExactIntersectionTests.test_point_touch_shared_corner_allowed_coplanar_and_spatial) ... ok
+test_proper_stab_sharing_vertex_is_rejected_native_blind_spot (test_exact_patch_intersections.ExactIntersectionTests.test_proper_stab_sharing_vertex_is_rejected_native_blind_spot) ... ok
+test_separated_parallel_and_coplanar (test_exact_patch_intersections.ExactIntersectionTests.test_separated_parallel_and_coplanar) ... ok
+test_shared_edge_allowed_coplanar_and_spatial (test_exact_patch_intersections.ExactIntersectionTests.test_shared_edge_allowed_coplanar_and_spatial) ... ok
+test_spatial_crossing_without_common_corner (test_exact_patch_intersections.ExactIntersectionTests.test_spatial_crossing_without_common_corner) ... ok
+test_unindexed_boundary_touch_is_conservatively_rejected (test_exact_patch_intersections.ExactIntersectionTests.test_unindexed_boundary_touch_is_conservatively_rejected) ... ok
+test_added_degenerate_fails_even_when_aabb_is_remote (test_exact_patch_intersections.PatchCertificateTests.test_added_degenerate_fails_even_when_aabb_is_remote) ... ok
+test_added_source_and_added_added_conflicts (test_exact_patch_intersections.PatchCertificateTests.test_added_source_and_added_added_conflicts) ... ok
+test_cli_writes_exclusive_output_and_exit_status (test_exact_patch_intersections.PatchCertificateTests.test_cli_writes_exclusive_output_and_exit_status) ... ok
+test_invalid_layout_and_nonfinite_coordinate_are_refused (test_exact_patch_intersections.PatchCertificateTests.test_invalid_layout_and_nonfinite_coordinate_are_refused) ... ok
+test_source_orientation_and_multiplicity_must_survive (test_exact_patch_intersections.PatchCertificateTests.test_source_orientation_and_multiplicity_must_survive) ... ok
+test_valid_patch_and_both_uv_encodings (test_exact_patch_intersections.PatchCertificateTests.test_valid_patch_and_both_uv_encodings) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.017s
+
+OK
+{"passed": true, "added_faces": 17, "exact_pairs_checked": 267, "conflicts": 0, "output": "research/scrollfiesta-comparison/hole-recovery-v5/candidate-boundary-only-01-exact.json"}

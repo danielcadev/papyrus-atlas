@@ -1,0 +1,16 @@
+{
+  "path": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/next-zplus32-halo13-v1/v2-left-obj/z01840_y02320_x04048/z01840_y02320_x04048_step7_cc_bpa/z01840_y02320_x04048_step7_cc_bpa_all.vmesh",
+  "sha256": "d6facd1922f90222f74144cf23b941a664a94b7d3fd82d8207226236d877b09e",
+  "vertices": 3312,
+  "faces": 6326,
+  "flags": 0,
+  "format_valid": true,
+  "finite_coordinates_and_uv": true,
+  "exact_duplicate_groups": 0,
+  "nondegenerate_duplicate_groups": 0,
+  "degenerate_duplicate_groups": 0,
+  "duplicate_extra_faces": 0,
+  "degenerate_faces": 0,
+  "duplicate_groups": [],
+  "area_voxel2": 1071.4501909171315
+}

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "env",
+    "MLS_EDGE_ADAPT=soft",
+    "VES_OVERLAP_COVERAGE_GUARD=1",
+    "VES_HOLE_RECOVERY_SEARCH=1",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/build/cube_mesh.holefill-v5",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/fresh-yplus32-v2/cubes_PRED/z01808_y02320_x04112.tif",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/full-y32-01-output.tif",
+    "--dump-obj",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/scrollfiesta-comparison/hole-recovery-v5/full-y32-01-obj",
+    "--no-simplify"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 17.490713336002955,
+  "minimum_available_mib": 7530.94140625,
+  "max_child_rss_mib": 26.984375,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/hf-full-y32-v5-01.log"
+}

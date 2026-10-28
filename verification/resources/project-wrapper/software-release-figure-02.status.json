@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/releases/software-progress-prize-2026-10-v1/tools/plot_evidence.py",
+    "--output",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/releases/software-progress-prize-2026-10-v1/figures-v2",
+    "--dependency-dir",
+    "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/holefill-plot-deps"
+  ],
+  "returncode": 0,
+  "reason": "completed",
+  "elapsed_seconds": 6.4746423710003,
+  "minimum_available_mib": 3962.31640625,
+  "max_child_rss_mib": 101.41015625,
+  "gpu_devices_inaccessible": true,
+  "log": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/native/software-release-figure-02.log"
+}

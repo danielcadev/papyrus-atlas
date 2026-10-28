@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "guard": {
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": 10,
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "numerical_threads": 1,
+    "desktop_reserve_mib": 3072
+  },
+  "results": {
+    "v4-control": {
+      "source_sha256": "6e85bd3045d24475bf0355be27b103116c50155e253942a82cbd26ce4f13faaa",
+      "final_sha256": "5106f6cbec34df7decca0d3a01c33597f14da73ac3bdc35faa0f8f92180ef60e",
+      "faces": 5143,
+      "exact_oriented_geometry_matches_frozen_result": true,
+      "final": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/v4-control-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble/z01808_y02320_x04112_step11_kibble_all.vmesh"
+    },
+    "v5-recovery": {
+      "source_sha256": "6e85bd3045d24475bf0355be27b103116c50155e253942a82cbd26ce4f13faaa",
+      "final_sha256": "b93672d63891ad10c079215a5d7296f9ba4a7a5134e25750f8ba35761c11d65f",
+      "faces": 5160,
+      "exact_oriented_geometry_matches_frozen_result": true,
+      "final": "/home/danielcastrillon/Projects/ReverseEngineering/vesuvius-lab/research/software-release-clean-v1/reproduction/v5-recovery-obj/z01808_y02320_x04112/z01808_y02320_x04112_step11_kibble/z01808_y02320_x04112_step11_kibble_all.vmesh"
+    },
+    "graft": {
+      "source_faces_retained": true,
+      "added_faces": 27,
+      "control_sha256": "a0e2a4d71ddd0c1fc0f164c9a9774495b039abae27ba4d5d855c65e0249a86b4"
+    }
+  },
+  "threshold": 134,
+  "upstream_commit": "bce8a65f97652316efb084171a17d2f1f8d3ae1a",
+  "compiler_flags": "C/C++ Release -O2 -DNDEBUG",
+  "numpy_version": "2.5.3",
+  "exact_new_contact_pairs": 267,
+  "exact_new_contacts": 0,
+  "scope": "Fresh build and full real-data pipeline replay. Frozen metric reports reused only after exact oriented geometry equality. No anatomy or text claim."
+}

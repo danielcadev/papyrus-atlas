@@ -1,0 +1,9 @@
+# Cortes ortogonales de la costura: inspección del principal
+
+28 de octubre de 2026. Se generaron seis vistas fijadas, sin estimar pitch, en `native/paris4-seam-orthogonal-v1/`. El principal inspeccionó directamente `yz-x128.png` y `xz-y128.png`; no afirma haber revisado visualmente las otras cuatro. CT y máscara verificados por hash, vistas completas 256×256, ejes y ROI explícitos, sin acceso a mallas resultado.
+
+En YZ a X128 (worldX4176) se observa una banda interior estrecha y una región exterior más ancha con estructura interna, ambas inclinadas en Z. En XZ a Y128 (worldY2384), el ROI incluye un corredor oscuro entre bandas; la región exterior presenta prominencias y cambios de espesor/proyección cerca de la frontera. El overlay de instancia abarca varias prominencias y no determina cuáles son interfaces de una misma hoja o ramas distintas. Estas observaciones son cualitativas, no mediciones de centros ni pruebas de conexión 3D.
+
+El contexto ortogonal evita atribuir la convergencia de la cortina radial únicamente a una curva de muestreo, pero no basta para fijar una superficie media exterior única y sus adyacencias en todo el dominio del gate. No se usa una distancia entre máximos como paso validado. Se mantienen `calibration_valid=false` y `winding_gate_ready=false`; no hubo soldadura ni ampliación de tolerancias.
+
+La siguiente operación útil es trazar explícitamente las interfaces y ramas exteriores en un vecindario 3D local, con incertidumbre y revisiones CT ortogonales, antes de medir paso. El cubo disponible ofrece contexto adicional; no se afirma que falten obligatoriamente datos externos. Si las interfaces no se separan a esta resolución, se necesita anotación de superficies medias/adyacencia o CT de mayor resolución de la misma región, con transformación documentada. La incertidumbre geométrica no se soluciona aumentando el número de perfiles correlacionados.
