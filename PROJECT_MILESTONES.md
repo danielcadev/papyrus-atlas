@@ -26,6 +26,6 @@ Next useful work is to establish geometrically and anatomically supported contex
 
 ## Evidence map
 
-Completed standalone software results are in `VERIFICATION.md`, `verification/verification.json` and `PROVENANCE.json`. Relevant original reading/surface reports are preserved verbatim under `project-context-evidence/` in the private repository. `MILESTONE_EVIDENCE.json` records their source paths and SHA256 digests. Their original language and historical scope remain unchanged; this document is their English milestone summary.
+Completed standalone software results are in `VERIFICATION.md`, `verification/verification.json` and `PROVENANCE.json`. Relevant original reading/surface reports are preserved verbatim under `project-context-evidence/` in the repository. `MILESTONE_EVIDENCE.json` records their source paths and SHA256 digests. Their original language and historical scope remain unchanged; this document is their English milestone summary.
 
 The milestone-context reports describe separate lab experiments and prototypes, not additional modules secretly required by the standalone package. The legacy and standalone source archives, release tags and evidence checksums remain unchanged. These milestones do not promise a prize, establish worldwide novelty or replace external scientific review.

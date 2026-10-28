@@ -13,3 +13,7 @@ The original sealed standalone source manifest is preserved under `verification/
 The private branch now also explains the project's goal of verifiable papyrus reading and its completed/open/future milestones. The milestone context does not expand the independently verified algorithm claims. Original reading/surface reports are copied verbatim into project-context-evidence/ with hashes in MILESTONE_EVIDENCE.json. The previous README and sealed source manifest are retained in verification/sealed-source-v1-docs/ and in the unchanged source archive; earlier guide editions remain in Git history and release assets.
 
 The current root MANIFEST.json covers this documentation edition. The original sealed snapshot manifest is verification/sealed-source-v1-docs/MANIFEST.json and belongs to the unchanged standalone source archive. The Python implementation, fixtures and scientific verification are unchanged; no identical experiment was rerun for wording changes. Repository privacy and the unsubmitted form state are preserved.
+
+## Public review access
+
+The owner subsequently authorized public visibility to provide an accessible contribution URL for Progress Prize review. The repository is now public; earlier private-access descriptions are historical records. All source/evidence archive assets, prior guide editions, legacy tags and commits are retained. Public access is not an application submission; the form remains an unsubmitted draft.

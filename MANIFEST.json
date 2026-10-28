@@ -1,5 +1,5 @@
 {
-  "schema": "surface-recovery-project-context-docs-v1",
+  "schema": "surface-recovery-public-review-docs-v1",
   "sealed_software_archive_sha256": "33924cf942b38665b0aaed6886dcc6dc67bb63be9b2ed9f673863f1bcaa35a10",
   "files": [
     {
@@ -14,13 +14,13 @@
     },
     {
       "path": "CHALLENGE_SUBMISSION.md",
-      "bytes": 7218,
-      "sha256": "d40a867fab34a3b7786d8c1dbd5e57c58d5971654f6a4eccada4fb9423012d93"
+      "bytes": 7289,
+      "sha256": "6b1acb9ba20df182d385db0855120fd6d110a694ad541c7e72f4a7024ed06edd"
     },
     {
       "path": "HISTORY.md",
-      "bytes": 2453,
-      "sha256": "c51b99e9a668651e102a038a46498888abda406ec13e09bef0e85bef597e3ce1"
+      "bytes": 2873,
+      "sha256": "a0cf101395ec40677d77bd41df0f55e8eff30e277257c43137681e129b4e2034"
     },
     {
       "path": "LICENSE",
@@ -39,8 +39,8 @@
     },
     {
       "path": "PROJECT_MILESTONES.md",
-      "bytes": 6222,
-      "sha256": "a0db08364692006b71e6bd11852b73ba05baf43650bb9afa5cf8574b43685c21"
+      "bytes": 6214,
+      "sha256": "47314d3f607479a53ba3395910bb0cd692ee7e757d5ed9bb10a4cf5140a094ee"
     },
     {
       "path": "PROVENANCE.json",
@@ -49,8 +49,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4992,
-      "sha256": "f1e48d0810c515e086329ce02b88a916af52cbf16154a87cc6ec808d0ecd57ed"
+      "bytes": 5089,
+      "sha256": "b263a5bffded64e3749098bb8add50eb161de7f75e7124380d34cd500cafb2b6"
     },
     {
       "path": "REPRODUCE.md",

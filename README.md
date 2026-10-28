@@ -39,4 +39,4 @@ The supplied graph and mesh fixtures originate from public PHercParis4 / Scroll 
 
 ## Historical evidence
 
-The original sealed software package, archive checksum, upstream-derived snapshots, failures and comparisons are retained unchanged in the lab and in the private legacy release. PROVENANCE.json records source and fixture hashes. The standalone project does not load that archive. The private repository has not been submitted to the challenge; the old public contribution URL is no longer publicly accessible.
+The original sealed software package, archive checksum, upstream-derived snapshots, failures and comparisons are retained unchanged in the lab and in the private legacy release. PROVENANCE.json records source and fixture hashes. The standalone project does not load that archive. The repository is public for software review. No challenge application has been submitted. The current standalone contribution is linked in CHALLENGE_SUBMISSION.md; earlier access states remain preserved in historical records.

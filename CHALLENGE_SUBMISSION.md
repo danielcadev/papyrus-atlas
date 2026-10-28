@@ -10,7 +10,7 @@ Repository: https://github.com/danielcadev/vesuvius-boundary-grafting-hole-recov
 
 Standalone release: https://github.com/danielcadev/vesuvius-boundary-grafting-hole-recovery/releases/tag/surface-recovery-standalone-v1
 
-The repository is intentionally private. The form remains a draft, and a private URL does not provide public reviewer access. Publication/access and submission are separate later decisions.
+The repository is now public for reviewer access at the owner's explicit request. The form remains an unsubmitted draft. The public standalone branch and release URLs above are the contribution links; accepting terms and submitting remain separate decisions.
 
 ## What to provide
 
@@ -58,4 +58,4 @@ Our next milestones are to establish supported surface/CT correspondence, demons
 
 ## Submission state
 
-Keep the URL field blank while access is intentionally private. This guide updates the project presentation; it does not submit the application, promise qualification or guarantee an award. Original sealed source and evidence assets remain unchanged. The earlier English guide is retained as a previous documentation edition.
+Use the public standalone branch and release URLs above in the contribution URL field. This guide and public access do not submit the application, promise qualification or guarantee an award. Original sealed source and evidence assets remain unchanged. The earlier English guide is retained as a previous documentation edition.
