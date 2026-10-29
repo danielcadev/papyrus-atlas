@@ -1,0 +1,52 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-face-structures-direct-03.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "selected_candidates": 12,
+  "reliable_points": 0,
+  "score_evaluations": 3674,
+  "model_decision": "insufficient_reliable_structural_points",
+  "model": null,
+  "validation": {},
+  "registration_accepted": false,
+  "fresh_C_targets_not_evaluated": true,
+  "geometry_or_uv_modified": false,
+  "ink_used": false,
+  "letters_verified": 0,
+  "artifacts": {
+    "script.py": "4bbfd0247551dc18a4b8f57d54099fa0fdc4d23751d61dc851bb09fa5456c872",
+    "plan.json": "c136d04a8a4a6602f2ee7509518c86c2df050d5c83ea25bd0f1aac9e673727af",
+    "old-only-selection-frozen.json": "04a1be662c132f8dc18f800e928a986b9f73411f8c66ebb231a7bc4076ce2020",
+    "support-proof-reused.json": "91b303da74d18714af5d12d327452a42f59eec031eb9918f169dca6376cb5783",
+    "input-receipt.json": "8b61fec7c93439ddf6e87524db76ce18796b95621162b06a01689f4acf42ae29",
+    "match-00.json": "eb55b69be70de3d308904705f4ee3596334eafe807eff54edfed467aa0965286",
+    "match-01.json": "b3e14af4ecebdae5c76560fa0a4df96279865e43114f0062b1f5ca015a7c0e48",
+    "match-02.json": "dabd7cb5bf832e9384f246afb80f21bf47ad7bcc64a2ec62f6b9afc7502abebd",
+    "match-03.json": "b952021ac5bc045c2c52690f520552eff87271c4b8505d9f66f39b39fe2d59e8",
+    "match-04.json": "f9403af37dae737a9a6b8eed306242f5b6fcfd6b5241dd2c5e6fef0caf3a6187",
+    "match-05.json": "ccc5195ec7b768b3d109430b33d8025413c36ecb5d72b03e54d4fd8e179d221d",
+    "match-06.json": "765b5d6369f0bc0f70cf11a1f5e69b6e9e192878d75822b79e275b6bdc59ab2b",
+    "match-07.json": "db76902758be8f0a1f0765b2a93be4171f61f62c10bb00f65b0e4414ce335b8c",
+    "match-08.json": "4cf69d4a1aec02ba0ea66371963d1086ebfb56bb418d46fd15c78543202d0954",
+    "match-09.json": "29b7c77f272e4ca17e4ffd64712601a70958347f051058d2dc0e22f0e7bc48cb",
+    "match-10.json": "26a574298f6b749c9855d4f070dbbdde9d29a50c851320255d47ed8062e50236",
+    "match-11.json": "6557182f0f03b080f8894de45afef8c8d5e6fba0750a0727ab3645c3744dfb4a",
+    "matches.json": "59713dacef0d067f1fa34b62bcdffdfa74a014640cedeac4cd0cdaf064ea9e9d",
+    "model-decision-before-validation.json": "da9925aaac9e5da196598607e112f5b1f528726d1f66045dbfa7ad9fc460d5e1"
+  }
+}

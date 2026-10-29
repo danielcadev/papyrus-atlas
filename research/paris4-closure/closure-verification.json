@@ -1,0 +1,30 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-user-closure-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "closed_at_user_request": true,
+  "registration_validated": false,
+  "ink_absence_proved": false,
+  "geometric_algorithms_refuted": false,
+  "letters_verified": 0,
+  "next_priority": "PHerc0813",
+  "file_count": 85,
+  "manifest_sha256": "7e83fd9227a060877ef40cffb43a0701f483423ea402ae0a5d75ca281e343171",
+  "source_geometry_modified": false,
+  "pushed_or_submitted": false
+}

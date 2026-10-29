@@ -1,0 +1,177 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-structural-matches-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "training_territories_native_zyx": [
+    [
+      [
+        92,
+        148,
+        112
+      ],
+      [
+        100,
+        164,
+        124
+      ]
+    ],
+    [
+      [
+        156,
+        148,
+        112
+      ],
+      [
+        164,
+        164,
+        124
+      ]
+    ],
+    [
+      [
+        112,
+        124,
+        112
+      ],
+      [
+        144,
+        132,
+        144
+      ]
+    ],
+    [
+      [
+        112,
+        188,
+        112
+      ],
+      [
+        144,
+        196,
+        144
+      ]
+    ],
+    [
+      [
+        112,
+        148,
+        92
+      ],
+      [
+        144,
+        176,
+        100
+      ]
+    ],
+    [
+      [
+        112,
+        148,
+        156
+      ],
+      [
+        144,
+        176,
+        164
+      ]
+    ]
+  ],
+  "fresh_reserve_C_native_zyx": [
+    [
+      88,
+      148,
+      140
+    ],
+    [
+      96,
+      164,
+      156
+    ]
+  ],
+  "selection": "Old CT only: Gaussian derivative sigma1/truncate2, tensor integration sigma1/truncate2, smallest eigenvalue strength.",
+  "patch_side": 7,
+  "selection_min_eigenvalue": 1.0,
+  "selection_min_eigenvalue_ratio": 0.02,
+  "old_patch_std_min": 8.0,
+  "max_per_territory": 2,
+  "max_candidates": 12,
+  "nms_native_distance_min": 5.0,
+  "matching": "Selection only. Exact direct matcher has its own frozen plan.",
+  "local_fine_max_evaluations": 256,
+  "local_fine_max_seconds": 20,
+  "total_score_budget": 9216,
+  "reliability": {
+    "pearson_min": 0.6,
+    "distinct_peak_margin_min": 0.1,
+    "distinct_peak_exclusion_radius": 2.0,
+    "six_shift_control_margin_min": 0.1,
+    "reciprocal_error_max": 0.5,
+    "interior_peak_required": true,
+    "direct_observed_modern_confirmation": true
+  },
+  "model": "Median translation if >=6 accepted direct reciprocal points surround full original ROI; no affine escalation.",
+  "admission": {
+    "pearson_min": 0.6,
+    "margin_min": 0.1,
+    "shift_controls_native_zyx": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -4,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        -4,
+        0
+      ],
+      [
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        -4
+      ],
+      [
+        0,
+        0,
+        4
+      ]
+    ],
+    "require_original_ROI_and_fresh_C": true
+  },
+  "caveats": "Same scans and previously cached modern intensities. Reciprocal/structural consistency is not independent anatomy. ROI and A/B previously inspected; C targets are newly withheld.",
+  "geometry_or_uv_modified": false,
+  "ink_used": false,
+  "letters_verified": 0,
+  "ranking": "Old-only eigenvalue-ratio descending, then smallest eigenvalue, then coordinates; favor conditioning over absolute brightness.",
+  "input_eigenvalue_array_reused": true,
+  "reserve_wording": "Global old-crop filters previously read C bytes. C is excluded from all finite selection supports and matching objectives, and its admission gate has not been evaluated."
+}

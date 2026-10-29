@@ -1,0 +1,173 @@
+{
+  "passed": true,
+  "projection_padding": [
+    0.3119516191185165,
+    0.4361601940771996,
+    0.43416859792935275
+  ],
+  "territories": [
+    {
+      "territory": [
+        [
+          92,
+          148,
+          112
+        ],
+        [
+          100,
+          164,
+          124
+        ]
+      ],
+      "projected_modern_lower": [
+        85.31304838088148,
+        141.1888398059228,
+        105.19083140207064
+      ],
+      "projected_modern_upper": [
+        105.68695161911852,
+        169.8111601940772,
+        129.80916859792936
+      ],
+      "separation_gap_from_C": 3.3816628041412855,
+      "separation_gap_from_guard": 1.813048380881483,
+      "old_reverse_support_passed": true
+    },
+    {
+      "territory": [
+        [
+          156,
+          148,
+          112
+        ],
+        [
+          164,
+          164,
+          124
+        ]
+      ],
+      "projected_modern_lower": [
+        149.3130483808815,
+        141.1888398059228,
+        105.19083140207064
+      ],
+      "projected_modern_upper": [
+        169.6869516191185,
+        169.8111601940772,
+        129.80916859792936
+      ],
+      "separation_gap_from_C": 47.62609676176298,
+      "separation_gap_from_guard": 1.3130483808814972,
+      "old_reverse_support_passed": true
+    },
+    {
+      "territory": [
+        [
+          112,
+          124,
+          112
+        ],
+        [
+          144,
+          132,
+          144
+        ]
+      ],
+      "projected_modern_lower": [
+        105.31304838088148,
+        117.1888398059228,
+        105.19083140207064
+      ],
+      "projected_modern_upper": [
+        149.6869516191185,
+        137.8111601940772,
+        149.80916859792936
+      ],
+      "separation_gap_from_C": 3.626096761762966,
+      "separation_gap_from_guard": 1.688839805922811,
+      "old_reverse_support_passed": true
+    },
+    {
+      "territory": [
+        [
+          112,
+          188,
+          112
+        ],
+        [
+          144,
+          196,
+          144
+        ]
+      ],
+      "projected_modern_lower": [
+        105.31304838088148,
+        181.1888398059228,
+        105.19083140207064
+      ],
+      "projected_modern_upper": [
+        149.6869516191185,
+        201.8111601940772,
+        149.80916859792936
+      ],
+      "separation_gap_from_C": 11.377679611845622,
+      "separation_gap_from_guard": 1.188839805922811,
+      "old_reverse_support_passed": true
+    },
+    {
+      "territory": [
+        [
+          112,
+          148,
+          92
+        ],
+        [
+          144,
+          176,
+          100
+        ]
+      ],
+      "projected_modern_lower": [
+        105.31304838088148,
+        141.1888398059228,
+        85.19083140207064
+      ],
+      "projected_modern_upper": [
+        149.6869516191185,
+        181.8111601940772,
+        105.80916859792936
+      ],
+      "separation_gap_from_C": 27.381662804141286,
+      "separation_gap_from_guard": 1.6908314020706428,
+      "old_reverse_support_passed": true
+    },
+    {
+      "territory": [
+        [
+          112,
+          148,
+          156
+        ],
+        [
+          144,
+          176,
+          164
+        ]
+      ],
+      "projected_modern_lower": [
+        105.31304838088148,
+        141.1888398059228,
+        149.19083140207064
+      ],
+      "projected_modern_upper": [
+        149.6869516191185,
+        181.8111601940772,
+        169.80916859792936
+      ],
+      "separation_gap_from_C": 3.626096761762966,
+      "separation_gap_from_guard": 1.1908314020706428,
+      "old_reverse_support_passed": true
+    }
+  ],
+  "scope": "All direct matching shifts +/-2, six +/-4 controls, midpoint quadrature, modern raw interpolation and reverse old interpolation."
+}

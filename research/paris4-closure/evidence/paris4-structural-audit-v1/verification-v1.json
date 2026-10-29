@@ -1,0 +1,323 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-structural-audit-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "passed": true,
+  "previous_sealed_files_unchanged": 64,
+  "selection_checks": [
+    {
+      "case": "paris4-structural-matches-v1",
+      "selected": 16,
+      "all_selected_filter_support_excludes_C_and_guard": true,
+      "caveat": "The original global filter did read C/ROI input bytes; only selected outputs have disjoint finite dependencies."
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "selected": 16,
+      "all_selected_filter_support_excludes_C_and_guard": true,
+      "caveat": "The original global filter did read C/ROI input bytes; only selected outputs have disjoint finite dependencies."
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "selected": 12,
+      "all_selected_filter_support_excludes_C_and_guard": true,
+      "caveat": "The original global filter did read C/ROI input bytes; only selected outputs have disjoint finite dependencies."
+    }
+  ],
+  "direct_match_checks": [
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 0,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.3173779372196791,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 1,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.4212968656931886,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 2,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.7125589751608986,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 3,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.7546640531280522,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 4,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.6908714917710841,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 5,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.49913355849711083,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 6,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.660386129136734,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 7,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.6183671784305321,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 8,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.9063262698495232,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 9,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.8202426638769241,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 10,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.8254097686606088,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 11,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.8547799227482914,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 12,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.8566625546416828,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 13,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.8889735799447838,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 14,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.7739137445515855,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 15,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.8383344098447867,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "candidate": 0,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.6802595663416183,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "candidate": 1,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.8057789000213499,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "candidate": 2,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.5617389555536287,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "candidate": 3,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.7543232391830793,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "candidate": 4,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.4586761189030328,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "candidate": 5,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.4855983739827546,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "candidate": 6,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.6517805921298491,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "candidate": 7,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.5562459141819351,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "candidate": 8,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.49327377298043207,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "candidate": 9,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.41863724862476415,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "candidate": 10,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.20054441916263854,
+      "reliable": false
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "candidate": 11,
+      "raw_forward_and_six_controls_replayed": true,
+      "competing_grid_peak_replayed": true,
+      "direct_pearson": 0.2681486591337213,
+      "reliable": false
+    }
+  ],
+  "legacy_witness_correction": [
+    {
+      "candidate": 2,
+      "saved_witness_was_mean_centered": true,
+      "centered_replay_max_abs_error": 0.0,
+      "corrected_raw_witness_sha256": "95fb5d98e2a1a479176c062005ef09f433985c60a2a40ac849cc52ac94e2e7fa"
+    },
+    {
+      "candidate": 3,
+      "saved_witness_was_mean_centered": true,
+      "centered_replay_max_abs_error": 0.0,
+      "corrected_raw_witness_sha256": "1a93ec1f0395614ca84ab96eee8eaae7a52c5e1d66ca358fbd22909e6c62cfb9"
+    },
+    {
+      "candidate": 9,
+      "saved_witness_was_mean_centered": true,
+      "centered_replay_max_abs_error": 0.0,
+      "corrected_raw_witness_sha256": "49567204598d7c0626b0fc64d5cde85479ae1a9d205e26711211bdfa4462d9b3"
+    },
+    {
+      "candidate": 12,
+      "saved_witness_was_mean_centered": true,
+      "centered_replay_max_abs_error": 0.0,
+      "corrected_raw_witness_sha256": "c387ebae0ced710d1ffd58f4e5a29863c4dd088c763ed1aea8e49123e1a99229"
+    },
+    {
+      "candidate": 13,
+      "saved_witness_was_mean_centered": true,
+      "centered_replay_max_abs_error": 0.0,
+      "corrected_raw_witness_sha256": "080faa829cbcaec2726e69e4c6b32c210a710c15b65c93acbea39d58406b8f9d"
+    }
+  ],
+  "continuous_reverse_diagnostics": [
+    {
+      "case": "paris4-structural-direct-v2",
+      "candidate": 13,
+      "reverse_fine_parameters": [
+        -0.12437081477435999,
+        0.1814208495296815,
+        0.0
+      ],
+      "continuous_reciprocal_norm": 0.21995823288003905,
+      "converged": true,
+      "evaluations": 96,
+      "scope": "Stricter supplemental consistency diagnostic; candidate already rejected by reverse ambiguity."
+    }
+  ],
+  "vector_vs_scalar_footprint_max_abs_error": 7.105427357601002e-15,
+  "cache_pilot_four_points_are_provisional_and_superseded": true,
+  "final_reliable_direct_points": 0,
+  "fresh_C_not_used_for_selected_outputs_or_fitting_and_not_admission_evaluated": true,
+  "registration_accepted": false,
+  "geometry_or_uv_modified": false,
+  "ink_used": false,
+  "letters_verified": 0
+}

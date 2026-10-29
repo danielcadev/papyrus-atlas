@@ -1,0 +1,37 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-face-hull-preflight-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "passed": true,
+  "selected_centers": 12,
+  "selection_sha256": "04a1be662c132f8dc18f800e928a986b9f73411f8c66ebb231a7bc4076ce2020",
+  "separating_plane_normal_native_zyx": [
+    1,
+    -1,
+    1
+  ],
+  "maximum_over_selected_centers": 133,
+  "required_ROI_corner": [
+    143,
+    144,
+    143
+  ],
+  "required_corner_value": 142,
+  "full_selected_hull_can_contain_required_ROI": false,
+  "conclusion": "Face-v3 cannot pass its full-ROI hull prerequisite even if every selected point matches. This is a design limitation, not proof of physical deformation or registration impossibility."
+}

@@ -1,0 +1,209 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-structural-matches-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "training_territories_native_zyx": [
+    [
+      [
+        96,
+        124,
+        92
+      ],
+      [
+        108,
+        132,
+        104
+      ]
+    ],
+    [
+      [
+        96,
+        124,
+        152
+      ],
+      [
+        108,
+        132,
+        164
+      ]
+    ],
+    [
+      [
+        96,
+        188,
+        92
+      ],
+      [
+        108,
+        196,
+        104
+      ]
+    ],
+    [
+      [
+        96,
+        188,
+        152
+      ],
+      [
+        108,
+        196,
+        164
+      ]
+    ],
+    [
+      [
+        152,
+        124,
+        92
+      ],
+      [
+        164,
+        132,
+        104
+      ]
+    ],
+    [
+      [
+        152,
+        124,
+        152
+      ],
+      [
+        164,
+        132,
+        164
+      ]
+    ],
+    [
+      [
+        152,
+        188,
+        92
+      ],
+      [
+        164,
+        196,
+        104
+      ]
+    ],
+    [
+      [
+        152,
+        188,
+        152
+      ],
+      [
+        164,
+        196,
+        164
+      ]
+    ]
+  ],
+  "fresh_reserve_C_native_zyx": [
+    [
+      88,
+      148,
+      140
+    ],
+    [
+      96,
+      164,
+      156
+    ]
+  ],
+  "selection": "Old CT only: Gaussian derivative sigma1/truncate2, tensor integration sigma1/truncate2, smallest eigenvalue strength.",
+  "patch_side": 7,
+  "selection_min_eigenvalue": 1.0,
+  "selection_min_eigenvalue_ratio": 0.02,
+  "old_patch_std_min": 8.0,
+  "max_per_territory": 2,
+  "max_candidates": 16,
+  "nms_native_distance_min": 5.0,
+  "matching": "All matching NCCs use direct64-midpoint observed modern CT, not interpolated footprint cache.",
+  "local_fine_max_evaluations": 256,
+  "local_fine_max_seconds": 40,
+  "total_score_budget": 9216,
+  "reliability": {
+    "pearson_min": 0.6,
+    "distinct_peak_margin_min": 0.1,
+    "distinct_peak_exclusion_radius": 2.0,
+    "six_shift_control_margin_min": 0.1,
+    "reciprocal_error_max": 0.5,
+    "interior_peak_required": true,
+    "direct_observed_modern_confirmation": true
+  },
+  "model": "Componentwise median translation only, if >=6 reliable points surround the entire repaired ROI in their spatial hull. No affine escalation.",
+  "admission": {
+    "pearson_min": 0.6,
+    "margin_min": 0.1,
+    "shift_controls_native_zyx": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        -4,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        -4,
+        0
+      ],
+      [
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        -4
+      ],
+      [
+        0,
+        0,
+        4
+      ]
+    ],
+    "require_original_ROI_and_fresh_C": true
+  },
+  "caveats": "Same scans and previously cached modern intensities. Reciprocal/structural consistency is not independent anatomy. ROI and A/B previously inspected; C targets are newly withheld.",
+  "geometry_or_uv_modified": false,
+  "ink_used": false,
+  "letters_verified": 0,
+  "reused_old_only_selection_sha256": "8f0336385ecab5e4acf663378b491c26b3042326e42ae152bfbea3bf36470da5",
+  "selection_not_repeated": true,
+  "coarse_grid": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "reverse_check": "Integer old-grid reciprocal search; winner norm<=.5; reverse distinct peak separation2, margin>=.1 and six-control margin>=.1.",
+  "provenance": "Same16 old-selected targets as cache pilot; all pilot failures remain preserved. Fresh C still not evaluated unless training-only model prerequisites pass."
+}

@@ -1,0 +1,229 @@
+{
+  "passed": true,
+  "projection_padding": [
+    0.3119516191185165,
+    0.4361601940771996,
+    0.43416859792935275
+  ],
+  "territories": [
+    {
+      "training_box": [
+        [
+          96,
+          124,
+          92
+        ],
+        [
+          108,
+          132,
+          104
+        ]
+      ],
+      "projected_modern_lower": [
+        88.31304838088148,
+        116.1888398059228,
+        84.19083140207064
+      ],
+      "projected_modern_upper": [
+        114.68695161911852,
+        138.8111601940772,
+        110.80916859792936
+      ],
+      "separation_gap_from_reserve": 22.381662804141286,
+      "separation_gap_from_guard": 0.6888398059228109
+    },
+    {
+      "training_box": [
+        [
+          96,
+          124,
+          152
+        ],
+        [
+          108,
+          132,
+          164
+        ]
+      ],
+      "projected_modern_lower": [
+        88.31304838088148,
+        116.1888398059228,
+        144.19083140207064
+      ],
+      "projected_modern_upper": [
+        114.68695161911852,
+        138.8111601940772,
+        170.80916859792936
+      ],
+      "separation_gap_from_reserve": 2.377679611845622,
+      "separation_gap_from_guard": 0.6888398059228109
+    },
+    {
+      "training_box": [
+        [
+          96,
+          188,
+          92
+        ],
+        [
+          108,
+          196,
+          104
+        ]
+      ],
+      "projected_modern_lower": [
+        88.31304838088148,
+        180.1888398059228,
+        84.19083140207064
+      ],
+      "projected_modern_upper": [
+        114.68695161911852,
+        202.8111601940772,
+        110.80916859792936
+      ],
+      "separation_gap_from_reserve": 22.381662804141286,
+      "separation_gap_from_guard": 0.1888398059228109
+    },
+    {
+      "training_box": [
+        [
+          96,
+          188,
+          152
+        ],
+        [
+          108,
+          196,
+          164
+        ]
+      ],
+      "projected_modern_lower": [
+        88.31304838088148,
+        180.1888398059228,
+        144.19083140207064
+      ],
+      "projected_modern_upper": [
+        114.68695161911852,
+        202.8111601940772,
+        170.80916859792936
+      ],
+      "separation_gap_from_reserve": 10.377679611845622,
+      "separation_gap_from_guard": 0.1888398059228109
+    },
+    {
+      "training_box": [
+        [
+          152,
+          124,
+          92
+        ],
+        [
+          164,
+          132,
+          104
+        ]
+      ],
+      "projected_modern_lower": [
+        144.3130483808815,
+        116.1888398059228,
+        84.19083140207064
+      ],
+      "projected_modern_upper": [
+        170.6869516191185,
+        138.8111601940772,
+        110.80916859792936
+      ],
+      "separation_gap_from_reserve": 42.62609676176298,
+      "separation_gap_from_guard": 0.6888398059228109
+    },
+    {
+      "training_box": [
+        [
+          152,
+          124,
+          152
+        ],
+        [
+          164,
+          132,
+          164
+        ]
+      ],
+      "projected_modern_lower": [
+        144.3130483808815,
+        116.1888398059228,
+        144.19083140207064
+      ],
+      "projected_modern_upper": [
+        170.6869516191185,
+        138.8111601940772,
+        170.80916859792936
+      ],
+      "separation_gap_from_reserve": 42.62609676176298,
+      "separation_gap_from_guard": 0.6888398059228109
+    },
+    {
+      "training_box": [
+        [
+          152,
+          188,
+          92
+        ],
+        [
+          164,
+          196,
+          104
+        ]
+      ],
+      "projected_modern_lower": [
+        144.3130483808815,
+        180.1888398059228,
+        84.19083140207064
+      ],
+      "projected_modern_upper": [
+        170.6869516191185,
+        202.8111601940772,
+        110.80916859792936
+      ],
+      "separation_gap_from_reserve": 42.62609676176298,
+      "separation_gap_from_guard": 0.1888398059228109
+    },
+    {
+      "training_box": [
+        [
+          152,
+          188,
+          152
+        ],
+        [
+          164,
+          196,
+          164
+        ]
+      ],
+      "projected_modern_lower": [
+        144.3130483808815,
+        180.1888398059228,
+        144.19083140207064
+      ],
+      "projected_modern_upper": [
+        170.6869516191185,
+        202.8111601940772,
+        170.80916859792936
+      ],
+      "separation_gap_from_reserve": 42.62609676176298,
+      "separation_gap_from_guard": 0.1888398059228109
+    }
+  ],
+  "reserve_projected_lower": [
+    81.31304838088148,
+    141.1888398059228,
+    133.19083140207064
+  ],
+  "reserve_projected_upper": [
+    101.68695161911852,
+    169.8111601940772,
+    161.80916859792936
+  ],
+  "scope": "All local +/-2 searches, +/-4 controls, interpolation and footprint supports. Translation model only."
+}

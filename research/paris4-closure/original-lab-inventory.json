@@ -1,0 +1,347 @@
+{
+  "schema": "paris4-closure-root-relative-v1",
+  "path_base": "lab research directory",
+  "files": {
+    "paris4-structural-matches-v1/candidate-12-direct-modern.npy": {
+      "bytes": 1500,
+      "sha256": "eb256eefe9381dff387d9c4dbc146c14bf7a2a0e98994f52eb0facceec79ec87"
+    },
+    "paris4-structural-matches-v1/candidate-13-direct-modern.npy": {
+      "bytes": 1500,
+      "sha256": "6e3d6cea7bef994846baeb3349233a95edd487ce234f949ba317c39c7f7a75cb"
+    },
+    "paris4-structural-matches-v1/candidate-2-direct-modern.npy": {
+      "bytes": 1500,
+      "sha256": "fae0218c68cbb89a30247c019f87a00faa8965cdb13af727afe74653d0752772"
+    },
+    "paris4-structural-matches-v1/candidate-3-direct-modern.npy": {
+      "bytes": 1500,
+      "sha256": "35e6b312806e962614e2af11121d114a5c18c17e9290cbf38a65d867c0d18ef3"
+    },
+    "paris4-structural-matches-v1/candidate-9-direct-modern.npy": {
+      "bytes": 1500,
+      "sha256": "58a97182d506edb54771e2e14e68a1babc4a0f4aea66ae09b5f3665fc5306a05"
+    },
+    "paris4-structural-matches-v1/input-receipt.json": {
+      "bytes": 574,
+      "sha256": "6e005ed5b68a61ddb90563fc6b101ea8393eabb9dd2f115470d193526a3407d6"
+    },
+    "paris4-structural-matches-v1/matches.json": {
+      "bytes": 63310,
+      "sha256": "9c3f0f558c6f20565c39a0d3af631f6524221407a61ce0ce728229a3a93a22ee"
+    },
+    "paris4-structural-matches-v1/model-decision-before-validation.json": {
+      "bytes": 75,
+      "sha256": "7550ae7ee7800334e93ff35617446bd7effe8a3e856900d7d4cccbf7c2b807b8"
+    },
+    "paris4-structural-matches-v1/old-only-selection-frozen.json": {
+      "bytes": 209920,
+      "sha256": "8f0336385ecab5e4acf663378b491c26b3042326e42ae152bfbea3bf36470da5"
+    },
+    "paris4-structural-matches-v1/old-structure-eigenvalues.npy": {
+      "bytes": 8177792,
+      "sha256": "45abca2d5ca339a9f8c3df55bf3e38ccf2c90c0dc88122df19e556e2d996f612"
+    },
+    "paris4-structural-matches-v1/plan.json": {
+      "bytes": 3558,
+      "sha256": "cfc6bc3bb64e857b3d245ab1f6942969e14ee048f10f1a16062ba049a30bae03"
+    },
+    "paris4-structural-matches-v1/result.json": {
+      "bytes": 2309,
+      "sha256": "79c5c3905ae9cc5d26df863407b246e6f1e060c31c7c115a54e8b8b3e0f11431"
+    },
+    "paris4-structural-matches-v1/script.py": {
+      "bytes": 13203,
+      "sha256": "d4ce1f1ce6fd1b05f1fe6c6bdfca98c8d917a0d4ad771c7b7a480dae77de70e6"
+    },
+    "paris4-structural-matches-v1/support-proof-before-intensities.json": {
+      "bytes": 4733,
+      "sha256": "801cb6165cbd8205c90598c96e421a56af063337e39125c6f58c69024ca7961a"
+    },
+    "paris4-structural-direct-v2/candidate-13-old-target.npy": {
+      "bytes": 471,
+      "sha256": "2bec406bca06fb582033dc8a02f5f79ae3d564663b0bb5d214cf3599cbd9b2cd"
+    },
+    "paris4-structural-direct-v2/candidate-13-raw-modern.npy": {
+      "bytes": 2872,
+      "sha256": "49f7e7e3e8984d44a5275da8e7340ef969991e808d0f7fa133ac0ca801c67583"
+    },
+    "paris4-structural-direct-v2/input-receipt.json": {
+      "bytes": 700,
+      "sha256": "488d29cedcbce3ada72b804ec9ea2e87957e5f005bdb123c5d7199ee0e25f7e0"
+    },
+    "paris4-structural-direct-v2/match-00.json": {
+      "bytes": 4211,
+      "sha256": "011dbb37e5d5011a51ac3b7b9f893545e20e91928acae869fe31e90c548f7d0f"
+    },
+    "paris4-structural-direct-v2/match-01.json": {
+      "bytes": 4150,
+      "sha256": "d18ba6ca1f2becc99b5916f4f43b84d2f006216631ddc0cd8ad0ecb990f89f17"
+    },
+    "paris4-structural-direct-v2/match-02.json": {
+      "bytes": 4093,
+      "sha256": "609bc2a7d5c35b11ef3b25f443a3c1a39739413699b94f0e430156d3840c1f47"
+    },
+    "paris4-structural-direct-v2/match-03.json": {
+      "bytes": 4082,
+      "sha256": "6b3298a65a8f99622b89fbc75dfb85db03155e0f7d08dd2e9fc29e5553602e20"
+    },
+    "paris4-structural-direct-v2/match-04.json": {
+      "bytes": 4067,
+      "sha256": "aa4b66f3bde049db4bfd376dd3a8af73d4db1b266d0e3e6a4137203df97d2002"
+    },
+    "paris4-structural-direct-v2/match-05.json": {
+      "bytes": 4137,
+      "sha256": "91c69b6c4add36bab2875e68c5db19c28350a31fc0f99b6737389878ca48d676"
+    },
+    "paris4-structural-direct-v2/match-06.json": {
+      "bytes": 4027,
+      "sha256": "ac20e3f60859e1f4b6c71d85869e7d4f5a56f7b238b1f83b47852178ae946935"
+    },
+    "paris4-structural-direct-v2/match-07.json": {
+      "bytes": 4056,
+      "sha256": "f43c0c94f62d59ed93f4a14636605625abf1eda20fab4c23926f1064d790eed3"
+    },
+    "paris4-structural-direct-v2/match-08.json": {
+      "bytes": 4077,
+      "sha256": "7b79497f46cecb467fd571cf953eb833792c79f6c16a94aa4ede80cd72ee63d7"
+    },
+    "paris4-structural-direct-v2/match-09.json": {
+      "bytes": 4068,
+      "sha256": "05f1490b4aa5f9f5b0451ebddc40e7b438cb078db1f793c2c6406fa89c618f55"
+    },
+    "paris4-structural-direct-v2/match-10.json": {
+      "bytes": 4038,
+      "sha256": "254ce177f279fa161aeaca4b037d49991b809f01ee0d466f3225746b298b7d2e"
+    },
+    "paris4-structural-direct-v2/match-11.json": {
+      "bytes": 4029,
+      "sha256": "06ac7bd76afc31b14d496d497904c45f219d7aa28b5a1612253978f55fed192d"
+    },
+    "paris4-structural-direct-v2/match-12.json": {
+      "bytes": 4023,
+      "sha256": "5a047a22685b2e2923eed0592a9c6b4f2c6c0cca2f8431ad1bce11320f4a9980"
+    },
+    "paris4-structural-direct-v2/match-13.json": {
+      "bytes": 7233,
+      "sha256": "334c44e08ce37dc2be4bcd0c1185bba70bc84441b1089b02ae5dd080b30f845e"
+    },
+    "paris4-structural-direct-v2/match-14.json": {
+      "bytes": 4028,
+      "sha256": "26dc048f8b5ce67d209c188e0dbd99586effd3919a504a05b5764c50141c3c74"
+    },
+    "paris4-structural-direct-v2/match-15.json": {
+      "bytes": 4030,
+      "sha256": "3227013131f2205bc9078ac4de7b6e1f1c51ded35602e5db37e3e7bb811d4ed4"
+    },
+    "paris4-structural-direct-v2/matches.json": {
+      "bytes": 73764,
+      "sha256": "c6a22d5e9268fc843b1fbb832484ab929d7d776da694548dcab3be2f6f058b7e"
+    },
+    "paris4-structural-direct-v2/model-decision-before-validation.json": {
+      "bytes": 75,
+      "sha256": "da9925aaac9e5da196598607e112f5b1f528726d1f66045dbfa7ad9fc460d5e1"
+    },
+    "paris4-structural-direct-v2/old-only-selection-frozen.json": {
+      "bytes": 209920,
+      "sha256": "8f0336385ecab5e4acf663378b491c26b3042326e42ae152bfbea3bf36470da5"
+    },
+    "paris4-structural-direct-v2/plan.json": {
+      "bytes": 4068,
+      "sha256": "e386df1fdc6850ebba3f95660ce2a912e1f422be18048e31b6e88dce91e25a98"
+    },
+    "paris4-structural-direct-v2/result.json": {
+      "bytes": 3296,
+      "sha256": "78eb979c980ca385ce7210b5ce08480bcd0a198f588c1bf5ecaf0080ffb6a026"
+    },
+    "paris4-structural-direct-v2/script.py": {
+      "bytes": 9917,
+      "sha256": "55cea8b0cbb2aa33f0077d3b9084d0fa6c3a2b395e32029bb5555cee79bf6d94"
+    },
+    "paris4-structural-direct-v2/support-proof-reused.json": {
+      "bytes": 4733,
+      "sha256": "801cb6165cbd8205c90598c96e421a56af063337e39125c6f58c69024ca7961a"
+    },
+    "paris4-structural-face-selection-v1/old-only-selection-frozen.json": {
+      "bytes": 1861889,
+      "sha256": "04a1be662c132f8dc18f800e928a986b9f73411f8c66ebb231a7bc4076ce2020"
+    },
+    "paris4-structural-face-selection-v1/plan.json": {
+      "bytes": 3622,
+      "sha256": "c3ae3186c1553af36971f49caf5e56fbf74d4dd4f8ecb0d2d2777d628b1adffb"
+    },
+    "paris4-structural-face-selection-v1/result.json": {
+      "bytes": 1313,
+      "sha256": "abbcfb79cc8ff3fd456fae2949b69558c26d21dca6021822e684ad161453688f"
+    },
+    "paris4-structural-face-selection-v1/script.py": {
+      "bytes": 4696,
+      "sha256": "15326fd0c95e8fa75bc0a423b2d0513ed8c5ac6e74096f524a424b1247f14cae"
+    },
+    "paris4-structural-face-selection-v1/support-proof-before-intensities.json": {
+      "bytes": 3688,
+      "sha256": "91b303da74d18714af5d12d327452a42f59eec031eb9918f169dca6376cb5783"
+    },
+    "paris4-structural-face-direct-v3/input-receipt.json": {
+      "bytes": 700,
+      "sha256": "8b61fec7c93439ddf6e87524db76ce18796b95621162b06a01689f4acf42ae29"
+    },
+    "paris4-structural-face-direct-v3/match-00.json": {
+      "bytes": 4076,
+      "sha256": "eb55b69be70de3d308904705f4ee3596334eafe807eff54edfed467aa0965286"
+    },
+    "paris4-structural-face-direct-v3/match-01.json": {
+      "bytes": 4105,
+      "sha256": "b3e14af4ecebdae5c76560fa0a4df96279865e43114f0062b1f5ca015a7c0e48"
+    },
+    "paris4-structural-face-direct-v3/match-02.json": {
+      "bytes": 4072,
+      "sha256": "dabd7cb5bf832e9384f246afb80f21bf47ad7bcc64a2ec62f6b9afc7502abebd"
+    },
+    "paris4-structural-face-direct-v3/match-03.json": {
+      "bytes": 4125,
+      "sha256": "b952021ac5bc045c2c52690f520552eff87271c4b8505d9f66f39b39fe2d59e8"
+    },
+    "paris4-structural-face-direct-v3/match-04.json": {
+      "bytes": 4124,
+      "sha256": "f9403af37dae737a9a6b8eed306242f5b6fcfd6b5241dd2c5e6fef0caf3a6187"
+    },
+    "paris4-structural-face-direct-v3/match-05.json": {
+      "bytes": 4143,
+      "sha256": "ccc5195ec7b768b3d109430b33d8025413c36ecb5d72b03e54d4fd8e179d221d"
+    },
+    "paris4-structural-face-direct-v3/match-06.json": {
+      "bytes": 4117,
+      "sha256": "765b5d6369f0bc0f70cf11a1f5e69b6e9e192878d75822b79e275b6bdc59ab2b"
+    },
+    "paris4-structural-face-direct-v3/match-07.json": {
+      "bytes": 4170,
+      "sha256": "db76902758be8f0a1f0765b2a93be4171f61f62c10bb00f65b0e4414ce335b8c"
+    },
+    "paris4-structural-face-direct-v3/match-08.json": {
+      "bytes": 4075,
+      "sha256": "4cf69d4a1aec02ba0ea66371963d1086ebfb56bb418d46fd15c78543202d0954"
+    },
+    "paris4-structural-face-direct-v3/match-09.json": {
+      "bytes": 4074,
+      "sha256": "29b7c77f272e4ca17e4ffd64712601a70958347f051058d2dc0e22f0e7bc48cb"
+    },
+    "paris4-structural-face-direct-v3/match-10.json": {
+      "bytes": 4298,
+      "sha256": "26a574298f6b749c9855d4f070dbbdde9d29a50c851320255d47ed8062e50236"
+    },
+    "paris4-structural-face-direct-v3/match-11.json": {
+      "bytes": 4200,
+      "sha256": "6557182f0f03b080f8894de45afef8c8d5e6fba0750a0727ab3645c3744dfb4a"
+    },
+    "paris4-structural-face-direct-v3/matches.json": {
+      "bytes": 53458,
+      "sha256": "59713dacef0d067f1fa34b62bcdffdfa74a014640cedeac4cd0cdaf064ea9e9d"
+    },
+    "paris4-structural-face-direct-v3/model-decision-before-validation.json": {
+      "bytes": 75,
+      "sha256": "da9925aaac9e5da196598607e112f5b1f528726d1f66045dbfa7ad9fc460d5e1"
+    },
+    "paris4-structural-face-direct-v3/old-only-selection-frozen.json": {
+      "bytes": 1861889,
+      "sha256": "04a1be662c132f8dc18f800e928a986b9f73411f8c66ebb231a7bc4076ce2020"
+    },
+    "paris4-structural-face-direct-v3/plan.json": {
+      "bytes": 4274,
+      "sha256": "c136d04a8a4a6602f2ee7509518c86c2df050d5c83ea25bd0f1aac9e673727af"
+    },
+    "paris4-structural-face-direct-v3/result.json": {
+      "bytes": 2739,
+      "sha256": "31a0e6bd9c79498328217bee65ca4272ce40493d6bed3fdb6cf659ee9902e46e"
+    },
+    "paris4-structural-face-direct-v3/script.py": {
+      "bytes": 10933,
+      "sha256": "4bbfd0247551dc18a4b8f57d54099fa0fdc4d23751d61dc851bb09fa5456c872"
+    },
+    "paris4-structural-face-direct-v3/support-proof-reused.json": {
+      "bytes": 3688,
+      "sha256": "91b303da74d18714af5d12d327452a42f59eec031eb9918f169dca6376cb5783"
+    },
+    "paris4-structural-context-v1/ct-orthogonal-context.png": {
+      "bytes": 144037,
+      "sha256": "d9c0194f60ae4be5748bfd5994111f200213a454453a99d27bca9d8efc4ae34f"
+    },
+    "paris4-structural-context-v1/receipt.json": {
+      "bytes": 971,
+      "sha256": "bb317f55808a4759c44cee70a4dba7282ea03c433804ac42b7d05d296b40db40"
+    },
+    "paris4-structural-audit-v1/face-hull-design-review.json": {
+      "bytes": 1226,
+      "sha256": "a6dd1c44606d0036b54251031427394a4dd749a5d9e5b1097f00129746cc2f5a"
+    },
+    "paris4-structural-audit-v1/pilot-candidate-12-corrected-raw-modern.npy": {
+      "bytes": 2872,
+      "sha256": "c387ebae0ced710d1ffd58f4e5a29863c4dd088c763ed1aea8e49123e1a99229"
+    },
+    "paris4-structural-audit-v1/pilot-candidate-13-corrected-raw-modern.npy": {
+      "bytes": 2872,
+      "sha256": "080faa829cbcaec2726e69e4c6b32c210a710c15b65c93acbea39d58406b8f9d"
+    },
+    "paris4-structural-audit-v1/pilot-candidate-2-corrected-raw-modern.npy": {
+      "bytes": 2872,
+      "sha256": "95fb5d98e2a1a479176c062005ef09f433985c60a2a40ac849cc52ac94e2e7fa"
+    },
+    "paris4-structural-audit-v1/pilot-candidate-3-corrected-raw-modern.npy": {
+      "bytes": 2872,
+      "sha256": "1a93ec1f0395614ca84ab96eee8eaae7a52c5e1d66ca358fbd22909e6c62cfb9"
+    },
+    "paris4-structural-audit-v1/pilot-candidate-9-corrected-raw-modern.npy": {
+      "bytes": 2872,
+      "sha256": "49567204598d7c0626b0fc64d5cde85479ae1a9d205e26711211bdfa4462d9b3"
+    },
+    "paris4-structural-audit-v1/script.py": {
+      "bytes": 9837,
+      "sha256": "469cb9ba82c7ccccada9a20564a63762b8eb725b4518d67eaf04ef98aaa15ad9"
+    },
+    "paris4-structural-audit-v1/verification-v1.json": {
+      "bytes": 10536,
+      "sha256": "09bd9a9dd5c102e69304fcdc3b5dbb0fd31a91581a90941cba2428f866922149"
+    },
+    "paris4-closure-v1/CONTEXT-before-closure.md": {
+      "bytes": 54627,
+      "sha256": "b5566db75bfbbc5795f6dd9e807cf3885d4a8df43e6acc8dcda2bc1879ddf8b9"
+    },
+    "paris4-closure-v1/REPORT_EN.md": {
+      "bytes": 4339,
+      "sha256": "49da3432de7748757df96bf0ea35fb1328caece63836d8524691fe783fd3385c"
+    },
+    "paris4-closure-v1/source-snapshots/check_paris4_face_hull_preflight.py": {
+      "bytes": 1334,
+      "sha256": "7fc8a2f4054d5433578038c6254f2358bc12270c0fa797b32128d3c11f852db0"
+    },
+    "paris4-closure-v1/source-snapshots/close_paris4_registration.py": {
+      "bytes": 8929,
+      "sha256": "f57109b7300dd525e1a688848c579503b0f1eec7dd1af1025ce88a1faf659548"
+    },
+    "paris4-closure-v1/source-snapshots/match_paris4_direct_structural_points.py": {
+      "bytes": 9917,
+      "sha256": "55cea8b0cbb2aa33f0077d3b9084d0fa6c3a2b395e32029bb5555cee79bf6d94"
+    },
+    "paris4-closure-v1/source-snapshots/match_paris4_face_structural_points.py": {
+      "bytes": 10933,
+      "sha256": "4bbfd0247551dc18a4b8f57d54099fa0fdc4d23751d61dc851bb09fa5456c872"
+    },
+    "paris4-closure-v1/source-snapshots/match_paris4_structural_points.py": {
+      "bytes": 13203,
+      "sha256": "d4ce1f1ce6fd1b05f1fe6c6bdfca98c8d917a0d4ad771c7b7a480dae77de70e6"
+    },
+    "paris4-closure-v1/source-snapshots/render_paris4_structural_context.py": {
+      "bytes": 1766,
+      "sha256": "9d434fd3878ce4fcf2008b48eb2b7f73d07afaf2baa4286615abd502a462ccb7"
+    },
+    "paris4-closure-v1/source-snapshots/select_paris4_face_structures.py": {
+      "bytes": 4696,
+      "sha256": "15326fd0c95e8fa75bc0a423b2d0513ed8c5ac6e74096f524a424b1247f14cae"
+    },
+    "paris4-closure-v1/source-snapshots/verify_paris4_structural_matches.py": {
+      "bytes": 9837,
+      "sha256": "469cb9ba82c7ccccada9a20564a63762b8eb725b4518d67eaf04ef98aaa15ad9"
+    }
+  },
+  "file_count": 85
+}

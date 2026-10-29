@@ -1,0 +1,46 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-structural-matches-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "selected_candidates": 16,
+  "reliable_points": 4,
+  "score_evaluations": 5419,
+  "model_decision": "insufficient_reliable_structural_points",
+  "model": null,
+  "validation": {},
+  "registration_accepted": false,
+  "fresh_C_targets_not_queried": true,
+  "geometry_or_uv_modified": false,
+  "ink_used": false,
+  "letters_verified": 0,
+  "artifacts": {
+    "script.py": "d4ce1f1ce6fd1b05f1fe6c6bdfca98c8d917a0d4ad771c7b7a480dae77de70e6",
+    "plan.json": "cfc6bc3bb64e857b3d245ab1f6942969e14ee048f10f1a16062ba049a30bae03",
+    "support-proof-before-intensities.json": "801cb6165cbd8205c90598c96e421a56af063337e39125c6f58c69024ca7961a",
+    "input-receipt.json": "6e005ed5b68a61ddb90563fc6b101ea8393eabb9dd2f115470d193526a3407d6",
+    "old-structure-eigenvalues.npy": "45abca2d5ca339a9f8c3df55bf3e38ccf2c90c0dc88122df19e556e2d996f612",
+    "old-only-selection-frozen.json": "8f0336385ecab5e4acf663378b491c26b3042326e42ae152bfbea3bf36470da5",
+    "candidate-2-direct-modern.npy": "fae0218c68cbb89a30247c019f87a00faa8965cdb13af727afe74653d0752772",
+    "candidate-3-direct-modern.npy": "35e6b312806e962614e2af11121d114a5c18c17e9290cbf38a65d867c0d18ef3",
+    "candidate-9-direct-modern.npy": "58a97182d506edb54771e2e14e68a1babc4a0f4aea66ae09b5f3665fc5306a05",
+    "candidate-12-direct-modern.npy": "eb256eefe9381dff387d9c4dbc146c14bf7a2a0e98994f52eb0facceec79ec87",
+    "candidate-13-direct-modern.npy": "6e3d6cea7bef994846baeb3349233a95edd487ce234f949ba317c39c7f7a75cb",
+    "matches.json": "9c3f0f558c6f20565c39a0d3af631f6524221407a61ce0ce728229a3a93a22ee",
+    "model-decision-before-validation.json": "7550ae7ee7800334e93ff35617446bd7effe8a3e856900d7d4cccbf7c2b807b8"
+  }
+}

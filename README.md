@@ -60,10 +60,14 @@ The supplied graph and mesh fixtures originate from public PHercParis4 / Scroll 
 
 ## Historical evidence
 
-The original sealed software package, archive checksum, upstream-derived snapshots, failures and comparisons are retained unchanged in the lab and in the preserved legacy release. PROVENANCE.json records source and fixture hashes. The standalone project does not load that archive. The repository is public for software review. No challenge application has been submitted. The current standalone contribution is linked in CHALLENGE_SUBMISSION.md; earlier access states remain preserved in historical records.
+The original sealed software package, archive checksum, upstream-derived snapshots, failures and comparisons are retained unchanged in the lab and in the preserved legacy release. PROVENANCE.json records source and fixture hashes. The standalone project does not load that archive. The repository is public for software review. The user reports having submitted the challenge application; this repository update does not edit or resubmit it. The current standalone contribution is linked in CHALLENGE_SUBMISSION.md; earlier access states remain preserved in historical records.
 
-Historical documents record earlier project names and access states. The current project name is Papyrus Atlas, the repository is public, and no challenge application has been submitted. Original-language evidence remains unchanged; all current reviewer-facing text is English.
+Historical documents record earlier project names and access states. The current project name is Papyrus Atlas, the repository is public, and the user reports having submitted the challenge application. Original-language evidence remains unchanged; all current reviewer-facing text is English.
 
 Latest CT-only follow-up: [exterior registration evidence](research/paris4-exterior-registration/README.md). Registration remains rejected at the unchanged 0.1 margin; no verified ink or letters.
 
 [Spatial control follow-up](research/paris4-independent-controls/README.md): cold-start fits and new reserved CT targets still reject registration; original geometry and the 0.1 minimum remain unchanged.
+
+## Paris4 investigation closed
+
+The [final closure and preserved evidence](research/paris4-closure/README.md) distinguish the verified dataset-specific ZYX coordinate correction from still-unvalidated cross-scan registration. No reading benefit or absence of physical ink is claimed. The verified geometry algorithms, historical releases and their evidence remain unchanged. Active surface research continues on PHerc0813.

@@ -1,0 +1,31 @@
+{
+  "guard": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/ves-paris4-face-structures-select-01.service",
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": "default 10",
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VESUVIUS_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1"
+    },
+    "desktop_reserve_mib": 3072,
+    "authorization": "User explicitly requested a larger limit during the ink reading task, 2026-10-28"
+  },
+  "selected": 12,
+  "eligible": 3003,
+  "old_eigen_array_sha256": "45abca2d5ca339a9f8c3df55bf3e38ccf2c90c0dc88122df19e556e2d996f612",
+  "old_ct_sha256": "3041f5bd3bf5b9d3d68be6a65934c39664d04c2f221ca23561bde0d1376ee110",
+  "fresh_C_excluded_from_selection": true,
+  "artifacts": {
+    "script.py": "15326fd0c95e8fa75bc0a423b2d0513ed8c5ac6e74096f524a424b1247f14cae",
+    "plan.json": "c3ae3186c1553af36971f49caf5e56fbf74d4dd4f8ecb0d2d2777d628b1adffb",
+    "support-proof-before-intensities.json": "91b303da74d18714af5d12d327452a42f59eec031eb9918f169dca6376cb5783",
+    "old-only-selection-frozen.json": "04a1be662c132f8dc18f800e928a986b9f73411f8c66ebb231a7bc4076ce2020"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "guard": {
+    "cpu_max": "25000 100000",
+    "memory_max": 402653184,
+    "memory_swap_max": 0,
+    "io_weight": 10,
+    "nice": 19,
+    "gpu_inaccessible": true,
+    "numerical_threads": 1,
+    "desktop_reserve_mib": 3072
+  },
+  "passed": true,
+  "exported_hashes_verified": 84,
+  "saved_decisions": [
+    {
+      "case": "paris4-structural-direct-v2",
+      "selected": 16,
+      "reliable": 0
+    },
+    {
+      "case": "paris4-structural-face-direct-v3",
+      "selected": 12,
+      "reliable": 0
+    }
+  ],
+  "exact_selected_hull_exclusion_replayed": true,
+  "registration_accepted": false,
+  "letters_verified": 0,
+  "scope": "Integrity, saved trial decisions and exact plane witness; no CT sampling, fitting, anatomy or ink reproduction."
+}
