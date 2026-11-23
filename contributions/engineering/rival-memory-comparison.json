@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "axis": "x",
+      "baseline": {
+        "wall_s": 55.65,
+        "peak_rss_kib": 4862848
+      },
+      "packed": {
+        "wall_s": 39.73,
+        "peak_rss_kib": 2116100
+      },
+      "exact_hashes": {
+        "EXACT-TARGET.npz": "04f02be2d4f0ae49567ed6d4a801e63764372bd2926166ee5a3abc2761446c34",
+        "rivals-f64.bin": "67bd6cd9b033f0ddfc7c4f3d6636c08295806acaed9ab885952692f770980101"
+      },
+      "counts": {
+        "candidate_closed_cells": 24647972,
+        "exact_duplicate_cells": 1002462,
+        "conservatively_relevant_rival_triangles": 303319
+      }
+    },
+    {
+      "axis": "y",
+      "baseline": {
+        "wall_s": 76.25,
+        "peak_rss_kib": 5611580
+      },
+      "packed": {
+        "wall_s": 53.87,
+        "peak_rss_kib": 1998580
+      },
+      "exact_hashes": {
+        "EXACT-TARGET.npz": "c4543903d8d6795c49153bcf0e6dfa26dfe666c252db23dc7ca16f215f49a2b4",
+        "rivals-f64.bin": "b6159667b015a803e17b570b578b41dc79f4ce0f0046352b1c085db641d493ea"
+      },
+      "counts": {
+        "candidate_closed_cells": 38107777,
+        "exact_duplicate_cells": 1044897,
+        "conservatively_relevant_rival_triangles": 493567
+      }
+    }
+  ],
+  "scope": "Matched PHerc0191 native block and exact target files; one replay each; GNU time peak RSS per command."
+}

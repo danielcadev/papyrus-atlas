@@ -1,0 +1,26 @@
+{
+  "bridge_accepted": true,
+  "path_cells": 32,
+  "restored_cells": 30,
+  "removed_conflicting_cells": 63,
+  "selected_cells": 1048331,
+  "baseline_largest_area_mm2": 77.74863311245291,
+  "baseline_total_area_mm2": 101.09915929233303,
+  "selected_area_mm2": 100.9814378085123,
+  "archived_rail_mm": 28.00543608182933,
+  "final_faces": 2096662,
+  "invalid_uv_faces": 0,
+  "uv_contacts": 0,
+  "bit_exact_native_coordinates_and_uv": true,
+  "later_largest_projected_ct_mm2": 100.8516842496,
+  "source_manifest_sha256": {
+    "task192-pherc0175a-local-uv": "5d0a39aacecdd82ceb802974addeb07afc8d1b01227f627c40b96e3ed6187baa",
+    "task192-pherc0175a-uv-connectivity/repaired-cover": "99965a3285ffd3d9b12607e84cb497f101fa417b30005c6f3eea45472cbd8510",
+    "task192-pherc0175a-uv-connectivity/repaired-contacts": "6f84d88c7271fb74181e888ff069fb6a2fbe85799cc0e9cbc0d3013504674790",
+    "task193-pherc0175a-cover-bridge": "e0700e8cc4c3602eb7f5a124136af97816b02b3cee26ac65eaa93fac00b99a14",
+    "task193-pherc0175a-certified": "6f77c972d16123848e04e6af37cc4f4137e84d145d46fbfa7cedd7c627fcbdfa",
+    "task189-pherc0175a-seed108-coverage/normals": "103856ceb1648c72c5919f774f3320e74d37db3c023ef350ec398b755ef9b1e4",
+    "task196-pherc0175a-seed108/full-ct": "fe1a1745b06d6862a54d8f7db05851af4a955997c6bc947c4391847201725eed",
+    "task196-pherc0175a-CT-primary": "2f7d7fb1f23ebe2e1f1120bade904a1a9ff91ca080b0e60b4c82831cc80bd03b"
+  }
+}

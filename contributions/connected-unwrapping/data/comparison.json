@@ -1,0 +1,37 @@
+{
+  "baseline_fixed_crop": {
+    "connected_mm2_after_complete_uv_cover": 64.65896879590935,
+    "largest_component_after_mandatory_veto_mm2": 64.70017054186096,
+    "qualified_rail": false
+  },
+  "connected_crop": {
+    "connected_mm2_after_complete_uv_cover": 104.1656835567691,
+    "conservative_native_rail_mm": 26.074162530343383,
+    "original_faces": 2494102,
+    "invalid_uv_faces": 0,
+    "uv_contact_pairs": 0,
+    "fraction_within_ten_percent_area": 0.989278088038756
+  },
+  "replayed_selector": {
+    "maximum_faces": 2500000,
+    "baseline_cells": 1233356,
+    "baseline_largest_after_veto_mm2": 64.70017054186096,
+    "mandatory_veto_cells": 130,
+    "selected_cells": 1249476,
+    "selected_area_mm2_before_refit": 104.37198464878944,
+    "selected_outside_baseline_mm2": 37.31873160154106
+  },
+  "exact_obj_round_trip": true,
+  "selector_matches_all_archived_cell_ids_and_native_coordinates": true,
+  "source_manifest_sha256": {
+    "task662-pherc0800-z17408-uv/relaxation": "2e4b90a44cfdfd2ee0e460b2dbcc770deada757f87dd3a0ca38e233a19df602a",
+    "task662-pherc0800-z17408-uv/contacts": "ef7f8c05d228a4fc16b3909b8d057b5cd9c829b980648db14be1d29eba8d5c7e",
+    "task662-pherc0800-z17408-uv/subset-y-0": "03cebc2d436fdea494e7dcc94506b868ba8b43e1b62eb8b6f4a593f0700d33b8",
+    "task665-pherc0800-z17408-uv/subset-y-0/component-1": "0a6fb475d18919027cc7c513cec10014caf7c47a28e9a450c37c0610972b76ff",
+    "task665-pherc0800-z17408-uv-input": "bf221adc3903582c8e4122b9f20ed599a16b65a6bc30c9d0f5a3e11e86e7a792",
+    "task660-pherc0800-z17408-quarters": "0d956c52d02da3a5b3d0354b2a8c0edb5f1623c7cd98a4dd5ad5f531606a7974",
+    "task665-pherc0800-z17408-certificate": "6cdfaa7f6ae22a255225eb4f9e8e928ab09dc57ebb182a3e8eeb162fd8453b88",
+    "task668-pherc0800-z17408-full-ct": "88eab5f562c0e514e7de7b6881a517f8111eda9fe20e39758217c0fb8176e6c9",
+    "task666-pherc0800-z17408-seed-review": "b74e332fa2e79d7a9c14adb8254a78855c47482200c7af3ef417f45d13d7d989"
+  }
+}

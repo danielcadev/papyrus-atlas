@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "boundary_query_checks": 7236,
+  "actual_input_replays": [
+    {
+      "z": 13120,
+      "runs": [
+        {
+          "version": 4,
+          "elapsed_seconds": 155.95823282899983,
+          "case": "pherc0813-novelty-v5-replay-z13120-v4"
+        },
+        {
+          "version": 5,
+          "elapsed_seconds": 10.980402764000246,
+          "case": "pherc0813-novelty-v5-replay-z13120-v5"
+        }
+      ],
+      "candidates": 0,
+      "same_candidate_geometry_and_order": true,
+      "threshold_unchanged": true
+    },
+    {
+      "z": 12096,
+      "runs": [
+        {
+          "version": 4,
+          "elapsed_seconds": 29.359208752000995,
+          "case": "pherc0813-novelty-v5-replay-z12096-v4"
+        },
+        {
+          "version": 5,
+          "elapsed_seconds": 2.1672898510005325,
+          "case": "pherc0813-novelty-v5-replay-z12096-v5"
+        }
+      ],
+      "candidates": 1,
+      "same_candidate_geometry_and_order": true,
+      "threshold_unchanged": true
+    },
+    {
+      "z": 5440,
+      "runs": [
+        {
+          "version": 4,
+          "elapsed_seconds": 14.486322255999767,
+          "case": "pherc0813-novelty-v5-replay-z5440-v4"
+        },
+        {
+          "version": 5,
+          "elapsed_seconds": 1.9175916409985803,
+          "case": "pherc0813-novelty-v5-replay-z5440-v5"
+        }
+      ],
+      "candidates": 1,
+      "same_candidate_geometry_and_order": true,
+      "threshold_unchanged": true
+    }
+  ]
+}

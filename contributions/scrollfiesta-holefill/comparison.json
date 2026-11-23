@@ -1,0 +1,72 @@
+{
+  "source": {
+    "sha256": "6e85bd3045d24475bf0355be27b103116c50155e253942a82cbd26ce4f13faaa",
+    "vertices": 2852,
+    "faces": 5139,
+    "flags": 0,
+    "format_valid": true,
+    "finite_coordinates_and_uv": true,
+    "exact_duplicate_groups": 0,
+    "nondegenerate_duplicate_groups": 0,
+    "degenerate_duplicate_groups": 0,
+    "duplicate_extra_faces": 0,
+    "degenerate_faces": 0,
+    "duplicate_groups": []
+  },
+  "before": {
+    "sha256": "ac2b04022690bff178bc588859110cdc222ff342c0e6c7d4e187a9a6fafa010b",
+    "vertices": 2852,
+    "faces": 5160,
+    "flags": 0,
+    "format_valid": true,
+    "finite_coordinates_and_uv": true,
+    "exact_duplicate_groups": 1,
+    "nondegenerate_duplicate_groups": 1,
+    "degenerate_duplicate_groups": 0,
+    "duplicate_extra_faces": 1,
+    "degenerate_faces": 0,
+    "duplicate_groups": [
+      {
+        "face_indices": [
+          5158,
+          5159
+        ],
+        "global_zyx_vertices": [
+          [
+            1860.1446533203125,
+            2416.9833984375,
+            4174.5107421875
+          ],
+          [
+            1860.153076171875,
+            2416.965087890625,
+            4173.51171875
+          ],
+          [
+            1860.4813232421875,
+            2416.643798828125,
+            4171.51025390625
+          ]
+        ],
+        "degenerate": false
+      }
+    ]
+  },
+  "after": {
+    "sha256": "72a3d1ab685464197c348959242fd2f6ebda487a8e74fb9183efd50315507dd6",
+    "vertices": 2852,
+    "faces": 5143,
+    "flags": 0,
+    "format_valid": true,
+    "finite_coordinates_and_uv": true,
+    "exact_duplicate_groups": 0,
+    "nondegenerate_duplicate_groups": 0,
+    "degenerate_duplicate_groups": 0,
+    "duplicate_extra_faces": 0,
+    "degenerate_faces": 0,
+    "duplicate_groups": []
+  },
+  "preservation_exact": true,
+  "control_byte_identical": true,
+  "control_sha256": "f55d44508a19bda504975bf9c0aa4ddd69876b2e5df8f449b323b11236f3a0ce"
+}

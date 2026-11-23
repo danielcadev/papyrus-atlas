@@ -1,0 +1,7 @@
+{
+  "sample": "PHerc0813",
+  "source_case": "pherc0813-own-pairq3-z12352-c10847-physical-v1",
+  "mesh_sha256": "9805ca434051733c06295d7bd6e892bcdb005a5c2e06aa1e4212659f659bd3d9",
+  "screening_plane": 12096,
+  "fixture_note": "Regular subsample of saved real mesh; projected on-plane and translated controls. Not historical full ranking."
+}
